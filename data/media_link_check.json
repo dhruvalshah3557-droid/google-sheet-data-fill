@@ -1,0 +1,92 @@
+[
+  {
+    "FileZilla media update": "FTP server",
+    "Status": "ftp.colourdiam.com",
+    "": ""
+  },
+  {
+    "FileZilla media update": "Source file",
+    "Status": "model_media_ftp_lookup.csv",
+    "": ""
+  },
+  {
+    "FileZilla media update": "Rows loaded into Model Media FTP",
+    "Status": 295,
+    "": ""
+  },
+  {
+    "FileZilla media update": "Lookup range",
+    "Status": "Model Media FTP!A:F",
+    "": ""
+  },
+  {
+    "FileZilla media update": "Updated stock model photo links",
+    "Status": "stock!V6:V",
+    "": ""
+  },
+  {
+    "FileZilla media update": "Updated stock model video links",
+    "Status": "stock!W6:W",
+    "": ""
+  },
+  {
+    "FileZilla media update": "Removed guessed model videos from",
+    "Status": "stock!U6:U",
+    "": ""
+  },
+  {
+    "FileZilla media update": "Verified sample rows",
+    "Status": "665_142, 298, 414, 415, 416",
+    "": ""
+  },
+  {
+    "FileZilla media update": "Completed",
+    "Status": "FileZilla data is now in the workbook and formulas are pulling from it",
+    "": ""
+  },
+  {
+    "FileZilla media update": "Note",
+    "Status": "Product white/black image/video folders still use generated product paths; model photo/video now uses FileZilla lookup data.",
+    "": ""
+  },
+  {
+    "FileZilla media update": "sheet row",
+    "Status": "sku",
+    "": "note"
+  },
+  {
+    "FileZilla media update": 2,
+    "Status": "665_142",
+    "": "No model video exists in FTP lookup for this SKU"
+  },
+  {
+    "FileZilla media update": 3,
+    "Status": 298,
+    "": "Use FileZilla lookup video"
+  },
+  {
+    "FileZilla media update": 4,
+    "Status": 414,
+    "": "Use FileZilla lookup video"
+  },
+  {
+    "FileZilla media update": 6,
+    "Status": 416,
+    "": "Use FileZilla lookup video"
+  },
+  {
+    "FileZilla media update": 7,
+    "Status": 731,
+    "": "Use FileZilla lookup videos"
+  },
+  {
+    "FileZilla media update": 8,
+    "Status": 1135,
+    "": "Use FileZilla lookup videos"
+  },
+  {
+    "FileZilla media update": 11,
+    "Status": "1333_6674_6673",
+    "": "No exact stock ID in FTP lookup"
+  }
+]

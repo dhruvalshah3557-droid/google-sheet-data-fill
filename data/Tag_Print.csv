@@ -1,0 +1,872 @@
+Location,StockID,Color,Shape,Clarity,Weight,Polish,Symmetry,Measurement,Depth,Table,Fluoresence,Fluoresence Color,Lab,CertNo,Unit,Price/Ct,Curr
+Mumbai,8436,PINK,Oval,,55.77,,,,,,,,,,Cts,0,US$
+Mumbai,8560,,Oval,,18.56,,,,,,,,,,Cts,0,US$
+Bangkok,9468,Fancy Brownish Greenish Yellow,Pear,I1,6.11,EX,GD,14.66 x 9.19 x 6.31,68.7,55,Fnt,,GIA,7448715550,Cts,1800,US$
+Hong Kong,7227,PINK,Octagon,,4,,,,,,,,,,Cts,50050,US$
+Mumbai,8667,,Round,,3.24,,,,,,,,,,Cts,0,US$
+Bangkok,7670,Fancy Light Yellow,Pear,VS1,3.19,EX,EX,12.13X7.49X4.86,64.9,61,Fnt,,GIA,5231070899,Cts,5500,US$
+Bangkok,3564,Fancy Brown,Cushion,SI2,3.04,,,8.21X8.21X5.4,,,,,NC,,Cts,0,US$
+Mumbai,7534,I,Trillion,SI,3.04,,,,0,0,None,,Side Stone,,Cts,0,US$
+Bangkok,9469,Light Brown,Heart,I2,3.02,,,8.42 X 9.10 X 5.13,,,,,NC,,Cts,1500,US$
+Mumbai,9577,H,Round,VS2,3.02,EX,EX,9.24 - 9.30 x 5.75,62,60,None,,GIA,2556394342,Cts,0,US$
+Mumbai,6282,H,Cushion,VVS2,3.01,EX,EX,8.06 X 7.27 X 5.50,75.7,63,SLIGHT,,HRD,220000049673,Cts,6896,US$
+Mumbai,9504,Fancy Brownish Greenish Yellow,Cushion,SI1,3,EX,EX,8.38X7.33X5.21,71.1,58,None,,GIA,6482167712,Cts,2500,US$
+Bangkok,6796,Fancy Yellow,Pear,VS2,3,VG,GD,11.56 X 7.52 X 4.63,61.1,59,None,,GIA,7448671092,Cts,7000,US$
+Bangkok,6459,G,Emerald,,2.84,,,13.45 X 11.10,0,0,None,,,SV-26,Cts,60000,US$
+Mumbai,8071,,Heart,I1,2.79,,,,,,None,,NC,,Cts,0,US$
+Bangkok,3070,Fancy Deep Pink,Emerald,SI1,2.52,EX,GD,9.26X6.33X4.16,65.8,64,Fnt,,GIA,5343201847,Cts,2500,US$
+Mumbai,9545,Fancy Grayish Yellowish Green,Oval,SI2,2.5,EX,EX,10.66 x 7.37 x 4.68,63.5,58,STG,,GIA,7443836613,Cts,6000,US$
+Bangkok,7669,Fancy Brownish Greenish Yellow,Cushion,VS2,2.5,VG,VG,7.66 x 7.13 x 4.98,59.9,58,None,,GIA,6471020124,Cts,2300,US$
+Bangkok,7295,Fancy Brownish Greenish Yellow,Cushion,SI2,2.5,VG,VG,7.31 x 7.11 x 4.89,68.8,57,None,,GIA,5433235231,Cts,1500,US$
+Hong Kong,9549,F,Pear,VS2,2.3,VG,VG,10.43 x 6.52 x 4.37,67,68,None,,GIA,6551231673,Cts,12500,US$
+Mumbai,4143,G,Shield,I1,2.24,G,VG,8.31*15.76*2.45,15.5,81,None,,GIA,6382247149,Cts,2400,US$
+Bangkok,6024,,Trapezoid,,2.08,,,8.20 x 5.30,0,0,None,,Side Stone,,Cts,4000,US$
+Hong Kong,9579,Light Pinkish Brown,Cushion,VVS2,2.07,EX,VG,9.32 X 6.56 X 4.27,65.1,57,None,,GIA,6525490633,Cts,10000,US$
+Bangkok,6032,E,Round,VVS1,2.02,EX,EX,8.31 x 8.37 x 4.85,58.1,66,None,,GIA,1433892808,Cts,18000,US$
+Bangkok,7478,W-X,Pear,SI2,2.02,,,9.53 X 6.67 X 4.30,,,,,NC,,Cts,0,US$
+Mumbai,7651,Faint Pink,Cushion,SI2,2.02,EX,EX,7.38 X 6.80 X 4.55,66.9,61,None,,GIA,2231066004,Cts,13500,US$
+Bangkok,7472,Fancy Brownish Greenish Yellow,Heart,SI2,2.01,,,7.01 X 7.14 X 5.24,,,,,NC,,Cts,0,US$
+Bangkok,6918,Very Light Pink,Oval,SI2,2.01,EX,VG,9.70 x 6.85 x 4.56,66.6,58,Fnt,,GIA,5222821829,Cts,22222,US$
+Bangkok,8491,Fancy Vivid Yellow,Heart,SI2,2.01,EX,VG,6.89X7.66X4.71,61.4,60,None,,GIA,5493995684,Cts,7200,US$
+Mumbai,9219,Fancy Light Greenish Yellow,Cushion,SI2,2.01,VG,VG,6.85 x 6.66 x 4.63,69.6,63,Fnt,,GIA,1236844177,Cts,3600,US$
+Bangkok,484,Fancy Yellow,Radiant,VS1,2,EX,GD,7.29X6.86X4.74,69.1,66,None,,GIA,5206339418,Cts,4000,US$
+Hong Kong,5484,Fancy Brownish Purplish Pink,Cushion,SI1,2,EX,GD,7.58X6.88X4.41,64.1,57,None,,GIA,1225140879,Cts,25000,US$
+Bangkok,7698,Fancy Yellow,Cushion,VS1,2,VG,VG,7.54X6.75X4.56,67,58,Med,,GIA,2476532404,Cts,4000,US$
+Bangkok,9409,Fancy Yellow Green,Pear,VVS2,2,EX,VG,10.85 x 6.95 x 4.43,63.7,61,None,,GIA,1236926377,Cts,6000,US$
+Hong Kong,5693,W-X,Cushion,VVS1,2,EX,,9X77 x 6.72 x 4.68,69.6,55,,,GIA,6422704441,Cts,2200,US$
+Bangkok,5002,,Baguettes,,2,,,4.90 x 2.40,,,,,Side Stone,,Cts,0,US$
+Bangkok,6022,,Trapezoid,,1.95,,,8.30 x 5.00,0,0,None,,Side Stone,,Cts,4000,US$
+Bangkok,7877,,Pear,VS,1.9,,,,0,0,None,,,,Cts,0,US$
+Bangkok,358,Fancy White,Other,,1.86,,,13.52 x 5.17 x 3.32,0,0,None,,GIA,6215426051,Cts,3000,US$
+Mumbai,6076,M,Oval,SI2,1.78,VG,VG,8.31 X 6.04 X 4.35,72,56,Vst,,IGI,534245983,Cts,1111,US$
+Bangkok,2983,Fancy Yellow Green,Round,SI1,1.72,,,7.87X6.76X3.45,,,None,,CGL,h6549752,Cts,1008,US$
+Mumbai,2848,Fancy Deep Brownish Orangy Yellow,Pear,I2,1.7,VG,GD,9.05X5.95X4.22,70.8,55,None,,GIA,1192041511,Cts,900,US$
+Mumbai,2552,Fancy Yellowish Brown,Round,SI2,1.69,,,7.4*5.64*4.62,0,0,None,,CGL,h8475107,Cts,1300,US$
+Mumbai,2550,Fancy Greenish Yellow,Round,I1,1.66,,,XX,0,0,None,,CGL,h4998984,Cts,1000,US$
+Mumbai,9508,Fancy Light Grayish Greenish Yellow,Pear,VS1,1.64,EX,EX,9.32 x 5.83 x 3.95,67.8,66,None,,GIA,1549802421,Cts,0,US$
+Mumbai,9559,Light Greenish Yellow,Pear,SI1,1.56,EX,VG,8.86 X 5.61 X 3.91,69.7,65,None,,GIA,2547732710,Cts,115512,US$
+Mumbai,9520,Fancy Brownish Greenish Yellow,Radiant,VS2,1.56,EX,EX,7.23 X 5.64 X 3.93,69.6,61,None,,GIA,6542739930,Cts,0,US$
+Mumbai,9557,Fancy Yellow Green,Pear,SI1,1.55,EX,VG,9.22 X 5.71 X 3.92,68.7,56,None,,GIA,2557086013,Cts,283967,US$
+Mumbai,9514,Fancy Light Greenish Yellow,Pear,SI1,1.54,EX,EX,9.25 X 5.71 X 3.93,68.8,62,None,,GIA,7542560333,Cts,0,US$
+Mumbai,191,Fancy Black,Emerald,,1.54,,,6.78 x 6.72 x 3.34,0,0,None,,GIA,2207806572,Cts,1200,US$
+Mumbai,9517,Light Greenish Yellow,Pear,VS2,1.53,EX,VG,9.51 X 5.59 X 3.89,69.5,63,None,,GIA,6541732696,Cts,0,US$
+Mumbai,6579,E,Cadillac,SI2,1.52,,,6.25X5.4X,0,0,None,,Side Stone,,Cts,3600,US$
+Mumbai,8709,Fancy Brownish Greenish Yellow,Cut cornered square,VS1,1.52,EX,VG,6.05 x 6.01 x 4.15,69,66,None,,GIA,6502802577,Cts,1500,US$
+Mumbai,2511,Fancy Brownish Greenish Yellow,Round,SI1,1.52,,,,0,0,None,,CGL,H7906382,Cts,1000,US$
+Bangkok,5566,Very Light Pink,Cushion,SI2,1.52,VG,EX,6.30X6.11X4.25,69.5,56,Med,Blue,GIA,1418956711,Cts,12000,US$
+Mumbai,6025,,Cadillac,,1.51,,,8.80  x 5.10,0,0,None,,Side Stone,,Cts,3600,US$
+Mumbai,4584,Fancy Pink Brown,Pear,I1,1.51,EX,EX,9.40*6.02*3.31,63.2,61,None,,GIA,6217782325,Cts,3333,US$
+Bangkok,4904,Fancy Light Green Yellow,Heart,VS1,1.51,EX,VG,6.46*7.30*4.08,55.9,58,Fnt,,GIA,3395568912,Cts,4000,US$
+Mumbai,9281,Light Pink,Round,SI2,1.51,EX,VG,7.11 - 7.19 x 4.59,64.2,58,None,,GIA,2547206099,Cts,18000,US$
+Mumbai,9515,Fancy Light Grayish Greenish Yellow,Cushion,VS2,1.5,EX,VG,7..16 X 5.70 X 3.97,69.6,56,None,,GIA,6541582088,Cts,0,US$
+Mumbai,9509,Fancy Brownish Greenish Yellow,Oval,VS2,1.5,EX,VG,8.17 X 5.81 X 3.94,67.9,65,None,,GIA,6532812255,Cts,0,US$
+Mumbai,9572,Fancy Yellow,Round,SI2,1.5,EX,VG,6.99 X 7.08 X 4.66,66.2,57,Med,,GIA,1232641676,Cts,0,US$
+Bangkok,6361,G,Round,,1.5,,,10.5,0,0,None,,,SV-51,Cts,100040,US$
+Bangkok,727,Fancy Vivid Yellow,Round,VS1,1.5,VG,VG,7.22X7.18X4.52,62.8,59,None,,GIA,2161889578,Cts,35000,US$
+Mumbai,6608,G,Bullet,SI2,1.45,,,7.1X6.35X,0,0,None,,Side Stone,,Cts,3400,US$
+Bangkok,5199,BLACK,Round,I1,1.44,,,,,,,,NC,,Cts,0,US$
+Mumbai,6360,G,Round,,1.42,,,10.33,0,0,None,,,SV-46,Cts,94300,US$
+Bangkok,3743,Fancy Brown Pink,Radiant,I2,1.41,,,6.39x6.27x3.98,0,0,None,,GIA,5211147141,Cts,14000,US$
+Hong Kong,5605,Fancy Grayish Yellowish Green,Radiant,SI1,1.4,EX,VG,6.40 x 6.35 x 3.94,62,66,None,,GIA,7336469700,Cts,2600,US$
+Bangkok,6070,Fancy Brown Pink,Radiant,SI2,1.4,G,GD,6.98 X 5.46 X 3.66,67,63,STG,Blue,GIA,7318460994,Cts,10500,US$
+Bangkok,268,Fancy White,Round,,1.38,,,7.07 x 7.10 x 4.22,0,0,None,,GIA,6205190913,Cts,3000,US$
+Mumbai,6370,G,Round,,1.38,,,10.1,0,0,None,,,SV-52,Cts,89380,US$
+Bangkok,6599,,Bullet,,1.37,,,6.85 X 5.70,,,None,,Side Stone,,Cts,0,US$
+Mumbai,2208,Fancy Light Green,Radiant,SI1,1.36,VG,GD,6.04 x 5.94 x 4.16,70,63,STG,,GIA,5546507240,Cts,18000,US$
+Mumbai,6364,G,Round,,1.36,,,10,0,0,None,,,SV-48,Cts,89380,US$
+Mumbai,6366,G,Round,,1.35,,,10.05,0,0,None,,,SV-47,Cts,89380,US$
+Bangkok,1524,Fancy White,Round,,1.35,,,6.63X6.69X4.71,0,0,None,,GIA,5181335574,Cts,3000,US$
+Bangkok,317,Fancy Intense Purple Pink,Cut cornered square,I1,1.33,VG,GD,6.16X6.08X4.44,73,59,STG,Blue,GIA,2186872649,Cts,70000,US$
+Hong Kong,7279,S-T,Cushion,VVS2,1.33,EX,VG,5.95 X 5.94 X 4.10,69.1,65,Med,Blue,GIA,5376100929,Cts,1400,US$
+Mumbai,9575,F,Round,SI1,1.32,VG,VG,6.99 - 7.03 x 4.28,61.1,62,None,,GIA,2558620619,Cts,2250,US$
+Mumbai,8730,Fancy Light Yellow Green,Cushion,VS1,1.31,VG,VG,6.86 x 5.39 x 3.72,68.9,61,Vst,Blue,GIA,2508802633,Cts,4500,US$
+Bangkok,5731,Fancy Greenish Yellow,Pear,SI1,1.31,VG,GD,8.25x6.05x3.71,61.3,56,STG,Blue,GIA,5222359407,Cts,2900,US$
+Mumbai,6587,G,Cadillac,,1.31,,,6.35X5.35X,0,0,None,,Side Stone,,Cts,3100,US$
+Mumbai,8889,Fancy Light Yellow Green,Marquise,SI1,1.3,VG,VG,10.93x5.82x3.59,61.7,54,None,,GIA,7531745432,Cts,6500,US$
+Mumbai,6591,F,Cadillac,,1.29,,,6.6X5.25X,0,0,None,,Side Stone,,Cts,2900,US$
+Bangkok,6611,,Kite Step Cut,,1.29,,,7.55X4.55,,,,,Side Stone,,Cts,0,US$
+Bangkok,4914,Light Pink,Radiant,IF,1.28,G,GD,6.63 x 5.67 x 3.70,65.2,63,None,,GIA,2235703169,Cts,20000,US$
+Hong Kong,7122,Faint Pink,Round,VS1,1.23,EX,EX,6.83*6.89*4.24,61.8,57,None,,GIA,2215089864,Cts,6000,US$
+Mumbai,8833,Light Greenish Yellow,Cushion,SI1,1.23,G,VG,5.89 x 5.84 x 3.99,68.3,59,Vst,,GIA,6542045254,Cts,2000,US$
+Mumbai,9519,Fancy Light Brownish Greenish Yellow,Radiant,VS1,1.23,EX,VG,6.72 X 5.24 X 3.60,68.6,61,None,,GIA,6542802271,Cts,0,US$
+Hong Kong,9578,Fancy Green,Cushion,SI2,1.22,G,GD,5.89 x 5.82 x 4.00,68.7,55,None,,GIA,2176401754,Cts,35000,US$
+Mumbai,8717,Light Green Yellow,Marquise,VVS2,1.21,EX,EX,10.48x5.58x3.41,61,58,STG,Blue,GIA,5523181323,Cts,3600,US$
+Bangkok,7803,Fancy Intense Yellow,Pear,VS2,1.2,EX,VG,8.86 X 5.73 X 3.38,59.1,57,Med,,GIA,6475181630,Cts,3600,US$
+Mumbai,9476,Light Green Yellow,Oval,VVS2,1.2,EX,EX,8.64 x 5.75 x 3.59,62.5,63,None,,GIA,1545845849,Cts,2000,US$
+Bangkok,6609,,Bullet,,1.16,,,7.35 x 4.20,,,,,Side Stone,,Cts,0,US$
+Mumbai,105,Fancy Pink Purple,Cushion,VS1,1.16,G,GD,5.76 X 5.49 X 3.98,72.4,65,None,,GIA,5146792163,Cts,90000,US$
+Mumbai,9536,N,Pear,VS2,1.15,VG,VG,8.85 X 5.11 X 3.49,68.3,61,STG,,GIA,6555696836,Cts,750,US$
+Bangkok,6614,,Shield,,1.14,,,8.05 x 4.25,,,,,Side Stone,,Cts,0,US$
+Bangkok,6612,H,Shield,,1.14,,,7.80 X 4.30,,,None,,Side Stone,,Cts,0,US$
+Mumbai,9165,Fancy Light Yellow Green,Round,SI2,1.14,G,GD,6.69 - 6.74 x 4.13,61.5,61,STG,,GIA,6542176855,Cts,6000,US$
+Bangkok,6561,,Cadillac,SI-VS,1.14,,,6.00 X 5.00,,,,,,,Cts,0,US$
+Mumbai,6601,G,Bullet,SI2,1.14,,,6.9X5.6X,0,0,None,,Side Stone,,Cts,3400,US$
+Mumbai,6606,I,Half Moon,SI2,1.13,,,7.05X4X,0,0,None,,Side Stone,,Cts,2900,US$
+Bangkok,6456,,Star,,1.13,,,11.5,0,0,None,,Side Stone,SV-30,Cts,0,US$
+Mumbai,6026,,Cadillac,,1.12,,,9.60 x 4.50,0,0,None,,Side Stone,,Cts,2700,US$
+Mumbai,4386,Fancy Light Yellow,Cushion,I3,1.12,VG,VG,6.01*5.64*3.83,67.9,56,Fnt,,GIA,5211422310,Cts,600,US$
+Mumbai,9542,M,Pear,SI1,1.12,VG,VG,8.49 X 4.99 X 3.48,69.7,63,None,,GIA,1559696854,Cts,600,US$
+Bangkok,5625,F,Cadillac,VS1,1.12,,,5.85 x 4.70,,,None,,Side Stone,,Cts,2700,US$
+Bangkok,6603,,Cadillac,,1.11,,,7.00 X 5.60,,,None,,Side Stone,,Cts,2700,US$
+Mumbai,4662,Fancy Light Brownish Yellow,Cushion,VS2,1.11,EX,VG,6.01 x 5.62 x 3.60,63.9,59,Fnt,,GIA,6213562296,Cts,1000,US$
+Mumbai,7550,Fancy Yellow Green,Radiant,SI2,1.11,EX,EX,6.36 X 5.05 X 3.52,69.8,62,STG,Green,GIA,5476760255,Cts,7777,US$
+Bangkok,5788,Fancy Intense Purplish Pink,Round,I1,1.11,VG,GD,6.65*6.72*4.08,0,0,Med,,CGL,N1023668,Cts,210000,US$
+Mumbai,9560,Fancy Light Greenish Yellow,Pear,VS2,1.1,EX,VG,8.19 X 5.13 X 3.48,67.8,64,None,,GIA,6541732717,Cts,118400,US$
+Mumbai,9516,Light Greenish Yellow,Pear,VS2,1.09,EX,EX,8.30 X 5.14 X 3.48,67.7,63,None,,GIA,3545562330,Cts,0,US$
+Mumbai,9512,Light Greenish Yellow,Cushion,VS2,1.09,EX,VG,5.53 X 5.52 X 3.72,67.5,63,None,,GIA,7533812205,Cts,0,US$
+Mumbai,8431,Fancy White,Round,I2,1.09,VG,VG,5.10 X 5.12 X 3.25,,,Med,,NC,-,Cts,0,US$
+Bangkok,6559,,Cadillac,,1.09,,,5.95 X 4.85,,,None,,Side Stone,,Cts,2500,US$
+Hong Kong,6913,Fancy Deep Bluish Green,Pear,I1,1.09,VG,GD,7.12 X 5.86 X 3.48,59.3,67,None,,GIA,7448760913,Cts,300000,US$
+Mumbai,5466,Fancy Brown Pink,Oval,I1,1.09,VG,GD,7.19X 5.38X 3.43,63.7,58,None,,GIA,6381287940,Cts,4500,US$
+Bangkok,6460,G,Emerald,,1.09,,,9.60 X 4.35,0,0,None,,,SV-27,Cts,60000,US$
+Bangkok,734,Fancy White,Heart,,1.08,,,6.17 x 7.39 x 3.64,,,,,GIA,1223572210,Cts,1500,US$
+Mumbai,6187,D,Emerald,VVS2,1.08,VG,VG,6.97 X 5.02 X 3.38,67.3,66,None,,GIA,2444133637,Cts,5640,US$
+Mumbai,6420,F,Princess,I2,1.08,,,,0,0,None,,NC,,Cts,2000,US$
+Bangkok,6033,F,Round,VVS1,1.08,EX,EX,6.76 x 6.73 x 3.97,58.9,62,None,,GIA,7432883252,Cts,9500,US$
+Mumbai,6415,O-P,Round,SI2,1.07,VG,F,6.53 x 6.65 x 4.04,61.3,53,None,,GIA,2456114092,Cts,2500,US$
+Mumbai,6190,G,Pear,VVS2,1.07,VG,VG,8.62 X 5.74 X 3.74,65.1,55,Fnt,,GIA,6441202658,Cts,4380,US$
+Bangkok,6597,,Cadillac,,1.07,,,6.8 X 5.55,,,None,,Side Stone,,Cts,2500,US$
+Mumbai,6859,G,Emerald,,1.07,,,9.50 x 7.20,0,0,None,,,SV-73,Cts,82800,US$
+Mumbai,8686,Fancy Purplish Pink,Pear,VS2,1.07,EX,VG,8.47 x 5.08 x 3.44,67.7,63,None,,GIA,2517706395,Cts,80000,US$
+Mumbai,8398,Faint Pink,Round,VS2,1.07,EX,EX,6.53 - 6.56 x 4.07,62.2,59,None,,GIA,2233427024,Cts,6500,US$
+Mumbai,8171,Fancy Deep Brownish Greenish Yellow,Oval,SI1,1.06,EX,VG,7.51 x 5.12 x 3.37,65.7,54,STG,Yellow,GIA,2466188722,Cts,3000,US$
+Mumbai,6407,G,Emerald,,1.06,,,10.00 x 7.50,0,0,None,,,SV-35,Cts,98400,US$
+Bangkok,2049,Fancy Intense Pink,Other,,1.06,,,5.90 x 7.16 x 3.94,0,0,None,,GIA,2257420789,Cts,120000,US$
+Hong Kong,2260,Fancy Intense Blue,Round,I1,1.06,,,,0,0,,,,,Cts,0,US$
+Mumbai,6192,E,Pear,VVS2,1.06,VG,VG,9.02 X 5.81 X 3.67,63.1,54,None,,GIA,2446202661,Cts,5916,US$
+Mumbai,6039,Q-R,Round,I2,1.06,G,GD,6.18 X 6.12 X 4.37,71,55,None,,GIA,1439899249,Cts,777,US$
+Mumbai,9511,Fancy Light Greenish Yellow,Pear,VS1,1.06,EX,EX,8.36 X 5.08 X 3.38,66.5,60,None,,GIA,6541562333,Cts,0,US$
+Mumbai,6188,G,Princess,VVS1,1.05,VG,GD,5.64 x 5.53 x 3.98,71.9,72,None,,GIA,2446133081,Cts,7134,US$
+Mumbai,9467,F,Cushion,SI1,1.05,EX,EX,5.72 X 5.56 X 3.89,70,59,None,,GIA,2547031313,Cts,0,US$
+Mumbai,9531,M,Heart,SI1,1.05,VG,VG,5.79 X 6.31 X 3.68,58.2,59,None,,GIA,2557696776,Cts,700,US$
+Mumbai,9540,N,Pear,SI1,1.05,VG,GD,8.38 x 4.93 x 3.41,69.2,60,STG,,GIA,7558696785,Cts,600,US$
+Bangkok,6019,G,Trapezoid,,1.05,,,6.60 x 4.30,0,0,,,,,Cts,2500,US$
+Mumbai,5762,Fancy Light Yellow,Round,I2,1.04,VG,VG,6.18 X 6.11X 4.06,66.2,59,None,,GIA,7436898832,Cts,1250,US$
+Mumbai,8721,Light Greenish Yellow,Radiant,I1,1.04,,,6.07 x 4 .87 x 3.44,,,,,NC,,Cts,1200,US$
+Mumbai,8332,Fancy Greenish Yellow,Radiant,SI2,1.04,,,6.05 X 4.95 X 3.50,,,None,,,,Cts,0,US$
+Bangkok,6598,,Cadillac,,1.04,,,6.85 x 5.45,,,,,Side Stone,,Cts,0,US$
+Mumbai,8590,Fancy White,Radiant,I2,1.04,VG,GD,6.27 x 5.01 x 3.77,75.1,54,Med,Blue,GIA,6545114171,Cts,1500,US$
+Mumbai,6077,Q-R,Pear,SI1,1.04,VG,VG,8.13 X 5.13 X 3.30,64.3,61,Vst,,IGI,534245984,Cts,1100,US$
+Mumbai,9543,M,Pear,VS1,1.03,VG,VG,8.09 X 5.11 X 3.38,66.1,60,None,,GIA,7558696823,Cts,865,US$
+Mumbai,9544,K,Oval,VS1,1.03,VG,VG,7.55 X 5.24 X 3.4,64.9,66,None,,GIA,5553696813,Cts,800,US$
+Mumbai,9534,M,Heart,SI1,1.03,VG,VG,5.93 X 6.95  X 3.22,46.4,60,None,,GIA,1559696856,Cts,700,US$
+Bangkok,6605,,Bullet,,1.03,,,7.05 X 3.80,,,None,,Side Stone,,Cts,0,US$
+Mumbai,8913,Faint Pink,Round,VS1,1.03,EX,EX,6.46 - 6.48 x 4.01,61.9,58,None,,GIA,5526717816,Cts,6500,US$
+Bangkok,112,Very Light Pink,Octagon,I2,1.03,,,6.51X6.44X394,,,,,NC,,Cts,6000,US$
+Mumbai,6040,Fancy Brownish Yellow,Round,I1,1.03,G,GD,6.18 X 6.24 X 4.07,65.4,63,Med,Green,GIA,6431899239,Cts,888,US$
+Mumbai,6041,Fancy Dark Brown Greenish Yellow,Round,I2,1.03,G,VG,6.46X 6.44 X 4.02,62.4,61,Fnt,,GIA,6432898811,Cts,888,US$
+Mumbai,4753,Fancy Light Yellow,Emerald,I1,1.03,EX,VG,6.88*4.85*3.04,62.7,58,Med,Blue,GIA,2247215962,Cts,700,US$
+Bangkok,6949,Faint Pink,Pear,VVS1,1.03,EX,VG,9.61 x 4.97 x 2.96,59.5,60,Med,Blue,GIA,2225836152,Cts,12700,US$
+Bangkok,4845,Fancy Light Greenish Yellow,Pear,I2,1.03,VG,GD,8.28*5.11*3.35,65.4,52,None,Blue,GIA,6382812291,Cts,2250,US$
+Mumbai,4141,Fancy Brownish Greenish Yellow,Round,I1,1.03,VG,VG,6.41*6.45*3.97,61.7,63,STG,,GIA,1373811185,Cts,1800,US$
+Mumbai,5747,Fancy Dark Yellowish Green Gray,Round,I3,1.03,G,F,6.27X6.32X3.96,62.8,56,STG,,GIA,6425925635,Cts,1000,US$
+Mumbai,2375,Faint Pink,Other,I1,1.03,,,5.94x6.09x4.18,0,0,None,,CGL,h8786288,Cts,1600,US$
+Mumbai,6418,,Cushion,I1,1.02,,,,0,0,,,NC,,Cts,0,US$
+Mumbai,6414,,Round,I2,1.02,,,,0,0,None,,,,Cts,0,US$
+Bangkok,5485,Light Pink,Cushion,VS1,1.02,EX,VG,5.74X5.17X3.75,72.5,56,None,,GIA,7386027867,Cts,20000,US$
+Mumbai,7549,Fancy Yellow Green,Radiant,SI2,1.02,EX,VG,5.69 X 5.15 X 3.57,69.3,67,STG,Green,GIA,2474888329,Cts,7777,US$
+Mumbai,6600,E,Bullet,,1.02,,,6.9X3.85X,0,0,None,,Side Stone,,Cts,0,US$
+Mumbai,2677,Fancy Dark Violetish Gray,Pear,I3,1.02,VG,GD,7.88X5.23X3.60,68.7,65,Med,Blue,GIA,7328782476,Cts,11111,US$
+Bangkok,6607,,Bullet,,1.02,,,7.10 X 4.20,,,None,,Side Stone,,Cts,0,US$
+Bangkok,4768,Fancy Light Orangy Pink,Oval,SI2,1.02,EX,EX,7.46 x 5.11 x 3.35,,61,Med,,GIA,7383844803,Cts,25000,US$
+Mumbai,9275,Fancy Light Green Yellow,Pear,SI1,1.02,VG,VG,7.85 x 5.09 x 3.35,65.9,67,Fnt,,GIA,2547485879,Cts,2500,US$
+Mumbai,9372,L,Pear,SI2,1.02,VG,EX,8.64 X 5.49 X 3.58,65.3,62,STG,,GIA,1558213539,Cts,0,US$
+Mumbai,9538,M,Heart,SI1,1.02,VG,VG,5.74 X 6.51 X 3.45,52.9,65,None,,GIA,7558696861,Cts,700,US$
+Mumbai,9541,L,Oval,VS2,1.02,VG,VG,7.16 X 5.07 X 3.5,69.2,63,None,,GIA,7551696843,Cts,720,US$
+Mumbai,95,H,Round,SI2,1.02,G,F,6.32X6.22X4.12,65.6,56,None,,GIA,2146344987,Cts,3500,US$
+Bangkok,3915,H,Radiant,SI2,1.02,VG,VG,6.60*5.07*3.39,66.9,63,None,,IGI,447063822,Cts,1850,US$
+Mumbai,6037,Q-R,Round,I2,1.02,G,VG,6.12 X 6.09 X 4.24,69.3,56,Fnt,,GIA,2436899390,Cts,777,US$
+Mumbai,6162,D,Cushion,VVS2,1.02,EX,VG,5.69 X 5.40X 3.76,69.6,60,STG,,GIA,1437303165,Cts,3800,US$
+Mumbai,6269,G,Cushion,SI2,1.02,EX,VG,5.80 x 5.25 x 3.71,70.7,58,None,,GIA,2438798127,Cts,2430,US$
+Mumbai,9573,E,Princess,SI1,1.02,EX,EX,5.46 x 5.46 x 3.95,72.3,70,None,,GIA,6542170073,Cts,0,US$
+Mumbai,9539,S-T,Oval,SI1,1.02,VG,VG,7.48 X 5 .00 X 3.35,66.9,63,None,,GIA,1559696835,Cts,900,US$
+Mumbai,9510,Fancy Light Green Yellow,Cushion,SI2,1.01,EX,VG,5.46 X 5.34 X 3.69,69,59,Med,,GIA,6531812267,Cts,0,US$
+Mumbai,9513,Fancy Light Grayish Greenish Yellow,Pear,VS1,1.01,EX,VG,7.90 X 4.98 X 3.38,67.8,60,None,,GIA,2537812102,Cts,0,US$
+Mumbai,5770,G,Round,SI1,1.01,EX,EX,6.45 x 6.48 x 3.95,61.1,60,None,,GIA,2424514267,Cts,6000,US$
+Mumbai,6184,D,Cushion,VVS2,1.01,EX,VG,5.99 X 5.26 X 3.63,69,63,Med,,GIA,6412875087,Cts,3561,US$
+Mumbai,6170,J,Radiant,VS1,1.01,EX,VG,7.12 x 4.93 x 3.40,69,63.5,None,,IGI,480157102,Cts,1900,US$
+Mumbai,6142,D,Cushion,VS1,1.01,EX,VG,5.75 x 5.61 x 3.92,70,62,STG,,GIA,5221440455,Cts,3200,US$
+Bangkok,3916,H,Radiant,SI2,1.01,VG,VG,6.28*5.02*3.52,70.1,64.5,None,,IGI,455016987,Cts,1850,US$
+Bangkok,5320,H,Cushion,VS2,1.01,EX,VG,5.64X5.63X3.72,66.2,64,None,,GIA,2406947510,Cts,2800,US$
+Bangkok,5323,W-X,Heart,SI1,1.01,EX,VG,5.85X6.32X3.41,53.9,66,Fnt,,GIA,6412082187,Cts,1000,US$
+Bangkok,6015,Y-Z,Round,SI1,1.01,EX,EX,6.42 X 6.42 X 3.99,62.2,56,Fnt,,GIA,1415882065,Cts,1088,US$
+Bangkok,7576,M,Oval,SI2,1.01,EX,EX,8.29X5.46X3.47,63.6,57,Med,Blue,GIA,1478988497,Cts,805,US$
+Mumbai,9535,M,Heart,SI1,1.01,VG,VG,5.77 X 6.36 X 3.49,54.9,58,None,,GIA,6552696860,Cts,700,US$
+Mumbai,9537,L,Pear,VS1,1.01,EX,VG,8.32 X 4.89 X 3.3,67.5,61,None,,GIA,1558696829,Cts,800,US$
+Mumbai,8206,U-V,Radiant,I2,1.01,,,6.15 x 3.85 x 4.33,,,-,,,,Cts,300,US$
+Mumbai,9195,Faint Green,Radiant,VS1,1.01,VG,VG,5.54 x 5.53 x 3.53,63.8,63,STG,,GIA,2494368553,Cts,2000,US$
+Mumbai,9182,Very Light Green Yellow,Round,SI1,1.01,EX,EX,6.35 - 6.39 x 3.99,62.7,56,Fnt,,GIA,2527852345,Cts,2000,US$
+Mumbai,83,Fancy Intense Greenish Yellow,Pear,VS1,1.01,G,GD,6.67X5.30X3.59,67.7,60,STG,Blue,GIA,17255496,Cts,3500,US$
+Mumbai,137,Fancy Deep Yellow,Pear,,1.01,,,9.13 x 5.36 x 3.20,0,0,None,,GIA,1142828248,Cts,5000,US$
+Mumbai,7871,Fancy Light Purplish Pink,Cushion,SI1,1.01,VG,GD,5.37 x 5.32 x 3.86,72.6,62,None,,GIA,6237281049,Cts,20000,US$
+Bangkok,5516,Fancy Light Purplish Pink,Heart,I1,1.01,VG,VG,5.63X 6.63X 3.56,53.7,64,Med,,GIA,5416214231,Cts,18500,US$
+Bangkok,4596,Fancy Deep Brown Orange,Pear,I1,1.01,EX,GD,8.22*5.43*3.14XX,57.9,55,None,,GIA,2317198513,Cts,1200,US$
+Bangkok,2700,Fancy White,Pear,,1.01,,,8.36 x 4.99 x 3.33,0,0,None,,GIA,2201520168,Cts,3000,US$
+Mumbai,2497,Fancy Light Yellow,Round,I1,1.01,,,,,,,,CGL,H8237862,Cts,0,US$
+Mumbai,8689,Fancy Light Greenish Yellow,Pear,VS1,1.01,EX,VG,8.04 x 5.06 x 3.30,65.3,67,None,,GIA,6502364487,Cts,2900,US$
+Mumbai,8695,Fancy Light Greenish Yellow,Pear,SI1,1.01,VG,VG,8.02 x 5.00 x 3.44,68.8,61,STG,,GIA,6525204525,Cts,2700,US$
+Bangkok,8614,Faint Pink,Oval,VS2,1.01,VG,GD,8.62 x 5.84 x 3.10,53.1,59,Med,Blue,GIA,6237563249,Cts,7000,US$
+Bangkok,6042,Fancy Light Brownish Greenish Yellow,Round,I2,1.01,G,GD,6.09X 6.06 X 4.17,68.6,52,Fnt,,GIA,2436898846,Cts,800,US$
+Mumbai,7073,Fancy Light Brownish Yellow,Cushion,,1.01,,,,,,None,,NC,,Cts,0,US$
+Bangkok,6059,Fancy Light Brown Pink,Cushion,SI2,1.01,VG,VG,5.54 X 5.39 X 3.57,66.2,60,None,,GIA,2225410923,Cts,9500,US$
+Mumbai,7399,Fancy Brownish Yellow,Round,I2,1.01,EX,VG,6.34 X 6.39 X 4.01,62.9,57,Med,Yellow,GIA,2488173258,Cts,603,US$
+Mumbai,5198,Fancy Deep Brown Orange,Other,I2,1.01,VG,GD,5.59X7.34X4.04,55.1,64,None,,GIA,2414879866,Cts,2000,US$
+Mumbai,2551,Faint Pink,Round,I1,1.01,,,5.89*6.04*4.04,,,Med,,CGL,h7526646,Cts,2800,US$
+Mumbai,9137,Fancy Light Green Yellow,Oval,SI2,1,EX,VG,7.14 X5.00 X 3.42,68.4,65,STG,Blue,GIA,2537854491,Cts,2500,US$
+Mumbai,9261,Very Light Pink,Marquise,SI2,1,EX,VG,9.32 x 5.16 x 3.53,68.4,58,None,,GIA,5231883537,Cts,10000,US$
+Mumbai,9332,Fancy Light Pinkish Brown,Oval,SI2,1,G,GD,6.98 x 5.37 x 3.39,63.1,60,None,,GIA,1488055447,Cts,2222,US$
+Bangkok,9475,Light Pink,Round,IF,1,EX,VG,6.46 x 6.48 x 3.94,60.9,57,None,,GIA,2116397707,Cts,48000,US$
+Mumbai,9485,F,Cushion,SI2,1,EX,EX,6.26 x 5.22 x 3.69,70.6,71,None,,GIA,2527656878,Cts,0,US$
+Mumbai,9505,Fancy Brownish Greenish Yellow,Radiant,VS2,1,VG,GD,6.23x4.85x3.40,70.1,61,None,,GIA,2546721716,Cts,1550,US$
+Mumbai,6588,D,Bullet,SI1,1,,,6.35X5.6X,0,0,None,,Side Stone,,Cts,4900,US$
+Mumbai,8589,W-X,Oval,I1,1,VG,VG,7.81 x 5.75 x 3.27,56.9,60,Fnt,,GIA,7523216213,Cts,1000,US$
+Bangkok,7578,Y-Z,Oval,SI2,1,EX,VG,8.43X5.34X3.38,63.2,56,STG,Blue,GIA,7468934220,Cts,805,US$
+Bangkok,8317,J,Pear,SI1,1,VG,VG,8.79 x 5.74 x 3.21,55.9,63.5,None,,IGI,546206872,Cts,0,US$
+Bangkok,7046,U-V,Pear,VVS2,1,VG,GD,9.08X5.19X2.94,56.7,58,None,,GIA,2225477200,Cts,1250,US$
+Bangkok,6115,F,Asscher,VS1,1,EX,EX,5.35 x 5.28 x 3.79,71.6,63,Vst,Blue,GIA,1403922100,Cts,2805,US$
+Bangkok,3402,I,Radiant,SI2,1,EX,VG,6.12*4.96*3.46,69.8,70,None,,HRD,190000046363,Cts,1725,US$
+Mumbai,6161,E,Cushion,VVS1,1,EX,EX,6.08 X 5.55 X 3.40,61.3,63,Med,Blue,GIA,2408027202,Cts,3800,US$
+Mumbai,6045,Q-R,Round,I2,1,G,GD,6.35 X 6.29 X 3.84,60.8,62,STG,Blue,GIA,6432898791,Cts,900,US$
+Mumbai,9533,N,Oval,SI1,1,EX,VG,7.5 X 5.11 X 3.27,64.1,67,None,,GIA,7558703683,Cts,630,US$
+Mumbai,9551,Faint Pink,Round,SI2,1,EX,EX,6.33 - 6.37 x 4.01,63.1,57,Med,,GIA,6551331288,Cts,0,US$
+Mumbai,9530,L,Oval,VS1,1,EX,VG,7.25 X 5.1 X 3.48,68.3,65,None,,GIA,5553703808,Cts,700,US$
+Hong Kong,4514,Fancy Light Yellow,Heart,SI2,1,VG,VG,5.86*6.64*3.45,52,67,Med,,GIA,1393152993,Cts,1200,US$
+Bangkok,5626,,Kite Step Cut,VS1,1,,,8.15x4.15,0,0,None,,Side Stone,,Cts,0,US$
+Mumbai,6417,,Oval,SI2,1,,,5.50 x 4.83 x 4.03,0,0,None,,,,Cts,0,US$
+Mumbai,7087,Fancy Intense Greenish Yellow,Pear,I1,1,G,GD,7.91 X 5.07 X 3.39,66.9,58,STG,Green,GIA,7481173185,Cts,2222,US$
+Bangkok,7281,Faint Pink,Cushion,VS1,1,EX,VG,6.00 x 5.02 x 3.49,69.5,61,STG,Blue,GIA,6224959208,Cts,9999,US$
+Bangkok,7297,Fancy Light Yellow Green,Cushion,IF,1,EX,EX,5.74 x 5.48 x 3.69,67.3,55,STG,Blue,GIA,1468188633,Cts,7000,US$
+Mumbai,7334,Very Light Green,Heart,VS1,1,EX,VG,5.77 x 6.91 x 4.14,59.8,61,STG,Yellow,GIA,2225992859,Cts,3000,US$
+Bangkok,5567,Faint Pink,Pear,VVS1,1,VG,VG,7.15X5.14X3.59,69.8,54,None,,GIA,2416955400,Cts,11000,US$
+Bangkok,176,Fancy Light Pink,Radiant,VS1,1,,,8.41X3.89X2.99,0,0,None,,CGL,H7650702,Cts,45000,US$
+Mumbai,5534,Fancy Brown Greenish Yellow,Round,SI2,1,G,GD,5.91 X 6.00 X 4.18,70.2,60,Fnt,,GIA,6422561332,Cts,850,US$
+Mumbai,4555,Fancy Brownish Yellow,Cushion,SI2,1,G,GD,5.60*5.23*3.77,72.1,64,Med,Blue,GIA,2406026695,Cts,900,US$
+Mumbai,6117,Fancy Yellow,Heart,VS2,1,EX,VG,5.68 x 6.70 x 3.32,49.6,65,None,,GIA,3435001427,Cts,2500,US$
+Mumbai,6121,Fancy Light Yellow,Heart,VS1,1,EX,VG,5.54 x 6.28 x 3.50,55.7,62,None,,GIA,5426896097,Cts,1950,US$
+Mumbai,6261,Fancy Brownish Pink,Cushion,I2,1,EX,GD,5.73 X 5.44 X 3.51,64.5,60,None,,GIA,1226556561,Cts,3600,US$
+Mumbai,7048,Fancy Intense Yellow,Cushion,SI2,1,VG,GD,6.04X5.15X3.6,70,54,None,,GIA,5221792852,Cts,3600,US$
+Bangkok,6049,Very Light Pinkish Brown,Round,SI2,1,EX,VG,6.06 X 6.13 X 4.08,67,56,None,,GIA,2427004197,Cts,2200,US$
+Bangkok,2701,Fancy White,Pear,,1,,,7.75 x 4.72 x 3.25,0,0,None,,GIA,2205520187,Cts,3000,US$
+Hong Kong,5966,Fancy Pink Brown,,VS2,1,EX,VG,5.87 x 6.84 x 4.20,61.4,61,None,,GIA,6412159044,Cts,11100,US$
+Mumbai,7080,S-T,Cushion,,1,,,,,,,,NC,,Cts,0,US$
+Bangkok,6541,,Cadillac,,1,,,5.65 X 5.00,,,,,Side Stone,,Cts,0,US$
+Bangkok,4597,Fancy Deep Brown Orange,Pear,I1,1,EX,GD,7.74*5.27*3.37XX,64,55,None,,GIA,6315064724,Cts,1200,US$
+Bangkok,2779,Fancy Blue,Round,VVS1,1,VG,GD,6.21X6.18X4.04,65.2,55,None,,GIA,6204380195,Cts,380000,US$
+Bangkok,2699,Fancy White,Heart,,1,,,5.46 x 6.53 x 3.62,0,0,None,,GIA,2205520636,Cts,3000,US$
+Bangkok,6549,,Cadillac,,1,,,5.85 x 4.75,,,,,Side Stone,,Cts,0,US$
+Bangkok,7064,U-V,Oval,,1,,,,0,0,None,,NC,,Cts,0,US$
+Mumbai,84,Fancy Greenish Yellow,Pear,VS2,1,G,GD,6.47X5.26X3.79,72.1,56,STG,Yellow,GIA,16413645,Cts,3000,US$
+Mumbai,5458,Fancy Light Yellow Green,Oval,SI2,1,VG,F,6.74 X 5.26 X 3.09,58.7,63,None,,GIA,6222980926,Cts,1700,US$
+Mumbai,5543,Fancy Deep Green,Oval,I1,1,EX,F,7.13 x 5.44 x 3.14,57.7,73,Fnt,,GIA,6232103989,Cts,126000,US$
+Bangkok,6557,,Cadillac,,0.98,,,5.95 x 4.80,,,,,Side Stone,,Cts,0,US$
+Bangkok,6585,,Cadillac,SI-VS,0.98,,,6.30 X 4.65,,,,,Side Stone,,Cts,2300,US$
+Bangkok,6602,,Cadillac,,0.97,,,7.00 X 5.45,,,None,,Side Stone,,Cts,2300,US$
+Bangkok,6531,,Half Moon,,0.97,,,5.50 X 4.10,,,None,,Side Stone,,Cts,2300,US$
+Bangkok,6594,,Cadillac,,0.96,,,6.65 X  4.05,,,None,,Side Stone,,Cts,2300,US$
+Mumbai,9574,D,Cushion,SI1,0.96,EX,EX,5.45 X 5.38 X 3.76,70,61,None,,GIA,1545038065,Cts,0,US$
+Bangkok,6018,Very Light Pinkish Brown,Round,SI2,0.96,EX,EX,6.31 X 6.32 X 3.90,61.7,58,None,,GIA,6435242449,Cts,1650,US$
+Mumbai,3365,Fancy Deep Yellow,Cushion,I1,0.96,VG,VG,5.48*5.33*3.57,67,60,Med,Yellow,GIA,2326766859,Cts,999,US$
+Mumbai,6581,F,Bullet,SI2,0.95,,,6.25X5.6X,0,0,None,,Side Stone,,Cts,2300,US$
+Mumbai,6043,M,Round,I2,0.94,G,GD,5.90 X 5.94 X 4.09,69.1,61,None,,GIA,6431899225,Cts,777,US$
+Bangkok,6604,,Bullet,SI1,0.94,,,7.05 X 3.75,,,None,,Side Stone,,Cts,0,US$
+Bangkok,7558,M,Marquise,SI2,0.94,,,,,,,,,,Cts,0,US$
+Mumbai,6046,U-V,Round,I3,0.93,G,F,5.90 X 5.80 X 4.07,69.5,58,Fnt,,GIA,1433899117,Cts,777,US$
+Bangkok,6546,F,Cadillac,SI1,0.93,,,5.8 X 4.6,,,None,,Side Stone,,Cts,2250,US$
+Mumbai,6534,E,Cadillac,,0.93,,,5.55X4.5X,0,0,None,,Side Stone,,Cts,2250,US$
+Bangkok,2113,Fancy Light Bluish Green,Radiant,VS1,0.92,G,GD,5.98X5.36X3.54,66,63,STG,Blue,GIA,6147257950,Cts,18000,US$
+Mumbai,5532,Fancy Light Brownish Greenish Yellow,Round,SI1,0.92,VG,GD,5.84-5.94x4.01,68.1,57,Fnt,,GIA,6422561164,Cts,1000,US$
+Mumbai,5746,Fancy Gray Greenish Yellow,Round,I3,0.92,G,F,6.00X6.07X3.87,64.2,57,STG,,GIA,2424925573,Cts,1000,US$
+Bangkok,6575,D,Shield,SI2,0.92,,,6.20 X 4.00,,,None,,Side Stone,,Cts,2250,US$
+Mumbai,5024,S-T,Emerald,SI2,0.91,EX,GD,6.85*4.47*2.94,65.8,66,Med,Blue,GIA,5211890732,Cts,750,US$
+Bangkok,9080,Very Light Pink,Cushion,VS1,0.91,EX,VG,5.23 x 5.06 x 3.54,69.9,64,None,,GIA,1232735896,Cts,10000,US$
+Hong Kong,3604,Fancy Brownish Yellow,Round,I1,0.91,VG,VG,6.02X6.04 x 3.89,64.5,56,Med,Yellow,GIA,6251306454,Cts,8888,US$
+Mumbai,6576,G,Shield,,0.91,,,6.2X5.1X,0,0,None,,Side Stone,,Cts,2250,US$
+Mumbai,6554,,Shield,SI2,0.9,,,5.9X5.5X,0,0,None,,Side Stone,,Cts,2250,US$
+Mumbai,462,Fancy Yellow,Cushion,SI2,0.9,G,GD,5.61X5.09X3.62,71.2,58,Med,Blue,GIA,6205717698,Cts,1500,US$
+Mumbai,3664,Fancy Light Yellow,Radiant,SI2,0.9,EX,EX,4.85X5.28X3.59,74.1,66,None,,GIA,6207223518,Cts,1150,US$
+Mumbai,9506,E,Cushion,SI1,0.9,EX,EX,5.43 x 5.34 x 3.82,71.6,56,None,,GIA,7526925300,Cts,0,US$
+Mumbai,9466,E,Cushion,VS2,0.9,EX,EX,5.31 X 5.28 X 3.76,71.2,64,None,,GIA,2536913133,Cts,0,US$
+Bangkok,6593,G,Shield,SI1,0.9,,,6.65 X 4.00,,,None,,Side Stone,,Cts,0,US$
+Bangkok,6574,F,Half Moon,SI1,0.9,,,6.20 X 3.55,,,None,,Side Stone,,Cts,2250,US$
+Mumbai,6592,E,Bullet,SI1,0.9,,,6.65X3.4X,0,0,None,,Side Stone,,Cts,3600,US$
+Mumbai,6580,D,Shield,SI1,0.9,,,6.25X5.5X,0,0,None,,Side Stone,,Cts,2250,US$
+Mumbai,3351,Fancy Intense Orangy Yellow,Pear,I1,0.89,VG,VG,7.62X5.15X3.19,62,55,STG,Yellow,GIA,2427355687,Cts,1500,US$
+Bangkok,4716,Light Green,Pear,SI1,0.88,VG,VG,7.77X5.23X3.06,58.4,62,Fnt,,GIA,2378585083,Cts,3500,US$
+Bangkok,6582,,Half Moon,,0.88,,,6.30 x 3.20,,,None,,Side Stone,,Cts,2100,US$
+Bangkok,6583,,Half Moon,,0.87,,,6.30 X 3.30,,,None,,Side Stone,,Cts,2100,US$
+Bangkok,6520,,Shield,,0.87,,,5.35 x 4.40,,,,,Side Stone,,Cts,0,US$
+Bangkok,6572,,Bullet,,0.86,,,6.15 x 3.90,,,,,Side Stone,,Cts,0,US$
+Bangkok,6291,,Shield,,0.86,,,8.20 x 3.55,,,None,,Side Stone,,Cts,0,US$
+Bangkok,4746,Fancy Light Yellowish Green,Pear,SI1,0.86,VG,VG,7.21X5.41X3.1,57.2,61,Fnt,,GIA,5373762438,Cts,3500,US$
+Mumbai,6514,F,Bullet,,0.85,,,5.25X4.75X,0,0,None,,Side Stone,,Cts,2100,US$
+Bangkok,6532,,Cadillac,,0.84,,,5.50 x 4.60,,,,,Side Stone,,Cts,0,US$
+Bangkok,6457,,Star,,0.84,,,9.2,0,0,None,,Side Stone,SV-29,Cts,0,US$
+Bangkok,6296,,Cadillac,,0.84,,,5.90 x 4.25,0,0,None,,Side Stone,,Cts,2050,US$
+Mumbai,6566,D,Bullet,,0.83,,,6.05X4.8X,0,0,None,,Side Stone,,Cts,2050,US$
+Bangkok,6616,,Tappers,,0.83,,,5.7 X 4.05,,,None,,Side Stone,,Cts,0,US$
+Bangkok,6610,G,Kite Step Cut,,0.82,,,7.55 X 4.15,,,None,,Side Stone,,Cts,0,US$
+Mumbai,8215,Fancy Brownish Yellow,Pear,SI1,0.82,,,7.99X5.02X2.66,,,-,,,,Cts,300,US$
+Bangkok,4749,Fancy Yellowish Green,Pear,SI2,0.82,G,GD,8.41X6.05X2.43,40.2,56,None,,GIA,6375435628,Cts,3500,US$
+Mumbai,8740,Fancy Purple Pink,Heart,VS2,0.81,VG,VG,5.59x6.26x3.28,52.4,63,None,,GIA,2231099948,Cts,40000,US$
+Mumbai,6553,E,Bullet,SI2,0.81,,,5.9X5.1X,0,0,None,,Side Stone,,Cts,2050,US$
+Mumbai,9246,Faint Pinkish Brown,Pear,SI1,0.8,EX,EX,7.86 X 5.09 X 3.19,62.7,61,None,,GIA,7521096039,Cts,1800,US$
+Hong Kong,4726,Faint Green,Radiant,VS1,0.8,G,VG,6.67X4.3X2.95,68.5,69,None,,GIA,2376457588,Cts,3000,US$
+Bangkok,6461,G,Cushion,,0.8,,,6.3,0,0,None,,,SV-58,Cts,36000,US$
+Mumbai,2418,Faint Pink,Round,SI2,0.8,EX,EX,5.95X5.91X3.73,62.8,55,Fnt,,GIA,6302601566,Cts,3000,US$
+Bangkok,6523,,Hexagon,,0.79,,,5.4 X 4.75,,,None,,Side Stone,,Cts,1950,US$
+Mumbai,5718,Fancy Yellow,Oval,I1,0.78,G,GD,6.54x4.77x3.25,68,54,Med,Blue,GIA,1226385862,Cts,750,US$
+Bangkok,6030,G,Half Moon,,0.77,,,5.30 x 4.05,0,0,,,,,Cts,1950,US$
+Mumbai,667,Light Pink,Pear,,0.77,,,7.29 x 5.10 x 3.27,0,0,None,,GIA,6222195957,Cts,15000,US$
+Bangkok,6513,,Cadillac,,0.77,,,5.25 x 4.25,,,,,Side Stone,,Cts,0,US$
+Bangkok,6517,G,Half Moon,,0.77,,,5.30 X 4.00,,,None,,Side Stone,,Cts,1950,US$
+Mumbai,7902,Fancy White,Cushion,,0.76,,,5.12 x 5.07 x 3.59,,,,,GIA,3545243583,Cts,1200,US$
+Bangkok,6508,D,Bullet,SI2,0.76,,,5.15 X 4.85,,,None,,Side Stone,,Cts,1950,US$
+Bangkok,6297,,Cadillac,,0.76,,,6.35 x 3.60,0,0,None,,Side Stone,,Cts,1950,US$
+Bangkok,4721,Light Green,Pear,SI1,0.75,G,GD,7.66X4.88X2.9,59.4,57,Fnt,,GIA,7373762049,Cts,3500,US$
+Mumbai,6596,F,Shield,,0.75,,,6.7X3.8X,0,0,None,,Side Stone,,Cts,0,US$
+Mumbai,4493,,Bullet,I2,0.75,,,5.50X4.80,,,None,,Side Stone,,Cts,1950,US$
+Bangkok,5129,,Bullet,,0.74,,,5.80 x 4.00,,,None,,Side Stone,,Cts,1900,US$
+Mumbai,6519,G,Shield,,0.74,,,5.35X3.55X,0,0,None,,Side Stone,,Cts,1900,US$
+Mumbai,5135,,Shield,,0.74,,,6.40x 4.30,0,0,None,,Side Stone,,Cts,1900,US$
+Mumbai,5907,Fancy Light Yellow Brown,Pear,SI1,0.74,VG,F,7.32 X 4.92 X 2.93,59.5,48,Fnt,,GIA,5296531331,Cts,700,US$
+Mumbai,1448,Fancy Deep Yellow Orange,Marquise,I1,0.73,G,GD,8.81X4.82X2.99,61.9,57,Fnt,,GIA,1259315304,Cts,3500,US$
+Bangkok,360,Fancy White,Round,,0.73,,,5.53 x 5.56 x 3.78,0,0,None,,GIA,6212426401,Cts,3000,US$
+Bangkok,6516,G,Shield,,0.73,,,5.3 X 3.9,,,None,,Side Stone,,Cts,1900,US$
+Mumbai,9181,Faint Pink,Round,SI1,0.72,EX,EX,5.70 - 5.72 x 3.58,62.6,56,None,,GIA,7521340766,Cts,3000,US$
+Bangkok,6505,G,Cadillac,SI2,0.72,,,5.15 X 4.4,,,None,,Side Stone,,Cts,1900,US$
+Mumbai,6540,F,Diamond,SI1,0.72,,,5.65X4.9X,0,0,None,,Side Stone,,Cts,2500,US$
+Mumbai,6165,F,Radiant,VVS1,0.72,EX,EX,5.47 x 4.42 x 3.15,71.2,73,STG,,GIA,5433667280,Cts,2200,US$
+Mumbai,6584,,Kite Step Cut,,0.72,,,6.3X4.3X,0,0,None,,Side Stone,,Cts,0,US$
+Mumbai,6685,Faint Pink,Round,SI2,0.72,EX,EX,5.68-5.72*3.57,65.6,58,None,,GIA,5446032006,Cts,3500,US$
+Mumbai,7168,Fancy Intense Yellow,Round,SI2,0.72,VG,VG,5.90 x 5.95 x 3.41,57.5,61,None,,GIA,2234591806,Cts,8888,US$
+Mumbai,8188,Fancy Brownish Greenish Yellow,Pear,SI1,0.72,,,7.16 x 4.73 x 2.54,,,-,,,,Cts,300,US$
+Mumbai,8185,Fancy Brownish Greenish Yellow,Oval,VS1,0.72,,,6.38x4.85x2.66,,,-,,,,Cts,300,US$
+Bangkok,2772,Faint Green,Round,VVS2,0.72,,,5.74X5.78X3.59,,,None,,CGL,H8982612,Cts,11000,US$
+Bangkok,4698,Fancy Light Grayish Green,Cushion,VS2,0.71,VG,VG,5.12X4.6X3.22,70.1,65,None,,GIA,1375206046,Cts,2500,US$
+Bangkok,8035,,Asscher,,0.71,,,,,,,,NC,,Cts,0,US$
+Mumbai,8183,Fancy Light Brownish Greenish Yellow,Oval,VS1,0.71,,,7.40x4.97x2.63,,,-,,,,Cts,300,US$
+Mumbai,8204,Fancy Light Yellow,Cushion,VS2,0.71,,,4.80 x 4.74 x 3.17,,,-,,,,Cts,300,US$
+Mumbai,7178,Fancy Purplish Pink,Oval,SI2,0.71,VG,VG,7.31 X 4.50 X 2.70,60,52,None,,GIA,6392896273,Cts,28500,US$
+Mumbai,8219,Fancy Light Brownish Yellow,Pear,VS1,0.71,,,7.41X4.88X2.57,,,-,,,,Cts,300,US$
+Mumbai,8235,Fancy Brownish Greenish Yellow,Oval,VS2,0.71,,,6.25X4.72X2.8,,,,,,,Cts,300,US$
+Bangkok,5233,Light Pink,Heart,SI2,0.71,G,GD,4.96 x 5.74 x 3.29,,62,None,,GIA,1415141211,Cts,7000,US$
+Bangkok,6510,,Shield,SI1,0.7,,,5.2 X 4.40,,,None,,Side Stone,,Cts,1900,US$
+Bangkok,7118,Fancy Vivid Orange Yellow,Cushion,SI2,0.7,VG,VG,5.62 X 4.49 X 3.01,67,55,Med,,GIA,6412220665,Cts,5500,US$
+Mumbai,6144,D,Radiant,SI1,0.7,EX,EX,5.80 X 4.75 X 2.95,62.1,72,STG,,GIA,6223296940,Cts,1959,US$
+Mumbai,9507,Faint Pink,Pear,I1,0.7,VG,VG,7.60 x 4.91 x 3.14,63.9,62,None,,GIA,7541676130,Cts,0,US$
+Hong Kong,2950,E,Round,SI1,0.7,EX,EX,5.80X5.76X3.50,60.5,56,None,,GIA,3325632887,Cts,4000,US$
+Mumbai,8246,Fancy Dark Brown,Emerald,VS2,0.7,,,4.6X4.57X3.19,,,,,,,Cts,300,US$
+Mumbai,8222,Fancy Brownish Yellow,Pear,SI1,0.7,,,7.25X4.36X2.69,,,-,,,,Cts,300,US$
+Mumbai,8234,Fancy Brownish Greenish Yellow,Oval,VS2,0.7,,,7.22X4.88X2.7,,,,,,,Cts,300,US$
+Mumbai,2472,Fancy Pink,Cushion,VS2,0.7,G,GD,4.88X4.66X3.28,70.2,62,Fnt,,GIA,1309013080,Cts,70000,US$
+Mumbai,7618,Fancy Purplish Pink,Radiant,VS2,0.7,VG,VG,5.90 X 4.35 X 2.83,65.1,64,Fnt,,GIA,2235164478,Cts,54000,US$
+Mumbai,8205,Fancy Greenish Yellow,Cushion,VS2,0.7,,,4.76 x 4.67 x 3.32,,,-,,,,Cts,300,US$
+Mumbai,8199,Fancy Brownish Greenish Yellow,Emerald,VS1,0.7,,,5.74x3.99x2.91,,,-,,,,Cts,300,US$
+Mumbai,2477,Fancy Brown Pink,Heart,I2,0.7,VG,GD,5.41X6.22X3.55,57,51,STG,Blue,GIA,5202158082,Cts,6000,US$
+Mumbai,8752,Faint Pink,Round,I1,0.7,VG,EX,5.65 - 5.67 x 3.32,58.7,66,STG,,GIA,1403957505,Cts,2000,US$
+Bangkok,6571,,Pin,,0.7,,,6.15 x 3.90,,,,,Side Stone,,Cts,0,US$
+Mumbai,7274,Fancy Brownish Purplish Pink,Cushion,I1,0.7,EX,VG,5.06 x 4.51 x 3.31,73.3,56,None,,GIA,2225671205,Cts,2360,US$
+Mumbai,5721,Fancy Light Yellow,Pear,I1,0.7,EX,GD,6.72x4.97x2.90,58.4,62,Fnt,,GIA,1216998020,Cts,801,US$
+Mumbai,5407,Very Light Pink,Round,I1,0.7,G,F,5.52 X 5.61 X 3.53,63.5,54,Med,Blue,GIA,5212709529,Cts,2245,US$
+Bangkok,3321,N,Round,SI2,0.7,EX,VG,5.60 X 5.64 X 3.56,63.4,54,Fnt,,GIA,5356096190,Cts,2000,US$
+Bangkok,3603,Fancy Brown Orange,Other,VS1,0.7,,,9.04 x 3.92 x 2.40,0,0,None,,GIA,2181645954,Cts,0,US$
+Bangkok,6956,Light Greenish Yellow,Cushion,SI1,0.7,VG,GD,4.77 x 4.50 x 3.37,75,57,Med,Blue,GIA,1419261224,Cts,2800,US$
+Hong Kong,2211,Fancy Pink,Round,SI2,0.7,G,VG,5.86X5.80X3.36,57.6,63,STG,,GIA,1142304015,Cts,85000,US$
+Mumbai,6410,G,Emerald,,0.69,,,9.00 x 6.50,0,0,None,,,SV-39,Cts,73390,US$
+Mumbai,7684,Fancy Vivid Orange Yellow,Marquise,I1,0.69,VG,F,9.40 X 4.25 X 2.68,63.1,61,STG,Yellow,GIA,1485102498,Cts,4000,US$
+Bangkok,6586,,Bullet,,0.69,,,6.35 x 3.40,,,,,Side Stone,,Cts,0,US$
+Mumbai,6539,G,Bullet,,0.69,,,5.65X4.45X,0,0,None,,Side Stone,,Cts,1850,US$
+Bangkok,6565,,Cadillac,SI-VS,0.69,,,6.05 X 4.80,,,,,Side Stone,,Cts,0,US$
+Bangkok,6548,,Cadillac,,0.68,,,5.85 X 4.75,,,None,,Side Stone,,Cts,1850,US$
+Mumbai,6538,F,Bullet,,0.68,,,5.65X4.4X,0,0,None,,Side Stone,,Cts,1850,US$
+Mumbai,6860,G,Emerald,,0.68,,,,0,0,None,,,SV-72,Cts,61754,US$
+Hong Kong,4359,,Tappers,VS2,0.68,,,,0,0,None,,Side Stone,,Cts,1850,US$
+Bangkok,6294,G,Cadillac,,0.67,,,5.65 x 3.65,0,0,,,,,Cts,1850,US$
+Bangkok,6431,G,Round,,0.67,,,6.1,0,0,None,,,SV-3,Cts,36000,US$
+Mumbai,6411,G,Emerald,,0.67,,,8.40 x 6.30,0,0,None,,,SV-37,Cts,73390,US$
+Mumbai,6562,H,Shield,,0.67,,,6.05X3.25X,0,0,None,,Side Stone,,Cts,1850,US$
+Bangkok,6494,,Half Moon,,0.67,,,4.90 X 3.80,,,None,,Side Stone,,Cts,1850,US$
+Bangkok,6501,,Cadillac,,0.67,,,5.10 X 4.10,,,None,,Side Stone,,Cts,1850,US$
+Bangkok,6573,,Shield,,0.67,,,6.20 X 3.20,,,,,,,Cts,0,US$
+Bangkok,6487,,Half Moon,,0.66,,,4.70 X 3.65,,,None,,Side Stone,,Cts,1850,US$
+Bangkok,6578,,Bullet,,0.66,,,6.25 X 3.25,,,None,,Side Stone,,Cts,1850,US$
+Mumbai,6544,G,Shield,,0.66,,,5.75X4X,0,0,None,,Side Stone,,Cts,1850,US$
+Mumbai,8228,Fancy Light Brownish Yellow,Pear,VS2,0.66,,,7.07X4.24X2.64,,,-,,,,Cts,300,US$
+Bangkok,6555,,Shield,,0.66,,,5.95 x 3.40,,,,,Side Stone,,Cts,0,US$
+Bangkok,6503,,Cadillac,,0.66,,,5.10 x 4.30,,,,,Side Stone,,Cts,0,US$
+Mumbai,1545,Fancy Purplish Pink,Round,I2,0.66,VG,VG,5.60X5.56X3.48,62.3,56,Med,Blue,GIA,2216845538,Cts,30000,US$
+Bangkok,6056,Light Pink,Cushion,VS2,0.65,VG,GD,4.56X4.47X3.21,71.8,64,None,,GIA,7422984663,Cts,8800,US$
+Bangkok,6426,G,Round,,0.65,,,6.1,0,0,None,,,SV-42,Cts,36000,US$
+Mumbai,5232,Fancy Light Pink,Cushion,SI2,0.65,EX,GD,4.94X4.72X3.13,66.3,58,None,,GIA,2417205971,Cts,14500,US$
+Bangkok,6506,,Diamond,,0.65,,,5.15 X 4.5,,,None,,Side Stone,,Cts,0,US$
+Bangkok,6500,,Cadillac,,0.65,,,5.10 X 4.10,,,None,,Side Stone,,Cts,1850,US$
+Mumbai,6485,G,Shield,VS2,0.65,,,4.65X4.4X,0,0,None,,Side Stone,,Cts,1850,US$
+Mumbai,6509,G,Bullet,VS2,0.64,,,5.2X3.65X,0,0,None,,Side Stone,,Cts,1750,US$
+Bangkok,6491,,Half Moon,,0.64,,,4.85 X 3.70,,,None,,Side Stone,,Cts,1750,US$
+Mumbai,8207,Fancy Brownish Yellow,Pear,VS1,0.64,,,7.49X4.50X2.42,,,-,,,,Cts,300,US$
+Bangkok,6502,,Shield,,0.64,,,5.10 x 4.30,,,,,Side Stone,,Cts,0,US$
+Mumbai,6861,G,Emerald,,0.64,,,8.20 x 6.00,0,0,None,,,SV-71,Cts,60938,US$
+Mumbai,1931,Fancy Brownish Purplish Pink,Radiant,I1,0.63,G,GD,4.81 X 4.54 X 3.23,71.3,58,STG,Blue,GIA,5181883495,Cts,9000,US$
+Bangkok,6492,,Cadillac,,0.63,,,4.85 X 4.10,,,None,,Side Stone,,Cts,1750,US$
+Bangkok,6495,,Half Moon,,0.63,,,4.95 X 3.50,,,,,,,Cts,0,US$
+Hong Kong,6647,G,Round,VS1,0.63,EX,EX,5.46 x 5.49 x 3.41,62.3,59,None,,GIA,6401036802,Cts,3000,US$
+Hong Kong,6524,G,Bullet,SI2,0.62,,,5.4X4.8X,0,0,None,,Side Stone,,Cts,1750,US$
+Bangkok,6497,,Cadillac,,0.62,,,5.00 X 3.85,,,None,,Side Stone,,Cts,1750,US$
+Bangkok,6521,,Shield,,0.62,,,5.35 X 4.9,,,None,,Side Stone,,Cts,1750,US$
+Mumbai,6542,G,Shield,SI1,0.62,,,5.7X3.7X,0,0,None,,Side Stone,,Cts,1750,US$
+Bangkok,6564,G,Shield,SI2,0.62,,,6.05 X 4.30,,,None,,Side Stone,,Cts,1750,US$
+Mumbai,8226,Fancy Brownish Yellow,Pear,SI1,0.62,,,7.3X4.26X2.82,,,-,,,,Cts,300,US$
+Mumbai,6568,H,Bullet,,0.61,,,6.1X3.15X,0,0,None,,Side Stone,,Cts,1750,US$
+Bangkok,4915,Fancy Intense Blue,Marquise,VS1,0.61,VG,GD,9.97x4.36x2.08,47.7,63,None,,GIA,5202146244,Cts,222222,US$
+Bangkok,2372,Fancy Intense Purplish Pink,Oval,,0.61,,,6.33x4.58x3.27,0,0,None,,GIA,6204896303,Cts,55000,US$
+Mumbai,6346,Fancy Pinkish Brown,Cushion,SI1,0.61,G,GD,5.39 x 4.15 x 3.04,73.2,57,None,,GIA,2438421647,Cts,2000,US$
+Mumbai,6537,F,Bullet,SI1,0.61,,,5.6X4.25X,0,0,None,,Side Stone,,Cts,1750,US$
+Bangkok,6558,,Shield,,0.61,,,5.95 X 4.85,,,None,,Side Stone,,Cts,1750,US$
+Bangkok,6569,,Shield,,0.61,,,6.10 X 3.60,,,,,,,Cts,0,US$
+Bangkok,6567,,Bullet,,0.61,,,6.10 X  3.15,,,None,,Side Stone,,Cts,1750,US$
+Bangkok,5124,,Half Moon,,0.61,,,6.00 X 3.70,,,None,,Side Stone,,Cts,1750,US$
+Bangkok,6490,,Half Moon,,0.6,,,4.75 X 3.60,,,None,,Side Stone,,Cts,1750,US$
+Bangkok,6535,F,Bullet,SI1,0.6,,,5.55 X 4.70,,,None,,Side Stone,,Cts,1750,US$
+Mumbai,6078,U-V,Cushion,SI2,0.6,VG,VG,5.03 X 4.41 X 3.07,69.7,56,None,,GIA,2436915661,Cts,1000,US$
+Bangkok,6958,Very Light Green Yellow,Heart,SI1,0.6,VG,VG,5.29 x 5.79 x 3.32,57.3,57,Vst,Blue,GIA,2436654306,Cts,2800,US$
+Mumbai,6551,,Cadillac,SI2,0.6,,,5.9X3.45X,0,0,None,,Side Stone,,Cts,1750,US$
+Mumbai,6087,Fancy Intense Yellow,Pear,SI2,0.6,VG,GD,6.76 X 4.50 X 2.85,63.4,59,STG,Green,GIA,7432930028,Cts,1111,US$
+Mumbai,6577,G,Bullet,,0.6,,,6.25X3.1X,0,0,None,,Side Stone,,Cts,1750,US$
+Mumbai,6530,G,Shield,,0.6,,,5.5X3.2X,0,0,None,,Side Stone,,Cts,1750,US$
+Mumbai,8255,Fancy Brownish Greenish Yellow,Cushion,VS2,0.6,,,5.1X4.24X2.76,,,,,,,Cts,300,US$
+Mumbai,6527,E,Bullet,SI1,0.59,,,5.45X4.8X,0,0,None,,Side Stone,,Cts,1650,US$
+Mumbai,9129,Faint Pink,Round,SI1,0.59,EX,EX,5.43 - 5.45 x 3.29,60.5,55,None,,GIA,2517471258,Cts,1800,US$
+Bangkok,6543,,Kite Step Cut,,0.58,,,5.7 X 3.9,,,None,,Side Stone,,Cts,0,US$
+Mumbai,6268,E,Radiant,IF,0.58,EX,VG,5.39 x 4.06 x 2.89,71.2,64,None,,GIA,7428539865,Cts,1547,US$
+Bangkok,6493,,Half Moon,,0.58,,,4.9X3.45X,0,0,None,,Side Stone,,Cts,1650,US$
+Mumbai,1755,Light Pink,Heart,,0.58,,,5.12 x 5.66 x 3.10,0,0,None,,GIA,6202411411,Cts,8000,US$
+Bangkok,648,Light Pink,Heart,I1,0.58,VG,GD,4.81X6.19X3.15,50.9,62,STG,Blue,GIA,1213803521,Cts,5000,US$
+Mumbai,1584,Fancy Purple Pink,Radiant,I2,0.57,VG,GD,4.69X4.03X3.30,81.9,64,None,,GIA,6183335760,Cts,15500,US$
+Mumbai,6504,G,Bullet,SI1,0.57,,,5.15X4.35X,0,0,None,,Side Stone,,Cts,1650,US$
+Bangkok,5134,G,Shield,SI1,0.57,,,5.40 x 4.00,0,0,,,,,Cts,1650,US$
+Bangkok,6507,E,Bullet,SI1,0.56,,,5.15 X 4.70,,,None,,Side Stone,,Cts,1650,US$
+Mumbai,6331,G,Other,VVS2,0.56,EX,VG,4.80 X 4.78 X 3.44,72.1,61,None,,GIA,7258147302,Cts,3600,US$
+Bangkok,7126,Light Pink,Cushion,SI2,0.56,VG,GD,4.48X4.48X3.1,69.5,55,Fnt,,GIA,7436108414,Cts,5000,US$
+Bangkok,4969,Fancy Yellowish Green,Radiant,SI1,0.56,VG,GD,5.30 x 3.97 x 2.82,71.1,65,None,,GIA,7418109369,Cts,800,US$
+Bangkok,4971,Fancy Light Yellowish Green,Radiant,SI1,0.56,VG,GD,5.63 x 3.84 x 2.70,70.2,62,None,,GIA,6412109012,Cts,800,US$
+Hong Kong,7208,Faint Pinkish Brown,Pear,VS2,0.56,VG,VG,7.02 x 4.25 x 2.66,62.6,56,None,,GIA,2221683085,Cts,2505,US$
+Mumbai,8243,Fancy Light Brown,Emerald,SI1,0.55,,,5.67X3.64X2.32,,,,,,,Cts,300,US$
+Mumbai,7314,Fancy Pink,Radiant,I2,0.55,G,GD,5.05 X 4.07 X 2.94,72.2,75,Fnt,,GIA,2464301310,Cts,12500,US$
+Mumbai,4074,,Trapezoid,,0.55,,,5.20X4.10,0,0,None,,Side Stone,,Cts,1650,US$
+Bangkok,6529,I,Half Moon,,0.55,,,5.50 X 3.05,,,None,,Side Stone,,Cts,1650,US$
+Bangkok,6518,,Shield,,0.55,,,5.35 X 3.1,,,None,,Side Stone,,Cts,1650,US$
+Mumbai,6086,Very Light Brown,Cushion,I1,0.55,VG,GD,4.70 X 4.54 X 2.93,64.5,59,None,,GIA,7438915793,Cts,1000,US$
+Mumbai,1801,Fancy Light Gray Blue,Cut cornered square,I1,0.55,G,GD,4.84X4.81X3.09,64.2,60,None,,GIA,1186645924,Cts,20000,US$
+Mumbai,719,Fancy Vivid Orangy Yellow,Emerald,SI1,0.55,VG,GD,4.87X4.30X3.31,77,46,None,,GIA,7201727340,Cts,6000,US$
+Bangkok,6589,F,Shield,,0.54,,,6.50 X 3.70,,,None,,Side Stone,,Cts,0,US$
+Bangkok,6484,,Half Moon,,0.54,,,4.50 X 3.50,,,None,,Side Stone,,Cts,1600,US$
+Hong Kong,445,Fancy Light Grayish Yellowish Green,Radiant,VVS2,0.54,VG,GD,4.94X4.88X2.82,57.8,69,None,,GIA,6205047594,Cts,2000,US$
+Mumbai,4204,Fancy Intense Yellow,Oval,SI2,0.53,VG,GD,5.82*4.28*2.81,65.6,57,Fnt,,GIA,6362905210,Cts,1250,US$
+Mumbai,2054,Very Light Pink,Other,SI1,0.53,,,4.99x5.03x3.37,0,0,None,,CGL,h8558063,Cts,5000,US$
+Mumbai,8239,Fancy Light Greenish Yellow,Emerald,SI1,0.53,,,4.21X4.79X2.52,,,,,,,Cts,300,US$
+Mumbai,5237,Fancy Light Orangy Pink,Radiant,SI2,0.53,EX,GD,5.10 x 3.77 x 2.79,74.1,61,STG,Blue,GIA,7402095697,Cts,11111,US$
+Mumbai,6863,G,Emerald,,0.53,,,7.20 x 5.40,0,0,None,,,SV-69,Cts,56840,US$
+Bangkok,652,Light Pink,Cut cornered square,SI2,0.53,VG,GD,4.69 x 4.68 x 2.86,,79,STG,,GIA,6222640888,Cts,6000,US$
+Mumbai,6271,E,Radiant,IF,0.53,EX,VG,5.10 x 4.08 x 2.90,71,71,None,,GIA,1425776393,Cts,1568,US$
+Mumbai,6550,G,Bullet,SI2,0.53,,,5.9X3.05X,0,0,None,,Side Stone,,Cts,1600,US$
+Bangkok,6525,,Half Moon,,0.52,,,5.45 X 2.95,,,None,,Side Stone,,Cts,1600,US$
+Mumbai,3347,Fancy Deep Brownish Yellow,Heart,I2,0.52,EX,GD,4.84X5.20X2.87,55.1,56,Med,Yellow,GIA,5202564657,Cts,500,US$
+Mumbai,8201,Fancy Brownish Yellow,Emerald,VS2,0.52,,,5.29x3.78x2.41,,,-,,,,Cts,300,US$
+Hong Kong,7207,Very Light Pinkish Brown,Pear,VS2,0.52,G,GD,7.01 x 4.39 x 2.49,56.7,57,None,,GIA,1419949035,Cts,2550,US$
+Bangkok,4712,Light Blue,Pear,SI2,0.52,G,VG,6.81X4.11X2.54,61.7,59,Med,Blue,GIA,7386007168,Cts,4500,US$
+Mumbai,2965,Light Pinkish Brown,Pear,SI1,0.52,,,5.63*4.21*2.87,0,0,None,,CGL,H8423494,Cts,0,US$
+Bangkok,6343,Faint Pink,Round,SI2,0.52,EX,EX,5.22 X 5.23 X 3.14,60.1,60,Med,Yellow,GIA,1405283346,Cts,2450,US$
+Mumbai,4544,Fancy Brownish Orangy Pink,Radiant,VS2,0.52,EX,VG,4.58*4.15*2.86,68.8,60,Fnt,,GIA,6381418989,Cts,8888,US$
+Mumbai,5231,Faint Gray,Round,SI1,0.52,EX,EX,5.10X5.12X3.22,63.1,56,None,,GIA,7396728359,Cts,1200,US$
+Mumbai,2009,Fancy Orangy Pink,Pear,I2,0.52,VG,GD,6.72X4.57X2.37,51.8,56,Med,Blue,GIA,6242912034,Cts,2400,US$
+Hong Kong,6687,Fancy Grayish Greenish Yellow,Cushion,SI2,0.52,VG,GD,4.53 X 4.42 X 2.91,65.8,58,Med,Blue,GIA,7306878542,Cts,1111,US$
+Mumbai,6436,G,Pear,,0.52,,,9.10 X 4.70,0,0,None,,,SV-6,Cts,36000,US$
+Mumbai,7111,Fancy Vivid Yellow Orange,Cushion,I1,0.51,EX,GD,4.36 X 4.32 X 3.01,69.8,61,STG,Yellow,GIA,7356892891,Cts,8888,US$
+Mumbai,2522,Fancy Purplish Pink,Radiant,I2,0.51,G,GD,4.98 x 4.49 x 2.69,60,64,None,Blue,GIA,2476076279,Cts,13000,US$
+Bangkok,5140,,Shield,,0.51,,,5.20X4.00,0,0,None,,Side Stone,,Cts,1600,US$
+Mumbai,4322,Fancy Intense Yellow,Oval,SI2,0.51,VG,GD,5.70*4.29*2.75,64,65,None,,GIA,6214389230,Cts,1250,US$
+Mumbai,6179,Fancy Yellow,Cushion,SI2,0.51,VG,GD,4.52 X 4.11 X 2.89,70.2,58,Fnt,,GIA,6224378963,Cts,1200,US$
+Bangkok,6106,Light Pink,Cushion,VS2,0.51,VG,VG,4.77x4.73x2.74,57.8,61,None,,GIA,6431111626,Cts,7200,US$
+Bangkok,5607,Light Pink,Pear,SI1,0.51,VG,GD,4.31X 6.07X 2.69,62.3,55,None,,GIA,6422421678,Cts,5500,US$
+Bangkok,6055,Light Pink,Cushion,VS2,0.51,VG,VG,4.19x4.00x2.94,73.4,67,None,,GIA,6421984597,Cts,8000,US$
+Bangkok,5439,Light Blue,Pear,SI2,0.51,VG,F,6.74X 4.65X 2.45,52.6,58,Med,Blue,GIA,1389647695,Cts,4700,US$
+Mumbai,8200,Fancy Brownish Yellow,Emerald,VS2,0.51,,,4.98 x 3.66 x 2.36,,,-,,,,Cts,300,US$
+Mumbai,1067,Fancy Light Pink,Oval,SI2,0.51,G,GD,5.90X4.41X2.54,57.7,60,Fnt,,GIA,2226812980,Cts,15000,US$
+Mumbai,8232,Fancy Greenish Yellow,Oval,SI1,0.51,,,6.48X4.3X2.41,,,,,,,Cts,300,US$
+Mumbai,8216,Fancy Pink Brown,Pear,SI1,0.51,,,6.58X3.94X2.38,,,-,,,,Cts,300,US$
+Mumbai,8210,Fancy Brownish Yellow,Pear,SI1,0.51,,,6.56X4.01X2.47,,,-,,,,Cts,300,US$
+Mumbai,7055,Fancy Intense Orange Yellow,Pear,SI2,0.51,G,GD,6.08 x 4.00 x 2.78,69.4,52,Med,Yellow,GIA,5266991793,Cts,3600,US$
+Bangkok,6483,,Half Moon,,0.51,,,4.50 X 3.50,,,None,,Side Stone,,Cts,1600,US$
+Mumbai,8967,Fancy Light Green,Heart,SI1,0.51,VG,GD,5.44 x 5.75 x 2.51,43.7,58,STG,,GIA,6405798889,Cts,5500,US$
+Bangkok,179,Fancy Purple Pink,Cushion,SI2,0.51,VG,GD,4.80X4.34X2.75,63.4,67,None,,GIA,6175122594,Cts,18000,US$
+Bangkok,8335,Fancy Purple Pink,Cushion,SI2,0.5,EX,VG,4.79 x 4.09 x 2.82,68.8,57,Fnt,,GIA,5466594460,Cts,22500,US$
+Mumbai,8244,U-V,Emerald,VS1,0.5,,,5.21X3.47X2.62,,,,,,,Cts,300,US$
+Bangkok,5410,Light Pink,Cushion,SI2,0.5,EX,VG,4.48 x 4.23 x 2.92,,60,None,,GIA,6227147666,Cts,5500,US$
+Mumbai,2012,Fancy Brown Pink,Cut cornered square,I2,0.5,EX,GD,4.15X4.07X3.27,80.3,63,Fnt,,GIA,2247912743,Cts,2250,US$
+Mumbai,8217,Fancy Greenish Yellow,Pear,VS2,0.5,,,6.53X4.01X2.44,,,-,,,,Cts,300,US$
+Mumbai,2013,Fancy Brown Pink,Heart,SI2,0.5,VG,VG,4.49X5.37X2.72,50.7,60,Med,Blue,GIA,6252059987,Cts,2800,US$
+Mumbai,8221,Fancy Brownish Greenish Yellow,Pear,SI1,0.5,,,6.12X3.89X2.51,,,-,,,,Cts,300,US$
+Mumbai,8240,Fancy Light Brownish Yellow,Emerald,VS2,0.5,,,5.09X3.51X2.59,,,,,,,Cts,300,US$
+Mumbai,8247,Fancy Dark Brownish Yellow,Emerald,SI2,0.5,,,4.05X4.41X2.96,,,,,,,Cts,300,US$
+Mumbai,8253,Fancy Brownish Greenish Yellow,Cushion,VS2,0.5,,,4.77X3.94X2.52,,,,,,,Cts,300,US$
+Mumbai,8250,Fancy Light Greenish Yellow,Emerald,SI1,0.5,,,4.02X4.36X2.69,,,,,,,Cts,300,US$
+Mumbai,7423,Fancy Light Purplish Pink,Oval,SI2,0.5,VG,GD,5.96 X 4.33 X 2.47,57,63,None,,GIA,2235099174,Cts,15000,US$
+Mumbai,8197,Fancy Brown Pink,Marquise,SI1,0.5,,,7.78 x 3.65 x 2.10,,,-,,,,Cts,300,US$
+Mumbai,8203,Fancy Yellow,Cushion,VS2,0.5,,,4.35 x 3.97 x 2.80,,,-,,,,Cts,300,US$
+Mumbai,8184,Fancy Brownish Greenish Yellow,Oval,SI1,0.5,,,5.93 x 4.29 x 2.31,,,-,,,,Cts,300,US$
+Mumbai,8198,Fancy Light Brownish Yellow,Emerald,SI1,0.5,,,5.55 x 3.66 x 2.10,,,-,,,,Cts,300,US$
+Bangkok,5438,Very Light Blue,Pear,SI2,0.5,VG,VG,6.60X 4.50X 2.38,52.9,63,STG,Blue,GIA,7382412567,Cts,4700,US$
+Bangkok,6113,Light Pinkish Brown,Oval,VS2,0.5,EX,VG,5.27 X 3.98. X 2.87,72.1,61,None,,GIA,1423902824,Cts,3000,US$
+Bangkok,5541,Light Pinkish Brown,Radiant,VS2,0.5,EX,VG,4.26 x 4.22 x 2.97,70.4,63,None,,GIA,7418114453,Cts,3100,US$
+Bangkok,6336,Very Light Pink,Pear,I1,0.5,G,F,6.41 X 4.40 X 2.61,59.4,69,None,,GIA,1425919328,Cts,2627,US$
+Bangkok,6342,Faint Pink,Round,I1,0.5,EX,VG,5.02 X 5.05 X 3.17,63.1,57,None,,GIA,7371309667,Cts,1800,US$
+Bangkok,7101,Light Pink,Radiant,SI1,0.5,VG,GD,4.61 x 4.43 x 2.88,65,54,None,,GIA,7431767878,Cts,6900,US$
+Mumbai,7269,Very Light Pink,Pear,VS1,0.5,EX,VG,6.73 x 4.46 x 2.78,62.4,62,None,,GIA,6465832305,Cts,5800,US$
+Mumbai,7108,Fancy Vivid Yellow Orange,Cushion,I1,0.5,VG,GD,4.98 X 3.81 X 2.94,77.1,56,Med,Yellow,GIA,1449627965,Cts,10000,US$
+Mumbai,5032,Fancy Yellow,Oval,I1,0.5,G,GD,5.85*4.42*2.76,62.4,63,Fnt,,GIA,2225010891,Cts,650,US$
+Mumbai,1360,Fancy Intense Orangy Yellow,Marquise,,0.5,,,7.31 x 4.13 x 2.62,0,0,None,,GIA,2247860830,Cts,5500,US$
+Mumbai,7798,Faint Pinkish Brown,Heart,SI2,0.5,EX,VG,4.93X5.41X3.07,56.7,61,None,,GIA,6472725218,Cts,1700,US$
+Mumbai,7680,Faint Pinkish Brown,Princess,VS2,0.5,EX,EX,4.36X4.24X3.12,73.6,74,None,,GIA,1479298707,Cts,2500,US$
+Mumbai,6290,,Half Moon,,0.5,,,6.00 x 3.00,0,0,None,,Side Stone,,Cts,1600,US$
+Mumbai,1049,Faint Green,Round,,0.49,,,5.08x5.15x3.08,0,0,None,,GIA,6225812985,Cts,2000,US$
+Hong Kong,5131,,Cadillac,,0.49,,,4.70x3.70,0,0,None,,Side Stone,,Cts,1450,US$
+Mumbai,7100,Fancy Dark Gray Yellowish Green,Cushion,I1,0.49,G,GD,4.62 x 4.57 x 2.65,58.1,68,STG,White,GIA,6452848583,Cts,2007,US$
+Mumbai,4973,Fancy Brown Pink,Pear,SI1,0.49,G,F,7.46X4.84X1.60,33,56,None,,GIA,6412108660,Cts,2000,US$
+Mumbai,8698,Fancy Light Yellow Green,Radiant,SI2,0.48,VG,GD,4.36x4.34x2.86,65.9,67,Vst,Green,GIA,1549113465,Cts,4000,US$
+Mumbai,6496,G,Shield,,0.48,,,5X3.35X,0,0,None,,Side Stone,,Cts,1450,US$
+Mumbai,1381,Fancy Vivid Yellow,Cushion,SI1,0.48,EX,VG,5.04X4.24X2.75,64.9,62,None,,GIA,2165787719,Cts,4500,US$
+Bangkok,4730,Fancy Light Greenish Blue,Pear,SI1,0.48,G,GD,5.9X4.33X2.56,59.3,57,None,,GIA,6385282177,Cts,4500,US$
+Mumbai,2963,Light Yellowish Gray,Heart,SI2,0.47,,,4.46*5.07*2.87,0,0,None,,CGL,H8979629,Cts,0,US$
+Bangkok,1348,Fancy Light Gray,Radiant,I2,0.46,G,GD,4.61*4.48*2.85,63.5,65,None,,GIA,1186645948,Cts,2200,US$
+Mumbai,7107,Fancy Vivid Yellow Orange,Cushion,SI2,0.46,VG,VG,4.85 X 3.75 X 2.72,72.4,58,None,,GIA,7451673112,Cts,8888,US$
+Mumbai,5537,Fancy Brownish Pink,Radiant,SI2,0.46,EX,GD,4.04 x 4.01 x 2.99,74.6,69,None,,GIA,6412114481,Cts,3600,US$
+Hong Kong,5168,,Cadillac,,0.46,,,4.30X3.60,0,0,None,,Side Stone,,Cts,1450,US$
+Mumbai,7794,Faint Pink,Round,VS2,0.46,EX,EX,5.02 x 5.03 X 2.98,59.2,60,None,,GIA,2474104486,Cts,1900,US$
+Bangkok,4970,Fancy Yellow Green,Pear,I1,0.46,G,VG,6.26 x 3.88 x 2.45,63.2,64,None,,GIA,3415109808,Cts,800,US$
+Bangkok,5723,Fancy Yellow,Cushion,SI1,0.46,EX,GD,4.38x4.02x2.84,70.8,55,Fnt,,GIA,2225385867,Cts,1000,US$
+Mumbai,99,Fancy Light Purplish Pink,Round,,0.46,,,4.94 X 4.99 X 3.02,0,0,None,,GIA,2146336531,Cts,18000,US$
+Bangkok,5647,G,Cadillac,VS1,0.46,,,XX,0,0,None,,Side Stone,,Cts,1450,US$
+Mumbai,4087,G,Baguettes,VS1,0.46,,,,0,0,None,,Side Stone,,Cts,1800,US$
+Hong Kong,2309,W-X,Round,SI2,0.46,G,GD,4.97X4.91X3.09,62.5,57,Fnt,,GIA,7252306380,Cts,1500,US$
+Bangkok,5128,,Bullet,,0.45,,,5.10 x 3.60,,,None,,Side Stone,,Cts,1450,US$
+Mumbai,9259,Faint Pink,Round,I1,0.45,EX,EX,4.93 - 4.95 x 2.99,60.5,61,None,,GIA,3415229095,Cts,1000,US$
+Mumbai,9258,Faint Pink,Round,SI2,0.45,EX,EX,4.87 - 4.90 x 3.00,61.4,60,None,,GIA,7528827226,Cts,1500,US$
+Mumbai,4161,Fancy Intense Yellow,Pear,SI1,0.45,G,GD,6.97*4.38*1.97,45.1,63,None,,GIA,7366295674,Cts,1800,US$
+Hong Kong,5130,,Cadillac,,0.45,,,4.50x3.70,0,0,None,,Side Stone,,Cts,1450,US$
+Mumbai,4073,,Trapezoid,,0.45,,,5.00X3.15,0,0,None,,Side Stone,,Cts,1450,US$
+Mumbai,7112,Fancy Vivid Yellow Orange,Cushion,I1,0.45,EX,GD,4.57 X 3.94 X 2.90,73.6,50,Med,Yellow,GIA,7311653900,Cts,8888,US$
+Mumbai,4657,Fancy Light Purplish Pink,Cushion,I1,0.45,EX,VG,4.75*3.99*2.65,66.4,63,None,,GIA,2166058983,Cts,5400,US$
+Bangkok,5136,,Shield,SI1,0.44,,,5.00 x 3.70,0,0,None,,Side Stone,,Cts,1400,US$
+Mumbai,5760,Fancy Deep Purplish Pink,Pear,I1,0.44,,,6.81 X 3.99,,,Med,,AGT,5296452,Cts,15000,US$
+Mumbai,7683,Fancy Intense Orangy Yellow,Marquise,I1,0.44,VG,F,6.82 x 3.88 x 2.44,62.9,63,STG,Yellow,GIA,6485102524,Cts,2800,US$
+Mumbai,8741,Fancy Grayish Yellowish Green,Round,SI1,0.44,G,GD,4.91 - 4.93 X 2.97,60.3,59,None,,GIA,1537094331,Cts,1800,US$
+Bangkok,1055,F,Round,VVS2,0.44,VG,VG,4.89X4.85X3.04,62.4,58,Fnt,,GIA,7222746653,Cts,2000,US$
+Mumbai,4511,Fancy Light Pinkish Purple,Cushion,SI2,0.43,VG,VG,4.22*4.11*2.81,68.5,58,None,,GIA,2201202159,Cts,7500,US$
+Hong Kong,5167,,Cadillac,,0.43,,,4.50X3.60,0,0,None,,Side Stone,,Cts,1400,US$
+Mumbai,5757,Fancy Pinkish Purple,Heart,,0.43,,,4.85 X 5.06 X 2.74,0,0,None,,GIA,2141015406,Cts,7200,US$
+Bangkok,5659,,Cadillac,VS1,0.43,,,XX,0,0,None,,Side Stone,,Cts,1400,US$
+Mumbai,5033,Fancy Intense Yellow,Oval,SI1,0.43,VG,F,5.41*4.08*2.53,62.1,65,Fnt,,GIA,5211961591,Cts,1500,US$
+Mumbai,4656,Fancy Light Orangy Pink,Cushion,SI1,0.43,VG,GD,4.29.4.09*2.66,65,55,None,,GIA,1159255974,Cts,7200,US$
+Mumbai,4309,Fancy Vivid Yellow,Oval,VS1,0.43,G,GD,4.96*3.88*2.72,70.2,61,None,,GIA,7221361083,Cts,3000,US$
+Mumbai,2238,Fancy Pink Purple,Cushion,I2,0.43,EX,GD,4.49X3.98X2.73,68.7,62,Med,Blue,GIA,5223802811,Cts,8000,US$
+Mumbai,6174,Fancy Intense Yellow,Oval,VS1,0.43,EX,GD,5.29 X 3.96 X 2.60,65.6,59,None,,GIA,5222385852,Cts,1700,US$
+Mumbai,6181,Fancy Yellow,Cushion,SI2,0.42,EX,VG,4.83 X 3.63 X 2.50,68.9,55,None,,GIA,6227385850,Cts,1200,US$
+Bangkok,5160,Light Pink,Cushion,I2,0.42,VG,GD,4.42X4.13X2.67,64.7,61,Med,Blue,GIA,7403829307,Cts,2700,US$
+Bangkok,7129,Very Light Pink,Pear,I1,0.42,VG,GD,6.45X3.94X2.6,65.3,57,None,,GIA,6432108539,Cts,2600,US$
+Mumbai,118,Fancy Intense Purple Pink,Radiant,I2,0.42,VG,GD,4.19X3.80X2.75,72.3,69,Fnt,,GIA,2206513118,Cts,20000,US$
+Hong Kong,330,Fancy Pink Purple,Marquise,SI2,0.42,G,GD,6.73X3.62X2.62,72.4,57,Med,,GIA,6182519087,Cts,23000,US$
+Mumbai,2109,Fancy Light Gray Blue,Round,SI2,0.42,G,GD,4.80X4.72X2.95,62,64,None,,GIA,2277603539,Cts,30000,US$
+Mumbai,8249,Fancy Light Greenish Yellow,Emerald,VS2,0.42,,,5.07X3.25X2.24,,,,,,,Cts,300,US$
+Bangkok,6034,Light Pink Brown,Oval,SI2,0.42,VG,VG,5.28 X 3.88 X 2.57,66.3,59,Fnt,,GIA,1438899323,Cts,2700,US$
+Bangkok,2975,Fancy Intense Pink,Oval,I1,0.42,,,6.19X4.10X2.46,,,None,,AGT,5271609,Cts,45000,US$
+Hong Kong,9498,Fancy Intense Pink,Radiant,,0.42,,,4.15 x 4.01 x 2.69,,,,,GIA,17794056,Cts,0,US$
+Mumbai,6629,F,Radiant,IF,0.41,EX,VG,5.05 x 3.72 x 2.63,70.5,71,None,,GIA,7432371827,Cts,1200,US$
+Bangkok,4139,Light Pink,Cushion,SI2,0.41,VG,GD,4.25 X 4.25 X 2.58,,60,None,,GIA,2367538011,Cts,4500,US$
+Mumbai,8248,Fancy Dark Brown,Emerald,VS2,0.41,,,5.1X3.04X2.3,,,,,,,Cts,300,US$
+Mumbai,2340,Fancy Light Bluish Green,Round,VVS2,0.41,VG,VG,4.79X4.75X2.91,61,61,None,,GIA,1112484992,Cts,16500,US$
+Mumbai,7235,Fancy Pinkish Purple,Cushion,VVS2,0.41,VG,GD,4.39 x 4.35 x 2.63,60.5,61,None,,GIA,3465731234,Cts,25000,US$
+Mumbai,1896,Fancy Intense Yellow,Cushion,SI1,0.41,EX,GD,4.59X3.93X2.62,66.6,61,Fnt,,GIA,1186852021,Cts,1350,US$
+Mumbai,7679,Faint Pink,Pear,VS2,0.41,VG,VG,6.84X4.05X2.4,59.4,60,None,,GIA,1463036697,Cts,3900,US$
+Bangkok,6454,,Star,,0.41,,,8.2,0,0,None,,Side Stone,SV-28,Cts,0,US$
+Mumbai,80,Fancy Blue Gray,Radiant,SI1,0.41,G,F,4.14X3.92X3.17,80.8,60,None,,GIA,5213935730,Cts,20000,US$
+Bangkok,7130,Light Pink,Pear,I1,0.41,G,GD,6.06X3.85X2.4,63.4,59,Fnt,,GIA,2437016807,Cts,3006,US$
+Bangkok,6387,Light Pink,Pear,VS2,0.41,VG,GD,6.04 x 3.87 x 2.49,64.2,55,None,,GIA,6224646652,Cts,4000,US$
+Bangkok,6315,Light Pink,Cushion,I1,0.41,VG,VG,4.55 x 3.78 x 2.57,68.1,56,None,,GIA,5222571093,Cts,6000,US$
+Mumbai,5408,Fancy Light Pinkish Purple,Pear,VS2,0.41,G,GD,5.96 X 3.63 X 2.59,71.3,62,Fnt,,GIA,2223147734,Cts,13500,US$
+Mumbai,5733,Fancy Yellow,Radiant,I1,0.41,VG,VG,4.07x3.90x2.69,69.1,62,Med,Blue,GIA,2225372788,Cts,900,US$
+Mumbai,7110,Fancy Vivid Yellow Orange,Cushion,SI2,0.41,VG,VG,4.37 X 3.81 X 2.65,69.6,59,Med,Yellow,GIA,7416021656,Cts,8888,US$
+Mumbai,7116,Fancy Light Purplish Pink,Cushion,SI2,0.4,G,F,4.14 X 3.99 X 2.72,68.3,56,Med,Blue,GIA,2286076497,Cts,8888,US$
+Bangkok,6075,Fancy Brownish Greenish Yellow,Oval,SI2,0.4,VG,GD,5.35 X 3.91 X 2.45,62.7,54,Med,Yellow,GIA,6432914320,Cts,1000,US$
+Mumbai,6862,G,Emerald,,0.4,,,7.00 x 5.20,0,0,None,,,SV-70,Cts,50715,US$
+Bangkok,5644,,Shield,VS1,0.4,,,XX,0,0,None,,Side Stone,,Cts,1400,US$
+Hong Kong,5132,,Cadillac,,0.4,,,4.10x3.40,0,0,None,,Side Stone,,Cts,1400,US$
+Mumbai,4072,,Trapezoid,,0.4,,,4.6X3.15,0,0,None,,Side Stone,,Cts,1400,US$
+Mumbai,8211,Fancy Pink Brown,Pear,SI1,0.4,,,6.11X3.73X2.22,,,-,,,,Cts,300,US$
+Mumbai,7722,Fancy Pink Purple,Radiant,VS1,0.4,EX,VG,4.62 X 3.64 X 2.44,67.1,57,None,,GIA,1477946336,Cts,18500,US$
+Mumbai,8245,Fancy Greenish Yellow,Emerald,SI1,0.4,,,5.3X3.09X2.25,,,,,,,Cts,300,US$
+Mumbai,8227,Fancy Brownish Yellow,Pear,VS2,0.4,,,6.30 x 6.30 x 2.21,,,-,,,,Cts,300,US$
+Bangkok,6401,Light Pink,Cushion,I1,0.4,VG,VG,4.44 x 3.83 x 2.59,67.4,61,Fnt,,GIA,6223630569,Cts,6000,US$
+Mumbai,8923,F,Pear,VS2,0.4,VG,F,6.53 x 4.01 x 2.48,62,61,None,,GIA,1537306656,Cts,950,US$
+Mumbai,9368,F,Pear,VVS2,0.4,EX,VG,6.49 x 4.06 x 2.60,64.1,62,None,,GIA,1549970870,Cts,1100,US$
+Bangkok,5742,I,Radiant,VVS1,0.4,,,4.36 x 3.63 x 2.72,,66,,,,,Cts,0,US$
+Bangkok,3771,O-P,Round,SI2,0.4,EX,VG,4.7*4.74*2.96,62.6,54,Fnt,,GIA,6351834536,Cts,850,US$
+Bangkok,6058,Fancy Light Pink,Cushion,SI2,0.4,VG,VG,4.28 X 3.88 X 2.65,68.2,60,None,,GIA,5221453636,Cts,9900,US$
+Bangkok,6272,Fancy Light Pink,Cushion,SI2,0.4,G,F,4.29 X 3.87 X 2.44,63.1,62,None,,GIA,6391792332,Cts,8888,US$
+Mumbai,6175,E,Emerald,VVS1,0.4,G,GD,4.54 X 3.62 X 2.78,76.8,70,None,,GIA,2223259704,Cts,1145,US$
+Bangkok,5415,Fancy Light Bluish Green,Cushion,VVS1,0.4,G,GD,4.23X 3.94X 2.62,66.6,59,Fnt,,GIA,5373143849,Cts,4700,US$
+Mumbai,9374,Fancy Pink,Pear,VVS1,0.4,EX,VG,5.73 X 3.98 X 2.48,62.3,61,None,,GIA,2496137930,Cts,18000,US$
+Mumbai,9216,Faint Pink,Round,VS2,0.4,EX,VG,4.50 - 4.54 X 2.97,65.8,57,None,,GIA,7361268228,Cts,2000,US$
+Mumbai,5637,G,Trapezoid,VS1,0.39,,,XX,0,0,None,,Side Stone,,Cts,1300,US$
+Mumbai,258,Fancy Intense Orange Yellow,Cushion,I1,0.39,G,GD,5.45X3.97X2.29,57.8,61,STG,Yellow,GIA,2236508306,Cts,3500,US$
+Mumbai,6182,Fancy Intense Yellow,Cushion,SI1,0.39,VG,VG,4.16 X 3.89 X 2.69,69.1,55,None,,GIA,2221385848,Cts,1800,US$
+Bangkok,213,Fancy Light Purplish Pink,Other,SI2,0.38,,,XX,0,0,None,,CGL,7606498,Cts,25000,US$
+Mumbai,8225,Fancy Greenish Yellow,Pear,I2,0.38,,,5.7X3.92X2.53,,,-,,,,Cts,300,US$
+Bangkok,6511,,Half Moon,,0.38,,,5.25 X 2.65,,,None,,Side Stone,,Cts,1300,US$
+Mumbai,8236,Fancy Dark Brown Greenish Yellow,Emerald,VS1,0.37,,,5.41X3.16X1.81,,,,,,,Cts,300,US$
+Mumbai,1398,Fancy Purplish Pink,Round,I1,0.37,G,F,4.64X4.56X2.90,63,59,Med,Blue,GIA,2257315448,Cts,15500,US$
+Mumbai,149,Fancy Light Purplish Pink,Oval,SI2,0.37,G,GD,4.93X3.42X2.74,80.1,60,Med,Blue,GIA,2186682245,Cts,7500,US$
+Mumbai,1325,Fancy Deep Pink,Pear,I1,0.37,,,5.54x3.79x2.47,0,0,Fnt,,CGL,h8059183,Cts,25000,US$
+Mumbai,5756,Fancy Light Orangy Pink,Marquise,VS2,0.37,VG,VG,7.41 X 3.64 X 2.29,62.9,58,None,,GIA,1189848656,Cts,6000,US$
+Bangkok,4559,,Kite Step Cut,,0.37,,,5.5*3.5,0,0,None,,Side Stone,,Cts,0,US$
+Hong Kong,4666,,Trapezoid,,0.37,,,,0,0,None,,Side Stone,,Cts,1300,US$
+Hong Kong,5737,Fancy Light Pink Brown,Pear,SI2,0.37,G,F,6.20X4.22X2.20,52,62,None,,GIA,5423278693,Cts,3100,US$
+Mumbai,6455,,Star,,0.37,,,8.2,0,0,None,,Side Stone,SV-31,Cts,0,US$
+Mumbai,7686,Fancy Intense Orange Yellow,Marquise,VS2,0.36,G,F,5.86 X 3.64 X 2.43,66.9,60,None,,GIA,6482102508,Cts,3000,US$
+Mumbai,7799,Faint Pinkish Brown,Heart,VS2,0.35,EX,VG,4.18 X 4.87 X 2.90,59.4,60,None,,GIA,5473815238,Cts,2000,US$
+Mumbai,2052,Light Purplish Pink,Other,I1,0.35,,,4.31x4.36x2.80,0,0,None,,CGL,h8365158,Cts,2500,US$
+Mumbai,3442,Fancy Vivid Purplish Pink,Pear,,0.35,,,5.95 x 3.79 x 2.38,,,None,,GIA,6165264349,Cts,100000,US$
+Mumbai,8832,Faint Pinkish Brown,Round,SI1,0.35,VG,EX,4.58 - 4.60 x 2.83,61.7,55,Fnt,,GIA,2408565969,Cts,800,US$
+Bangkok,5608,Fancy Purple Pink,Cushion,VS2,0.35,VG,GD,4.85 x 3.39 x 2.28,67.2,63,None,,GIA,5413949070,Cts,14000,US$
+Hong Kong,2308,U-V,Round,VS1,0.35,VG,VG,4.45X4.40X2.83,63.8,64,Fnt,,GIA,6251306396,Cts,1500,US$
+Mumbai,8251,O-P,Cushion,I1,0.35,,,3.9X3.48X2.58,,,,,,,Cts,300,US$
+Mumbai,6012,H,Oval,VS1,0.34,G,GD,4.74 x 3.74 x 2.42,64.6,53,None,,GIA,1435779175,Cts,990,US$
+Bangkok,6073,Fancy Light Pinkish Brown,Pear,SI2,0.34,EX,VG,6.20 X 3.67 X 2.27,61.7,54,None,,GIA,5433915211,Cts,2500,US$
+Mumbai,7797,Faint Pink,Heart,VVS2,0.34,EX,VG,4.41 X 5.00 X 2.77,55.4,63,None,,GIA,6462145391,Cts,3000,US$
+Mumbai,2545,Very Light Gray,Round,VVS2,0.34,VG,EX,4.50X4.48X2.78,61.8,56,None,,GIA,5202245431,Cts,1300,US$
+Mumbai,2236,Fancy Purplish Pink,Pear,I2,0.34,EX,VG,6.37X3.72X2.08,56.1,61,None,,GIA,2185704969,Cts,8000,US$
+Mumbai,6335,Fancy Light Pink,Oval,SI1,0.34,G,GD,4.94 x 3.41 x 2.62,76.8,52,None,,GIA,2477201217,Cts,6800,US$
+Bangkok,7133,Very Light Pink,Pear,VS1,0.34,G,GD,5.29X3.74X2.4,62.8,57,None,,GIA,1459696295,Cts,4000,US$
+Mumbai,7338,Light Pink,Round,I1,0.33,VG,VG,4.38 X 4.36 X 2.7,61.8,60,None,,GIA,6482173169,Cts,3500,US$
+Mumbai,257,Fancy Brownish Orangy Pink,Pear,,0.33,,,5.36 x 3.70 x 2.32,0,0,None,,GIA,6185862942,Cts,7000,US$
+Bangkok,4674,,Bullet,,0.33,,,,0,0,None,,Side Stone,,Cts,1200,US$
+Bangkok,5360,,Half Moon,,0.33,,,3.6 X 3.2,0,0,None,,Side Stone,,Cts,1200,US$
+Bangkok,5642,,Trillion,VS1,0.33,,,XX,0,0,None,,Side Stone,,Cts,0,US$
+Hong Kong,4610,Fancy Intense Blue,Pear,VS2,0.33,G,F,6.47*3.91*2.02,51.6,51,None,,GIA,2316747432,Cts,180000,US$
+Mumbai,7106,Fancy Intense Yellow Orange,Cushion,I1,0.33,G,F,4.19 X 3.60 X 2.39,66.3,62,STG,Yellow,GIA,6415130870,Cts,3600,US$
+Mumbai,7102,Fancy Dark Gray Yellowish Green,Cushion,SI2,0.33,VG,GD,4.35 x 4.12 x 2.43,59.1,58,STG,Yellow,GIA,1285076566,Cts,2900,US$
+Mumbai,8196,Fancy Light Yellow,Marquise,VS1,0.33,,,7.18 x 3.50 x 1.88,,,-,,,,Cts,300,US$
+Bangkok,3166,L,Marquise,VS1,0.33,G,GD,6.36*3.47*2.43,45.5,56,None,,IGI,s3g69213,Cts,600,US$
+Bangkok,4966,M,Radiant,I1,0.33,VG,VG,4.66X3.30X2.26,68.7,70,None,,GIA,6412108264,Cts,500,US$
+Bangkok,2992,M,Pear,VS2,0.32,G,GD,6.31X4.13X2.21,53.4,58,Fnt,,GIA,3275896533,Cts,800,US$
+Mumbai,6273,Fancy Brownish Pink,Oval,SI1,0.32,G,F,4.79 X 3.62 X 2.38,65.6,57,None,,GIA,5436421820,Cts,4000,US$
+Mumbai,6696,Fancy Vivid Yellow Orange,Cushion,SI2,0.32,VG,VG,4.10 X 3.60 X 2.39,66.5,59,Med,Yellow,GIA,6442509439,Cts,5555,US$
+Mumbai,8218,Fancy Greenish Yellow,Pear,SI2,0.32,,,6.14X3.25X2.07,,,-,,,,Cts,300,US$
+Mumbai,2385,Fancy Vivid Yellow,Radiant,SI2,0.32,VG,GD,3.95X3.51X2.65,75.6,59,None,,GIA,5181925287,Cts,2800,US$
+Bangkok,333,Fancy Pink,Oval,I1,0.32,G,GD,5.26X3.70X2.45,66.2,62,Med,Blue,GIA,6182952513,Cts,40000,US$
+Bangkok,4675,,Trapezoid,,0.32,,,,0,0,None,,Side Stone,,Cts,1200,US$
+Hong Kong,4677,,Trapezoid,,0.31,,,,0,0,None,,Side Stone,,Cts,1200,US$
+Mumbai,5787,Fancy Pink,Heart,SI2,0.31,,,4.11X4.37X2.38,0,0,None,,CGL,H9275683,Cts,18500,US$
+Bangkok,6072,Light Pinkish Brown,Pear,SI2,0.31,VG,VG,5.50 X 3.40 X 2.39,70.3,57,None,,GIA,2434915444,Cts,2500,US$
+Bangkok,6404,Very Light Pink,Pear,I1,0.31,VG,VG,5.48 X 3.56 X 2.30,64.4,58,None,,GIA,2221637354,Cts,2500,US$
+Bangkok,5771,Faint Pinkish Brown,Heart,VS1,0.31,EX,GD,4.00 X 4.77 X 2.74,57.5,59,None,,GIA,7411097051,Cts,1800,US$
+Mumbai,3746,Fancy Deep Yellow Orange,Oval,SI2,0.31,G,GD,5.34 x 3.47 x 2.24,64.3,68,Fnt,,GIA,5346094490,Cts,3000,US$
+Mumbai,5522,Fancy Deep Orangy Pink,Pear,I3,0.31,VG,GD,5.14X 3.60X 2.28,63.4,56,Fnt,,GIA,6305255285,Cts,50000,US$
+Mumbai,8202,Fancy Brownish Yellow,Emerald,VS2,0.31,,,4.53 x 2.75 x 1.97,,,-,,,,Cts,300,US$
+Mumbai,8238,Fancy Light Brownish Greenish Yellow,Emerald,SI1,0.31,,,5.25X2.79X1.86,,,,,,,Cts,300,US$
+Mumbai,8220,Fancy Light Brownish Yellow,Pear,SI1,0.31,,,5.71X3.26X1.96,,,-,,,,Cts,300,US$
+Mumbai,1464,Fancy Brownish Purplish Pink,Radiant,I2,0.31,,,3.77 x 3.51 x 2.70,,,None,,GIA,5202649985,Cts,4500,US$
+Mumbai,2056,Fancy Intense Purplish Pink,Round,,0.31,,,4.31 x 4.34 x 2.67,,,None,,GIA,2181645897,Cts,33000,US$
+Mumbai,9257,Faint Yellow Green,Round,VS2,0.3,EX,VG,4.24 - 4.26 x 2.65,62.4,57,STG,,GIA,6402468061,Cts,1000,US$
+Mumbai,9245,Faint Pinkish Brown,Marquise,SI1,0.3,G,GD,7.38 X 3.56 X 2.06,57.7,64,None,,GIA,1525670412,Cts,1500,US$
+Mumbai,9189,Very Light Green Yellow,Pear,SI1,0.3,EX,VG,5.97 x 3.58 x 2.35,65.6,65,STG,,GIA,2417573889,Cts,1800,US$
+Hong Kong,7105,Fancy Vivid Yellowish Orange,Cushion,SI2,0.3,VG,VG,,70,49,Med,,GIA,6342439646,Cts,8888,US$
+Bangkok,3164,L,Pear,VS2,0.3,VG,GD,5.71 x 3.70 x 2.31,62.4,55,Med,Blue,GIA,7303230659,Cts,800,US$
+Bangkok,6287,Q-R,Round,VS2,0.3,EX,GD,4.02 X 4.06 X 2.73,67.5,54.5,STG,,IGI,480160766,Cts,1000,US$
+Hong Kong,3194,D,Round,IF,0.3,EX,EX,4.27 X 4.29 X2.65,59,62,None,,GIA,7346225054,Cts,2800,US$
+Mumbai,8229,Fancy Greenish Yellow,Pear,VS2,0.3,,,6.27X3.53X2.17,,,-,,,,Cts,300,US$
+Mumbai,8254,Fancy Light Brownish Yellow,Cushion,VS1,0.3,,,3.64X3.53X2.46,,,,,,,Cts,300,US$
+Mumbai,8237,Fancy Dark Brown Greenish Yellow,Emerald,VS2,0.3,,,3.99X3.14X2.12,,,,,,,Cts,300,US$
+Mumbai,8241,Fancy Dark Brown,Emerald,SI2,0.3,,,4.09X3.02X2.01,,,,,,,Cts,300,US$
+Mumbai,7153,Fancy Brownish Purple Pink,Heart,SI1,0.3,G,GD,3.75 X 4.68 X 2.41,51.4,69,None,,GIA,6451111120,Cts,8000,US$
+Mumbai,2557,Fancy Brown Pink,Cushion,,0.3,,,4.15 x 4.13 x 2.43,0,0,None,,GIA,2246138041,Cts,3000,US$
+Bangkok,7135,Very Light Pink,Radiant,SI1,0.3,VG,VG,3.78 X 3.62 X 2.5,68.5,58,None,,GIA,6455405543,Cts,2100,US$
+Bangkok,1483,Fancy Deep Orangy Pink,Cushion,I1,0.3,,,4.71 x 3.78 x 2.28,0,0,Fnt,,GIA,5202649983,Cts,35000,US$
+Bangkok,3380,N,Emerald,VS1,0.3,EX,VG,4.55*3.34*2.17,64.9,63,Fnt,,GIA,2338695215,Cts,800,US$
+Mumbai,2539,Faint Pink,Cushion,VS2,0.3,,,3.93*3.91*2.32,0,0,None,,CGL,H9209033,Cts,1407,US$
+Mumbai,2967,Light Yellowish Gray,Marquise,,0.3,,,7.32*3.30*2.08,0,0,None,,CGL,H8423497,Cts,0,US$
+Bangkok,1836,Fancy Light Brownish Yellow,Pear,SI2,0.3,VG,GD,5.55X3.52X2.51,71.4,58,Fnt,,GIA,1233563233,Cts,550,US$
+Bangkok,6395,Light Pink,Marquise,SI1,0.3,G,GD,7.06 X 3.28 X 1.97,60.2,56,None,,GIA,1226637343,Cts,3800,US$
+Mumbai,7337,Very Light Pinkish Brown,Round,SI2,0.3,VG,GD,4.08 X 4.06 X 2.8,68.7,54,Med,Blue,GIA,6481173176,Cts,2000,US$
+Mumbai,7109,Fancy Vivid Orange Yellow,Cushion,SI2,0.3,G,VG,4.37 X 3.36 X 2.37,70.5,54,Med,Yellow,GIA,3445509453,Cts,6666,US$
+Bangkok,6429,G,Round,,0.3,,,5.05,0,0,None,,,SV-4,Cts,36000,US$
+Mumbai,6322,Faint Pink,Pear,SI1,0.3,VG,GD,5.56 x 3.56 x 2.23,62.4,54,None,,GIA,5221608011,Cts,3400,US$
+Mumbai,7685,Fancy Intense Yellow Orange,Marquise,I1,0.29,VG,GD,6.30 X 2.99 X 2.22,74.3,59,Med,Yellow,GIA,6482102515,Cts,3000,US$
+Mumbai,8242,S-T,Emerald,SI2,0.29,,,3.98X3.07X2.27,,,,,,,Cts,300,US$
+Mumbai,6189,Y-Z,Cushion,VS1,0.28,G,GD,3.70 X 3.22 X 2.42,49.5,57.5,Vst,,IGI,432029974,Cts,800,US$
+Bangkok,6067,Fancy Brown Pink,Radiant,SI2,0.28,G,GD,4.15 X 3.34 X 2.18,65.4,62,Fnt,,GIA,5326692293,Cts,3950,US$
+Hong Kong,4444,,Cadillac,,0.28,,,,0,0,None,,Side Stone,,Cts,1150,US$
+Mumbai,6128,Fancy Pink Purple,Radiant,SI2,0.28,VG,GD,4.08 x 3.03 x 2.30,75.9,66,None,,GIA,7426185207,Cts,7002,US$
+Bangkok,1318,Light Orangy Pink,Round,SI2,0.28,,,4.04x4.11x2.59,0,0,Med,,CGL,H8000463,Cts,13500,US$
+Mumbai,8212,Fancy Brownish Greenish Yellow,Pear,SI1,0.28,,,5.46X3.28X1.97,,,-,,,,Cts,300,US$
+Mumbai,8252,Fancy Light Greenish Yellow,Cushion,VS2,0.28,,,3.34X3.63X2.15,,,,,,,Cts,300,US$
+Mumbai,8224,Fancy Brownish Greenish Yellow,Pear,VS2,0.28,,,6.18X3.85X1.53,,,-,,,,Cts,300,US$
+Mumbai,2977,Fancy Brownish Orangy Pink,Round,I3,0.28,,,XX,,,None,,AGT,5296479,Cts,500,US$
+Mumbai,606,Fancy Brownish Pink,Pear,I1,0.27,VG,GD,5.19X3.51X2.32,66.1,55,Med,Blue,GIA,6195673351,Cts,8000,US$
+Mumbai,5461,Fancy Dark Gray Green,Oval,SI1,0.27,G,GD,4.64X 3.36X 2.20,65.4,58,None,,GIA,2368583060,Cts,58300,US$
+Mumbai,2237,Fancy Purple Pink,Cushion,I1,0.27,VG,GD,3.91X3.41X2.31,67.6,62,Med,Blue,GIA,6183346563,Cts,7200,US$
+Mumbai,2960,Fancy Light Yellowish Gray,Marquise,SI2,0.27,,,6.96*3.09*2.03,0,0,None,,CGL,H8423498,Cts,0,US$
+Mumbai,6438,G,Pear,,0.27,,,7.00 X 4.00,0,0,None,,,SV-16,Cts,36000,US$
+Bangkok,5643,,Trillion,VS1,0.27,,,XX,0,0,None,,Side Stone,,Cts,0,US$
+Mumbai,6096,E,Pear,SI1,0.27,VG,GD,5.67 X 3.48 X 1.94,55.7,63,None,,GIA,2436914558,Cts,2625,US$
+Hong Kong,5364,,Half Moon,,0.26,,,3.5 X 3.0,0,0,None,,Side Stone,,Cts,1150,US$
+Mumbai,2494,Fancy Light Brownish Pink,Marquise,I1,0.26,,,,0,0,None,,CGL,N0986165,Cts,2000,US$
+Mumbai,1321,Fancy Deep Pink,Oval,SI2,0.26,,,4.42x3.43x2.15,0,0,Fnt,,CGL,h8181000,Cts,13500,US$
+Bangkok,423,Fancy Deep Brownish Orangy Pink,Cushion,VS2,0.26,VG,GD,3.29X3.19X2.58,80.9,67,None,,GIA,2204025819,Cts,20000,US$
+Mumbai,2529,Fancy Light Blue,Radiant,VS2,0.26,VG,VG,3.80X3.47X2.35,67.9,60,None,,GIA,2173348510,Cts,35000,US$
+Mumbai,8257,Fancy Light Greenish Yellow,Marquise,VS1,0.26,,,6.67X3.24X1.82,,,,,,,Cts,300,US$
+Mumbai,8223,Fancy Greenish Yellow,Pear,VS1,0.26,,,5.72X3.24X2.13,,,-,,,,Cts,300,US$
+Bangkok,6326,Light Pinkish Pink,Oval,SI1,0.26,,,4.48 X 3.43 X 1.80,,,,,,,Cts,0,US$
+Bangkok,2666,Fancy Orangy Pink,Round,I1,0.25,,,3.87X3.93X2.52,0,0,None,,CGL,H8967192,Cts,7500,US$
+Bangkok,7155,Fancy Deep Brownish Orangy Pink,Emerald,SI2,0.25,VG,GD,4.09 X 3.09 X 1.98,64.1,62,Fnt,,GIA,1449793483,Cts,10000,US$
+Bangkok,6071,Fancy Pinkish Brown,Pear,SI2,0.25,G,GD,5.65 X 3.41 X 2.01,58.8,57,None,,GIA,1433914743,Cts,2500,US$
+Bangkok,7157,Fancy Brownish Pink,Oval,VS2,0.25,G,GD,4.72 X 3.31 X 2.01,60.6,62,None,,GIA,1459027968,Cts,3900,US$
+Mumbai,7154,Fancy Brownish Orangy Pink,Pear,VS2,0.25,G,VG,5.12 X 3.17 X 2.06,65.1,59,Med,Blue,GIA,3445523419,Cts,10000,US$
+Mumbai,2887,Fancy Gray Blue,Cushion,SI2,0.25,EX,VG,3.63X3.60X2.22,61.7,64,Med,Blue,GIA,2296566522,Cts,20000,US$
+Mumbai,1583,Fancy Pinkish Purple,Radiant,I2,0.25,VG,VG,4.02X3.25X2.09,64.4,66,None,,GIA,2185335781,Cts,14500,US$
+Mumbai,7156,Fancy Purple Pink,Pear,SI2,0.25,VG,VG,5.01 X 3.34 X 2.15,64.4,54,None,,GIA,7458111226,Cts,9999,US$
+Bangkok,5601,Very Light Pink,Cushion,VS1,0.25,VG,VG,4.07X2.80X2.22,79.3,62,None,,GIA,6422184861,Cts,3500,US$
+Mumbai,2491,Fancy Intense Pink,Cushion,SI2,0.25,,,,0,0,None,,,OS-74682,Cts,1500,US$
+Mumbai,1327,Fancy Light Pink,Round,VS2,0.25,EX,EX,4.04X4.01X2.51,62.4,56,Fnt,,GIA,2125240257,Cts,15000,US$
+Mumbai,314,Fancy Brownish Orangy Pink,Pear,SI2,0.25,G,GD,4.51X3.61X2.06,57.1,59,Med,Blue,GIA,2196001874,Cts,12000,US$
+Mumbai,5755,Fancy Pinkish Purple,Cushion,SI1,0.25,G,GD,3.38 X 3.30 X 2.50,75.6,57,None,,GIA,3555402289,Cts,18000,US$
+Mumbai,8258,O-P,Princess,SI1,0.24,,,3.42X3.28X1.9,,,,,,,Cts,300,US$
+Mumbai,9499,D,Heart,VS1,0.24,,,,,,,,NC,,Cts,0,US$
+Bangkok,6289,M,Round,VVS2,0.24,VG,VG,3.99-4.00x2.51,62.7,56,Fnt,,GIA,6321460375,Cts,1000,US$
+Mumbai,1460,Fancy Deep Orangy Pink,Radiant,,0.24,,,4.01 x 3.26 x 2.31,,,None,,GIA,2254260402,Cts,20000,US$
+Bangkok,5678,,Half Moon,VS1,0.24,,,XX,0,0,None,,Side Stone,,Cts,1100,US$
+Hong Kong,5000,,Bullet,,0.24,,,4.5*2.4,0,0,None,,Side Stone,,Cts,1100,US$
+Bangkok,5363,,Half Moon,,0.24,,,3.4 X 2.9,0,0,None,,Side Stone,,Cts,1100,US$
+Mumbai,7340,Faint Pink,Round,,0.24,,,,,,,,NC,,Cts,0,US$
+Mumbai,8233,Fancy Brownish Yellow,Oval,SI1,0.23,,,4.67X3.18X2.12,,,,,,,Cts,300,US$
+Mumbai,6434,G,Pear,,0.23,,,6.75 X 3.70,0,0,None,,,SV-7,Cts,36000,US$
+Mumbai,2964,Fancy Light Brown Pink,Round,I1,0.23,,,3.61x3.22x2.26,0,0,None,,CGL,H9209032,Cts,0,US$
+Mumbai,2558,Fancy Light Grayish Blue,Pear,VS1,0.23,G,F,4.56X3.20X2.21,69.2,59,None,,GIA,5172825559,Cts,18000,US$
+Bangkok,6852,Fancy Deep Orangy Pink,Shield,SI2,0.23,G,VG,3.84 X 5.19 X 1.80,34.7,71,Med,Orange,GIA,6227832812,Cts,5000,US$
+Bangkok,6856,Fancy Intense Pink,Radiant,SI2,0.23,VG,GD,3.55X3.54X2.15,60.7,66,None,,GIA,2223874234,Cts,45000,US$
+Mumbai,8230,U-V,Oval,VS2,0.23,,,4.89X3.19X1.99,,,-,,,,Cts,300,US$
+Bangkok,4998,E,Bullet,SI2,0.22,VG,GD,4.4 X 3.00,,55,None,,,,Cts,40000,US$
+Mumbai,6330,E,Other,VVS2,0.22,EX,VG,3.56 X 3.51 X 2.51,71.5,55,None,,GIA,5181051543,Cts,2300,US$
+Mumbai,2972,Fancy Brownish Greenish Yellow,Round,SI2,0.22,,,,0,0,None,,CGL,H9400317,Cts,0,US$
+Bangkok,6445,G,Oval,,0.22,,,6.40 X 3.60,0,0,None,,,SV-10,Cts,36000,US$
+Mumbai,8256,Fancy Brown Pink,Marquise,VS2,0.22,,,5.31X2.82X2.23,,,,,,,Cts,300,US$
+Mumbai,1059,Fancy Pink,Round,SI2,0.22,G,F,3.50x3.54x2.56,72.6,63,Med,Blue,GIA,7228746748,Cts,20000,US$
+Mumbai,79,Fancy Intense Purplish Pink,Round,,0.21,,,3.51 X 3.55 X 2.48,0,0,None,,GIA,6127870903,Cts,30000,US$
+Mumbai,2785,Fancy Brownish Pink,Round,,0.21,,,3.69 x 3.73 x 2.45,0,0,None,,GIA,7246138235,Cts,8000,US$
+Mumbai,5759,Fancy Light Pink,Round,SI1,0.21,,,3.85 X 3.90,,,STG,,AGT,5377842,Cts,12500,US$
+Bangkok,2562,Fancy Orangy Pink,Round,SI1,0.21,G,GD,3.88X3.85X2.37,61.3,63,Med,,GIA,6204649991,Cts,45000,US$
+Mumbai,6453,,Other,FL,0.21,,,8.35X 6.60,0,0,None,,Side Stone,SV-62,Cts,0,US$
+Mumbai,221,Fancy Light Purplish Pink,Round,SI1,0.21,G,GD,3.50X3.46X2.57,73.8,59,None,,GIA,7191277001,Cts,10000,US$
+Mumbai,408,Fancy Intense Pink,Pear,I1,0.21,VG,GD,4.25X3.31X2.07,62.5,62,Fnt,,GIA,6185862926,Cts,20000,US$
+Mumbai,6329,D,Other,VS2,0.21,EX,VG,3.43 X 3.42 X 2.35,68.7,63,None,,GIA,1182051719,Cts,2200,US$
+Bangkok,4997,,Bullet,,0.21,,,4.40 x 2.40,,,None,,Side Stone,,Cts,1100,US$
+Mumbai,2969,Fancy Light Brownish Greenish Yellow,Round,SI2,0.2,,,3.35x3.33x2.04,0,0,None,,CGL,H9400319,Cts,0,US$
+Mumbai,305,Fancy Light Pink,Round,I1,0.2,VG,F,3.65X3.62X2.40,65.8,63,Fnt,,GIA,7181863261,Cts,8500,US$
+Bangkok,6435,G,Pear,,0.2,,,5.60 X 3.40,0,0,None,,,SV-59,Cts,36000,US$
+Bangkok,6437,G,Pear,,0.2,,,6.45 X 3.65,0,0,None,,,SV-8,Cts,36000,US$
+Bangkok,3761,Fancy Gray,Cushion,VS1,0.2,VG,GD,3.49*3.47*2.11,61,67,Fnt,,GIA,5222432330,Cts,5000,US$
+Bangkok,6003,Fancy Brownish Pink,Pear,I1,0.2,,,3.00 x 1.75 x 1.00,,,,,NC,,Cts,3500,US$
+Bangkok,8699,PINK,Cushion,VS,0.2,,,,,,,,,,Cts,0,US$
+Mumbai,2541,Fancy Light Brownish Pink,Heart,SI1,0.2,G,GD,3.71X4.39X2.05,46.8,69,Med,Blue,GIA,2201158079,Cts,3800,US$
+Mumbai,8214,Fancy Dark Brownish Greenish Yellow,Pear,SI2,0.19,,,4.21X2.84X1.84,,,-,,,,Cts,300,US$
+Bangkok,3615,Faint Green,Emerald,SI1,0.19,,,,,,,,NC,,Cts,0,US$
+Bangkok,6425,G,Round,,0.19,,,4.3,0,0,None,,,SV-13,Cts,36000,US$
+Bangkok,6625,G,Pear,,0.19,,,4.85 X 2.85,0,0,None,,,SV-5,Cts,36000,US$
+Bangkok,4994,,Bullet,,0.19,,,4.0 X 2.2,0,0,None,,Side Stone,,Cts,1050,US$
+Mumbai,402,Fancy Deep Pink,Marquise,I1,0.19,G,F,4.81X2.83X2.32,82,57,Fnt,,GIA,6185863054,Cts,25000,US$
+Mumbai,2499,Fancy Pink Purple,Pear,VS2,0.19,VG,F,4.35X2.97X1.97,66.3,59,None,,GIA,2201158058,Cts,8888,US$
+Bangkok,4993,,Bullet,,0.19,,,4.00 x 2.30,,,None,,Side Stone,,Cts,1050,US$
+Mumbai,8911,Fancy Light Orangy Pink,Cushion,SI2,0.19,VG,GD,3.13 x 3.11 x 2.11,,58,Med,Blue,GIA,5221165619,Cts,8000,US$
+Mumbai,5404,Fancy Orangy Pink,Cushion,SI1,0.18,VG,GD,2.99 X 2.99 X 2.14,71.6,61,Fnt,,GIA,6227165625,Cts,8000,US$
+Mumbai,286,Fancy Deep Brown Pink,Radiant,,0.18,,,3.39 x 3.11 x 2.08,0,0,None,,GIA,6195276595,Cts,13000,US$
+Mumbai,304,Fancy Light Pinkish Purple,Round,,0.18,,,3.64 x 3.69 x 2.18,0,0,None,,GIA,5141013347,Cts,9000,US$
+Bangkok,6421,G,Round,,0.18,,,2.25,0,0,None,,,SV-14,Cts,36000,US$
+Mumbai,8231,Fancy Brownish Yellow,Oval,VS2,0.18,,,4.33X2.96X1.9,,,,,,,Cts,300,US$
+Mumbai,5758,Fancy Purple Pink,Round,SI2,0.18,,,3.67 X 3.68,,,Med,,AGT,5296501,Cts,18000,US$
+Mumbai,8213,Fancy Pink Brown,Pear,VS2,0.17,,,4.81X2.83X1.82,,,-,,,,Cts,300,US$
+Mumbai,8812,Fancy Yellow,Pear,,0.17,,,,,,,,NC,,Cts,1500,US$
+Mumbai,6615,G,Tappers,,0.17,,,4.4X2X,0,0,None,,Side Stone,,Cts,0,US$
+Mumbai,6433,G,Pear,,0.17,,,5.30 X 6.30,0,0,None,,,SV-9,Cts,36000,US$
+Mumbai,252,Fancy Deep Orangy Pink,Cushion,SI2,0.17,G,GD,3.28X2.95X2.08,70.5,67,Fnt,,GIA,1188862945,Cts,15000,US$
+Mumbai,2970,Fancy Intense Pink Purple,Round,I1,0.17,,,3.35x2.91x1.93,0,0,None,,CGL,H9400320,Cts,0,US$
+Mumbai,244,Fancy Deep Pink,Cushion,SI2,0.16,G,GD,3.16X2.88X1.98,68.9,66,Fnt,,GIA,7181863083,Cts,21000,US$
+Hong Kong,586,Fancy Brownish Pink,Marquise,SI2,0.16,G,GD,4.92X2.77X1.97,71.1,54,Fnt,,GIA,6185863023,Cts,7000,US$
+Mumbai,2250,Fancy Deep Pink,Cushion,SI2,0.16,,,2.88x2.83x2.04,0,0,None,,CGL,h8262326,Cts,20000,US$
+Bangkok,6428,G,Round,,0.16,,,3.95,0,0,None,,,SV-11,Cts,36000,US$
+Bangkok,5664,,Half Moon,VS1,0.16,,,XX,0,0,None,,Side Stone,,Cts,1050,US$
+Mumbai,309,Fancy Deep Pink,Marquise,SI2,0.16,G,GD,5.15X2.85X1.83,64.3,66,None,,GIA,6185863007,Cts,20000,US$
+Bangkok,6481,,Half Moon,,0.16,,,4.25 X 2.20,,,None,,Side Stone,,Cts,1050,US$
+Mumbai,409,Fancy Intense Pink,Cut cornered square,I1,0.15,G,F,2.88X2.82X1.91,67.7,63,Med,Blue,GIA,6185862905,Cts,20000,US$
+Mumbai,256,Fancy Intense Purplish Pink,Round,I1,0.15,G,GD,3.43X3.40X2.05,60.1,60,Fnt,,GIA,6185915645,Cts,22000,US$
+Bangkok,5683,,Half Moon,,0.15,,,,,,,,Side Stone,,Cts,0,US$
+Bangkok,2662,Fancy Orangy Pink,Round,SI2,0.15,,,3.39x3.43x2.11,0,0,None,,CGL,t0284944,Cts,15800,US$
+Bangkok,2474,Fancy Deep Pink,Round,I1,0.15,,,3.42x3.45x2.13,,,None,,AGT,5281039,Cts,25000,US$
+Bangkok,4667,,Bullet,,0.15,,,,0,0,None,,Side Stone,,Cts,1050,US$
+Bangkok,2386,Fancy Deep Brownish Purple Pink,Marquise,,0.15,,,5.37 x 2.47 x 1.63,0,0,None,,GIA,5181816840,Cts,3500,US$
+Mumbai,2966,Fancy Light Yellowish Gray,Round,SI2,0.15,,,3.28-3.30*2.11,0,0,None,,CGL,H9209036,Cts,0,US$
+Bangkok,4962,Fancy Light Pink,Round,SI1,0.14,,,XX,,,None,,Argyle,430762,Cts,12000,US$
+Bangkok,4952,Fancy Light Pink,Round,SI1,0.13,,,XX,,,None,,Argyle,441592,Cts,12000,US$
+Mumbai,8209,Fancy Light Brownish Yellow,Pear,VS1,0.13,,,4.38X2.62X1.59,,,-,,,,Cts,300,US$
+Mumbai,5632,F,Half Moon,VS1,0.13,,,3.80x1.95,0,0,None,,Side Stone,,Cts,1000,US$
+Mumbai,598,Fancy Intense Pink,Radiant,,0.13,,,3.23 x 2.58 x 1.76,0,0,None,,GIA,7181862933,Cts,18000,US$
+Bangkok,6464,G,Round,,0.13,,,4.1,0,0,None,,,SV-12,Cts,36000,US$
+Bangkok,5583,Fancy Light Pink,Pear,SI1,0.13,,,4.04 x 2.93 x 1.86,0,0,None,,GIA,2225431994,Cts,6000,US$
+Bangkok,6424,G,Round,,0.12,,,3.8,0,0,None,,,SV-15,Cts,36000,US$
+Bangkok,2640,Fancy Vivid Pink,Marquise,I2,0.12,,,,0,0,None,,CGL,o2002908,Cts,25000,US$
+Mumbai,8208,Fancy Light Brownish Yellow,Pear,SI1,0.12,,,4.53X2.59X1.38,,,-,,,,Cts,300,US$
+Mumbai,681,Fancy Deep Pink,Marquise,,0.11,,,4.25 x 2.54 x 1.66,0,0,None,,GIA,1188868968,Cts,18000,US$
+Hong Kong,4953,Fancy Light Pink,Round,SI1,0.11,,,XX,,,None,,Argyle,441590,Cts,12000,US$
+Bangkok,6422,G,Round,,0.11,,,3.8,0,0,None,,,SV-44,Cts,36000,US$
+Mumbai,241,Fancy Deep Brownish Orangy Pink,Radiant,,0.11,,,2.77 x 2.43 x 1.81,0,0,None,,GIA,1188863093,Cts,20000,US$
+Bangkok,9480,Fancy Blue,Radiant,VS2,0.11,,,2.94 x 2.87 x 1.6,,,,,GIA,2223763920,Cts,65000,US$
+Mumbai,1065,,Pear,I1,0.1,,,3.45x2.83x1.62,0,0,None,,CGL,H782193,Cts,5000,US$
+Mumbai,2507,Fancy Deep Pink,Radiant,SI2,0.1,,,,0,0,None,,CGL,N0970377,Cts,9000,US$
+Bangkok,4954,Fancy Light Pink,Round,SI1,0.1,,,XX,,,None,,Argyle,441588,Cts,12000,US$
+Bangkok,4940,Fancy Light Pink,Round,SI1,0.1,,,,,,,,Argyle,430808,Cts,16000,US$
+Bangkok,4939,Fancy Light Pink,Round,SI1,0.1,,,XX,,,None,,Argyle,408414,Cts,12000,US$
+Bangkok,4941,Fancy Light Pink,Round,SI1,0.09,,,XX,,,None,,Argyle,430795,Cts,12000,US$
+Bangkok,4942,Fancy Light Pink,Round,SI1,0.09,,,XX,,,None,,Argyle,430843,Cts,12000,US$
+Bangkok,4961,Fancy Light Pink,Round,SI1,0.09,,,XX,,,None,,Argyle,441583,Cts,12000,US$
+Bangkok,4960,Fancy Light Pink,Round,SI1,0.09,,,XX,,,None,,Argyle,441586,Cts,12000,US$
+Bangkok,4959,Fancy Light Pink,Round,SI1,0.09,,,XX,,,None,,Argyle,441601,Cts,12000,US$
+Bangkok,4958,Fancy Light Pink,Round,SI1,0.09,,,XX,,,None,,Argyle,441604,Cts,12000,US$
+Bangkok,4957,Fancy Light Pink,Round,SI1,0.09,,,XX,,,None,,Argyle,408352,Cts,12000,US$
+Bangkok,4956,Fancy Light Pink,Round,SI1,0.09,,,XX,,,None,,Argyle,430739,Cts,12000,US$
+Bangkok,4955,Fancy Light Pink,Round,SI1,0.09,,,XX,,,None,,Argyle,430744,Cts,12000,US$
+Mumbai,2961,Fancy Light Yellowish Gray,Round,I1,0.09,,,2.86-2.88*1.78,0,0,None,,CGL,H9209034,Cts,0,US$
+Mumbai,6450,,Cushion,,0.08,,,2,0,0,None,,NC,,Cts,0,US$
+Bangkok,4951,Fancy Light Pink,Round,SI1,0.08,,,XX,,,None,,Argyle,441580,Cts,12000,US$
+Bangkok,4950,Fancy Light Pink,Round,SI1,0.08,,,XX,,,None,,Argyle,441595,Cts,12000,US$
+Bangkok,4949,Fancy Light Pink,Round,SI1,0.08,,,XX,,,None,,Argyle,441598,Cts,12000,US$
+Bangkok,4947,Fancy Light Pink,Round,SI1,0.08,,,XX,,,None,,Argyle,430764,Cts,12000,US$
+Bangkok,4943,Fancy Light Pink,Round,SI1,0.08,,,XX,,,None,,Argyle,408369,Cts,12000,US$
+Bangkok,4948,Fancy Light Pink,Round,SI1,0.08,,,XX,,,None,,Argyle,441610,Cts,12000,US$
+Bangkok,4945,Fancy Light Pink,Round,SI1,0.08,,,XX,,,None,,Argyle,406208,Cts,12000,US$
+Bangkok,4946,Fancy Light Pink,Round,SI1,0.08,,,XX,,,None,,Argyle,430732,Cts,12000,US$
+Bangkok,4944,Fancy Light Pink,Round,SI1,0.08,,,XX,,,None,,Argyle,404621,Cts,12000,US$
+Bangkok,8631,Fancy Light Pink,Round,SI,0.08,,,,,,,,Argyle,108396,Cts,16000,US$
+Bangkok,8630,Fancy Light Pink,Round,SI,0.08,,,,,,,,Argyle,430803,Cts,16000,US$
+Bangkok,8629,Fancy Light Pink,Round,SI,0.08,,,,,,,,Argyle,404672,Cts,16000,US$
+Bangkok,8628,Fancy Light Pink,Round,SI,0.08,,,,,,,,Argyle,408399,Cts,16000,US$
+Bangkok,8627,Fancy Light Pink,Round,SI,0.08,,,,,,,,Argyle,408409,Cts,16000,US$
+Bangkok,8624,Fancy Light Pink,Round,SI,0.08,,,,,,,,Argyle,404661,Cts,16000,US$
+Bangkok,8623,Fancy Light Pink,Round,SI,0.08,,,,,,,,Argyle,404671,Cts,16000,US$
+Bangkok,8626,Fancy Light Pink,Round,SI,0.08,,,,,,,,Argyle,410533,Cts,16000,US$
+Bangkok,8625,Fancy Light Pink,Round,SI,0.08,,,,,,,,Argyle,430841,Cts,16000,US$
+Bangkok,8622,Fancy Light Pink,Round,SI,0.08,,,,,,,,Argyle,406249,Cts,16000,US$
+Bangkok,8621,Fancy Light Pink,Round,SI,0.08,,,,,,,,Argyle,430791,Cts,16000,US$
+Bangkok,8620,Fancy Light Pink,Round,SI,0.08,,,,,,,,Argyle,430825,Cts,16000,US$
+Mumbai,2503,Fancy Purple Pink,Marquise,I1,0.07,,,,,,None,,AGT,7738489,Cts,1360,US$
+Bangkok,3602,Fancy Green,Round,SI1,0.06,,,2.53 X 2.57 x 1.51,0,0,None,,GIA,1206125374,Cts,0,US$
+Mumbai,2509,Fancy Orangy Pink,Marquise,SI2,0.05,,,,0,0,None,,CGL,N0981684,Cts,1105,US$
+Bangkok,2371,Fancy Deep Violet,Pear,SI2,0.05,,,2.96x1.94x1.40,0,0,None,,CGL,h8500055,Cts,200000,US$
+Bangkok,2536,Light Bluish Gray,Round,VS2,0.05,,,2.39x2.4x1.43,0,0,None,,CGL,H8304600,Cts,15000,US$

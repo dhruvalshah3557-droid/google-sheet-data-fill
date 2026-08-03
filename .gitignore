@@ -1,0 +1,13 @@
+# Never commit credentials
+magnetic-music-*.json
+*.service-account.json
+*service_account*.json
+sa-key.json
+**/__pycache__/
+*.pyc
+.env
+
+# Superseded by data/ export
+/products.csv
+/products.json
+/products_by_sku.json

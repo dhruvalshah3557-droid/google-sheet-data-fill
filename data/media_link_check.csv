@@ -1,0 +1,19 @@
+FileZilla media update,Status,
+FTP server,ftp.colourdiam.com,
+Source file,model_media_ftp_lookup.csv,
+Rows loaded into Model Media FTP,295,
+Lookup range,Model Media FTP!A:F,
+Updated stock model photo links,stock!V6:V,
+Updated stock model video links,stock!W6:W,
+Removed guessed model videos from,stock!U6:U,
+Verified sample rows,"665_142, 298, 414, 415, 416",
+Completed,FileZilla data is now in the workbook and formulas are pulling from it,
+Note,Product white/black image/video folders still use generated product paths; model photo/video now uses FileZilla lookup data.,
+sheet row,sku,note
+2,665_142,No model video exists in FTP lookup for this SKU
+3,298,Use FileZilla lookup video
+4,414,Use FileZilla lookup video
+6,416,Use FileZilla lookup video
+7,731,Use FileZilla lookup videos
+8,1135,Use FileZilla lookup videos
+11,1333_6674_6673,No exact stock ID in FTP lookup

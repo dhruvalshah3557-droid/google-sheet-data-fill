@@ -1,0 +1,58 @@
+id,title,description,link,image_link,price,availability,item_group_id,product_type,google_product_category,additional_image_link,sale_price,average_review_rating,number_of_ratings,number_of_reviews,description_html,video_link,brand,GTIN,mpn,color,gender,age_group,material,pattern,size,size_type,size_system,alt_text,variant_names,variant_values,adult,tax,shipping,shipping_weight,shipping_width,shipping_height,free_shipping_label,free_shipping_limit,custom_label_0,custom_label_1,custom_label_2,custom_label_3,custom_label_4,ad_link,condition
+Unique ID that represents the product. (required),"Name of the product (same name as the product from the landing page, including variant details, such as color and size). (required)",Description of the product. (required),Landing page for the product (needs to lead directly to the same product and showcase the same data). (required),"Link to the main product image (at least 75x75 pixels, accessible by our user-agent and no template or placeholder images).
+If you change the image later, you’ll need to use a different link or the image will not update. (required)","Price of the product (should reflect the true cost of the product and include currency in ISO-4217 if it's not US dollars, otherwise we’ll default to US dollars). (required)",Availability of the product. (required),Parent ID of the product. (only required when products have multiple variants),Categorization of your product based on your custom product taxonomy.,Categorization of the product based on the standardized Google Product Taxonomy.,"Links to up to 10 additional images of your product (at least 75x75 pixels, accessible by our user-agent and no template or placeholder images).
+We'll create a new pin for every additional image link. If you change the image later, you’ll need to use a different link or the image will not update.","Discounted price of the product (should be lower than the price and include currency in ISO-4217 if it's not US dollars, otherwise we’ll default to US dollars)
+If provided, the sale price will be considered the current price of the item.",Average amount of reviews for the product.,Number of ratings for the product.,Number of reviews for the product.,"HTML description for the product.
+Recommended: Use this if your description is longer than 200 characters.
+If this field is provided, we’ll use it instead of the required description field.","Hosted link to the product video.
+File types for linked videos must be .mp4, .mov or .m4v.
+File size cannot exceed 2GB.
+Note: It can take up to a week for all uploaded videos to be ingested and created.",Brand of the product,Unique universal product identifier,Manufacturer part number of the product,Primary color of the product.,Gender associated with the product.,Age associated with the product.,Material used to make the product.,Pattern used for the product.,Size of the product.,Additional description for the size of the product.,The country’s sizing system in which you’re submitting your product.,Description of what appears in the main images of the product.,Options for this variant of the product (People on Pinterest will see these options next to your Pin and can select the one they want).,Value options for this variant of the product (People on Pinterest will see these options next to your Pin and can select the one they want).,Whether the product is adult or not. Adult products will not be shown on Pinterest.,Tax details for the product,Shipping details for the product,Weight of the product.,Width of the package needed to ship the product.,Height of the package needed to ship the product.,"Whether you provide free shipping for the product or not.
+If you do, enter 0 in the free_shipping_limit field. If you only offer free shipping after someone spends a specific amount, enter that amount in the free_shipping_limit field.",Minimum order purchase necessary to obtain free shipping of the product.,Custom grouping of products (up to five),Custom grouping of products (up to five),Custom grouping of products (up to five),Custom grouping of products (up to five),Custom grouping of products (up to five),Link that can be used to track traffic coming from Pinterest shopping ads.,Condition of the product.
+Maximum of 127 characters.,Maximum of 500 characters.,"Maximum of 10,000 characters in plain text (not HTML).","String URL.
+Maximum of 511 characters and the URL must start with http:// (we do not recommend hardwalls).","String URL.
+Maximum of 2,000 characters, starting with http:// or https:// (encode or remove commas).
+Recommended: Enclosing the string with quotes.","<numeric>
+<ISO 4217>
+Currency can come before or after the numeric price value, with or without space and follow the standard ISO-4217 code. Do not use 0 values or currency symbols.","Should be one of the following values:
+in stock
+out of stock
+preorder",Maximum of 127 characters.,"Maximum of five subcategories, with a maximum of 1,000 characters must be separated by > wrapped by spaces (We do not recognize other delimiters such as the comma or pipe).","See the English full taxonomy. Visit Google’s Help Center to access taxonomies for additional languages.
+Both text values and numeric codes are accepted.","Maximum of 2,000 characters each, starting with http:// or https:// (encode or remove commas).
+Recommended: Enclosing the string with quotes.","<numeric>
+<ISO 4217>
+Currency can come before or after the numeric price value, with or without space and follow the standard ISO-4217 code. Do not use 0 values or currency symbols.","<numeric>
+Between 1-5",<numeric>,<numeric>,HTML formatting,"String URL.
+Maximum of 2,000 characters, starting with http:// or https://",Maximum of 100 characters,Numeric following GTIN guidelines,Maximum of 70 alphanumeric characters,Maximum of 30 characters.,"Should be one of the following values:
+
+male
+female
+unisex","Should be one of the following values:
+newborn
+infant
+toddler
+kids
+adult",Maximum of 30 characters.,Maximum of 30 characters.,Maximum of 30 characters.,"Should be one of the following values:
+regular
+petite
+plus
+big_and_tall
+maternity",Country code.,"One or more alt text values, separated by commas. The number of alt text values should match the number of images in your image_link field. Commas should be encoded as &#44, or removed if they’re part of the alt text. Commas should be used to separate multiple alt texts.",Texts separated by commas listed in the order you want them displayed.,"Texts separated by commas listed in the order you want them displayed.
+Should be consistent with the order of the variant_names field.","Should be one of the following values:
+true
+false","Consists of one group of up to four elements: country, region, rate (all required) and tax_ship (optional). Colons, even for blank values, are required.
+country:region:rate(required):tax_ship","Consists of one group of up to four elements: country, region, service (all optional) and price (required). Colons, even for blank values, are required.
+country:region:service:price(required)","<numeric> <metric>
+Make sure there’s a space between the numeric string and the metric.","<numeric> <metric>
+Make sure there’s a space between the numeric string and the metric.","<numeric> <metric>
+Make sure there’s a space between the numeric string and the metric.","Should be one of the following values:
+true
+false","<numeric>
+<ISO 4217>",Maximum of 200 characters,Maximum of 200 characters,Maximum of 200 characters,Maximum of 200 characters,Maximum of 200 characters,"String URL.
+Should send full URL including tracking, not just tracking parameters.
+We currently do not support impression tracking.
+Must begin with http:// or https://","Should be one of the following values:
+new
+used
+refurbished"
+665_142,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
