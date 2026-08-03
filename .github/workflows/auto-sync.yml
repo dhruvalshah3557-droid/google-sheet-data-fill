@@ -42,8 +42,8 @@ jobs:
           # a wrapped long line (dashes, unicode, etc.).
           SA_KEY=$(printf '%s' "$SA_KEY" | tr -d '[:space:]' | tr -cd 'A-Za-z0-9+/=')
           echo "Secret trimmed length: ${#SA_KEY}"
-          echo "Secret first 2 chars: ${SA_KEY:0:2}"
-          echo "Secret last 4 chars: ${SA_KEY: -4}"
+          echo "Secret first 20 chars: ${SA_KEY:0:20}"
+          echo "Secret last 20 chars: ${SA_KEY: -20}"
           if [ "${SA_KEY:0:1}" = "{" ]; then
             printf '%s\n' "$SA_KEY" > /tmp/sa-key.json
           else
