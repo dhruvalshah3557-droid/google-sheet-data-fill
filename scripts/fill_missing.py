@@ -86,9 +86,9 @@ def save_state(processed: set):
 
 
 def llm_complete(prompt: str) -> str:
-    api_key = os.environ.get("USER_LLM_API_KEY")
-    base_url = os.environ.get("USER_LLM_BASE_URL", "https://api.openai.com/v1").rstrip("/")
-    model = os.environ.get("USER_LLM_MODEL", "gpt-4o-mini")
+    api_key = os.environ.get("USER_LLM_API_KEY").strip()
+    base_url = os.environ.get("USER_LLM_BASE_URL", "https://api.openai.com/v1").strip().rstrip("/")
+    model = os.environ.get("USER_LLM_MODEL", "gpt-4o-mini").strip()
     body = json.dumps(
         {
             "model": model,
