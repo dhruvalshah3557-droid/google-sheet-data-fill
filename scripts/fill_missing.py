@@ -175,8 +175,8 @@ def main():
     target_cols = headers[lo:hi]
     col_index = {name: idx for idx, name in enumerate(headers)}
 
-    if not os.environ.get("USER_LLM_API_KEY"):
-        print("USER_LLM_API_KEY not set; nothing can be generated. Skipping.")
+    if not (os.environ.get("USER_LLM_BASE_URL") or os.environ.get("USER_LLM_API_KEY")):
+        print("No LLM endpoint configured (USER_LLM_BASE_URL) and no API key; nothing can be generated. Skipping.")
         sys.exit(0)
 
     processed = load_state()
