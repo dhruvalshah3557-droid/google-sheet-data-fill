@@ -75,11 +75,7 @@ jobs:
           USER_LLM_BASE_URL: ${{ secrets.USER_LLM_BASE_URL }}
           USER_LLM_MODEL: ${{ secrets.USER_LLM_MODEL }}
         run: |
-          if [ -n "$USER_LLM_API_KEY" ]; then
-            python scripts/fill_missing.py --output data --write-back --key /tmp/sa-key.json
-          else
-            echo "USER_LLM_API_KEY not set; skipping marketing fill."
-          fi
+          python scripts/fill_missing.py --output data --write-back --key /tmp/sa-key.json
 
       - name: Commit and push changes
         run: |

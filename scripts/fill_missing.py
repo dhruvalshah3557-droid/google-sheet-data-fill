@@ -86,9 +86,12 @@ def save_state(processed: set):
 
 
 def llm_complete(prompt: str) -> str:
-    api_key = os.environ.get("USER_LLM_API_KEY").strip()
-    base_url = os.environ.get("USER_LLM_BASE_URL", "https://api.openai.com/v1").strip().rstrip("/")
-    model = os.environ.get("USER_LLM_MODEL", "gpt-4o-mini").strip()
+    api_key = (os.environ.get("USER_LLM_API_KEY") or "").strip()
+    base_url = os.environ.get("USER_LLM_BASE_URL", "").strip().rstrip("/") or "https://api.kilo.ai/api/gateway"
+    model = os.environ.get("USER_LLM_MODEL", "").strip() or "inclusionai/ling-3.0-flash:free"
+    headers = {"Content-Type": "application/json"}
+    if api_key:
+        headers["Authorization"] = f"Bearer {api_key}"
     body = json.dumps(
         {
             "model": model,
@@ -108,10 +111,7 @@ def llm_complete(prompt: str) -> str:
     req = urllib.request.Request(
         f"{base_url}/chat/completions",
         data=body,
-        headers={
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {api_key}",
-        },
+        headers=headers,
     )
     with urllib.request.urlopen(req, timeout=LLM_TIMEOUT) as resp:
         data = json.loads(resp.read().decode("utf-8"))
