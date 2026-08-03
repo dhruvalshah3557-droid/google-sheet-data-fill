@@ -9,7 +9,7 @@ Every tab of the spreadsheet is saved under `data/` as both `.json` (array of ob
 
 ## How it stays up to date
 
-- **Scheduled sync**: a GitHub Action (`.github/workflows/auto-sync.yml`) runs every 6 hours and on manual dispatch.
+- **Scheduled sync**: a GitHub Action (`.github/workflows/auto-sync.yml`) runs every hour and on manual dispatch.
 - **Local sync** (optional):
 
   ```bash
