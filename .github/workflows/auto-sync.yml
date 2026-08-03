@@ -37,14 +37,18 @@ jobs:
             echo "::error::GOOGLE_SERVICE_ACCOUNT_KEY secret is empty. Set it to the base64 of your service account key JSON."
             exit 1
           fi
-          # Accept either base64 or raw JSON (whitespace/newlines tolerated)
-          SA_KEY=$(printf '%s' "$SA_KEY" | tr -d '[:space:]')
+          # Accept either base64 or raw JSON (whitespace/newlines tolerated).
+          # Strip any stray non-base64 chars that can sneak in when copying
+          # a wrapped long line (dashes, unicode, etc.).
+          SA_KEY=$(printf '%s' "$SA_KEY" | tr -d '[:space:]' | tr -cd 'A-Za-z0-9+/=')
           echo "Secret trimmed length: ${#SA_KEY}"
           echo "Secret first 2 chars: ${SA_KEY:0:2}"
           echo "Secret last 4 chars: ${SA_KEY: -4}"
           if [ "${SA_KEY:0:1}" = "{" ]; then
             printf '%s\n' "$SA_KEY" > /tmp/sa-key.json
           else
+            # Restore base64 padding (=) lost during copy/paste
+            while [ $(( ${#SA_KEY} % 4 )) -ne 0 ]; do SA_KEY="${SA_KEY}="; done
             printf '%s' "$SA_KEY" | base64 -d > /tmp/sa-key.json || {
               echo "::error::Secret is not valid base64 and not raw JSON. Set GOOGLE_SERVICE_ACCOUNT_KEY to base64 -w0 of your service account key JSON."
               exit 1
