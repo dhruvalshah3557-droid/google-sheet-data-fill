@@ -39,6 +39,9 @@ jobs:
           fi
           # Accept either base64 or raw JSON (whitespace/newlines tolerated)
           SA_KEY=$(printf '%s' "$SA_KEY" | tr -d '[:space:]')
+          echo "Secret trimmed length: ${#SA_KEY}"
+          echo "Secret first 2 chars: ${SA_KEY:0:2}"
+          echo "Secret last 4 chars: ${SA_KEY: -4}"
           if [ "${SA_KEY:0:1}" = "{" ]; then
             printf '%s\n' "$SA_KEY" > /tmp/sa-key.json
           else
