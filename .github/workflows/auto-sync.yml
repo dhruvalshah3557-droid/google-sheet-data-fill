@@ -68,6 +68,9 @@ jobs:
           SPREADSHEET_ID: 1kAD1ASXaaqrBmNHDVMYgj_cfW8pFJPEiRCY8ENutAvQ
         run: python scripts/sync_sheet.py --key /tmp/sa-key.json --output data
 
+      - name: Write back corrected product/model links
+        run: python scripts/write_links.py --key /tmp/sa-key.json --output data
+
       - name: Fill missing marketing content (full stock, X..CT)
         env:
           SPREADSHEET_ID: 1kAD1ASXaaqrBmNHDVMYgj_cfW8pFJPEiRCY8ENutAvQ
