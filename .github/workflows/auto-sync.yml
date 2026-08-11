@@ -62,6 +62,7 @@ jobs:
             exit 1
           }
           chmod 600 /tmp/sa-key.json
+          python -c "import json; print('Service account email:', json.load(open('/tmp/sa-key.json'))['client_email'])"
 
       - name: Sync spreadsheet
         env:
