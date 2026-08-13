@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""ColourDiam data agent: sync -> fix links -> fill missing -> find mistakes -> commit.
+"""ColourDiam data agent: sync -> fix links -> clean -> fill -> upload -> check -> commit.
 
 Runs the full spreadsheet pipeline and reports any problems it finds:
 
@@ -9,9 +9,10 @@ Runs the full spreadsheet pipeline and reports any problems it finds:
                 drop mock/test rows).
   4. fill     : LLM-generate missing marketing cells (diamond/jewellery names,
                 and full_stock X..CT when requested) and write back.
-  5. check    : audit the synced data for mistakes (empty required cells,
+  5. upload   : upsert cleaned records into the Source Import tab (SKU-keyed).
+  6. check    : audit the synced data for mistakes (empty required cells,
                 #N/A links, malformed product links, duplicate/empty STK, ...).
-  6. commit   : commit and push the updated data (unless --no-commit).
+  7. commit   : commit and push the updated data (unless --no-commit).
 
 Every stage is optional and non-fatal by default: a failure in one stage is
 reported and the agent continues, so a bad LLM run never blocks a good sync.
@@ -334,6 +335,28 @@ class Agent:
                 print(f"  {base}: nothing to clean")
 
     # ---------- stage: commit ----------
+    def upload(self):
+        """Upload cleaned full_stock records into the Source Import tab."""
+        if not self.args.key:
+            raise SystemExit("upload requires --key <sa-key.json>")
+        source_id = os.environ.get("SOURCE_IMPORT_ID", "").strip()
+        if not source_id:
+            print("  SOURCE_IMPORT_ID not set; skipping upload stage.")
+            return
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        import subprocess as _sp
+        cmd = [
+            sys.executable, str(Path(__file__).resolve().parent / "upload_import.py"),
+            "--key", self.args.key,
+            "--output", str(self.out_dir),
+            "--spreadsheet-id", source_id,
+            "--tab", os.environ.get("SOURCE_IMPORT_TAB", "Source Import"),
+        ]
+        if getattr(self.args, "dry_run_upload", False):
+            cmd.append("--dry-run")
+        _sp.run(cmd)
+
+    # ---------- stage: commit ----------
     def commit(self):
         if self.args.no_commit:
             print("  skip commit (--no-commit)")
@@ -374,6 +397,8 @@ class Agent:
                 self.run_stage("check", self.check)
             elif stage == "clean":
                 self.run_stage("clean", self.clean)
+            elif stage == "upload":
+                self.run_stage("upload", self.upload)
             elif stage == "commit":
                 self.run_stage("commit", self.commit)
 
@@ -394,8 +419,10 @@ def main():
     p = ap.ArgumentParser(description=__doc__, formatter_class=ap.RawDescriptionHelpFormatter)
     p.add_argument("--key", help="Service account key JSON (needed for sync/links/write-back)")
     p.add_argument("--output", default="data", help="Data directory (default: data)")
-    p.add_argument("--stages", nargs="+", default=["sync", "links", "clean", "fill", "check", "commit"],
-                   help="Which stages to run (sync links clean fill check commit)")
+    p.add_argument("--stages", nargs="+", default=["sync", "links", "clean", "fill", "upload", "check", "commit"],
+                   help="Which stages to run (sync links clean fill upload check commit)")
+    p.add_argument("--dry-run-upload", action="store_true",
+                   help="Validate the Source Import upload without writing")
     p.add_argument("--check-only", action="store_true",
                    help="Run only the audit stage (no key required)")
     p.add_argument("--no-commit", action="store_true", help="Do not commit/push data")
