@@ -64,20 +64,16 @@ jobs:
           chmod 600 /tmp/sa-key.json
           python -c "import json; print('Service account email:', json.load(open('/tmp/sa-key.json'))['client_email'])"
 
-      - name: Sync spreadsheet
+      - name: Run agent (sync + links + fill + check)
         env:
           SPREADSHEET_ID: 1kAD1ASXaaqrBmNHDVMYgj_cfW8pFJPEiRCY8ENutAvQ
-        run: python scripts/sync_sheet.py --key /tmp/sa-key.json --output data
-
-      - name: Write back corrected product/model links
+          USER_LLM_API_KEY: ${{ secrets.USER_LLM_API_KEY }}
+          USER_LLM_BASE_URL: ${{ secrets.USER_LLM_BASE_URL }}
+          USER_LLM_MODEL: ${{ secrets.USER_LLM_MODEL }}
         run: |
-          python scripts/write_links.py --key /tmp/sa-key.json --output data || echo "write_links failed (non-fatal); continuing"
-
-      - name: Fill PRODUCT NAME (diamond stock & jewellery stock only)
-        env:
-          SPREADSHEET_ID: 1kAD1ASXaaqrBmNHDVMYgj_cfW8pFJPEiRCY8ENutAvQ
-        run: |
-          python scripts/fill_missing.py --tabs diamond_stock jewellery_stock --output data --write-back --key /tmp/sa-key.json --allow-free --max-rows 200
+          python scripts/agent.py --key /tmp/sa-key.json --output data \
+            --tabs diamond_stock jewellery_stock \
+            --max-rows 200 --no-commit
 
       - name: Commit and push changes
         run: |

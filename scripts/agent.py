@@ -1,0 +1,350 @@
+#!/usr/bin/env python3
+"""ColourDiam data agent: sync -> fix links -> fill missing -> find mistakes -> commit.
+
+Runs the full spreadsheet pipeline and reports any problems it finds:
+
+  1. sync     : pull every tab from Google Sheets into data/ (JSON + CSV).
+  2. links    : recompute correct PRODUCT LINK / model-media values, write back.
+  3. fill     : LLM-generate missing marketing cells (diamond/jewellery names,
+                and full_stock X..CT when requested) and write back.
+  4. check    : audit the synced data for mistakes (empty required cells,
+                #N/A links, malformed product links, duplicate/empty STK, ...).
+  5. commit   : commit and push the updated data (unless --no-commit).
+
+Every stage is optional and non-fatal by default: a failure in one stage is
+reported and the agent continues, so a bad LLM run never blocks a good sync.
+
+Usage:
+  python scripts/agent.py --key <sa-key.json>                 # full pipeline
+  python scripts/agent.py --key <sa-key.json> --stages sync check
+  python scripts/agent.py --check-only                        # audit only, no key needed
+  python scripts/agent.py --key <sa-key.json> --max-rows 200 --no-commit
+
+Env:
+  SPREADSHEET_ID      spreadsheet id (defaults to the colourdiam sheet)
+  USER_LLM_API_KEY    LLM API key (free fallback used if unset)
+  USER_LLM_BASE_URL   OpenAI-compatible base URL
+  USER_LLM_MODEL      model name
+"""
+import argparse
+import json
+import os
+import subprocess
+import sys
+import time
+from datetime import datetime, timezone
+from pathlib import Path
+
+DEFAULT_SPREADSHEET_ID = "1kAD1ASXaaqrBmNHDVMYgj_cfW8pFJPEiRCY8ENutAvQ"
+
+# Columns that must never be empty / must look sane, per tab.
+REQUIRED = {
+    "diamond_stock": ["STK"],
+    "jewellery_stock": ["STK"],
+    "full_stock": ["STK"],
+}
+# The unique key column per tab (used for empty/duplicate checks).
+KEY_COLUMN = {
+    "diamond_stock": "STK",
+    "jewellery_stock": "STK",
+    "full_stock": "STK",
+    "auto_fetch_link_from_ftp": "STK",
+    "Model_Media_FTP": "Stock ID",
+    "Tag_Print": "StockID",
+    "pinterest": "id",
+    "shopee": "Stock",
+}
+# Columns that must not contain spreadsheet error values.
+ERROR_MARKERS = ("#N/A", "#REF!", "#VALUE!", "#DIV/0!", "#ERROR!")
+LINK_SUBSTR = "http"
+
+
+class Agent:
+    def __init__(self, args):
+        self.args = args
+        self.out_dir = Path(args.output)
+        self.spreadsheet_id = os.environ.get("SPREADSHEET_ID", DEFAULT_SPREADSHEET_ID)
+        self.issues = []
+        self.stage_log = []
+
+    # ---------- helpers ----------
+    def report(self, severity, message):
+        line = f"[{severity.upper()}] {message}"
+        print(line)
+        self.issues.append((severity, message))
+
+    def run_stage(self, name, fn):
+        self.stage_log.append(name)
+        print(f"\n=== stage: {name} ===")
+        try:
+            fn()
+        except Exception as e:
+            self.report("error", f"{name} failed: {e}")
+
+    def load_rows(self, base):
+        path = self.out_dir / f"{base}.json"
+        if not path.exists():
+            raise FileNotFoundError(f"{path} missing (run sync first)")
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+
+    # ---------- stage: sync ----------
+    def sync(self):
+        if not self.args.key:
+            raise SystemExit("sync requires --key <sa-key.json>")
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from sync_sheet import read_all_tabs, write_tab
+        tabs = read_all_tabs(self.args.key, self.spreadsheet_id)
+        if not tabs:
+            raise SystemExit("no tabs returned from spreadsheet")
+        for title, data in tabs.items():
+            write_tab(str(self.out_dir), title, data)
+        manifest = {
+            "spreadsheet_id": self.spreadsheet_id,
+            "synced_at": datetime.now(timezone.utc).isoformat(),
+            "tabs": {t: len(d) for t, d in tabs.items()},
+        }
+        with open(self.out_dir / "manifest.json", "w", encoding="utf-8") as f:
+            json.dump(manifest, f, indent=2, ensure_ascii=False)
+        print(f"  synced {len(tabs)} tabs")
+
+    # ---------- stage: links ----------
+    def links(self):
+        if not self.args.key:
+            raise SystemExit("links requires --key <sa-key.json>")
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from write_links import (
+            LINK_COLUMNS, build_diamond_lookup, build_mmf_lookup,
+            norm_stk_compact, recompute_row,
+        )
+        import gspread
+        from oauth2client.service_account import ServiceAccountCredentials
+
+        mmf = build_mmf_lookup(self.out_dir)
+        dia = build_diamond_lookup(self.out_dir)
+        scope = [
+            "https://spreadsheets.google.com/feeds",
+            "https://www.googleapis.com/auth/drive",
+        ]
+        creds = ServiceAccountCredentials.from_json_keyfile_name(self.args.key, scope)
+        client = gspread.authorize(creds)
+        sp = client.open_by_key(self.spreadsheet_id)
+        targets = {
+            "full_stock": (
+                "full stock ",
+                ["PRODUCT LINK", "multiple model photo link", "multiple model video link"],
+            ),
+            "jewellery_stock": (
+                "jewellery stock ",
+                ["PRODUCT LINK", "multiple model photo link", "multiple model video link"],
+            ),
+            "auto_fetch_link_from_ftp": (
+                "auto fetch link from ftp ",
+                LINK_COLUMNS,
+            ),
+        }
+        for base, (tab_title, cols) in targets.items():
+            path = self.out_dir / f"{base}.json"
+            if not path.exists():
+                print(f"  {base}: missing, skipping")
+                continue
+            with open(path, encoding="utf-8") as f:
+                rows = json.load(f)
+            headers = list(rows[0].keys()) if rows else []
+            col_index = {h: i for i, h in enumerate(headers)}
+            if missing := [c for c in cols if c not in col_index]:
+                print(f"  {base}: missing columns {missing}, skipping")
+                continue
+            ws = sp.worksheet(tab_title)
+            cells = []
+            for row_idx, r in enumerate(rows):
+                if not norm_stk_compact(r.get("STK")):
+                    continue
+                for c, val in recompute_row(r, mmf, dia).items():
+                    if c in col_index and val:
+                        cells.append((row_idx + 2, col_index[c] + 1, val))
+            if not cells:
+                print(f"  {tab_title!r}: no changes")
+                continue
+            ws.update_cells(
+                [gspread.Cell(r, c, v) for r, c, v in cells],
+                value_input_option="USER_ENTERED",
+            )
+            print(f"  {tab_title!r}: wrote {len(cells)} cells")
+
+    # ---------- stage: fill ----------
+    def fill(self):
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from fill_missing import TABS, fill_tab
+
+        tabs = self.args.tabs or list(TABS)
+        for tab in tabs:
+            if tab not in TABS:
+                self.report("warn", f"unknown tab {tab!r}, skipping")
+                continue
+            print(f"--- filling {tab} ---")
+            fill_tab(tab, self.args, self.spreadsheet_id)
+
+    # ---------- stage: check ----------
+    def check(self):
+        """Audit synced data for mistakes. No spreadsheet/LLM access needed."""
+        self.out_dir.mkdir(parents=True, exist_ok=True)
+
+        # per-tab column requirements from the fill config + hardcoded REQUIRED
+        for base in ["diamond_stock", "jewellery_stock", "full_stock",
+                     "auto_fetch_link_from_ftp", "Model_Media_FTP", "Tag_Print",
+                     "pinterest", "shopee"]:
+            path = self.out_dir / f"{base}.json"
+            if not path.exists():
+                self.report("warn", f"{base}: data file missing")
+                continue
+            with open(path, encoding="utf-8") as f:
+                rows = json.load(f)
+            if not rows:
+                self.report("warn", f"{base}: empty (0 rows)")
+                continue
+            headers = list(rows[0].keys())
+            if "" in headers:
+                self.report("warn", f"{base}: has unnamed trailing header column")
+
+            key_col = KEY_COLUMN.get(base, "STK")
+            has_key = key_col in headers
+            seen_stk = set()
+            dup_stk = set()
+            empty_stk = 0
+            error_cells = 0
+            for r in rows:
+                stk = str(r.get(key_col, "")).strip() if has_key else ""
+                if not stk:
+                    empty_stk += 1
+                elif stk in seen_stk:
+                    dup_stk.add(stk)
+                else:
+                    seen_stk.add(stk)
+                for h, v in r.items():
+                    if not has_key or h == key_col:
+                        continue
+                    if isinstance(v, str) and any(m in v for m in ERROR_MARKERS):
+                        error_cells += 1
+            if has_key and empty_stk:
+                self.report("warn", f"{base}: {empty_stk} rows with empty {key_col!r}")
+            if has_key and dup_stk:
+                self.report("warn", f"{base}: {len(dup_stk)} duplicate {key_col!r}s, e.g. "
+                                     f"{sorted(dup_stk)[:5]}")
+            if error_cells:
+                self.report("error", f"{base}: {error_cells} cells contain "
+                                     f"spreadsheet errors like #N/A")
+
+            # column X (PRODUCT NAME / PRODUCT DESCRIPTION) coverage for stock tabs
+            if base in ("diamond_stock", "jewellery_stock"):
+                x = headers[23] if len(headers) > 23 else None
+                if x:
+                    missing = sum(1 for r in rows if not str(r.get(x, "")).strip())
+                    pct = 100.0 * missing / len(rows)
+                    if missing:
+                        self.report("warn", f"{base}: {missing}/{len(rows)} ({pct:.0f}%) "
+                                            f"rows missing {x!r}")
+                    else:
+                        print(f"  [OK] {base}: {x!r} filled for all {len(rows)} rows")
+            # full_stock X..CT coverage
+            if base == "full_stock" and len(headers) >= 98:
+                lo, hi = 23, 98
+                empty = 0
+                for r in rows:
+                    for i in range(lo, hi):
+                        if not str(r.get(headers[i], "")).strip():
+                            empty += 1
+                            break
+                if empty:
+                    self.report("warn", f"full_stock: {empty}/{len(rows)} rows have "
+                                        f"empty marketing cells (X..CT)")
+                else:
+                    print("  [OK] full_stock: marketing columns X..CT filled")
+
+    # ---------- stage: commit ----------
+    def commit(self):
+        if self.args.no_commit:
+            print("  skip commit (--no-commit)")
+            return
+        out = subprocess.run(
+            ["git", "add", "data"], cwd=str(Path(__file__).resolve().parent.parent)
+        )
+        if out.returncode != 0:
+            self.report("error", "git add data failed")
+            return
+        diff = subprocess.run(
+            ["git", "diff", "--cached", "--quiet"],
+            cwd=str(Path(__file__).resolve().parent.parent),
+        )
+        if diff.returncode == 0:
+            print("  no changes to commit")
+            return
+        subprocess.run(
+            [
+                "git", "commit", "-m",
+                "chore: agent sync google sheet data",
+            ],
+            cwd=str(Path(__file__).resolve().parent.parent),
+        )
+        if self.args.push:
+            subprocess.run(["git", "push"], cwd=str(Path(__file__).resolve().parent.parent))
+
+    # ---------- driver ----------
+    def run(self):
+        for stage in self.args.stages:
+            if stage == "sync":
+                self.run_stage("sync", self.sync)
+            elif stage == "links":
+                self.run_stage("links", self.links)
+            elif stage == "fill":
+                self.run_stage("fill", self.fill)
+            elif stage == "check":
+                self.run_stage("check", self.check)
+            elif stage == "commit":
+                self.run_stage("commit", self.commit)
+
+        print("\n" + "=" * 50)
+        if self.issues:
+            errors = [m for s, m in self.issues if s == "error"]
+            warns = [m for s, m in self.issues if s == "warn"]
+            print(f"Agent finished. {len(errors)} error(s), {len(warns)} warning(s).")
+            for s, m in self.issues:
+                print(f"  {s}: {m}")
+        else:
+            print("Agent finished cleanly: no issues found.")
+
+
+def main():
+    import argparse as ap
+
+    p = ap.ArgumentParser(description=__doc__, formatter_class=ap.RawDescriptionHelpFormatter)
+    p.add_argument("--key", help="Service account key JSON (needed for sync/links/write-back)")
+    p.add_argument("--output", default="data", help="Data directory (default: data)")
+    p.add_argument("--stages", nargs="+", default=["sync", "links", "fill", "check", "commit"],
+                   help="Which stages to run (sync links fill check commit)")
+    p.add_argument("--check-only", action="store_true",
+                   help="Run only the audit stage (no key required)")
+    p.add_argument("--no-commit", action="store_true", help="Do not commit/push data")
+    p.add_argument("--push", action="store_true", help="git push after commit (CI only)")
+    p.add_argument("--tabs", nargs="+", default=None,
+                   help="Tabs to fill (default: all configured in fill_missing.py)")
+    p.add_argument("--max-rows", type=int, default=200,
+                   help="Max LLM rows to fill per run (default 200)")
+    p.add_argument("--allow-free", action="store_true",
+                   help="Use built-in free fallback LLM endpoint when no USER_LLM_* set")
+    args = p.parse_args()
+
+    if args.check_only:
+        args.stages = ["check"]
+        args.no_commit = True
+        args.key = None
+    args.write_back = bool(args.key)
+    if not args.allow_free and not (os.environ.get("USER_LLM_BASE_URL") or os.environ.get("USER_LLM_API_KEY")):
+        args.allow_free = True
+        print("No LLM env configured -> using free fallback endpoint.")
+
+    Agent(args).run()
+
+
+if __name__ == "__main__":
+    main()

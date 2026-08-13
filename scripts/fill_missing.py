@@ -204,16 +204,16 @@ def main():
         if tab not in TABS:
             print(f"Unknown tab {tab!r}. Valid: {list(TABS)}")
             sys.exit(2)
-        fill_tab(tab, args)
+        fill_tab(tab, args, spreadsheet_id)
 
     if args.write_back:
         print("Write-back done for all requested tabs.")
 
 
-def fill_tab(tab: str, args: argparse.Namespace):
+def fill_tab(tab: str, args: argparse.Namespace, spreadsheet_id: str):
     cfg = TABS[tab]
     col_start, col_end = cfg["col_start"], cfg["col_end"]
-    state_file = cfg["state_file"]
+    state_file = str(Path(args.output) / Path(cfg["state_file"]).name)
 
     data_path = Path(args.output) / f"{tab}.json"
     if not data_path.exists():
