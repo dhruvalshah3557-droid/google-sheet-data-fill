@@ -72,11 +72,11 @@ jobs:
       - name: Write back corrected product/model links
         run: python scripts/write_links.py --key /tmp/sa-key.json --output data
 
-      - name: Fill missing marketing content (full stock, X..CT; diamond/jewellery product name)
+      - name: Fill PRODUCT NAME (diamond stock & jewellery stock only)
         env:
           SPREADSHEET_ID: 1kAD1ASXaaqrBmNHDVMYgj_cfW8pFJPEiRCY8ENutAvQ
         run: |
-          python scripts/fill_missing.py --output data --write-back --key /tmp/sa-key.json --allow-free --max-rows 200
+          python scripts/fill_missing.py --tabs diamond_stock jewellery_stock --output data --write-back --key /tmp/sa-key.json --allow-free --max-rows 200
 
       - name: Commit and push changes
         run: |
