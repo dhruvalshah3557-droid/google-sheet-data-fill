@@ -76,7 +76,7 @@ jobs:
         env:
           SPREADSHEET_ID: 1kAD1ASXaaqrBmNHDVMYgj_cfW8pFJPEiRCY8ENutAvQ
         run: |
-          python scripts/fill_missing.py --output data --write-back --key /tmp/sa-key.json --allow-free
+          python scripts/fill_missing.py --output data --write-back --key /tmp/sa-key.json --allow-free --max-rows 200
 
       - name: Commit and push changes
         run: |
