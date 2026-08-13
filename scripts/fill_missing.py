@@ -136,8 +136,32 @@ def llm_complete(prompt: str) -> str:
     return data["choices"][0]["message"]["content"].strip()
 
 
+def extract_carat(product: dict) -> str:
+    """Best-effort carat weight from DETAILS or PRICE (e.g. '0.377', '1.01')."""
+    import re
+    detail = str(product.get("DETAILS", "") or "")
+    price = str(product.get("PRICE", "") or "")
+    # keyed format: "Weight - 0.35" / "Weight: 0.35ct"
+    m = re.search(r"(?:weight|carat|cts?)[\s:=-]+(\d+(?:\.\d+)?)", detail, re.IGNORECASE)
+    if m:
+        return m.group(1)
+    for text in (detail, price):
+        # "0.377 ct" / "1.01 cts" / "0.35 carat"
+        m = re.search(r"(\d+(?:\.\d+)?)\s*(?:ct|carat|cts)\b", text, re.IGNORECASE)
+        if m:
+            return m.group(1)
+        # bare weight at start of a details line, e.g. "0.377 – Fancy Pink"
+        m = re.search(r"^\s*(\d+\.\d{1,3})\b", text, re.MULTILINE)
+        if m:
+            return m.group(1)
+    return ""
+
+
 def generate_fields(prompt_fields: list, product: dict) -> dict:
     facts = {k: product.get(k, "") for k in ("STK", "check", "CODE", "DETAILS", "PRICE", "LAB")}
+    carat = extract_carat(product)
+    if carat:
+        facts["CARAT"] = carat
     single_name = len(prompt_fields) == 1 and prompt_fields[0] in ("PRODUCT NAME", "PRODUCT DESCRIPTION")
     if single_name:
         rules = (
@@ -151,7 +175,9 @@ def generate_fields(prompt_fields: list, product: dict) -> dict:
             "descriptions 2-4 sentences; captions suitable for social media; mention "
             "GIA/AGL certification and free worldwide shipping where natural; "
             "multilingual fields must be translated, not transliterated; hashtags are "
-            "comma-separated and on-brand."
+            "comma-separated and on-brand. Always include the carat weight (CARAT fact) "
+            "in every piece of copy where a weight is referenced - never write an empty "
+            "or missing weight."
         )
     prompt = (
         "Product facts:\n"
@@ -210,6 +236,16 @@ def main():
         print("Write-back done for all requested tabs.")
 
 
+def _is_empty(value) -> bool:
+    s = str(value or "").strip()
+    if not s:
+        return True
+    # Broken emoji placeholder (????) counts as empty so the LLM regenerates it.
+    if "????" in s:
+        return True
+    return False
+
+
 def fill_tab(tab: str, args: argparse.Namespace, spreadsheet_id: str):
     cfg = TABS[tab]
     col_start, col_end = cfg["col_start"], cfg["col_end"]
@@ -243,7 +279,7 @@ def fill_tab(tab: str, args: argparse.Namespace, spreadsheet_id: str):
         stk = str(row.get("STK", "")).strip()
         if not stk or stk in processed:
             continue
-        missing = [c for c in target_cols if c not in OPERATIONAL and not str(row.get(c, "")).strip()]
+        missing = [c for c in target_cols if c not in OPERATIONAL and _is_empty(row.get(c))]
         if missing:
             to_fill.append((idx, row, stk, missing))
     print(f"[{tab}] Rows needing fill: {len(to_fill)} ({col_start}..{col_end}).")

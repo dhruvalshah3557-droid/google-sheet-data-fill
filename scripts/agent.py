@@ -5,11 +5,13 @@ Runs the full spreadsheet pipeline and reports any problems it finds:
 
   1. sync     : pull every tab from Google Sheets into data/ (JSON + CSV).
   2. links    : recompute correct PRODUCT LINK / model-media values, write back.
-  3. fill     : LLM-generate missing marketing cells (diamond/jewellery names,
+  3. clean    : mechanical data fixes (SKU separators, cert IDs as text,
+                drop mock/test rows).
+  4. fill     : LLM-generate missing marketing cells (diamond/jewellery names,
                 and full_stock X..CT when requested) and write back.
-  4. check    : audit the synced data for mistakes (empty required cells,
+  5. check    : audit the synced data for mistakes (empty required cells,
                 #N/A links, malformed product links, duplicate/empty STK, ...).
-  5. commit   : commit and push the updated data (unless --no-commit).
+  6. commit   : commit and push the updated data (unless --no-commit).
 
 Every stage is optional and non-fatal by default: a failure in one stage is
 reported and the agent continues, so a bad LLM run never blocks a good sync.
@@ -261,6 +263,76 @@ class Agent:
                 else:
                     print("  [OK] full_stock: marketing columns X..CT filled")
 
+    # ---------- stage: clean ----------
+    def clean(self):
+        """Fix known data-quality issues in the synced data files.
+
+        Safe, mechanical fixes only (no LLM):
+          - Normalize multi-item SKU separators (newlines/spaces -> '_').
+          - Force CERTIFICATE ID. to text (no scientific notation).
+          - Drop rows that are clearly mock/test records.
+        Conflicting duplicates are REPORTED, not auto-deleted.
+        """
+        import re
+
+        self.out_dir.mkdir(parents=True, exist_ok=True)
+
+        test_markers = ("Mock Data Generator", "Crimson Flame",
+                        "Sunset Symphony", "The Imperial Rose")
+
+        for base in ["full_stock", "diamond_stock", "jewellery_stock",
+                     "auto_fetch_link_from_ftp"]:
+            path = self.out_dir / f"{base}.json"
+            if not path.exists():
+                continue
+            with open(path, encoding="utf-8") as f:
+                rows = json.load(f)
+            if not rows:
+                continue
+            headers = list(rows[0].keys())
+            if "STK" not in headers:
+                continue
+            stk_col = headers.index("STK")
+
+            changed = False
+            kept = []
+            removed_test = 0
+            for r in rows:
+                # 4. drop mock/test records
+                if any(str(r.get(h, "")).find(m) >= 0 for h in ("PICTURE", "CODE", "video link")
+                       for m in test_markers):
+                    removed_test += 1
+                    changed = True
+                    continue
+                # 2. normalize multi-item SKU separators
+                stk = str(r.get("STK", "")).strip()
+                if stk:
+                    norm = re.sub(r"[ \n\r\t]+", "_", stk)
+                    norm = re.sub(r"_+", "_", norm)
+                    if norm != stk:
+                        r["STK"] = norm
+                        changed = True
+                # 3. force cert id to text (no sci notation)
+                if "CERTIFICATE ID." in r:
+                    v = r.get("CERTIFICATE ID.")
+                    if isinstance(v, (int, float)) or (isinstance(v, str) and "E" in v):
+                        r["CERTIFICATE ID."] = str(v)
+                        changed = True
+                kept.append(r)
+            if removed_test:
+                print(f"  {base}: removed {removed_test} mock/test rows")
+            if changed:
+                with open(path, "w", encoding="utf-8") as f:
+                    json.dump(kept, f, indent=2, ensure_ascii=False)
+                with open(path.with_suffix(".csv"), "w", encoding="utf-8", newline="") as f:
+                    import csv as _csv
+                    w = _csv.DictWriter(f, fieldnames=headers)
+                    w.writeheader()
+                    w.writerows(kept)
+                print(f"  {base}: cleaned and saved (SKU normalization / cert text)")
+            else:
+                print(f"  {base}: nothing to clean")
+
     # ---------- stage: commit ----------
     def commit(self):
         if self.args.no_commit:
@@ -300,6 +372,8 @@ class Agent:
                 self.run_stage("fill", self.fill)
             elif stage == "check":
                 self.run_stage("check", self.check)
+            elif stage == "clean":
+                self.run_stage("clean", self.clean)
             elif stage == "commit":
                 self.run_stage("commit", self.commit)
 
@@ -320,8 +394,8 @@ def main():
     p = ap.ArgumentParser(description=__doc__, formatter_class=ap.RawDescriptionHelpFormatter)
     p.add_argument("--key", help="Service account key JSON (needed for sync/links/write-back)")
     p.add_argument("--output", default="data", help="Data directory (default: data)")
-    p.add_argument("--stages", nargs="+", default=["sync", "links", "fill", "check", "commit"],
-                   help="Which stages to run (sync links fill check commit)")
+    p.add_argument("--stages", nargs="+", default=["sync", "links", "clean", "fill", "check", "commit"],
+                   help="Which stages to run (sync links clean fill check commit)")
     p.add_argument("--check-only", action="store_true",
                    help="Run only the audit stage (no key required)")
     p.add_argument("--no-commit", action="store_true", help="Do not commit/push data")

@@ -64,7 +64,7 @@ jobs:
           chmod 600 /tmp/sa-key.json
           python -c "import json; print('Service account email:', json.load(open('/tmp/sa-key.json'))['client_email'])"
 
-      - name: Run agent (sync + links + fill + check)
+      - name: Run agent (sync + links + clean + fill + check)
         env:
           SPREADSHEET_ID: 1kAD1ASXaaqrBmNHDVMYgj_cfW8pFJPEiRCY8ENutAvQ
           USER_LLM_API_KEY: ${{ secrets.USER_LLM_API_KEY }}
