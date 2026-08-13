@@ -70,7 +70,8 @@ jobs:
         run: python scripts/sync_sheet.py --key /tmp/sa-key.json --output data
 
       - name: Write back corrected product/model links
-        run: python scripts/write_links.py --key /tmp/sa-key.json --output data
+        run: |
+          python scripts/write_links.py --key /tmp/sa-key.json --output data || echo "write_links failed (non-fatal); continuing"
 
       - name: Fill PRODUCT NAME (diamond stock & jewellery stock only)
         env:

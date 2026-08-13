@@ -289,7 +289,10 @@ def fill_tab(tab: str, args: argparse.Namespace):
         if not args.key:
             print("--write-back requires --key <service-account-key.json>")
             sys.exit(2)
-        write_back(cells_to_update, args.key, spreadsheet_id, cfg["worksheet"])
+        try:
+            write_back(cells_to_update, args.key, spreadsheet_id, cfg["worksheet"])
+        except Exception as e:
+            print(f"[{tab}] WARNING: write-back failed (data saved locally): {e}")
     else:
         print(f"[{tab}] Dry run: add --write-back --key <sa-key.json> to push to the sheet.")
 
