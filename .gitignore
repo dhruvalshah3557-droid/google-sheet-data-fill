@@ -2,6 +2,7 @@
 magnetic-music-*.json
 *.service-account.json
 *service_account*.json
+google-service-account.json
 sa-key.json
 **/__pycache__/
 *.pyc

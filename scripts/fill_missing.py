@@ -3,9 +3,14 @@
 
 Scope (configurable per tab, defined in TABS below):
   - full_stock     : columns X (24, PRODUCT DESCRIPTION) .. CT (98, Hashtags).
-  - diamond_stock  : column X (PRODUCT DESCRIPTION / product name) only.
-  - jewellery_stock: column X (PRODUCT DESCRIPTION / product name) only.
+  - diamond_stock  : columns J (10, PRODUCT LINK) .. CU (99, Hashtags); the
+    link columns J-W are operational and excluded from LLM generation.
+  - jewellery_stock: columns J (10, PRODUCT LINK) .. CU (99, Hashtags); the
+    link columns J-W are operational and excluded from LLM generation.
   - Nothing outside the configured range is read or written.
+  - Reference data is taken from columns A-H (SR NO, STK, PICTURE, CODE,
+    DETAILS, PRICE, LAB, CERTIFICATE ID.); the target headers drive what is
+    generated, and every product's copy is unique/different.
 
 Behaviour:
   - Loads data/<tab>.json (from the synced export).
@@ -52,20 +57,37 @@ TABS = {
     },
     "diamond_stock": {
         "worksheet": "diamond stock ",
-        "col_start": "X",
-        "col_end": "X",
+        "col_start": "J",
+        "col_end": "CU",  # through Hashtags
         "state_file": "data/.fill_state_diamond.json",
     },
     "jewellery_stock": {
         "worksheet": "jewellery stock ",
-        "col_start": "X",
-        "col_end": "X",
+        "col_start": "J",
+        "col_end": "CU",  # through Hashtags
         "state_file": "data/.fill_state_jewellery.json",
     },
 }
 
 # Operational columns inside the fill range that must not be LLM-generated.
-OPERATIONAL = {"Status"}
+OPERATIONAL = {
+    "Status",
+    "check",
+    "PRODUCT LINK",
+    "image1 link",
+    "image2 link",
+    "image3 link",
+    "image4 link",
+    "image5 link",
+    "image6 link",
+    "image7 link",
+    "image8 link",
+    "video link",
+    "multiple side image link",
+    "multiple video link",
+    "multiple model photo link",
+    "multiple model video link",
+}
 LAST_UPDATED_FIELD = "Last Updated"
 
 
@@ -158,7 +180,10 @@ def extract_carat(product: dict) -> str:
 
 
 def generate_fields(prompt_fields: list, product: dict) -> dict:
-    facts = {k: product.get(k, "") for k in ("STK", "check", "CODE", "DETAILS", "PRICE", "LAB")}
+    facts = {
+        k: product.get(k, "")
+        for k in ("STK", "check", "CODE", "DETAILS", "PRICE", "LAB", "CERTIFICATE ID.", "PICTURE")
+    }
     carat = extract_carat(product)
     if carat:
         facts["CARAT"] = carat
@@ -177,7 +202,10 @@ def generate_fields(prompt_fields: list, product: dict) -> dict:
             "multilingual fields must be translated, not transliterated; hashtags are "
             "comma-separated and on-brand. Always include the carat weight (CARAT fact) "
             "in every piece of copy where a weight is referenced - never write an empty "
-            "or missing weight."
+            "or missing weight. CRITICAL: every field you generate must be unique to this "
+            "specific product and clearly different from generic copy - derive it from the "
+            "facts below (colour, shape, clarity, weight, stone type, jewellery type), "
+            "never reuse boilerplate between products."
         )
     prompt = (
         "Product facts:\n"
@@ -277,7 +305,7 @@ def fill_tab(tab: str, args: argparse.Namespace, spreadsheet_id: str):
     to_fill = []
     for idx, row in enumerate(rows):
         stk = str(row.get("STK", "")).strip()
-        if not stk or stk in processed:
+        if not stk:
             continue
         missing = [c for c in target_cols if c not in OPERATIONAL and _is_empty(row.get(c))]
         if missing:
