@@ -47,6 +47,10 @@ DEFAULT_SPREADSHEET_ID = "1kAD1ASXaaqrBmNHDVMYgj_cfW8pFJPEiRCY8ENutAvQ"
 MAX_LLM_ROWS = 20
 LLM_TIMEOUT = 120
 LLM_RETRIES = 2
+# Generate at most this many fields per LLM call. 75 fields in one call exceeds
+# the model's output-token limit and the tail columns (multilingual fields)
+# get silently truncated, so we chunk per-row generation into multiple calls.
+FIELDS_PER_CALL = 15
 
 TABS = {
     "full_stock": {
@@ -319,14 +323,21 @@ def fill_tab(tab: str, args: argparse.Namespace, spreadsheet_id: str):
         if done >= args.max_rows:
             break
         print(f"  Generating for STK {stk} ({len(missing)} missing fields)...")
-        generated = generate_fields(missing, row)
+        # Split missing fields into chunks so each LLM call stays within the
+        # output-token limit (otherwise trailing columns get truncated).
+        chunks = [
+            missing[i : i + FIELDS_PER_CALL]
+            for i in range(0, len(missing), FIELDS_PER_CALL)
+        ]
         updated = 0
-        for field in missing:
-            val = str(generated.get(field, "") or "").strip()
-            if val:
-                row[field] = val
-                cells_to_update[(idx, col_index[field])] = val
-                updated += 1
+        for chunk in chunks:
+            generated = generate_fields(chunk, row)
+            for field in chunk:
+                val = str(generated.get(field, "") or "").strip()
+                if val:
+                    row[field] = val
+                    cells_to_update[(idx, col_index[field])] = val
+                    updated += 1
         if updated:
             new_processed.add(stk)
             row[LAST_UPDATED_FIELD] = _now_iso()
