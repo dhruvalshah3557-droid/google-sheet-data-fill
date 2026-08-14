@@ -46,7 +46,10 @@ from pathlib import Path
 DEFAULT_SPREADSHEET_ID = "1kAD1ASXaaqrBmNHDVMYgj_cfW8pFJPEiRCY8ENutAvQ"
 MAX_LLM_ROWS = 20
 LLM_TIMEOUT = 120
-LLM_RETRIES = 2
+LLM_RETRIES = 4
+# Seconds to sleep between LLM calls; rate limiting (HTTP 429) is the main
+# failure mode, so keep a small inter-call delay and back off on 429s.
+CALL_DELAY = 1.0
 # Generate at most this many fields per LLM call. 75 fields in one call exceeds
 # the model's output-token limit and the tail columns (multilingual fields)
 # get silently truncated, so we chunk per-row generation into multiple calls.
@@ -152,14 +155,28 @@ def llm_complete(prompt: str) -> str:
             ],
         }
     ).encode("utf-8")
-    req = urllib.request.Request(
-        f"{base_url}/chat/completions",
-        data=body,
-        headers=headers,
-    )
-    with urllib.request.urlopen(req, timeout=LLM_TIMEOUT) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
-    return data["choices"][0]["message"]["content"].strip()
+
+    last_err = None
+    for attempt in range(LLM_RETRIES):
+        req = urllib.request.Request(
+            f"{base_url}/chat/completions",
+            data=body,
+            headers=headers,
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=LLM_TIMEOUT) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+            return data["choices"][0]["message"]["content"].strip()
+        except urllib.error.HTTPError as e:
+            last_err = e
+            if e.code == 429:
+                time.sleep(min(2 ** attempt * CALL_DELAY, 30))
+                continue
+            raise
+        except (urllib.error.URLError, OSError) as e:
+            last_err = e
+            time.sleep(CALL_DELAY)
+    raise last_err
 
 
 def extract_carat(product: dict) -> str:
@@ -338,13 +355,15 @@ def fill_tab(tab: str, args: argparse.Namespace, spreadsheet_id: str):
                     row[field] = val
                     cells_to_update[(idx, col_index[field])] = val
                     updated += 1
+            if len(chunks) > 1:
+                time.sleep(CALL_DELAY)
         if updated:
             new_processed.add(stk)
             row[LAST_UPDATED_FIELD] = _now_iso()
             cells_to_update[(idx, col_index[LAST_UPDATED_FIELD])] = row[LAST_UPDATED_FIELD]
         print(f"    filled {updated}/{len(missing)} fields")
         done += 1
-        time.sleep(0.3)
+        time.sleep(CALL_DELAY)
 
     if not cells_to_update:
         print(f"[{tab}] No cells to fill this run.")
