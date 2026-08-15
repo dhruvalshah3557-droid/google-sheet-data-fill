@@ -134,8 +134,8 @@ def save_state(state_file: str, processed: set):
 
 def llm_complete(prompt: str) -> str:
     api_key = (os.environ.get("USER_LLM_API_KEY") or "").strip()
-    base_url = os.environ.get("USER_LLM_BASE_URL", "").strip().rstrip("/") or "https://api.kilo.ai/api/gateway"
-    model = os.environ.get("USER_LLM_MODEL", "").strip() or "kilo-auto/free"
+    base_url = os.environ.get("USER_LLM_BASE_URL", "").strip().rstrip("/") or "https://api.llm7.io/v1"
+    model = os.environ.get("USER_LLM_MODEL", "").strip() or "gemini-3.1-flash-lite"
     headers = {"Content-Type": "application/json"}
     if api_key:
         headers["Authorization"] = f"Bearer {api_key}"
