@@ -64,16 +64,13 @@ jobs:
           chmod 600 /tmp/sa-key.json
           python -c "import json; print('Service account email:', json.load(open('/tmp/sa-key.json'))['client_email'])"
 
-      - name: Run agent (sync + links + clean + fill + check)
+      - name: Run agent (sync + links + media + clean + check)
         env:
           SPREADSHEET_ID: 1kAD1ASXaaqrBmNHDVMYgj_cfW8pFJPEiRCY8ENutAvQ
-          USER_LLM_API_KEY: ""
-          USER_LLM_BASE_URL: "https://api.llm7.io/v1"
-          USER_LLM_MODEL: "gemini-3.1-flash-lite"
         run: |
           python scripts/agent.py --key /tmp/sa-key.json --output data \
             --tabs diamond_stock jewellery_stock \
-            --max-rows 200 --no-commit
+            --stages sync links media clean check --workers 24 --no-commit
 
       - name: Commit and push changes
         run: |
