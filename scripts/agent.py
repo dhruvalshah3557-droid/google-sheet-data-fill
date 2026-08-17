@@ -347,7 +347,7 @@ class Agent:
         sys.path.insert(0, str(Path(__file__).resolve().parent))
         import gspread
         from oauth2client.service_account import ServiceAccountCredentials
-        from fetch_media import MEDIA_COLUMNS as MEDIA_COLS, process_tab
+        from fetch_media import MEDIA_COLUMNS as MEDIA_COLS, fit_cell, process_tab
         from verify_media_urls import verify_tab
         from clean_broken_media import clean_tab
 
@@ -385,7 +385,7 @@ class Agent:
             cells = []
             for row_idx, r in enumerate(rows):
                 for c in cols_present:
-                    val = str(r.get(c, "")).strip()
+                    val = fit_cell(r.get(c, ""))
                     if not val:
                         continue
                     cells.append((row_idx + 2, col_index[c] + 1, val))

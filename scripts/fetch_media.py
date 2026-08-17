@@ -36,6 +36,27 @@ MEDIA_COLUMNS = [
     "video link", "multiple side image link", "multiple video link",
     "multiple model photo link", "multiple model video link",
 ]
+MAX_CELL_CHARS = 50000
+
+
+def fit_cell(value, max_chars=MAX_CELL_CHARS):
+    """Trim a newline-joined cell to fit Google Sheets' 50000-char limit,
+    keeping whole URL lines (last line removed if it would overflow)."""
+    if value is None:
+        return ""
+    s = str(value).strip()
+    if len(s) <= max_chars:
+        return s
+    lines = [ln.strip() for ln in s.splitlines() if ln.strip()]
+    out = []
+    used = 0
+    for ln in lines:
+        add = len(ln) + (1 if out else 0)
+        if used + add > max_chars:
+            break
+        out.append(ln)
+        used += add
+    return "\n".join(out)
 IMG_EXT = (".jpg", ".jpeg", ".png", ".webp", ".gif")
 VID_EXT = (".mp4", ".webm", ".mov", ".m4v", ".ogg")
 
@@ -112,6 +133,8 @@ def classify(items):
         is_img = low.endswith(IMG_EXT)
         is_vid = low.endswith(VID_EXT)
         if not (is_img or is_vid):
+            continue
+        if "/banner/" in low:
             continue
         if is_model(u):
             (model_imgs if is_img else model_vids).append(u)
@@ -290,7 +313,9 @@ def main():
             cells = []
             for row_idx, r in enumerate(rows):
                 for c in cols_present:
-                    val = str(r.get(c, ""))
+                    val = fit_cell(r.get(c, ""))
+                    if not val:
+                        continue
                     cells.append((row_idx + 2, col_index[c] + 1, val))
             # write in batches of 10000 cells
             for i in range(0, len(cells), 10000):

@@ -11,6 +11,7 @@ Usage:
 """
 import argparse
 import json
+import sys
 from pathlib import Path
 
 IMAGE_COLS = [f"image{i} link" for i in range(1, 9)]
@@ -23,6 +24,9 @@ BASE = "https://colourdiam.com"
 
 def clean_tab(base, out):
     """Remove broken URLs from filled media columns in one tab. Returns removed count."""
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from fetch_media import fit_cell
+
     out = Path(out)
     path = out / f"{base}.json"
     broken_path = out / f"{base}_broken_urls.txt"
@@ -68,6 +72,11 @@ def clean_tab(base, out):
                 removed += len(lines) - len(good)
                 r[col] = "\n".join(good)
                 touched += 1
+        # enforce Google Sheets cell-size limit on every media column
+        for col in FILL_COLS + [IMAGE_COLS[0]]:
+            v = str(r.get(col, ""))
+            if len(v) > 50000:
+                r[col] = fit_cell(v)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(rows, f, indent=2, ensure_ascii=False)
     with open(path.with_suffix(".csv"), "w", encoding="utf-8", newline="") as f:
