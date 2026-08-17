@@ -333,6 +333,70 @@ class Agent:
             else:
                 print(f"  {base}: nothing to clean")
 
+    # ---------- stage: media ----------
+    def media(self):
+        """Fetch product media URLs from the website, verify, clean, write back.
+
+        For diamond_stock / jewellery_stock: scrape each product page gallery,
+        fill image2..8 / video / multiple-* media columns, HTTP-verify every URL,
+        drop broken ones, then push the media cells back to the spreadsheet.
+        Requires --key (service account).
+        """
+        if not self.args.key:
+            raise SystemExit("media requires --key <sa-key.json>")
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        import gspread
+        from oauth2client.service_account import ServiceAccountCredentials
+        from fetch_media import MEDIA_COLUMNS as MEDIA_COLS, process_tab
+        from verify_media_urls import verify_tab
+        from clean_broken_media import clean_tab
+
+        self.out_dir.mkdir(parents=True, exist_ok=True)
+        tabs = {"diamond_stock": "diamond stock ",
+                "jewellery_stock": "jewellery stock "}
+        # 1. fetch + 2. verify + 3. clean for every target tab
+        # (fetch without inline verify for speed; verify_tab is authoritative)
+        for base in tabs:
+            process_tab(base, self.out_dir, workers=self.args.workers, skip_verify=True)
+            verify_tab(base, self.out_dir, workers=self.args.workers)
+            clean_tab(base, self.out_dir)
+
+        # 4. write back media cells
+        scope = [
+            "https://spreadsheets.google.com/feeds",
+            "https://www.googleapis.com/auth/drive",
+        ]
+        creds = ServiceAccountCredentials.from_json_keyfile_name(self.args.key, scope)
+        client = gspread.authorize(creds)
+        sp = client.open_by_key(self.spreadsheet_id)
+        for base, tab_title in tabs.items():
+            path = self.out_dir / f"{base}.json"
+            if not path.exists():
+                continue
+            with open(path, encoding="utf-8") as f:
+                rows = json.load(f)
+            headers = list(rows[0].keys()) if rows else []
+            cols_present = [c for c in MEDIA_COLS if c in headers]
+            if not cols_present:
+                print(f"  {base}: no media columns, skipping write-back")
+                continue
+            col_index = {h: i for i, h in enumerate(headers)}
+            ws = sp.worksheet(tab_title)
+            cells = []
+            for row_idx, r in enumerate(rows):
+                for c in cols_present:
+                    val = str(r.get(c, "")).strip()
+                    if not val:
+                        continue
+                    cells.append((row_idx + 2, col_index[c] + 1, val))
+            for i in range(0, len(cells), 10000):
+                batch = cells[i:i + 10000]
+                ws.update_cells(
+                    [gspread.Cell(r, c, v) for r, c, v in batch],
+                    value_input_option="USER_ENTERED",
+                )
+            print(f"  {tab_title!r}: wrote {len(cells)} media cells to sheet")
+
     # ---------- stage: commit ----------
     def commit(self):
         if self.args.no_commit:
@@ -368,6 +432,8 @@ class Agent:
                 self.run_stage("sync", self.sync)
             elif stage == "links":
                 self.run_stage("links", self.links)
+            elif stage == "media":
+                self.run_stage("media", self.media)
             elif stage == "fill":
                 self.run_stage("fill", self.fill)
             elif stage == "check":
@@ -394,8 +460,8 @@ def main():
     p = ap.ArgumentParser(description=__doc__, formatter_class=ap.RawDescriptionHelpFormatter)
     p.add_argument("--key", help="Service account key JSON (needed for sync/links/write-back)")
     p.add_argument("--output", default="data", help="Data directory (default: data)")
-    p.add_argument("--stages", nargs="+", default=["sync", "links", "clean", "fill", "check", "commit"],
-                   help="Which stages to run (sync links clean fill check commit)")
+    p.add_argument("--stages", nargs="+", default=["sync", "links", "media", "clean", "fill", "check", "commit"],
+                   help="Which stages to run (sync links media clean fill check commit)")
     p.add_argument("--check-only", action="store_true",
                    help="Run only the audit stage (no key required)")
     p.add_argument("--no-commit", action="store_true", help="Do not commit/push data")
@@ -406,6 +472,8 @@ def main():
                    help="Max LLM rows to fill per run (default 200)")
     p.add_argument("--allow-free", action="store_true",
                    help="Use built-in free fallback LLM endpoint when no USER_LLM_* set")
+    p.add_argument("--workers", type=int, default=10,
+                   help="Threads for media fetch/verify (default 10)")
     args = p.parse_args()
 
     if args.check_only:
