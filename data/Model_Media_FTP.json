@@ -1624,12 +1624,12 @@
     "Video Count": 1
   },
   {
-    "Stock ID": 7942,
+    "Stock ID": "",
     "Model Photo Links": "",
-    "Model Video Links": "https://colourdiam.com/Product/Jewellery/Model%20images/7942/video.mp4\nhttps://colourdiam.com/Product/Jewellery/Model%20images/7942/7942.mp4",
-    "FTP Folder": 7942,
-    "Photo Count": 0,
-    "Video Count": 2
+    "Model Video Links": "",
+    "FTP Folder": "",
+    "Photo Count": "",
+    "Video Count": ""
   },
   {
     "Stock ID": 5026,
@@ -1960,12 +1960,12 @@
     "Video Count": 2
   },
   {
-    "Stock ID": "7939_7940",
-    "Model Photo Links": "https://colourdiam.com/Product/Jewellery/Model%20images/7939_7940/center.jpeg",
+    "Stock ID": "",
+    "Model Photo Links": "",
     "Model Video Links": "",
-    "FTP Folder": "7939_7940",
-    "Photo Count": 1,
-    "Video Count": 0
+    "FTP Folder": "",
+    "Photo Count": "",
+    "Video Count": ""
   },
   {
     "Stock ID": 8553,
