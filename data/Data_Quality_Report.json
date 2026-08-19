@@ -1,0 +1,44 @@
+[
+  {
+    "Tab Name": "jewellery stock",
+    "Cell Reference": "W2",
+    "Error Type": "Formula Error",
+    "Description": "#REF! error in 'multiple model video link' column.",
+    "Current Value": "#REF! ()"
+  },
+  {
+    "Tab Name": "jewellery stock",
+    "Cell Reference": "D2",
+    "Error Type": "Missing Field",
+    "Description": "Missing 'CODE' value.",
+    "Current Value": "(Empty)"
+  },
+  {
+    "Tab Name": "jewellery stock",
+    "Cell Reference": "Y2",
+    "Error Type": "Spelling/Grammar",
+    "Description": "Lowercase 'a' after period.",
+    "Current Value": "...luxurious 18k. a masterpiece..."
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F3",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price is $0.00, which is likely incorrect for a diamond.",
+    "Current Value": 0
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "E2",
+    "Error Type": "Spelling/Grammar",
+    "Description": "\"Fluoresence\" is misspelled (should be \"Fluorescence\").",
+    "Current Value": "...Fluoresence - Fnt..."
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F7",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price is $0.00.",
+    "Current Value": 0
+  }
+]

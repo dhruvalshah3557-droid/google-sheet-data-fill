@@ -1,0 +1,7 @@
+Tab Name,Cell Reference,Error Type,Description,Current Value
+jewellery stock,W2,Formula Error,#REF! error in 'multiple model video link' column.,#REF! ()
+jewellery stock,D2,Missing Field,Missing 'CODE' value.,(Empty)
+jewellery stock,Y2,Spelling/Grammar,Lowercase 'a' after period.,...luxurious 18k. a masterpiece...
+diamond stock,F3,Inconsistent Pricing,"Price is $0.00, which is likely incorrect for a diamond.",0
+diamond stock,E2,Spelling/Grammar,"""Fluoresence"" is misspelled (should be ""Fluorescence"").",...Fluoresence - Fnt...
+diamond stock,F7,Inconsistent Pricing,Price is $0.00.,0
