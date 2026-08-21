@@ -8496,7 +8496,7 @@
   {
     "# Required | A unique content ID for the item. Use the item's SKU if you can. Each content ID must appear only once in your catalog. To run dynamic ads this ID must exactly match the content ID for the same item in your Meta Pixel code. Character limit: 100": 8023,
     "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "https://colourdiam.com/Product/Jewellery/Model%20images/8023/video.mp4",
-    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "https://colourdiam.com/Product/Jewellery/Model%20images/8023/center.jpeg\nhttps://colourdiam.com/Product/Jewellery/Model%20images/8023/colour-diam-model-images-414.jpeg",
+    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "https://colourdiam.com/Product/Jewellery/Model%20images/8023/center.jpeg",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
     "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "920.00 USD",
@@ -19008,7 +19008,7 @@
     "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "https://colourdiam.com/Product/Jewellery/Model%20images/7572/center.jpeg\nhttps://colourdiam.com/Product/Jewellery/Model%20images/7572/MODEL1.jpeg",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
-    "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "0.00 USD",
+    "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "6325.00 USD",
     "# Required | The URL of the specific product page where people can buy the item.": "https://colourdiam.com/productdetail/7462",
     "# Required | The URL for the main image of your item. Images must be in a supported format (JPG/GIF/PNG) and at least 500 x 500 pixels.": "https://www.colourdiam.com/Product/Jewellery/7462/white45/center.jpg",
     "# Required | The brand name of the item. Character limit: 100.": "ColourDiam",
