@@ -126,7 +126,7 @@
   {
     "": 415,
     "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "https://colourdiam.com/Product/Jewellery/Model%20images/415/415.mp4",
-    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "0.175 cts Fancy Pink Ring SI1 \n18k Platinum Ring : 5.634 gram                                             \nWD : 50 / 0.81",
+    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "https://colourdiam.com/Product/Jewellery/Model%20images/415/1.jpeg\nhttps://colourdiam.com/Product/Jewellery/Model%20images/415/2.jpeg\nhttps://colourdiam.com/Product/Jewellery/Model%20images/415/center.jpeg",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
     "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "201419.63 TWD",
@@ -343,7 +343,7 @@
   {
     "": 1263,
     "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "https://colourdiam.com/Product/Jewellery/Model%20images/1263/video.mp4",
-    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "https://colourdiam.com/Product/Jewellery/Model%20images/1263/center.jpeg\nhttps://colourdiam.com/Product/Jewellery/Model%20images/1263/colour-diam-model-images-20.jpeg",
+    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "https://colourdiam.com/Product/Jewellery/Model%20images/1263/center.jpeg",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
     "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "65919.15 TWD",
