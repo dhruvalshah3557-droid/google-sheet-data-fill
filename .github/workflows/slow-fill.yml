@@ -73,7 +73,7 @@ jobs:
           chmod 600 /tmp/sa-key.json
           python -c "import json; print('Service account email:', json.load(open('/tmp/sa-key.json'))['client_email'])"
 
-      - name: Run slow fill
+      - name: Run slow fill + auto-fix + check
         env:
           SPREADSHEET_ID: 1kAD1ASXaaqrBmNHDVMYgj_cfW8pFJPEiRCY8ENutAvQ
           USER_LLM_API_KEY: ${{ secrets.USER_LLM_API_KEY }}
@@ -82,7 +82,7 @@ jobs:
         run: |
           python scripts/agent.py --key /tmp/sa-key.json --output data \
             --tabs ${{ inputs.tabs || 'diamond_stock jewellery_stock full_stock' }} \
-            --stages fill --max-rows ${{ inputs.max_rows || '3' }} --no-commit
+            --stages fix fill check --max-rows ${{ inputs.max_rows || '3' }} --no-commit
 
       - name: Commit and push changes
         run: |

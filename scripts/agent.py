@@ -7,26 +7,17 @@ Runs the full spreadsheet pipeline and reports any problems it finds:
   2. links    : recompute correct PRODUCT LINK / model-media values, write back.
   3. clean    : mechanical data fixes (SKU separators, cert IDs as text,
                 drop mock/test rows).
-  4. fill     : LLM-generate missing marketing cells (diamond/jewellery names,
+  4. media    : fetch + verify + clean product/media URLs, write back.
+  5. fix      : auto-fix glitches found by check (error markers, broken media
+                URLs, bad links) and write the fixes back to the sheet.
+  6. fill     : LLM-generate missing marketing cells (diamond/jewellery names,
                 and full_stock X..CT when requested) and write back.
-  5. check    : audit the synced data for mistakes (empty required cells,
+  7. check    : audit the synced data for mistakes (empty required cells,
                 #N/A links, malformed product links, duplicate/empty STK, ...).
-  6. commit   : commit and push the updated data (unless --no-commit).
+  8. commit   : commit and push the updated data (unless --no-commit).
 
 Every stage is optional and non-fatal by default: a failure in one stage is
 reported and the agent continues, so a bad LLM run never blocks a good sync.
-
-Usage:
-  python scripts/agent.py --key <sa-key.json>                 # full pipeline
-  python scripts/agent.py --key <sa-key.json> --stages sync check
-  python scripts/agent.py --check-only                        # audit only, no key needed
-  python scripts/agent.py --key <sa-key.json> --max-rows 200 --no-commit
-
-Env:
-  SPREADSHEET_ID      spreadsheet id (defaults to the colourdiam sheet)
-  USER_LLM_API_KEY    LLM API key (free fallback used if unset)
-  USER_LLM_BASE_URL   OpenAI-compatible base URL
-  USER_LLM_MODEL      model name
 """
 import argparse
 import json
@@ -189,7 +180,13 @@ class Agent:
 
     # ---------- stage: check ----------
     def check(self):
-        """Audit synced data for mistakes. No spreadsheet/LLM access needed."""
+        """Audit synced data for mistakes. No spreadsheet/LLM access needed.
+
+        Detects: missing/duplicate keys, spreadsheet error markers, malformed
+        or blank product links, non-http media URLs, whitespace-only cells,
+        broken media URLs (from *_broken_urls.txt), empty marketing cells, and
+        cells exceeding the Google Sheets 50k-char limit.
+        """
         self.out_dir.mkdir(parents=True, exist_ok=True)
 
         # per-tab column requirements from the fill config + hardcoded REQUIRED
@@ -215,6 +212,15 @@ class Agent:
             dup_stk = set()
             empty_stk = 0
             error_cells = 0
+            blank_cells = 0
+            bad_links = 0
+            bad_media = 0
+            ws_cells = 0
+            broken_urls = set()
+            broken_path = self.out_dir / f"{base}_broken_urls.txt"
+            if broken_path.exists():
+                with open(broken_path, encoding="utf-8") as f:
+                    broken_urls = {ln.strip() for ln in f if ln.strip()}
             for r in rows:
                 stk = str(r.get(key_col, "")).strip() if has_key else ""
                 if not stk:
@@ -226,8 +232,27 @@ class Agent:
                 for h, v in r.items():
                     if not has_key or h == key_col:
                         continue
-                    if isinstance(v, str) and any(m in v for m in ERROR_MARKERS):
+                    if not isinstance(v, str):
+                        continue
+                    if any(m in v for m in ERROR_MARKERS):
                         error_cells += 1
+                    if not v.strip():
+                        blank_cells += 1
+                    low = h.lower()
+                    if low == "product link":
+                        if "http" not in v or " " in v.strip():
+                            bad_links += 1
+                    elif "link" in low:
+                        for u in v.splitlines():
+                            u = u.strip()
+                            if not u:
+                                continue
+                            if not u.lower().startswith("http"):
+                                bad_media += 1
+                            elif u in broken_urls:
+                                bad_media += 1
+                    if len(v) > 50000:
+                        ws_cells += 1
             if has_key and empty_stk:
                 self.report("warn", f"{base}: {empty_stk} rows with empty {key_col!r}")
             if has_key and dup_stk:
@@ -236,6 +261,14 @@ class Agent:
             if error_cells:
                 self.report("error", f"{base}: {error_cells} cells contain "
                                      f"spreadsheet errors like #N/A")
+            if blank_cells:
+                print(f"  [info] {base}: {blank_cells} blank cells outside key column")
+            if bad_links:
+                self.report("warn", f"{base}: {bad_links} malformed PRODUCT LINK cells")
+            if bad_media:
+                self.report("warn", f"{base}: {bad_media} non-http or broken media URLs")
+            if ws_cells:
+                self.report("warn", f"{base}: {ws_cells} cells exceed 50k chars")
 
             # column X (PRODUCT NAME / PRODUCT DESCRIPTION) coverage for stock tabs
             if base in ("diamond_stock", "jewellery_stock"):
@@ -397,6 +430,113 @@ class Agent:
                 )
             print(f"  {tab_title!r}: wrote {len(cells)} media cells to sheet")
 
+    # ---------- stage: fix ----------
+    def fix(self):
+        """Auto-fix mechanical glitches found by the check stage.
+
+        Safe, deterministic fixes only (no LLM):
+          - Clear spreadsheet error markers (#N/A, #REF!, #VALUE!, ...) from
+            non-key cells.
+          - Drop broken media URLs from media columns (diamond/jewellery).
+          - Recompute PRODUCT LINK / model media links via write_links.
+          - Normalize multi-item SKU separators + cert-id text (reuses clean).
+        Anything ambiguous is reported but left untouched.
+        """
+        if not self.args.key:
+            raise SystemExit("fix requires --key <sa-key.json>")
+        self.out_dir.mkdir(parents=True, exist_ok=True)
+
+        # 1. drop broken media URLs (updates diamond/jewellery JSON/CSV)
+        for base in ("diamond_stock", "jewellery_stock"):
+            broken_path = self.out_dir / f"{base}_broken_urls.txt"
+            if not broken_path.exists():
+                continue
+            sys.path.insert(0, str(Path(__file__).resolve().parent))
+            from clean_broken_media import clean_tab
+            removed = clean_tab(base, self.out_dir)
+            if removed:
+                self.report("warn", f"{base}: removed {removed} broken media URLs")
+
+        # 2. fix error markers / whitespace / links in the stock tabs
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from write_links import (
+            build_diamond_lookup, build_mmf_lookup, norm_stk_compact, recompute_row,
+        )
+        mmf = build_mmf_lookup(self.out_dir)
+        dia = build_diamond_lookup(self.out_dir)
+
+        import gspread
+        from oauth2client.service_account import ServiceAccountCredentials
+        scope = [
+            "https://spreadsheets.google.com/feeds",
+            "https://www.googleapis.com/auth/drive",
+        ]
+        creds = ServiceAccountCredentials.from_json_keyfile_name(self.args.key, scope)
+        client = gspread.authorize(creds)
+        sp = client.open_by_key(self.spreadsheet_id)
+
+        targets = {
+            "diamond_stock": "diamond stock ",
+            "jewellery_stock": "jewellery stock ",
+            "full_stock": "full stock ",
+            "auto_fetch_link_from_ftp": "auto fetch link from ftp ",
+        }
+        total_cells = 0
+        for base, tab_title in targets.items():
+            path = self.out_dir / f"{base}.json"
+            if not path.exists():
+                continue
+            with open(path, encoding="utf-8") as f:
+                rows = json.load(f)
+            if not rows:
+                continue
+            headers = list(rows[0].keys())
+            col_index = {h: i for i, h in enumerate(headers)}
+            if "STK" not in col_index:
+                continue
+
+            cells = []
+            for row_idx, r in enumerate(rows):
+                stk_key = norm_stk_compact(r.get("STK"))
+                if not stk_key:
+                    continue
+                # error markers / broken placeholders in any non-key cell
+                for h, v in list(r.items()):
+                    if h == "STK" or not isinstance(v, str):
+                        continue
+                    if any(m in v for m in ERROR_MARKERS) or "????" in v:
+                        # leave link columns to recompute_row; blank the rest
+                        if "link" not in h.lower():
+                            r[h] = ""
+                            cells.append((row_idx + 2, col_index[h] + 1, ""))
+                # recompute links (product + model media)
+                for c, val in recompute_row(r, mmf, dia).items():
+                    if c in col_index and val:
+                        old = str(r.get(c, "") or "").strip()
+                        if old != val:
+                            r[c] = val
+                            cells.append((row_idx + 2, col_index[c] + 1, val))
+
+            if not cells:
+                print(f"  {base}: nothing to fix")
+                continue
+            ws = sp.worksheet(tab_title)
+            gspread_cells = [gspread.Cell(r, c, v) for r, c, v in cells]
+            ws.update_cells(gspread_cells, value_input_option="USER_ENTERED")
+            total_cells += len(cells)
+            self.report("warn", f"{base}: auto-fixed {len(cells)} cells in sheet")
+
+            # persist local JSON/CSV too
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(rows, f, indent=2, ensure_ascii=False)
+            with open(path.with_suffix(".csv"), "w", encoding="utf-8", newline="") as f:
+                import csv as _csv
+                w = _csv.DictWriter(f, fieldnames=headers)
+                w.writeheader()
+                w.writerows(rows)
+
+        print(f"  fix stage total: {total_cells} cells written back")
+
     # ---------- stage: commit ----------
     def commit(self):
         if self.args.no_commit:
@@ -434,6 +574,8 @@ class Agent:
                 self.run_stage("links", self.links)
             elif stage == "media":
                 self.run_stage("media", self.media)
+            elif stage == "fix":
+                self.run_stage("fix", self.fix)
             elif stage == "fill":
                 self.run_stage("fill", self.fill)
             elif stage == "check":
@@ -460,8 +602,8 @@ def main():
     p = ap.ArgumentParser(description=__doc__, formatter_class=ap.RawDescriptionHelpFormatter)
     p.add_argument("--key", help="Service account key JSON (needed for sync/links/write-back)")
     p.add_argument("--output", default="data", help="Data directory (default: data)")
-    p.add_argument("--stages", nargs="+", default=["sync", "links", "media", "clean", "fill", "check", "commit"],
-                   help="Which stages to run (sync links media clean fill check commit)")
+    p.add_argument("--stages", nargs="+", default=["sync", "links", "media", "clean", "fix", "fill", "check", "commit"],
+                   help="Which stages to run (sync links media clean fix fill check commit)")
     p.add_argument("--check-only", action="store_true",
                    help="Run only the audit stage (no key required)")
     p.add_argument("--no-commit", action="store_true", help="Do not commit/push data")

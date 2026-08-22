@@ -64,13 +64,13 @@ jobs:
           chmod 600 /tmp/sa-key.json
           python -c "import json; print('Service account email:', json.load(open('/tmp/sa-key.json'))['client_email'])"
 
-      - name: Run agent (sync + links + media + clean + check)
+      - name: Run agent (sync + links + media + clean + fix + check)
         env:
           SPREADSHEET_ID: 1kAD1ASXaaqrBmNHDVMYgj_cfW8pFJPEiRCY8ENutAvQ
         run: |
           python scripts/agent.py --key /tmp/sa-key.json --output data \
             --tabs diamond_stock jewellery_stock \
-            --stages sync links media clean check --workers 24 --no-commit
+            --stages sync links media clean fix check --workers 24 --no-commit
 
       - name: Commit and push changes
         run: |
