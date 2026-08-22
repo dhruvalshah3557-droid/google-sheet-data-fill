@@ -520,11 +520,15 @@ class Agent:
             if not cells:
                 print(f"  {base}: nothing to fix")
                 continue
-            ws = sp.worksheet(tab_title)
-            gspread_cells = [gspread.Cell(r, c, v) for r, c, v in cells]
-            ws.update_cells(gspread_cells, value_input_option="USER_ENTERED")
-            total_cells += len(cells)
-            self.report("warn", f"{base}: auto-fixed {len(cells)} cells in sheet")
+            try:
+                ws = sp.worksheet(tab_title)
+                gspread_cells = [gspread.Cell(r, c, v) for r, c, v in cells]
+                ws.update_cells(gspread_cells, value_input_option="USER_ENTERED")
+                total_cells += len(cells)
+                self.report("warn", f"{base}: auto-fixed {len(cells)} cells in sheet")
+            except Exception as e:
+                self.report("warn", f"{base}: WARNING fix write-back failed "
+                                    f"(saved locally): {e}")
 
             # persist local JSON/CSV too
             with open(path, "w", encoding="utf-8") as f:
