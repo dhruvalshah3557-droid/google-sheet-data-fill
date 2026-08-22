@@ -622,7 +622,7 @@
   {
     "": "1996_6379",
     "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "0.54 W-X SI1/ 0.42 Faint Pink SI2  18k Ring: 4.87 gram  Main stone – 02 pcs 0.96 cts  PINK : 55 / 0.268  WD : 64 / 0.105",
-    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "0.54 W-X SI1/\n0.42 Faint Pink SI2 \n18k Ring: 4.87 gram \nMain stone – 02 pcs 0.96 cts \nPINK : 55 / 0.268 \nWD : 64 / 0.105",
+    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "https://colourdiam.com/Product/Jewellery/Model%20images/1996_6379/center.jpeg",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
     "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "183108.75 TWD",
