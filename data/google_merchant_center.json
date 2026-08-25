@@ -26010,8 +26010,8 @@
   },
   {
     "# Required | A unique content ID for the item. Use the item's SKU if you can. Each content ID must appear only once in your catalog. To run dynamic ads this ID must exactly match the content ID for the same item in your Meta Pixel code. Character limit: 100": 3604,
-    "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "Sku - 3604 Weight - 0.91 Colour - Fancy Brownish Yellow Shape - Round Clarity - I1 Measurements - 6.02X6.04 x 3.89 Fluoresence - Med Polish - VG Symmetry - VG No Of Diamonds - 1",
-    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "Sku - 3604\nWeight - 0.91\nColour - Fancy Brownish Yellow\nShape - Round\nClarity - I1\nMeasurements - 6.02X6.04 x 3.89\nFluoresence - Med\nPolish - VG\nSymmetry - VG\nNo Of Diamonds - 1",
+    "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "https://www.colourdiam.com/Product/Diamond/3604/video1.mp4",
+    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "https://www.colourdiam.com/Product/Diamond/3604/model3.jpg",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
     "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "9301.29 USD",
@@ -26041,8 +26041,8 @@
   },
   {
     "# Required | A unique content ID for the item. Use the item's SKU if you can. Each content ID must appear only once in your catalog. To run dynamic ads this ID must exactly match the content ID for the same item in your Meta Pixel code. Character limit: 100": 462,
-    "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "Sku - 462 Weight - 0.9 Colour - Fancy Yellow Shape - Cushion Clarity - SI2 Measurements - 5.61X5.09X3.62 Fluoresence - Med Polish - G Symmetry - GD No Of Diamonds - 1",
-    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "Sku - 462\nWeight - 0.9\nColour - Fancy Yellow\nShape - Cushion\nClarity - SI2\nMeasurements - 5.61X5.09X3.62\nFluoresence - Med\nPolish - G\nSymmetry - GD\nNo Of Diamonds - 1",
+    "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "https://www.colourdiam.com/Product/Diamond/462/video1.mp4",
+    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "https://www.colourdiam.com/Product/Diamond/462/model3.jpg",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
     "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "1552.50 USD",
@@ -26072,8 +26072,8 @@
   },
   {
     "# Required | A unique content ID for the item. Use the item's SKU if you can. Each content ID must appear only once in your catalog. To run dynamic ads this ID must exactly match the content ID for the same item in your Meta Pixel code. Character limit: 100": 3664,
-    "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "Sku - 3664 Weight - 0.9 Colour - Fancy Light Yellow Shape - Radiant Clarity - SI2 Measurements - 4.85X5.28X3.59 Fluoresence - None Polish - EX Symmetry - EX No Of Diamonds - 1",
-    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "Sku - 3664\nWeight - 0.9\nColour - Fancy Light Yellow\nShape - Radiant\nClarity - SI2\nMeasurements - 4.85X5.28X3.59\nFluoresence - None\nPolish - EX\nSymmetry - EX\nNo Of Diamonds - 1",
+    "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "https://www.colourdiam.com/Product/Diamond/3664/still.jpg",
+    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "https://www.colourdiam.com/Product/Diamond/3664/still.jpg",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
     "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "1190.25 USD",
