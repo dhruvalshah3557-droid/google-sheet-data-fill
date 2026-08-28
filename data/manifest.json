@@ -1,11 +1,11 @@
 {
   "spreadsheet_id": "1kAD1ASXaaqrBmNHDVMYgj_cfW8pFJPEiRCY8ENutAvQ",
-  "synced_at": "2026-08-26T16:36:47.289599+00:00",
+  "synced_at": "2026-08-28T01:34:55.075934+00:00",
   "tabs": {
     "jewellery stock ": 630,
     "diamond stock ": 824,
     "full stock ": 1163,
-    "pinterest": 3,
+    "pinterest": 1165,
     "facebook taiwan": 1164,
     "facebook jpy": 1164,
     "facebook thb ": 1164,
@@ -25,7 +25,7 @@
     "media link check": 13,
     "Model Media FTP": 294,
     "Tag Print": 873,
-    "auto fetch link from ftp ": 615,
+    "auto fetch link from ftp ": 1163,
     "Data Quality Report": 6
   }
 }
