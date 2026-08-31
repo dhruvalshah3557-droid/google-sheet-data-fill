@@ -61,6 +61,10 @@ TABS = {
         "col_start": "X",  # 24 -> PRODUCT DESCRIPTION
         "col_end": "CT",  # 98 -> Hashtags
         "state_file": "data/.fill_state.json",
+        "extra_cols": [
+            "sweden description",
+            "sweden hashtag",
+        ],
     },
     "diamond_stock": {
         "worksheet": "diamond stock ",
@@ -84,6 +88,8 @@ TABS = {
             "polish hahstag",
             "turkish description",
             "turkish hashtag",
+            "sweden description",
+            "sweden hashtag",
         ],
     },
     "jewellery_stock": {
@@ -108,6 +114,8 @@ TABS = {
             "polish hahstag",
             "turkish description",
             "turkish hashtag",
+            "sweden description",
+            "sweden hashtag",
         ],
     },
 }
