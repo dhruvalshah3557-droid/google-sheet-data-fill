@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       max_rows:
-        description: Max rows to LLM-fill per run (keep small to respect quota)
+        description: Max rows to LLM-fill per run
         required: false
-        default: "3"
+        default: "100"
         type: string
       tabs:
         description: Tabs to fill (space separated)

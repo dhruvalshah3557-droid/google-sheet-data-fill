@@ -67,12 +67,48 @@ TABS = {
         "col_start": "J",
         "col_end": "CU",  # through Hashtags
         "state_file": "data/.fill_state_diamond.json",
+        "extra_cols": [
+            "french description",
+            "french hashtag",
+            "german description",
+            "german hashtag",
+            "lebenesse description",
+            "lebenesse hashtag",
+            "vestslavic description",
+            "vestslavic hashtag",
+            "danish description",
+            "danish hashtag",
+            "greek description",
+            "greek hashtag",
+            "polish description",
+            "polish hahstag",
+            "turkish description",
+            "turkish hashtag",
+        ],
     },
     "jewellery_stock": {
         "worksheet": "jewellery stock ",
         "col_start": "J",
         "col_end": "CU",  # through Hashtags
         "state_file": "data/.fill_state_jewellery.json",
+        "extra_cols": [
+            "french description",
+            "french hashtag",
+            "german description",
+            "german hashtag",
+            "lebenesse description",
+            "lebenesse hashtag",
+            "vestslavic description",
+            "vestslavic hashtag",
+            "danish description",
+            "danish hashtag",
+            "greek description",
+            "greek hashtag",
+            "polish description",
+            "polish hahstag",
+            "turkish description",
+            "turkish hashtag",
+        ],
     },
 }
 
@@ -313,7 +349,10 @@ def fill_tab(tab: str, args: argparse.Namespace, spreadsheet_id: str):
     if hi > len(headers):
         print(f"Column range {col_start}..{col_end} exceeds headers ({len(headers)}).")
         return
-    target_cols = headers[lo:hi]
+    target_cols = list(headers[lo:hi])
+    for extra in cfg.get("extra_cols", []):
+        if extra in headers and extra not in target_cols:
+            target_cols.append(extra)
     col_index = {name: idx for idx, name in enumerate(headers)}
 
     if not (os.environ.get("USER_LLM_BASE_URL") or os.environ.get("USER_LLM_API_KEY")):
