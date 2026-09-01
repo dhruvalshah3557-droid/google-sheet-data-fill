@@ -11,7 +11,7 @@ on:
       tabs:
         description: Tabs to fill (space separated)
         required: false
-        default: "diamond_stock jewellery_stock full_stock"
+        default: "diamond_stock jewellery_stock"
         type: string
   schedule:
     - cron: "*/5 * * * *"
@@ -81,7 +81,7 @@ jobs:
           USER_LLM_MODEL: ${{ secrets.USER_LLM_MODEL }}
         run: |
           python scripts/agent.py --key /tmp/sa-key.json --output data \
-            --tabs ${{ inputs.tabs || 'diamond_stock jewellery_stock full_stock' }} \
+            --tabs ${{ inputs.tabs || 'diamond_stock jewellery_stock' }} \
             --stages fix fill check --max-rows ${{ inputs.max_rows || '3' }} --no-commit
 
       - name: Commit and push changes

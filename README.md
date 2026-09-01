@@ -1,6 +1,6 @@
 # google-sheet-data-fill
 
-Auto-syncs the **colourdiam.com Google Spreadsheet** (all tabs) into this repository as JSON + CSV, and auto-fills missing marketing content in the **full stock** tab (columns **X–CT** only) using an LLM.
+Auto-syncs the **colourdiam.com Google Spreadsheet** (all tabs) into this repository as JSON + CSV, and auto-fills missing marketing content in the **diamond stock** and **jewellery stock** tabs using an LLM. The **full stock** tab is **never** auto-filled.
 
 ## What's stored
 
@@ -9,11 +9,8 @@ Every tab of the spreadsheet is saved under `data/` as both `.json` (array of ob
 
 ## How it stays up to date
 
-- **Scheduled sync**: a GitHub Action (`.github/workflows/auto-sync.yml`) runs every hour and on manual dispatch.
-  1. Pulls all tabs from Google Sheets into `data/`.
-  2. Runs `scripts/fill_missing.py` to generate missing cells in the `full stock` tab, columns X–CT.
-  3. Writes the filled cells back into the spreadsheet (when an LLM key is configured).
-  4. Commits the updated data.
+- **Scheduled sync**: a GitHub Action (`.github/workflows/auto-sync.yml`) runs every hour and on manual dispatch. It pulls all tabs from Google Sheets into `data/` and performs operational maintenance (links, media, clean, fix, check). It never fills marketing content.
+- **Slow fill**: `.github/workflows/slow-fill.yml` runs every 5 minutes and on manual dispatch. It runs `scripts/fill_missing.py` to generate missing cells in the **diamond stock** and **jewellery stock** tabs (never `full stock`), writes the filled cells back to the spreadsheet, and commits the updated data.
 - **Local sync** (optional):
 
   ```bash
@@ -25,14 +22,14 @@ Every tab of the spreadsheet is saved under `data/` as both `.json` (array of ob
 
 Scope is intentionally narrow:
 
-- **Tab**: only `full stock`.
-- **Columns**: only `X` (PRODUCT DESCRIPTION) through `CT` (Hashtags).
-- **Never touches**: identifiers, links, prices, or any column outside X–CT.
+- **Tabs**: only `diamond_stock` and `jewellery_stock`. `full_stock` is never auto-filled.
+- **Columns**: only `J` (PRODUCT LINK) through `CU` (Hashtags); the link/media columns J–W are operational and excluded from LLM generation.
+- **Never touches**: identifiers, links, prices, or any column outside the configured range.
 - `Status` is excluded (operational, managed elsewhere); `Last Updated` is stamped automatically on rows that were filled.
 
-It generates the missing content with an OpenAI-compatible LLM (one call per product, JSON output), then updates the local `data/full_stock.json/.csv`. With `--write-back` it pushes the newly filled cells back to the spreadsheet.
+It generates the missing content with an OpenAI-compatible LLM (one call per product, JSON output), then updates the local `data/diamond_stock.json/.csv` and `data/jewellery_stock.json/.csv`. With `--write-back` it pushes the newly filled cells back to the spreadsheet.
 
-Progress is tracked in `data/.fill_state.json` (processed SKUs) so each hourly run picks up where the last one stopped.
+Progress is tracked in `data/.fill_state_diamond.json` and `data/.fill_state_jewellery.json` (processed SKUs) so each run picks up where the last one stopped.
 
 ```bash
 # Local dry run (generates + saves locally, does not touch the sheet)

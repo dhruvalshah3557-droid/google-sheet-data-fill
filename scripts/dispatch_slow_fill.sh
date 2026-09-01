@@ -15,7 +15,7 @@ REPO="dhruvalshah3557-droid/google-sheet-data-fill"
 WORKFLOW="slow-fill.yml"
 INTERVAL="${INTERVAL:-${1:-60}}"
 MAX_ROWS="${MAX_ROWS:-3}"
-TABS="${TABS:-diamond_stock jewellery_stock full_stock}"
+TABS="${TABS:-diamond_stock jewellery_stock}"
 
 get_token() {
   printf 'protocol=https\nhost=github.com\n' | git credential fill | sed -n 's/^password=//p'

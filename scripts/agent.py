@@ -10,8 +10,8 @@ Runs the full spreadsheet pipeline and reports any problems it finds:
   4. media    : fetch + verify + clean product/media URLs, write back.
   5. fix      : auto-fix glitches found by check (error markers, broken media
                 URLs, bad links) and write the fixes back to the sheet.
-  6. fill     : LLM-generate missing marketing cells (diamond/jewellery names,
-                and full_stock X..CT when requested) and write back.
+  6. fill     : LLM-generate missing marketing cells (diamond/jewellery names)
+                and write back. full_stock is never auto-filled.
   7. check    : audit the synced data for mistakes (empty required cells,
                 #N/A links, malformed product links, duplicate/empty STK, ...).
   8. commit   : commit and push the updated data (unless --no-commit).

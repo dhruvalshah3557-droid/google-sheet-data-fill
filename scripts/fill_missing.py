@@ -2,11 +2,11 @@
 """Auto-fill missing marketing content in spreadsheet tabs.
 
 Scope (configurable per tab, defined in TABS below):
-  - full_stock     : columns X (24, PRODUCT DESCRIPTION) .. CT (98, Hashtags).
   - diamond_stock  : columns J (10, PRODUCT LINK) .. CU (99, Hashtags); the
     link columns J-W are operational and excluded from LLM generation.
   - jewellery_stock: columns J (10, PRODUCT LINK) .. CU (99, Hashtags); the
     link columns J-W are operational and excluded from LLM generation.
+  - full_stock is NEVER auto-filled; only diamond_stock and jewellery_stock.
   - Nothing outside the configured range is read or written.
   - Reference data is taken from columns A-H (SR NO, STK, PICTURE, CODE,
     DETAILS, PRICE, LAB, CERTIFICATE ID.); the target headers drive what is
@@ -56,16 +56,6 @@ CALL_DELAY = 1.0
 FIELDS_PER_CALL = 15
 
 TABS = {
-    "full_stock": {
-        "worksheet": "full stock ",
-        "col_start": "X",  # 24 -> PRODUCT DESCRIPTION
-        "col_end": "CT",  # 98 -> Hashtags
-        "state_file": "data/.fill_state.json",
-        "extra_cols": [
-            "sweden description",
-            "sweden hashtag",
-        ],
-    },
     "diamond_stock": {
         "worksheet": "diamond stock ",
         "col_start": "J",
