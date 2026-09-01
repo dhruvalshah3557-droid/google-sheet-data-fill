@@ -589,6 +589,9 @@ class Agent:
             elif stage == "commit":
                 self.run_stage("commit", self.commit)
 
+        if self.args.report:
+            self.write_check_report()
+
         print("\n" + "=" * 50)
         if self.issues:
             errors = [m for s, m in self.issues if s == "error"]
@@ -598,6 +601,22 @@ class Agent:
                 print(f"  {s}: {m}")
         else:
             print("Agent finished cleanly: no issues found.")
+
+    def write_check_report(self):
+        """Persist audit findings to data/check_report.json (used by the
+        Data Quality Monitor workflow to open/update a GitHub issue)."""
+        report = {
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "stages": list(self.stage_log),
+            "issues": [{"severity": s, "message": m} for s, m in self.issues],
+            "error_count": sum(1 for s, _ in self.issues if s == "error"),
+            "warning_count": sum(1 for s, _ in self.issues if s == "warn"),
+        }
+        self.out_dir.mkdir(parents=True, exist_ok=True)
+        path = self.out_dir / "check_report.json"
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(report, f, indent=2, ensure_ascii=False)
+        print(f"  wrote check report -> {path}")
 
 
 def main():
@@ -620,6 +639,8 @@ def main():
                    help="Use built-in free fallback LLM endpoint when no USER_LLM_* set")
     p.add_argument("--workers", type=int, default=10,
                    help="Threads for media fetch/verify (default 10)")
+    p.add_argument("--report", action="store_true",
+                   help="Write data/check_report.json with audit findings")
     args = p.parse_args()
 
     if args.check_only:
