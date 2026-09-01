@@ -8,13 +8,13 @@
 #
 # Usage:
 #   scripts/dispatch_slow_fill.sh [interval_seconds]
-#   INTERVAL=60 MAX_ROWS=3 TABS="diamond_stock jewellery_stock" scripts/dispatch_slow_fill.sh
+#   INTERVAL=60 MAX_ROWS=20 TABS="diamond_stock jewellery_stock" scripts/dispatch_slow_fill.sh
 set -euo pipefail
 
 REPO="dhruvalshah3557-droid/google-sheet-data-fill"
 WORKFLOW="slow-fill.yml"
 INTERVAL="${INTERVAL:-${1:-60}}"
-MAX_ROWS="${MAX_ROWS:-50}"
+MAX_ROWS="${MAX_ROWS:-20}"
 TABS="${TABS:-diamond_stock jewellery_stock}"
 
 get_token() {

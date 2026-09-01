@@ -6,7 +6,7 @@ on:
       max_rows:
         description: Max rows to LLM-fill per run
         required: false
-        default: "100"
+        default: "20"
         type: string
       tabs:
         description: Tabs to fill (space separated)
@@ -82,7 +82,7 @@ jobs:
         run: |
           python scripts/agent.py --key /tmp/sa-key.json --output data \
             --tabs ${{ inputs.tabs || 'diamond_stock jewellery_stock' }} \
-            --stages fix fill check --max-rows ${{ inputs.max_rows || '50' }} --no-commit
+            --stages fix fill check --max-rows ${{ inputs.max_rows || '20' }} --no-commit
 
       - name: Commit and push changes
         run: |

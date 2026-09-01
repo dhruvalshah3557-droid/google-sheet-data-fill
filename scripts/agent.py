@@ -633,8 +633,8 @@ def main():
     p.add_argument("--push", action="store_true", help="git push after commit (CI only)")
     p.add_argument("--tabs", nargs="+", default=None,
                    help="Tabs to fill (default: all configured in fill_missing.py)")
-    p.add_argument("--max-rows", type=int, default=200,
-                   help="Max LLM rows to fill per run (default 200)")
+    p.add_argument("--max-rows", type=int, default=20,
+                   help="Max LLM rows to fill per run (default 20)")
     p.add_argument("--allow-free", action="store_true",
                    help="Use built-in free fallback LLM endpoint when no USER_LLM_* set")
     p.add_argument("--workers", type=int, default=10,

@@ -31,6 +31,8 @@ Env:
   USER_LLM_API_KEY    LLM API key (LLM fills are skipped if unset)
   USER_LLM_BASE_URL   OpenAI-compatible base URL
   USER_LLM_MODEL      model name
+  DAILY_MAX_ROWS      hard cap on LLM-filled rows per day across all tabs
+                      (default 500; 0 disables the cap, a large value lifts it)
 """
 import argparse
 import csv
@@ -45,6 +47,11 @@ from pathlib import Path
 
 DEFAULT_SPREADSHEET_ID = "1kAD1ASXaaqrBmNHDVMYgj_cfW8pFJPEiRCY8ENutAvQ"
 MAX_LLM_ROWS = 20
+# Hard cap on LLM-filled rows per calendar day across ALL tabs, so the fill
+# pipeline never burns the whole LLM quota even when triggered 24/7. Raised/
+# lowered via the DAILY_MAX_ROWS env var (e.g. 0 disables filling entirely).
+DAILY_MAX_ROWS = int(os.environ.get("DAILY_MAX_ROWS", "500"))
+QUOTA_FILE = ".fill_quota.json"
 LLM_TIMEOUT = 120
 LLM_RETRIES = 4
 # Seconds to sleep between LLM calls; rate limiting (HTTP 429) is the main
@@ -164,6 +171,26 @@ def load_state(state_file: str) -> set:
 def save_state(state_file: str, processed: set):
     with open(state_file, "w", encoding="utf-8") as f:
         json.dump({"processed_stk": sorted(processed)}, f)
+
+
+def load_quota(out_dir: str) -> dict:
+    """Daily LLM-row budget shared across all tabs: resets at UTC midnight."""
+    path = os.path.join(out_dir, QUOTA_FILE)
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    try:
+        with open(path, encoding="utf-8") as f:
+            quota = json.load(f)
+        if quota.get("date") != today:
+            quota = {"date": today, "rows": 0}
+    except (OSError, json.JSONDecodeError):
+        quota = {"date": today, "rows": 0}
+    return quota
+
+
+def save_quota(out_dir: str, quota: dict):
+    path = os.path.join(out_dir, QUOTA_FILE)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(quota, f)
 
 
 def llm_complete(prompt: str) -> str:
@@ -373,8 +400,13 @@ def fill_tab(tab: str, args: argparse.Namespace, spreadsheet_id: str):
     cells_to_update = {}
     new_processed = set(processed)
     done = 0
+    quota = load_quota(args.output)
     for idx, row, stk, missing in to_fill:
         if done >= args.max_rows:
+            break
+        if DAILY_MAX_ROWS and quota["rows"] >= DAILY_MAX_ROWS:
+            print(f"  Daily LLM quota reached ({quota['rows']}/{DAILY_MAX_ROWS} rows); "
+                  f"stopping fill for today.")
             break
         print(f"  Generating for STK {stk} ({len(missing)} missing fields)...")
         # Split missing fields into chunks so each LLM call stays within the
@@ -400,6 +432,9 @@ def fill_tab(tab: str, args: argparse.Namespace, spreadsheet_id: str):
             cells_to_update[(idx, col_index[LAST_UPDATED_FIELD])] = row[LAST_UPDATED_FIELD]
         print(f"    filled {updated}/{len(missing)} fields")
         done += 1
+        if updated:
+            quota["rows"] += 1
+            save_quota(args.output, quota)
         time.sleep(CALL_DELAY)
 
     if not cells_to_update:
