@@ -82,7 +82,7 @@ jobs:
         run: |
           python scripts/agent.py --key /tmp/sa-key.json --output data \
             --tabs ${{ inputs.tabs || 'diamond_stock jewellery_stock' }} \
-            --stages fix fill check --max-rows ${{ inputs.max_rows || '3' }} --no-commit
+            --stages fix fill check --max-rows ${{ inputs.max_rows || '50' }} --no-commit
 
       - name: Commit and push changes
         run: |

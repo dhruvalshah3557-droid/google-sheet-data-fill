@@ -14,7 +14,7 @@ set -euo pipefail
 REPO="dhruvalshah3557-droid/google-sheet-data-fill"
 WORKFLOW="slow-fill.yml"
 INTERVAL="${INTERVAL:-${1:-60}}"
-MAX_ROWS="${MAX_ROWS:-3}"
+MAX_ROWS="${MAX_ROWS:-50}"
 TABS="${TABS:-diamond_stock jewellery_stock}"
 
 get_token() {
