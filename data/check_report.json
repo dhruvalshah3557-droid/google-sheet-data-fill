@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-09-01T05:42:44.433322+00:00",
+  "stages": [
+    "check"
+  ],
+  "issues": [
+    {
+      "severity": "warn",
+      "message": "diamond_stock: 290 rows with empty 'STK'"
+    },
+    {
+      "severity": "warn",
+      "message": "diamond_stock: 59 malformed PRODUCT LINK cells"
+    },
+    {
+      "severity": "warn",
+      "message": "diamond_stock: 973 non-http or broken media URLs"
+    },
+    {
+      "severity": "warn",
+      "message": "diamond_stock: 557/824 (68%) rows missing 'model image link 3'"
+    },
+    {
+      "severity": "warn",
+      "message": "jewellery_stock: 28 rows with empty 'STK'"
+    },
+    {
+      "severity": "warn",
+      "message": "jewellery_stock: 1 duplicate 'STK's, e.g. ['7942']"
+    },
+    {
+      "severity": "warn",
+      "message": "jewellery_stock: 161 malformed PRODUCT LINK cells"
+    },
+    {
+      "severity": "warn",
+      "message": "jewellery_stock: 921 non-http or broken media URLs"
+    },
+    {
+      "severity": "warn",
+      "message": "jewellery_stock: 559/652 (86%) rows missing 'model image link 3'"
+    },
+    {
+      "severity": "warn",
+      "message": "full_stock: 1 duplicate 'STK's, e.g. ['7942']"
+    },
+    {
+      "severity": "warn",
+      "message": "full_stock: 143 malformed PRODUCT LINK cells"
+    },
+    {
+      "severity": "warn",
+      "message": "full_stock: 1213 non-http or broken media URLs"
+    },
+    {
+      "severity": "warn",
+      "message": "full_stock: 1135/1158 rows have empty marketing cells (X..CT)"
+    },
+    {
+      "severity": "warn",
+      "message": "auto_fetch_link_from_ftp: 615 rows with empty 'STK'"
+    },
+    {
+      "severity": "error",
+      "message": "auto_fetch_link_from_ftp: 1 cells contain spreadsheet errors like #N/A"
+    },
+    {
+      "severity": "warn",
+      "message": "auto_fetch_link_from_ftp: 146 malformed PRODUCT LINK cells"
+    },
+    {
+      "severity": "warn",
+      "message": "Model_Media_FTP: 2 rows with empty 'Stock ID'"
+    },
+    {
+      "severity": "warn",
+      "message": "pinterest: 1 duplicate 'id's, e.g. ['7942']"
+    },
+    {
+      "severity": "warn",
+      "message": "pinterest: 43 non-http or broken media URLs"
+    },
+    {
+      "severity": "warn",
+      "message": "shopee: 1 duplicate 'Stock's, e.g. ['1']"
+    }
+  ],
+  "error_count": 1,
+  "warning_count": 19
+}
