@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T23:18:10.366253+00:00",
+  "generated_at": "2026-09-04T04:37:02.502246+00:00",
   "stages": [
     "check"
   ],
@@ -38,7 +38,7 @@
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 461/648 (71%) rows missing 'model image link 3'"
+      "message": "jewellery_stock: 446/648 (69%) rows missing 'model image link 3'"
     },
     {
       "severity": "warn",
