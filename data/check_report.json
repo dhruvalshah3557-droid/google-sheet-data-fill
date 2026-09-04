@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T11:21:01.923427+00:00",
+  "generated_at": "2026-09-04T16:23:22.827391+00:00",
   "stages": [
     "check"
   ],
@@ -14,15 +14,15 @@
     },
     {
       "severity": "warn",
-      "message": "diamond_stock: 973 non-http or broken media URLs"
+      "message": "diamond_stock: 977 non-http or broken media URLs"
     },
     {
       "severity": "warn",
-      "message": "diamond_stock: 557/824 (68%) rows missing 'model image link 3'"
+      "message": "diamond_stock: 554/824 (67%) rows missing 'model image link 3'"
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 26 rows with empty 'STK'"
+      "message": "jewellery_stock: 24 rows with empty 'STK'"
     },
     {
       "severity": "warn",
@@ -38,15 +38,15 @@
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 431/648 (67%) rows missing 'model image link 3'"
+      "message": "jewellery_stock: 430/648 (66%) rows missing 'model image link 3'"
     },
     {
       "severity": "warn",
-      "message": "full_stock: 1 duplicate 'STK's, e.g. ['7942']"
+      "message": "full_stock: 2 duplicate 'STK's, e.g. ['7669', '7942']"
     },
     {
       "severity": "warn",
-      "message": "full_stock: 90 malformed PRODUCT LINK cells"
+      "message": "full_stock: 92 malformed PRODUCT LINK cells"
     },
     {
       "severity": "warn",
@@ -54,7 +54,7 @@
     },
     {
       "severity": "warn",
-      "message": "full_stock: 1062/1156 rows have empty marketing cells (X..CT)"
+      "message": "full_stock: 1063/1158 rows have empty marketing cells (X..CT)"
     },
     {
       "severity": "warn",
@@ -74,7 +74,7 @@
     },
     {
       "severity": "warn",
-      "message": "pinterest: 1 duplicate 'id's, e.g. ['7942']"
+      "message": "pinterest: 2 duplicate 'id's, e.g. ['7669', '7942']"
     },
     {
       "severity": "warn",
