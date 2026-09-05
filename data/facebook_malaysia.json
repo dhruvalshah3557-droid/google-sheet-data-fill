@@ -27839,8 +27839,8 @@
   },
   {
     "# Required | A unique content ID for the item. Use the item's SKU if you can. Each content ID must appear only once in your catalog. To run dynamic ads this ID must exactly match the content ID for the same item in your Meta Pixel code. Character limit: 100": 719,
-    "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "Sku - 719 Weight - 0.55 Colour - Fancy Vivid Orangy Yellow Shape - Emerald Clarity - SI1 Measurements - 4.87X4.30X3.31 Fluorescence - None Polish - VG Symmetry - GD No Of Diamonds - 1",
-    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "Sku - 719\nWeight - 0.55\nColour - Fancy Vivid Orangy Yellow\nShape - Emerald\nClarity - SI1\nMeasurements - 4.87X4.30X3.31\nFluorescence - None\nPolish - VG\nSymmetry - GD\nNo Of Diamonds - 1",
+    "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "https://www.colourdiam.com/Product/Diamond/719/video1.mp4",
+    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "https://www.colourdiam.com/Product/Diamond/719/model2.jpg",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
     "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "15348.87 MYR",
