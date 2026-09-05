@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T23:03:37.338317+00:00",
+  "generated_at": "2026-09-05T04:33:11.528505+00:00",
   "stages": [
     "check"
   ],
@@ -18,7 +18,7 @@
     },
     {
       "severity": "warn",
-      "message": "diamond_stock: 550/824 (67%) rows missing 'model image link 3'"
+      "message": "diamond_stock: 549/824 (67%) rows missing 'model image link 3'"
     },
     {
       "severity": "warn",
@@ -34,7 +34,7 @@
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 932 non-http or broken media URLs"
+      "message": "jewellery_stock: 966 non-http or broken media URLs"
     },
     {
       "severity": "warn",
