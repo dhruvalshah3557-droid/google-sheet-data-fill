@@ -33574,8 +33574,8 @@
   },
   {
     "# Required | A unique content ID for the item. Use the item's SKU if you can. Each content ID must appear only once in your catalog. To run dynamic ads this ID must exactly match the content ID for the same item in your Meta Pixel code. Character limit: 100": 6067,
-    "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "Sku - 6067 Weight - 0.28 Colour - Fancy Brown Pink Shape - Radiant Clarity - SI2 Measurements - 4.15 X 3.34 X 2.18 Fluorescence - Fnt Polish - G Symmetry - GD No Of Diamonds - 1",
-    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "Sku - 6067\nWeight - 0.28\nColour - Fancy Brown Pink\nShape - Radiant\nClarity - SI2\nMeasurements - 4.15 X 3.34 X 2.18\nFluorescence - Fnt\nPolish - G\nSymmetry - GD\nNo Of Diamonds - 1",
+    "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "https://www.colourdiam.com/Product/Diamond/6067/video1.mp4",
+    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "https://www.colourdiam.com/Product/Diamond/6067/angle.jpg",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
     "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "1095.15 EUR",
