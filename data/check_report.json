@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T04:40:14.071404+00:00",
+  "generated_at": "2026-09-08T11:22:40.190375+00:00",
   "stages": [
     "check"
   ],
@@ -34,11 +34,11 @@
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 957 non-http or broken media URLs"
+      "message": "jewellery_stock: 969 non-http or broken media URLs"
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 228/648 (35%) rows missing 'model image link 3'"
+      "message": "jewellery_stock: 222/648 (34%) rows missing 'model image link 3'"
     },
     {
       "severity": "warn",
@@ -50,7 +50,7 @@
     },
     {
       "severity": "warn",
-      "message": "full_stock: 1249 non-http or broken media URLs"
+      "message": "full_stock: 1258 non-http or broken media URLs"
     },
     {
       "severity": "warn",
