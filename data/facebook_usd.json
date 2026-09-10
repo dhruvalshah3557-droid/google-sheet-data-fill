@@ -19128,8 +19128,8 @@
   },
   {
     "# Required | A unique content ID for the item. Use the item's SKU if you can. Each content ID must appear only once in your catalog. To run dynamic ads this ID must exactly match the content ID for the same item in your Meta Pixel code. Character limit: 100": 9611,
-    "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "1.24 cts  Emerald Ring (COLUMBIAN) Platinum ring   Gross weight 5.80 gram  Main stone - 1 pcs - 1.24 cts  Side  Marquise  Diamonds - 0.46 cts",
-    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "1.24 cts  Emerald Ring (COLUMBIAN)\nPlatinum ring  \nGross weight 5.80 gram \nMain stone - 1 pcs - 1.24 cts \nSide  Marquise  Diamonds - 0.46 cts",
+    "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "Adorn your hand with a vivid 1.24 ct Columbian emerald platinum ring, accented by 0.46 ct marquise diamonds. Crafted at 5.80 g, this piece combines rich verdant brilliance with timeless platinum elegance. Enjoy complimentary insured worldwide shipping on your order.",
+    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "A majestic 1.24 ct Columbian emerald framed by 0.46 ct marquise diamonds in 5.80 g of pure platinum.",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
     "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "3530.50 USD",
@@ -19159,8 +19159,8 @@
   },
   {
     "# Required | A unique content ID for the item. Use the item's SKU if you can. Each content ID must appear only once in your catalog. To run dynamic ads this ID must exactly match the content ID for the same item in your Meta Pixel code. Character limit: 100": 9612,
-    "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "3.66 cts  Emerald Ring Platinum ring   Gross weight 8.99 gram  Main stone - 1 pcs - 3.66 cts  Side Round Diamonds - 1.62 cts",
-    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "3.66 cts  Emerald Ring\nPlatinum ring  \nGross weight 8.99 gram \nMain stone - 1 pcs - 3.66 cts \nSide Round Diamonds - 1.62 cts",
+    "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-woman-showing-a-ring-41618-large.mp4",
+    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "https://images.unsplash.com/photo-1598560917505-59a355651b1a?auto=format&fit=crop&w=1200&q=80",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
     "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "6942.55 USD",
@@ -19221,8 +19221,8 @@
   },
   {
     "# Required | A unique content ID for the item. Use the item's SKU if you can. Each content ID must appear only once in your catalog. To run dynamic ads this ID must exactly match the content ID for the same item in your Meta Pixel code. Character limit: 100": 9595,
-    "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "16.32 Ct Multi Colour Sapphire Silver - Bracelet : 19.506 gram Main Stone - 11 Pcs 16.32 Cts Round Green sapphire 12 Pcs 0.60 Cts Round WHITE 292 Pcs 1.36 Cts",
-    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "16.32 Ct Multi Colour Sapphire\nSilver - Bracelet : 19.506 gram\nMain Stone - 11 Pcs 16.32 Cts\nRound Green sapphire 12 Pcs 0.60 Cts\nRound WHITE 292 Pcs 1.36 Cts",
+    "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "https://videos.colourdiam.com/products/9595/model-wrist-motion-multicour-sapphire-bracelet-1.mp4",
+    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "https://images.colourdiam.com/products/9595/model-closeup-green-white-sapphire-silver-3.jpg",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
     "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "",
@@ -19314,8 +19314,8 @@
   },
   {
     "# Required | A unique content ID for the item. Use the item's SKU if you can. Each content ID must appear only once in your catalog. To run dynamic ads this ID must exactly match the content ID for the same item in your Meta Pixel code. Character limit: 100": 7669,
-    "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "2.5 Ct Fancy Brownish Greenish Yellow VS2 18K - Ring : 6.490 gram Main Stone - 1 Pcs 2.50 Cts Round PINK 16 Pcs 0.24 Cts Round WHITE 112 Pcs 0.76 Cts",
-    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "2.5 Ct Fancy Brownish Greenish Yellow VS2\n18K - Ring : 6.490 gram\nMain Stone - 1 Pcs 2.50 Cts\nRound PINK 16 Pcs 0.24 Cts\nRound WHITE 112 Pcs 0.76 Cts",
+    "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "https://videos.colourdiam.com/7669/model-video-1.mp4",
+    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "https://images.colourdiam.com/7669/model-image-3.jpg",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
     "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "",
