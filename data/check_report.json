@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T16:30:46.262785+00:00",
+  "generated_at": "2026-09-11T20:59:25.885979+00:00",
   "stages": [
     "check"
   ],
@@ -54,7 +54,7 @@
     },
     {
       "severity": "warn",
-      "message": "full_stock: 812/1154 rows have empty marketing cells (X..CT)"
+      "message": "full_stock: 810/1154 rows have empty marketing cells (X..CT)"
     },
     {
       "severity": "warn",
