@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T11:55:58.370667+00:00",
+  "generated_at": "2026-09-13T16:19:57.537170+00:00",
   "stages": [
     "check"
   ],
@@ -14,7 +14,7 @@
     },
     {
       "severity": "warn",
-      "message": "diamond_stock: 1081 non-http or broken media URLs"
+      "message": "diamond_stock: 1085 non-http or broken media URLs"
     },
     {
       "severity": "warn",
@@ -34,7 +34,7 @@
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 996 non-http or broken media URLs"
+      "message": "jewellery_stock: 1001 non-http or broken media URLs"
     },
     {
       "severity": "warn",
