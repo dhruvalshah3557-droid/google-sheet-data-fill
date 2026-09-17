@@ -1,7 +1,7 @@
 [
   {
     "FTP media verification": "Checked on",
-    "Status": "2026-08-18"
+    "Status": "2026-09-17"
   },
   {
     "FTP media verification": "FTP source",
@@ -9,27 +9,27 @@
   },
   {
     "FTP media verification": "Populated FTP lookup rows",
-    "Status": "292"
+    "Status": 292
   },
   {
     "FTP media verification": "Jewellery rows checked",
-    "Status": "614"
+    "Status": 620
   },
   {
     "FTP media verification": "Jewellery SKUs matched to FTP",
-    "Status": "291"
+    "Status": 288
   },
   {
     "FTP media verification": "Combined auto-fetch rows",
-    "Status": "1148"
+    "Status": 1154
   },
   {
     "FTP media verification": "#N/A rows after repair",
     "Status": "0"
   },
   {
-    "FTP media verification": "Exact lookup mismatches",
-    "Status": "0"
+    "FTP media verification": "FTP IDs not present in current jewellery stock",
+    "Status": "4 — 6906, 7691, 7285, 9093_9098"
   },
   {
     "FTP media verification": "Duplicate FTP Stock IDs",
@@ -45,7 +45,7 @@
   },
   {
     "FTP media verification": "Result",
-    "Status": "PASS — exact SKU lookup is working; missing FTP media returns blank"
+    "Status": "PASS — automated stock merge and exact-SKU FTP lookup working; unavailable media stays blank"
   },
   {
     "FTP media verification": "Publishing rule",

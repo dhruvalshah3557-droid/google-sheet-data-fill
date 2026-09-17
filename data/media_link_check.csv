@@ -1,14 +1,14 @@
 FTP media verification,Status
-Checked on,2026-08-18
+Checked on,2026-09-17
 FTP source,Model Media FTP!A:F
 Populated FTP lookup rows,292
-Jewellery rows checked,614
-Jewellery SKUs matched to FTP,291
-Combined auto-fetch rows,1148
+Jewellery rows checked,620
+Jewellery SKUs matched to FTP,288
+Combined auto-fetch rows,1154
 #N/A rows after repair,0
-Exact lookup mismatches,0
+FTP IDs not present in current jewellery stock,"4 — 6906, 7691, 7285, 9093_9098"
 Duplicate FTP Stock IDs,0
 Wrong-SKU / shifted media links,0
 Known FTP folder alias,Stock ID 1333_6674_6673 intentionally points to folder 1333_6674
-Result,PASS — exact SKU lookup is working; missing FTP media returns blank
+Result,PASS — automated stock merge and exact-SKU FTP lookup working; unavailable media stays blank
 Publishing rule,Use product/model photos and videos as separate jobs; blank media means no job
