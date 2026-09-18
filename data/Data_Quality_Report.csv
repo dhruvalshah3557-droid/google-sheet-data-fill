@@ -1,7 +1,31 @@
 Tab Name,Cell Reference,Error Type,Description,Current Value
-jewellery stock,W2,Formula Error,#REF! error in 'multiple model video link' column.,#REF! ()
-jewellery stock,D2,Missing Field,Missing 'CODE' value.,(Empty)
-jewellery stock,Y2,Spelling/Grammar,Lowercase 'a' after period.,...luxurious 18k. a masterpiece...
-diamond stock,F3,Inconsistent Pricing,"Price is $0.00, which is likely incorrect for a diamond.",0
-diamond stock,E2,Spelling/Grammar,"""Fluoresence"" is misspelled (should be ""Fluorescence"").",...Fluoresence - Fnt...
-diamond stock,F7,Inconsistent Pricing,Price is $0.00.,0
+jewellery stock,D2,Missing Field,Missing CODE value for stock 665_142.,(Empty)
+diamond stock,F3,Inconsistent Pricing,Price formula resolves to $0.00 for stock 9582; verify the source pricing inputs.,$0.00
+diamond stock,F4,Inconsistent Pricing,Price formula resolves to $0.00 for stock 9583; verify the source pricing inputs.,$0.00
+diamond stock,F7,Inconsistent Pricing,Price formula resolves to $0.00 for stock 9577; verify the source pricing inputs.,$0.00
+diamond stock,F49,Inconsistent Pricing,Price formula resolves to $0.00 for stock 9572; verify the source pricing inputs.,$0.00
+diamond stock,F159,Inconsistent Pricing,Price formula resolves to $0.00 for stock 2497; verify the source pricing inputs.,$0.00
+diamond stock,F215,Inconsistent Pricing,Price formula resolves to $0.00 for stock 9591; verify the source pricing inputs.,$0.00
+diamond stock,F246,Inconsistent Pricing,Price formula resolves to $0.00 for stock 3603; verify the source pricing inputs.,$0.00
+diamond stock,F288,Inconsistent Pricing,Price formula resolves to $0.00 for stock 2965; verify the source pricing inputs.,$0.00
+diamond stock,F330,Inconsistent Pricing,Price formula resolves to $0.00 for stock 2963; verify the source pricing inputs.,$0.00
+diamond stock,F362,Inconsistent Pricing,Price formula resolves to $0.00 for stock 9498; verify the source pricing inputs.,$0.00
+diamond stock,F398,Inconsistent Pricing,Price formula resolves to $0.00 for stock 9590; verify the source pricing inputs.,$0.00
+diamond stock,F413,Inconsistent Pricing,Price formula resolves to $0.00 for stock 9500; verify the source pricing inputs.,$0.00
+diamond stock,F440,Inconsistent Pricing,Price formula resolves to $0.00 for stock 2967; verify the source pricing inputs.,$0.00
+diamond stock,F465,Inconsistent Pricing,Price formula resolves to $0.00 for stock 2960; verify the source pricing inputs.,$0.00
+diamond stock,F485,Inconsistent Pricing,Price formula resolves to $0.00 for stock 2964; verify the source pricing inputs.,$0.00
+diamond stock,F490,Inconsistent Pricing,Price formula resolves to $0.00 for stock 2972; verify the source pricing inputs.,$0.00
+diamond stock,F499,Inconsistent Pricing,Price formula resolves to $0.00 for stock 2969; verify the source pricing inputs.,$0.00
+diamond stock,F511,Inconsistent Pricing,Price formula resolves to $0.00 for stock 2970; verify the source pricing inputs.,$0.00
+diamond stock,F521,Inconsistent Pricing,Price formula resolves to $0.00 for stock 2966; verify the source pricing inputs.,$0.00
+diamond stock,F526,Inconsistent Pricing,Price formula resolves to $0.00 for stock 241; verify the source pricing inputs.,$0.00
+diamond stock,F527,Inconsistent Pricing,Price formula resolves to $0.00 for stock 9480; verify the source pricing inputs.,$0.00
+diamond stock,F528,Inconsistent Pricing,Price formula resolves to $0.00 for stock 1065; verify the source pricing inputs.,$0.00
+diamond stock,F529,Inconsistent Pricing,Price formula resolves to $0.00 for stock 2507; verify the source pricing inputs.,$0.00
+diamond stock,F530,Inconsistent Pricing,Price formula resolves to $0.00 for stock 2961; verify the source pricing inputs.,$0.00
+diamond stock,F531,Inconsistent Pricing,Price formula resolves to $0.00 for stock 2503; verify the source pricing inputs.,$0.00
+diamond stock,F532,Inconsistent Pricing,Price formula resolves to $0.00 for stock 3602; verify the source pricing inputs.,$0.00
+diamond stock,F533,Inconsistent Pricing,Price formula resolves to $0.00 for stock 2509; verify the source pricing inputs.,$0.00
+diamond stock,F534,Inconsistent Pricing,Price formula resolves to $0.00 for stock 2371; verify the source pricing inputs.,$0.00
+diamond stock,F535,Inconsistent Pricing,Price formula resolves to $0.00 for stock 2536; verify the source pricing inputs.,$0.00

@@ -1,44 +1,212 @@
 [
   {
     "Tab Name": "jewellery stock",
-    "Cell Reference": "W2",
-    "Error Type": "Formula Error",
-    "Description": "#REF! error in 'multiple model video link' column.",
-    "Current Value": "#REF! ()"
-  },
-  {
-    "Tab Name": "jewellery stock",
     "Cell Reference": "D2",
     "Error Type": "Missing Field",
-    "Description": "Missing 'CODE' value.",
+    "Description": "Missing CODE value for stock 665_142.",
     "Current Value": "(Empty)"
-  },
-  {
-    "Tab Name": "jewellery stock",
-    "Cell Reference": "Y2",
-    "Error Type": "Spelling/Grammar",
-    "Description": "Lowercase 'a' after period.",
-    "Current Value": "...luxurious 18k. a masterpiece..."
   },
   {
     "Tab Name": "diamond stock",
     "Cell Reference": "F3",
     "Error Type": "Inconsistent Pricing",
-    "Description": "Price is $0.00, which is likely incorrect for a diamond.",
-    "Current Value": 0
+    "Description": "Price formula resolves to $0.00 for stock 9582; verify the source pricing inputs.",
+    "Current Value": "$0.00"
   },
   {
     "Tab Name": "diamond stock",
-    "Cell Reference": "E2",
-    "Error Type": "Spelling/Grammar",
-    "Description": "\"Fluoresence\" is misspelled (should be \"Fluorescence\").",
-    "Current Value": "...Fluoresence - Fnt..."
+    "Cell Reference": "F4",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 9583; verify the source pricing inputs.",
+    "Current Value": "$0.00"
   },
   {
     "Tab Name": "diamond stock",
     "Cell Reference": "F7",
     "Error Type": "Inconsistent Pricing",
-    "Description": "Price is $0.00.",
-    "Current Value": 0
+    "Description": "Price formula resolves to $0.00 for stock 9577; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F49",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 9572; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F159",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 2497; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F215",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 9591; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F246",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 3603; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F288",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 2965; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F330",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 2963; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F362",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 9498; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F398",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 9590; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F413",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 9500; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F440",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 2967; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F465",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 2960; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F485",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 2964; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F490",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 2972; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F499",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 2969; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F511",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 2970; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F521",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 2966; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F526",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 241; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F527",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 9480; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F528",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 1065; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F529",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 2507; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F530",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 2961; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F531",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 2503; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F532",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 3602; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F533",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 2509; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F534",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 2371; verify the source pricing inputs.",
+    "Current Value": "$0.00"
+  },
+  {
+    "Tab Name": "diamond stock",
+    "Cell Reference": "F535",
+    "Error Type": "Inconsistent Pricing",
+    "Description": "Price formula resolves to $0.00 for stock 2536; verify the source pricing inputs.",
+    "Current Value": "$0.00"
   }
 ]

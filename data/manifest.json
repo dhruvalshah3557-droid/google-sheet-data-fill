@@ -1,8 +1,7 @@
 {
   "spreadsheet_id": "1kAD1ASXaaqrBmNHDVMYgj_cfW8pFJPEiRCY8ENutAvQ",
-  "synced_at": "2026-09-18T12:33:53.947958+00:00",
+  "synced_at": "2026-09-18T16:56:21.640700+00:00",
   "tabs": {
-    "FTP Auto Backup 2026-09-17": 615,
     "jewellery stock ": 644,
     "diamond stock ": 824,
     "full stock ": 1154,
@@ -25,8 +24,9 @@
     "google merchant center": 1155,
     "media link check": 13,
     "Model Media FTP": 294,
+    "FTP Auto Backup 2026-09-17": 615,
     "Tag Print": 873,
     "auto fetch link from ftp ": 1154,
-    "Data Quality Report": 6
+    "Data Quality Report": 30
   }
 }
