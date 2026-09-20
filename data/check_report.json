@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T16:10:05.944716+00:00",
+  "generated_at": "2026-09-20T20:51:21.795048+00:00",
   "stages": [
     "check"
   ],
@@ -34,7 +34,7 @@
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 1222 non-http or broken media URLs"
+      "message": "jewellery_stock: 1258 non-http or broken media URLs"
     },
     {
       "severity": "warn",
@@ -50,7 +50,7 @@
     },
     {
       "severity": "warn",
-      "message": "full_stock: 1145/1154 rows have empty marketing cells (X..CT)"
+      "message": "full_stock: 1138/1154 rows have empty marketing cells (X..CT)"
     },
     {
       "severity": "warn",
