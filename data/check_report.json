@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T11:40:42.195627+00:00",
+  "generated_at": "2026-09-23T17:03:51.847384+00:00",
   "stages": [
     "check"
   ],
@@ -14,7 +14,7 @@
     },
     {
       "severity": "warn",
-      "message": "diamond_stock: 1081 non-http or broken media URLs"
+      "message": "diamond_stock: 1088 non-http or broken media URLs"
     },
     {
       "severity": "warn",
@@ -34,11 +34,11 @@
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 1229 non-http or broken media URLs"
+      "message": "jewellery_stock: 1423 non-http or broken media URLs"
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 17/641 (3%) rows missing 'model image link 3'"
+      "message": "jewellery_stock: 259/641 (40%) rows missing 'model image link 3'"
     },
     {
       "severity": "warn",
@@ -46,19 +46,19 @@
     },
     {
       "severity": "warn",
-      "message": "full_stock: 1297 non-http or broken media URLs"
+      "message": "full_stock: 1270 non-http or broken media URLs"
     },
     {
       "severity": "warn",
-      "message": "full_stock: 1135/1151 rows have empty marketing cells (X..CT)"
+      "message": "full_stock: 1140/1151 rows have empty marketing cells (X..CT)"
     },
     {
       "severity": "warn",
-      "message": "auto_fetch_link_from_ftp: 620 rows with empty 'STK'"
+      "message": "auto_fetch_link_from_ftp: 2 duplicate 'STK's, e.g. ['7669', '7942']"
     },
     {
-      "severity": "error",
-      "message": "auto_fetch_link_from_ftp: 1 cells contain spreadsheet errors like #N/A"
+      "severity": "warn",
+      "message": "auto_fetch_link_from_ftp: 15 non-http or broken media URLs"
     },
     {
       "severity": "warn",
@@ -77,6 +77,6 @@
       "message": "shopee: 1 duplicate 'Stock's, e.g. ['1']"
     }
   ],
-  "error_count": 1,
-  "warning_count": 17
+  "error_count": 0,
+  "warning_count": 18
 }
