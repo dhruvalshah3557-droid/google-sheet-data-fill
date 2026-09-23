@@ -95,7 +95,7 @@
   {
     "# Required | A unique content ID for the item. Use the item's SKU if you can. Each content ID must appear only once in your catalog. To run dynamic ads this ID must exactly match the content ID for the same item in your Meta Pixel code. Character limit: 100": 414,
     "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "https://colourdiam.com/Product/Model%20Photo%20Video/414/video.mp4",
-    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "0.377 – Fancy Pink SI1\n18K Platinum Ring: 6.895 gram\nMain Stone - 1 Pcs 0.377 Cts\nWD : 37 / 0.61",
+    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "https://images.colourdiam.com/stk414-pink-ring-3.jpg",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
     "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "6325.00 USD",
@@ -126,7 +126,7 @@
   {
     "# Required | A unique content ID for the item. Use the item's SKU if you can. Each content ID must appear only once in your catalog. To run dynamic ads this ID must exactly match the content ID for the same item in your Meta Pixel code. Character limit: 100": 415,
     "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "https://images.colourdiam.com/videos/415/model_hand_1.mp4",
-    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "0.175 cts Fancy Pink Ring SI1 \n18k Platinum Ring : 5.634 gram                                             \nWD : 50 / 0.81",
+    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "https://images.colourdiam.com/products/415/model_3.jpg",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
     "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "6325.00 USD",
@@ -312,7 +312,7 @@
   {
     "# Required | A unique content ID for the item. Use the item's SKU if you can. Each content ID must appear only once in your catalog. To run dynamic ads this ID must exactly match the content ID for the same item in your Meta Pixel code. Character limit: 100": 1135,
     "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "https://colourdiam.com/Product/Model%20Photo%20Video/1135/video.mp4",
-    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "1.02 cts Fancy Intense yellow Ring\n18k : 5.55 gram \nMain Stone - 1 Pcs  1.02 Cts\nPEAR : 8 / 0.485 \nYD : 50 / 0.247\nWD : 21 / 0.237",
+    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
     "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "5750.00 USD",
@@ -405,7 +405,7 @@
   {
     "# Required | A unique content ID for the item. Use the item's SKU if you can. Each content ID must appear only once in your catalog. To run dynamic ads this ID must exactly match the content ID for the same item in your Meta Pixel code. Character limit: 100": "1333_6674_6673",
     "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "https://images.colourdiam.com/videos/1333_6674_6673/model_view_1.mp4",
-    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "0.91 ct Fancy Intense Yellow SI1\n0.32 ct F VS2\n0.31 ct D VVS2 \n18K Ring : 3.98 gram\nMain Stone - 1 Pcs  0.91 Cts\nHeart : 02 / 0.63",
+    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "https://images.colourdiam.com/1333_6674_6673_on_model_3.jpg",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
     "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "17825.00 USD",
@@ -529,7 +529,7 @@
   {
     "# Required | A unique content ID for the item. Use the item's SKU if you can. Each content ID must appear only once in your catalog. To run dynamic ads this ID must exactly match the content ID for the same item in your Meta Pixel code. Character limit: 100": 1850,
     "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "https://images.colourdiam.com/videos/1850-1.mp4",
-    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "0.70 cts Fancy Brownish Yellow SI1\n18K Ring : 3.48 gram\nMain Stone - 1 Pcs  0.70 Cts\nWD : 52 / 0.288",
+    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "https://images.colourdiam.com/stk1850-model-3.jpg",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
     "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "1725.00 USD",
@@ -1273,7 +1273,7 @@
   {
     "# Required | A unique content ID for the item. Use the item's SKU if you can. Each content ID must appear only once in your catalog. To run dynamic ads this ID must exactly match the content ID for the same item in your Meta Pixel code. Character limit: 100": 3763,
     "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "https://videos.colourdiam.com/stk3760-yellow-ring-model-1.mp4",
-    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "1.02 cts Fancy Light Yellow I1\n18 k Ring : 3.968 gram\nMain stone - 01 pcs – 1.02 cts\nWD : 18 / 0.145",
+    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "https://colourdiam.com/Product/Jewellery/Model%20images/3763/1.jpeg\nhttps://colourdiam.com/Product/Jewellery/Model%20images/3763/center.jpeg",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
     "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "3450.00 USD",
@@ -1366,7 +1366,7 @@
   {
     "# Required | A unique content ID for the item. Use the item's SKU if you can. Each content ID must appear only once in your catalog. To run dynamic ads this ID must exactly match the content ID for the same item in your Meta Pixel code. Character limit: 100": 4059,
     "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "https://images.colourdiam.com/videos/4059/model_hand_1.mp4",
-    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "1.01 cts Fancy Brown Pink I1\n18 k Ring : 4.20 gram\nMain stone - 01 pcs – 1.01 cts\nPINK : 15 / 0.29\nWD : 34 / 0.71",
+    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "https://colourdiam.com/Product/Jewellery/Model%20images/4059/2.jpeg\nhttps://colourdiam.com/Product/Jewellery/Model%20images/4059/3.jpeg\nhttps://colourdiam.com/Product/Jewellery/Model%20images/4059/center.jpeg",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
     "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "8050.00 USD",
@@ -18230,7 +18230,7 @@
   {
     "# Required | A unique content ID for the item. Use the item's SKU if you can. Each content ID must appear only once in your catalog. To run dynamic ads this ID must exactly match the content ID for the same item in your Meta Pixel code. Character limit: 100": 6101,
     "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "https://videos.colourdiam.com/9317_9325/model_1.mp4",
-    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "2.70 Ct Fancy Orange Brown SI1\n18K  Ring : 4.99 gram\nMain Stone - 1 Pcs - 2.70 Cts\nPEAR : 02 / 0.39\nWHITE : 172 / 1.16",
+    "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "https://colourdiam.com/Product/Jewellery/Model%20images/6101/1.jpeg\nhttps://colourdiam.com/Product/Jewellery/Model%20images/6101/center.jpeg",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
     "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "17250.00 USD",
