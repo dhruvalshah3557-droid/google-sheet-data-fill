@@ -19164,7 +19164,7 @@
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
     "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "5750.00 USD",
-    "# Required | The URL of the specific product page where people can buy the item.": "https://colourdiam.com/productdetail/2772",
+    "# Required | The URL of the specific product page where people can buy the item.": "https://colourdiam.com/productdetail/Menu/4329/5655",
     "# Required | The URL for the main image of your item. Images must be in a supported format (JPG/GIF/PNG) and at least 500 x 500 pixels.": "https://colourdiam.com/Product/Jewellery/9598/black360/center.jpg",
     "# Required | The brand name of the item. Character limit: 100.": "ColourDiam",
     "# Optional | The Google product category for the item. Learn more about product categories: https://www.facebook.com/business/help/526764014610932.": "Apparel & Accessories > Jewelry",
