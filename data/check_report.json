@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T18:06:12.528734+00:00",
+  "generated_at": "2026-09-29T22:18:10.542449+00:00",
   "stages": [
     "check"
   ],
@@ -14,7 +14,7 @@
     },
     {
       "severity": "warn",
-      "message": "diamond_stock: 1034 non-http or broken media URLs"
+      "message": "diamond_stock: 1038 non-http or broken media URLs"
     },
     {
       "severity": "warn",
@@ -34,7 +34,7 @@
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 1321 non-http or broken media URLs"
+      "message": "jewellery_stock: 1287 non-http or broken media URLs"
     },
     {
       "severity": "warn",
@@ -54,11 +54,15 @@
     },
     {
       "severity": "warn",
-      "message": "auto_fetch_link_from_ftp: 2 duplicate 'STK's, e.g. ['7669', '7942']"
+      "message": "auto_fetch_link_from_ftp: 618 rows with empty 'STK'"
+    },
+    {
+      "severity": "error",
+      "message": "auto_fetch_link_from_ftp: 1 cells contain spreadsheet errors like #N/A"
     },
     {
       "severity": "warn",
-      "message": "auto_fetch_link_from_ftp: 15 non-http or broken media URLs"
+      "message": "auto_fetch_link_from_ftp: 617 malformed PRODUCT LINK cells"
     },
     {
       "severity": "warn",
@@ -77,6 +81,6 @@
       "message": "shopee: 1 duplicate 'Stock's, e.g. ['1']"
     }
   ],
-  "error_count": 0,
+  "error_count": 1,
   "warning_count": 18
 }
