@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T12:37:54.656817+00:00",
+  "generated_at": "2026-09-30T20:03:00.449902+00:00",
   "stages": [
     "check"
   ],
@@ -14,15 +14,15 @@
     },
     {
       "severity": "warn",
-      "message": "diamond_stock: 1036 non-http or broken media URLs"
+      "message": "diamond_stock: 844 non-http or broken media URLs"
     },
     {
       "severity": "warn",
-      "message": "diamond_stock: 290/824 (35%) rows missing 'model image link 3'"
+      "message": "diamond_stock: 824/824 (100%) rows missing 'model image link 3'"
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 23 rows with empty 'STK'"
+      "message": "jewellery_stock: 22 rows with empty 'STK'"
     },
     {
       "severity": "warn",
@@ -34,11 +34,11 @@
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 1327 non-http or broken media URLs"
+      "message": "jewellery_stock: 2251 non-http or broken media URLs"
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 246/641 (38%) rows missing 'model image link 3'"
+      "message": "jewellery_stock: 595/641 (93%) rows missing 'model image link 3'"
     },
     {
       "severity": "warn",
@@ -46,23 +46,19 @@
     },
     {
       "severity": "warn",
-      "message": "full_stock: 1271 non-http or broken media URLs"
+      "message": "full_stock: 1168 non-http or broken media URLs"
     },
     {
       "severity": "warn",
-      "message": "full_stock: 1137/1152 rows have empty marketing cells (X..CT)"
+      "message": "full_stock: 1152/1153 rows have empty marketing cells (X..CT)"
     },
     {
       "severity": "warn",
-      "message": "auto_fetch_link_from_ftp: 618 rows with empty 'STK'"
-    },
-    {
-      "severity": "error",
-      "message": "auto_fetch_link_from_ftp: 1 cells contain spreadsheet errors like #N/A"
+      "message": "auto_fetch_link_from_ftp: 2 duplicate 'STK's, e.g. ['7669', '7942']"
     },
     {
       "severity": "warn",
-      "message": "auto_fetch_link_from_ftp: 617 malformed PRODUCT LINK cells"
+      "message": "auto_fetch_link_from_ftp: 15 non-http or broken media URLs"
     },
     {
       "severity": "warn",
@@ -81,6 +77,6 @@
       "message": "shopee: 1 duplicate 'Stock's, e.g. ['1']"
     }
   ],
-  "error_count": 1,
+  "error_count": 0,
   "warning_count": 18
 }
