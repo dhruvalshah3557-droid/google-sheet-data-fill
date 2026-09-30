@@ -17,6 +17,7 @@ Usage:
 import argparse
 import json
 import sys
+from urllib.parse import urlsplit, unquote
 from pathlib import Path
 
 DEFAULT_SPREADSHEET_ID = "1kAD1ASXaaqrBmNHDVMYgj_cfW8pFJPEiRCY8ENutAvQ"
@@ -50,6 +51,78 @@ LINK_COLUMNS = [
     "video link", "multiple side image link", "multiple video link",
     "multiple model photo link", "multiple model video link",
 ]
+
+MODEL_MEDIA_BASE = "https://colourdiam.com/Product/Model%20Photo%20Video/"
+MODEL_COLUMNS = [
+    "model image link 1", "model image link 2", "model image link 3",
+    "multiple model photo link", "model video link 1", "model video link 2",
+    "model video link 3", "multiple model video link",
+]
+
+
+def model_links(value):
+    """Accept only files from the canonical model-media folder; never guess names."""
+    urls = []
+    for url in str(value or "").splitlines():
+        url = url.strip()
+        parsed = urlsplit(url)
+        if (parsed.scheme == "https" and parsed.hostname in
+                ("colourdiam.com", "www.colourdiam.com") and
+                unquote(parsed.path).startswith("/Product/Model Photo Video/")
+                and url not in urls):
+            urls.append(url)
+    return urls
+
+
+def model_values(source):
+    source = source or {}
+    photos = model_links(source.get("Model Photo Links"))
+    videos = model_links(source.get("Model Video Links"))
+    values = photos[:3] + [""] * max(0, 3 - len(photos))
+    values += ["\n".join(photos)]
+    values += videos[:3] + [""] * max(0, 3 - len(videos))
+    values += ["\n".join(videos)]
+    return dict(zip(MODEL_COLUMNS, values))
+
+
+def write_sparse_cells(ws, cells):
+    """Preserve formula-owned columns and update only explicitly selected cells.
+
+    gspread.update_cells writes the enclosing rectangle, including blanks between
+    selected cells. Contiguous one-row ranges avoid clearing unrelated data.
+    """
+    if not cells:
+        return 0
+    from gspread.utils import rowcol_to_a1
+    top = ws.get("A1:AC2", value_render_option="FORMULA")
+    anchors = top[1] if len(top) > 1 else []
+    if (ws.title.strip() == "auto fetch link from ftp" and anchors and
+            str(anchors[0]).startswith("=")):
+        print("  preserving formula-owned auto-fetch sheet")
+        return 0
+    array_columns = set()
+    for i, value in enumerate(anchors):
+        upper = str(value).upper()
+        if upper.startswith("=") and any(fn + "(" in upper for fn in
+                ("MAP", "ARRAYFORMULA", "VSTACK", "FILTER", "IMPORTRANGE")):
+            array_columns.add(i + 1)
+    # Stock model columns are maintained by live Model Media FTP lookups.
+    if ws.title.strip() in ("diamond stock", "jewellery stock"):
+        array_columns.update(range(22, 30))
+    selected = {(r, c): v for r, c, v in cells if c not in array_columns}
+    ranges = []
+    for (row, col), value in sorted(selected.items()):
+        if ranges and ranges[-1]["row"] == row and ranges[-1]["end"] + 1 == col:
+            ranges[-1]["end"] = col
+            ranges[-1]["values"][0].append(value)
+        else:
+            ranges.append({"row": row, "start": col, "end": col, "values": [[value]]})
+    updates = [{"range": rowcol_to_a1(x["row"], x["start"]) + ":" +
+                rowcol_to_a1(x["row"], x["end"]), "values": x["values"]}
+               for x in ranges]
+    for i in range(0, len(updates), 500):
+        ws.batch_update(updates[i:i + 500], value_input_option="USER_ENTERED")
+    return len(selected)
 
 
 def norm_stk(v):
@@ -112,14 +185,7 @@ def recompute_row(r, mmf_lookup, diamond_lookup):
         link = jewellery_link(stk)
         if link and link != pl:
             out["PRODUCT LINK"] = link
-        m = mmf_lookup.get(stk_key)
-        if m:
-            photo = str(m.get("Model Photo Links", "") or "").strip()
-            video = str(m.get("Model Video Links", "") or "").strip()
-            if photo:
-                out["multiple model photo link"] = photo
-            if video:
-                out["multiple model video link"] = video
+        out.update(model_values(mmf_lookup.get(stk_key)))
     elif "diamonddetails" in pl:
         # diamond row: keep existing; nothing to fix here
         pass
@@ -191,9 +257,8 @@ def main():
         if not cells:
             print(f"  {tab_title!r}: no changes")
             continue
-        gspread_cells = [gspread.Cell(r, c, v) for r, c, v in cells]
-        ws.update_cells(gspread_cells, value_input_option="USER_ENTERED")
-        print(f"  {tab_title!r}: wrote {len(cells)} cells")
+        written = write_sparse_cells(ws, cells)
+        print(f"  {tab_title!r}: wrote {written} cells")
 
     print("Done.")
 

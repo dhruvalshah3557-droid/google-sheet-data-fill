@@ -44,6 +44,7 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
+from write_links import MODEL_COLUMNS, write_sparse_cells
 
 DEFAULT_SPREADSHEET_ID = "1kAD1ASXaaqrBmNHDVMYgj_cfW8pFJPEiRCY8ENutAvQ"
 MAX_LLM_ROWS = 20
@@ -136,6 +137,7 @@ OPERATIONAL = {
     "multiple model photo link",
     "multiple model video link",
 }
+OPERATIONAL.update(MODEL_COLUMNS)
 LAST_UPDATED_FIELD = "Last Updated"
 
 
@@ -482,11 +484,10 @@ def write_back(cells: dict, key_path: str, spreadsheet_id: str, worksheet: str):
         col = field_idx + 1
         # data row idx (0-based) maps to sheet row idx+2 (header on row 1)
         updates[(row_idx + 2, col)] = value
-    gspread_cells = [gspread.Cell(r, c, v) for (r, c), v in sorted(updates.items())]
-    if gspread_cells:
-        ws.update_cells(gspread_cells, value_input_option="USER_ENTERED")
-        print(f"  Wrote back {len(gspread_cells)} cells to '{worksheet}' worksheet.")
+    written = write_sparse_cells(ws, [(r, c, v) for (r, c), v in updates.items()])
+    print(f"  Wrote back {written} cells to '{worksheet}' worksheet.")
 
 
 if __name__ == "__main__":
     main()
+

@@ -29,6 +29,9 @@ import urllib.request
 import urllib.parse
 from pathlib import Path
 
+from write_links import (MODEL_COLUMNS, build_mmf_lookup, model_values,
+                         norm_stk_compact, write_sparse_cells)
+
 BASE = "https://colourdiam.com"
 MEDIA_COLUMNS = [
     "image1 link", "image2 link", "image3 link", "image4 link",
@@ -36,6 +39,7 @@ MEDIA_COLUMNS = [
     "video link", "multiple side image link", "multiple video link",
     "multiple model photo link", "multiple model video link",
 ]
+MEDIA_COLUMNS += [c for c in MODEL_COLUMNS if c not in MEDIA_COLUMNS]
 MAX_CELL_CHARS = 50000
 
 
@@ -123,13 +127,19 @@ def parse_gallery(html):
 
 
 def is_model(url):
-    return "/Model images/" in url or "/Model%20images/" in url
+    parsed = urllib.parse.urlsplit(url)
+    return (parsed.hostname in ("colourdiam.com", "www.colourdiam.com") and
+            urllib.parse.unquote(parsed.path).startswith("/Product/Model Photo Video/"))
 
 
 def classify(items):
     product_imgs, product_vids, model_imgs, model_vids = [], [], [], []
     for u in items:
-        low = u.lower()
+        path = urllib.parse.unquote(urllib.parse.urlsplit(u).path)
+        low = path.lower()
+        # Legacy model galleries are neither the new source nor product media.
+        if "/model images/" in low:
+            continue
         is_img = low.endswith(IMG_EXT)
         is_vid = low.endswith(VID_EXT)
         if not (is_img or is_vid):
@@ -218,6 +228,9 @@ def process_tab(base, out, workers=8, skip_verify=False, limit=0):
     with open(path, encoding="utf-8") as f:
         rows = json.load(f)
     rows = rows[:limit] if limit else rows
+    mmf = build_mmf_lookup(out)
+    if not (out / "Model_Media_FTP.json").exists():
+        raise FileNotFoundError("Model_Media_FTP.json missing; sync the source sheet first")
     print(f"{base}: processing {len(rows)} rows")
     total = len(rows)
     done = 0
@@ -243,6 +256,12 @@ def process_tab(base, out, workers=8, skip_verify=False, limit=0):
                 for col in MEDIA_COLUMNS:
                     if col in updates and col in r:
                         r[col] = updates[col]
+            # Model files come from the stock-specific FTP index, never the
+            # product-page legacy gallery or invented default filenames.
+            source_values = model_values(mmf.get(norm_stk_compact(r.get("STK"))))
+            for col, value in source_values.items():
+                if col in r:
+                    r[col] = value
             done += 1
             if done % 50 == 0 or done == total:
                 print(f"  {base}: {done}/{total} done, {fails} failed ({skipped} no STK)")
@@ -317,15 +336,10 @@ def main():
                     if not val:
                         continue
                     cells.append((row_idx + 2, col_index[c] + 1, val))
-            # write in batches of 10000 cells
-            for i in range(0, len(cells), 10000):
-                batch = cells[i:i + 10000]
-                ws.update_cells(
-                    [gspread.Cell(r, c, v) for r, c, v in batch],
-                    value_input_option="USER_ENTERED",
-                )
-            print(f"  {base}: wrote {len(cells)} media cells to sheet")
+            written = write_sparse_cells(ws, cells)
+            print(f"  {base}: wrote {written} media cells to sheet")
 
 
 if __name__ == "__main__":
     main()
+

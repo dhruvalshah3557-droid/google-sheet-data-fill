@@ -27,6 +27,7 @@ import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
+from write_links import write_sparse_cells
 
 DEFAULT_SPREADSHEET_ID = "1kAD1ASXaaqrBmNHDVMYgj_cfW8pFJPEiRCY8ENutAvQ"
 
@@ -159,11 +160,8 @@ class Agent:
             if not cells:
                 print(f"  {tab_title!r}: no changes")
                 continue
-            ws.update_cells(
-                [gspread.Cell(r, c, v) for r, c, v in cells],
-                value_input_option="USER_ENTERED",
-            )
-            print(f"  {tab_title!r}: wrote {len(cells)} cells")
+            written = write_sparse_cells(ws, cells)
+            print(f"  {tab_title!r}: wrote {written} cells")
 
     # ---------- stage: fill ----------
     def fill(self):
@@ -422,13 +420,8 @@ class Agent:
                     if not val:
                         continue
                     cells.append((row_idx + 2, col_index[c] + 1, val))
-            for i in range(0, len(cells), 10000):
-                batch = cells[i:i + 10000]
-                ws.update_cells(
-                    [gspread.Cell(r, c, v) for r, c, v in batch],
-                    value_input_option="USER_ENTERED",
-                )
-            print(f"  {tab_title!r}: wrote {len(cells)} media cells to sheet")
+            written = write_sparse_cells(ws, cells)
+            print(f"  {tab_title!r}: wrote {written} media cells to sheet")
 
     # ---------- stage: fix ----------
     def fix(self):
@@ -522,10 +515,9 @@ class Agent:
                 continue
             try:
                 ws = sp.worksheet(tab_title)
-                gspread_cells = [gspread.Cell(r, c, v) for r, c, v in cells]
-                ws.update_cells(gspread_cells, value_input_option="USER_ENTERED")
-                total_cells += len(cells)
-                self.report("warn", f"{base}: auto-fixed {len(cells)} cells in sheet")
+                written = write_sparse_cells(ws, cells)
+                total_cells += written
+                self.report("warn", f"{base}: auto-fixed {written} cells in sheet")
             except Exception as e:
                 self.report("warn", f"{base}: WARNING fix write-back failed "
                                     f"(saved locally): {e}")
@@ -657,3 +649,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
