@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T17:53:16.868718+00:00",
+  "generated_at": "2026-10-02T22:16:17.891249+00:00",
   "stages": [
     "check"
   ],
@@ -14,7 +14,7 @@
     },
     {
       "severity": "warn",
-      "message": "diamond_stock: 850 non-http or broken media URLs"
+      "message": "diamond_stock: 853 non-http or broken media URLs"
     },
     {
       "severity": "warn",
@@ -58,7 +58,7 @@
     },
     {
       "severity": "warn",
-      "message": "auto_fetch_link_from_ftp: 15 non-http or broken media URLs"
+      "message": "auto_fetch_link_from_ftp: 1168 non-http or broken media URLs"
     },
     {
       "severity": "warn",
