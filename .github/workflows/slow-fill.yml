@@ -14,13 +14,13 @@ on:
         default: "diamond_stock jewellery_stock"
         type: string
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "23 * * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: slow-fill
+  group: main-data-maintenance
   cancel-in-progress: false
 
 jobs:
@@ -82,7 +82,7 @@ jobs:
         run: |
           python scripts/agent.py --key /tmp/sa-key.json --output data \
             --tabs ${{ inputs.tabs || 'diamond_stock jewellery_stock' }} \
-            --stages fix fill check --max-rows ${{ inputs.max_rows || '20' }} --no-commit
+            --stages sync fill check --max-rows ${{ inputs.max_rows || '20' }} --no-commit
 
       - name: Commit and push changes
         run: |
@@ -94,3 +94,4 @@ jobs:
           fi
           git pull --rebase origin main
           git push
+

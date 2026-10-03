@@ -85,44 +85,25 @@ def model_values(source):
     return dict(zip(MODEL_COLUMNS, values))
 
 
-def write_sparse_cells(ws, cells):
-    """Preserve formula-owned columns and update only explicitly selected cells.
+def write_sparse_cells(ws, cells, expected_rows=None, only_empty=False):
+    """Remap snapshot cells by unique stock key and header; preserve live formulas.
 
-    gspread.update_cells writes the enclosing rectangle, including blanks between
-    selected cells. Contiguous one-row ranges avoid clearing unrelated data.
+    Fail closed without a keyed snapshot. Never replace a formula, source facts,
+    or nonempty curated marketing copy during filling.
     """
     if not cells:
         return 0
+    if not expected_rows:
+        raise ValueError("A keyed snapshot is required for sheet writes")
     from gspread.utils import rowcol_to_a1
-    top = ws.get("A1:AC2", value_render_option="FORMULA")
-    anchors = top[1] if len(top) > 1 else []
-    if (ws.title.strip() == "auto fetch link from ftp" and anchors and
-            str(anchors[0]).startswith("=")):
-        print("  preserving formula-owned auto-fetch sheet")
-        return 0
-    array_columns = set()
-    for i, value in enumerate(anchors):
-        upper = str(value).upper()
-        if upper.startswith("=") and any(fn + "(" in upper for fn in
-                ("MAP", "ARRAYFORMULA", "VSTACK", "FILTER", "IMPORTRANGE")):
-            array_columns.add(i + 1)
-    # Stock model columns are maintained by live Model Media FTP lookups.
-    if ws.title.strip() in ("diamond stock", "jewellery stock"):
-        array_columns.update(range(22, 30))
-    selected = {(r, c): v for r, c, v in cells if c not in array_columns}
-    ranges = []
-    for (row, col), value in sorted(selected.items()):
-        if ranges and ranges[-1]["row"] == row and ranges[-1]["end"] + 1 == col:
-            ranges[-1]["end"] = col
-            ranges[-1]["values"][0].append(value)
-        else:
-            ranges.append({"row": row, "start": col, "end": col, "values": [[value]]})
-    updates = [{"range": rowcol_to_a1(x["row"], x["start"]) + ":" +
-                rowcol_to_a1(x["row"], x["end"]), "values": x["values"]}
-               for x in ranges]
-    for i in range(0, len(updates), 500):
-        ws.batch_update(updates[i:i + 500], value_input_option="USER_ENTERED")
-    return len(selected)
+    from integrity_guard import select_safe_updates
+    live = ws.get_all_values(value_render_option="FORMULA")
+    updates = select_safe_updates(ws.title, expected_rows, live, cells, only_empty)
+    for i in range(0, len(updates), 400):
+        batch = [{"range": rowcol_to_a1(r, c), "values": [[v]]}
+                 for r, c, v in updates[i:i + 400]]
+        ws.batch_update(batch, value_input_option="RAW")
+    return len(updates)
 
 
 def norm_stk(v):
@@ -257,7 +238,7 @@ def main():
         if not cells:
             print(f"  {tab_title!r}: no changes")
             continue
-        written = write_sparse_cells(ws, cells)
+        written = write_sparse_cells(ws, cells, expected_rows=rows)
         print(f"  {tab_title!r}: wrote {written} cells")
 
     print("Done.")
@@ -265,3 +246,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

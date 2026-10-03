@@ -9,8 +9,8 @@ Every tab of the spreadsheet is saved under `data/` as both `.json` (array of ob
 
 ## How it stays up to date
 
-- **Scheduled sync**: a GitHub Action (`.github/workflows/auto-sync.yml`) runs every hour and on manual dispatch. It pulls all tabs from Google Sheets into `data/` and performs operational maintenance (links, media, clean, fix, check). It never fills marketing content.
-- **Slow fill**: `.github/workflows/slow-fill.yml` runs every 5 minutes and on manual dispatch. It runs `scripts/fill_missing.py` to generate missing cells in the **diamond stock** and **jewellery stock** tabs (never `full stock`), writes the filled cells back to the spreadsheet, and commits the updated data.
+- **Scheduled sync**: a GitHub Action (`.github/workflows/auto-sync.yml`) runs every hour and on manual dispatch. It pulls all tabs from Google Sheets into `data/` and performs a live header-aware integrity audit and safe URL cleanup. It never fills marketing content.
+- **Slow fill**: `.github/workflows/slow-fill.yml` runs every hour at minute 23 and on manual dispatch. It runs `scripts/fill_missing.py` to generate missing cells in the **diamond stock** and **jewellery stock** tabs (never `full stock`), writes the filled cells back to the spreadsheet, and commits the updated data.
 - **Local sync** (optional):
 
   ```bash
@@ -23,8 +23,8 @@ Every tab of the spreadsheet is saved under `data/` as both `.json` (array of ob
 Scope is intentionally narrow:
 
 - **Tabs**: only `diamond_stock` and `jewellery_stock`. `full_stock` is never auto-filled.
-- **Columns**: only `J` (PRODUCT LINK) through `CU` (Hashtags); the link/media columns J–W are operational and excluded from LLM generation.
-- **Never touches**: identifiers, links, prices, or any column outside the configured range.
+- **Columns**: all marketing fields discovered from their headers, including new language fields; source facts and link/media fields are excluded from LLM generation.
+- **Never touches**: identifiers, links, prices, or source fact columns.
 - `Status` is excluded (operational, managed elsewhere); `Last Updated` is stamped automatically on rows that were filled.
 
 It generates the missing content with an OpenAI-compatible LLM (one call per product, JSON output), then updates the local `data/diamond_stock.json/.csv` and `data/jewellery_stock.json/.csv`. With `--write-back` it pushes the newly filled cells back to the spreadsheet.
@@ -79,3 +79,12 @@ export USER_LLM_MODEL=gpt-4o-mini
 - Store it only as the `GOOGLE_SERVICE_ACCOUNT_KEY` repo secret.
 - LLM keys are read from environment variables (`USER_LLM_*`) — never hard-coded.
 - Rotate/revoke the key in Google Cloud if it is ever exposed.
+
+
+## Stock integrity protection
+
+The hourly sync now audits fresh live stock sheets by header and stock ID. It reports duplicate IDs, formula errors, missing marketing fields, repeated description structures, media pointing to another stock folder, and missing native script in Kannada, Telugu and Malayalam columns in `data/integrity_report.json`. Ambiguous facts, missing prices and certificate IDs are reported for source verification; they are never invented. The hourly fill refreshes its snapshot first and discovers marketing fields by header, including newly added regional fields. Fills preserve existing curated text, exact grading facts and live formulas.
+
+All stock writes now remap by unique live STK and exact header rather than the snapshot row number. Duplicate keys or headers stop affected writes. Formula-owned media, source facts and center.jpg/center.jpeg are preserved. Both writer workflows share a concurrency group. Legacy mechanical stages remain available manually, with the same protected writer, but scheduled sync no longer clears formula errors or replaces media from scraped guesses. The guard only trims accidental exterior URL whitespace automatically. Other uncertain findings stay in the report for correction against verified sources.
+
+Validation: `python -m unittest discover -s scripts -p test_integrity_guard.py`.

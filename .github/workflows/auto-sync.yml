@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: auto-sync
+  group: main-data-maintenance
   cancel-in-progress: false
 
 jobs:
@@ -48,8 +48,6 @@ jobs:
             # a wrapped long line (dashes, unicode, etc.).
             SA_KEY_B64=$(printf '%s' "$SA_KEY" | tr -d '[:space:]' | tr -cd 'A-Za-z0-9+/=')
             echo "Secret b64 length: ${#SA_KEY_B64}"
-            echo "Secret b64 first 20 chars: ${SA_KEY_B64:0:20}"
-            echo "Secret b64 last 20 chars: ${SA_KEY_B64: -20}"
             # Restore base64 padding (=) lost during copy/paste
             while [ $(( ${#SA_KEY_B64} % 4 )) -ne 0 ]; do SA_KEY_B64="${SA_KEY_B64}="; done
             printf '%s' "$SA_KEY_B64" | base64 -d > /tmp/sa-key.json || {
@@ -70,7 +68,8 @@ jobs:
         run: |
           python scripts/agent.py --key /tmp/sa-key.json --output data \
             --tabs diamond_stock jewellery_stock \
-            --stages sync links media clean fix check --workers 24 --no-commit
+            --stages sync check --no-commit
+          python scripts/integrity_guard.py --key /tmp/sa-key.json --output data --repair
 
       - name: Commit and push changes
         run: |
@@ -83,3 +82,4 @@ jobs:
           else
             echo "No changes to commit."
           fi
+

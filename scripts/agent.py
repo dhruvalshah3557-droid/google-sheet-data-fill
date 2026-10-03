@@ -160,7 +160,7 @@ class Agent:
             if not cells:
                 print(f"  {tab_title!r}: no changes")
                 continue
-            written = write_sparse_cells(ws, cells)
+            written = write_sparse_cells(ws, cells, expected_rows=rows)
             print(f"  {tab_title!r}: wrote {written} cells")
 
     # ---------- stage: fill ----------
@@ -420,7 +420,7 @@ class Agent:
                     if not val:
                         continue
                     cells.append((row_idx + 2, col_index[c] + 1, val))
-            written = write_sparse_cells(ws, cells)
+            written = write_sparse_cells(ws, cells, expected_rows=rows)
             print(f"  {tab_title!r}: wrote {written} media cells to sheet")
 
     # ---------- stage: fix ----------
@@ -515,7 +515,7 @@ class Agent:
                 continue
             try:
                 ws = sp.worksheet(tab_title)
-                written = write_sparse_cells(ws, cells)
+                written = write_sparse_cells(ws, cells, expected_rows=rows)
                 total_cells += written
                 self.report("warn", f"{base}: auto-fixed {written} cells in sheet")
             except Exception as e:
@@ -641,12 +641,12 @@ def main():
         args.key = None
     args.write_back = bool(args.key)
     if not args.allow_free and not (os.environ.get("USER_LLM_BASE_URL") or os.environ.get("USER_LLM_API_KEY")):
-        args.allow_free = True
-        print("No LLM env configured -> using free fallback endpoint.")
+        print("No configured LLM endpoint; marketing fill will skip until one is configured.")
 
     Agent(args).run()
 
 
 if __name__ == "__main__":
     main()
+
 

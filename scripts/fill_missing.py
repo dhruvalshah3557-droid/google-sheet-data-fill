@@ -211,7 +211,7 @@ def llm_complete(prompt: str) -> str:
                     "role": "system",
                     "content": (
                         "You are a luxury natural-diamond e-commerce copywriter for "
-                        "ColourDiam. Output ONLY valid JSON, no markdown, no commentary."
+                        "Colour Diam. Output ONLY valid JSON, no markdown, no commentary."
                     ),
                 },
                 {"role": "user", "content": prompt},
@@ -282,7 +282,7 @@ def generate_fields(prompt_fields: list, product: dict) -> dict:
         rules = (
             "Rules: SEO titles under 60 chars; meta descriptions 150-160 chars; "
             "descriptions 2-4 sentences; captions suitable for social media; mention "
-            "GIA/AGL certification and free worldwide shipping where natural; "
+            "certification only when explicitly present in source facts; "
             "multilingual fields must be translated, not transliterated; hashtags are "
             "comma-separated and on-brand. Always include the carat weight (CARAT fact) "
             "in every piece of copy where a weight is referenced - never write an empty "
@@ -292,7 +292,11 @@ def generate_fields(prompt_fields: list, product: dict) -> dict:
             "never reuse boilerplate between products."
         )
     prompt = (
-        "Product facts:\n"
+        "Never invent price, lab, grading, metal, origin, shipping, scarcity, treatments or certificate numbers. "
+        "Use each exact header as a separate intent: titles are titles, hashtags use # without comma separators, "
+        "regional fields use that language. Kannada, Telugu/telagu, Malayalam must use native script. "
+        "Use different openings, angles and sentence structure for every stock item and every channel. "
+        "Retain exact supplied grading names and numeric values. No common generic template.\nProduct facts:\n"
         + json.dumps(facts, ensure_ascii=False, indent=2)
         + "\n\nGenerate values for exactly these fields and return ONLY a JSON object "
           "with these keys:\n"
@@ -376,7 +380,8 @@ def fill_tab(tab: str, args: argparse.Namespace, spreadsheet_id: str):
     if hi > len(headers):
         print(f"Column range {col_start}..{col_end} exceeds headers ({len(headers)}).")
         return
-    target_cols = list(headers[lo:hi])
+    from integrity_guard import is_marketing_header
+    target_cols = [h for h in headers if is_marketing_header(h)]
     for extra in cfg.get("extra_cols", []):
         if extra in headers and extra not in target_cols:
             target_cols.append(extra)
@@ -431,7 +436,8 @@ def fill_tab(tab: str, args: argparse.Namespace, spreadsheet_id: str):
         if updated:
             new_processed.add(stk)
             row[LAST_UPDATED_FIELD] = _now_iso()
-            cells_to_update[(idx, col_index[LAST_UPDATED_FIELD])] = row[LAST_UPDATED_FIELD]
+            if LAST_UPDATED_FIELD in col_index:
+                cells_to_update[(idx, col_index[LAST_UPDATED_FIELD])] = row[LAST_UPDATED_FIELD]
         print(f"    filled {updated}/{len(missing)} fields")
         done += 1
         if updated:
@@ -458,14 +464,14 @@ def fill_tab(tab: str, args: argparse.Namespace, spreadsheet_id: str):
             print("--write-back requires --key <service-account-key.json>")
             sys.exit(2)
         try:
-            write_back(cells_to_update, args.key, spreadsheet_id, cfg["worksheet"])
+            write_back(cells_to_update, args.key, spreadsheet_id, cfg["worksheet"], rows)
         except Exception as e:
             print(f"[{tab}] WARNING: write-back failed (data saved locally): {e}")
     else:
         print(f"[{tab}] Dry run: add --write-back --key <sa-key.json> to push to the sheet.")
 
 
-def write_back(cells: dict, key_path: str, spreadsheet_id: str, worksheet: str):
+def write_back(cells: dict, key_path: str, spreadsheet_id: str, worksheet: str, rows):
     """Push filled cells into the matching worksheet."""
     import gspread
     from oauth2client.service_account import ServiceAccountCredentials
@@ -484,10 +490,11 @@ def write_back(cells: dict, key_path: str, spreadsheet_id: str, worksheet: str):
         col = field_idx + 1
         # data row idx (0-based) maps to sheet row idx+2 (header on row 1)
         updates[(row_idx + 2, col)] = value
-    written = write_sparse_cells(ws, [(r, c, v) for (r, c), v in updates.items()])
+    written = write_sparse_cells(ws, [(r, c, v) for (r, c), v in updates.items()], expected_rows=rows, only_empty=True)
     print(f"  Wrote back {written} cells to '{worksheet}' worksheet.")
 
 
 if __name__ == "__main__":
     main()
+
 
