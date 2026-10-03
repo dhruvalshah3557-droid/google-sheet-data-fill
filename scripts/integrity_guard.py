@@ -7,7 +7,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 from urllib.parse import urlsplit, unquote
 
-SOURCE_HEADERS = {'stk','sr no','picture','code','details','price','lab','certificate id','certificate id.','colour','color','clarity','carat','weight','shape'}
+SOURCE_HEADERS = {'stk','sr no','picture','code','details','price','lab','certificate id','certificate id.','colour','color','clarity','carat','weight','shape','metal colour','metal color'}
 ERRORS = {'#REF!','#N/A','#VALUE!','#DIV/0!','#ERROR!','#NUM!','#NAME?'}
 
 def header(value):
@@ -66,6 +66,12 @@ def audit(title, values):
             value=str(row[ci] if ci<len(row) else '').strip()
             item={'tab':title,'row':ri,'stock':stk,'header':h}
             if value in ERRORS: findings.append({**item,'issue':'spreadsheet error'})
+            hnorm = header(h)
+            if hnorm in ('metal colour', 'metal color') and re.fullmatch(r'(?i)\s*(?:18|14|22|24)\s*k(?:t)?\s*', value):
+                findings.append({**item,'issue':'metal purity stored as colour'})
+            if any(term in hnorm for term in ('gia information', 'shipping', 'packaging')):
+                if re.match(r'^\d{4}-\d{2}-\d{2}(?:T| )\d{2}:', value) or value.startswith('#'):
+                    findings.append({**item,'issue':'content does not match header'})
             if is_marketing_header(h):
                 if not value: findings.append({**item,'issue':'missing marketing field'})
                 else:

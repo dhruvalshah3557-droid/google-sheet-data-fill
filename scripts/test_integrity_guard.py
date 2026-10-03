@@ -21,4 +21,9 @@ class IntegrityTests(unittest.TestCase):
         findings=audit('diamond stock',[['STK','image1 link','kannada description'],['1','https://colourdiam.com/Product/Diamond/2/center.jpg','Lovely 1.00 diamond'],['3','','Lovely 2.00 diamond']])
         issues={f['issue'] for f in findings}
         self.assertIn('media stock mismatch',issues);self.assertIn('regional script missing',issues);self.assertIn('repeated description structure',issues)
+    def test_semantic_headers(self):
+        findings=audit('jewellery stock',[['STK','Metal Colour','GIA information','Shipping','Packaging'],['1','18K','2026-10-03T20:00:00Z','#diamond','2026-10-03 20:00:00']])
+        self.assertEqual(sum(x['issue']=='content does not match header' for x in findings),3)
+        self.assertIn('metal purity stored as colour',{x['issue'] for x in findings})
+        self.assertFalse(is_marketing_header('Metal Colour'))
 if __name__=='__main__':unittest.main()

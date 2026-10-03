@@ -1,0 +1,68 @@
+name: Verified Stock Integrity Watchdog
+
+on:
+  push:
+    paths:
+      - 'scripts/integrity_guard.py'
+      - 'scripts/test_integrity_guard.py'
+      - '.github/workflows/integrity-watchdog.yml'
+  schedule:
+    - cron: '41 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: read-only-integrity-watchdog
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install gspread oauth2client
+      - name: Validate data protection and header semantics
+        run: python -m unittest discover -s scripts -p test_integrity_guard.py
+      - name: Restore service account key privately
+        env:
+          SA_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+        run: |
+          python - <<'PY'
+          import os, json, base64
+          from pathlib import Path
+          raw = os.environ['SA_KEY'].strip()
+          data = raw if raw.startswith('{') else base64.b64decode(raw).decode()
+          json.loads(data)
+          path=Path('/tmp/integrity-sa.json')
+          path.write_text(data)
+          path.chmod(0o600)
+          PY
+      - name: Audit live stock sheets without writes
+        run: python scripts/integrity_guard.py --key /tmp/integrity-sa.json --output /tmp/integrity-report
+      - name: Save bounded audit summary
+        run: |
+          python - <<'PY'
+          import json, os
+          from collections import Counter
+          report=json.load(open('/tmp/integrity-report/integrity_report.json'))
+          counts=Counter(x['issue'] for x in report['findings'])
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:
+              f.write('Live stock audit completed successfully. Findings require data correction; no sheet cells were written.\n\n')
+              for issue,count in counts.items(): f.write(f'- {issue}: {count}\n')
+          PY
+      - name: Keep audit report
+        uses: actions/upload-artifact@v4
+        with:
+          name: live-stock-integrity-report
+          path: /tmp/integrity-report/integrity_report.json
+          retention-days: 14
+      - name: Remove temporary credential
+        if: always()
+        run: rm -f /tmp/integrity-sa.json
