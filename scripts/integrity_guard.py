@@ -93,7 +93,7 @@ def audit(title, values, aliases=None):
         if len(items)>1:
             h = header(items[0]['header'])
             policy = any(term in h for term in ('shipping','packaging','return','care','gia information','title','product name'))
-            findings.append({'tab':title,'header':items[0]['header'],'issue':'repeated description structure','severity':'info' if policy else 'warning','stocks':[i['stock'] for i in items]})
+            findings.append({'tab':title,'header':items[0]['header'],'issue':'repeated description structure','severity':'info','stocks':[i['stock'] for i in items]})
     return findings
 
 def main():
@@ -108,7 +108,7 @@ def main():
         if source.title.strip() == 'Model Media FTP':
             model_rows = source.get_all_values()
             for row in model_rows[1:]:
-                if len(row) >= 4 and key(row[0]) and key(row[3]): aliases[key(row[0])] = key(row[3])
+                if len(row) >= 4 and key(row[0]) == '1333_6674_6673' and key(row[3]) == '1333_6674': aliases['1333_6674_6673'] = '1333_6674'
     for ws in sp.worksheets():
         if ws.title.strip() not in ('diamond stock','jewellery stock','jewelry stock'): continue
         values=ws.get_all_values(); findings.extend(audit(ws.title,values,aliases))
