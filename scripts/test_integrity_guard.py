@@ -21,6 +21,13 @@ class IntegrityTests(unittest.TestCase):
         findings=audit('diamond stock',[['STK','image1 link','kannada description'],['1','https://colourdiam.com/Product/Diamond/2/center.jpg','Lovely 1.00 diamond'],['3','','Lovely 2.00 diamond']])
         issues={f['issue'] for f in findings}
         self.assertIn('media stock mismatch',issues);self.assertIn('regional script missing',issues);self.assertIn('repeated description structure',issues)
+    def test_duplicate_headers_block_only_ambiguous_fields(self):
+        snapshot=[{'STK':'1','PRODUCT NAME':'','turkish description':''}]
+        live=[['STK','PRODUCT NAME','turkish description','turkish description'],['1','','','']]
+        self.assertEqual(select_safe_updates('diamond stock',snapshot,live,[(2,2,'Title'),(2,3,'text')]),[(2,2,'Title')])
+    def test_confirmed_ftp_alias_is_allowed(self):
+        data=[['STK','model video link 1'],['1333_6674_6673','https://colourdiam.com/Product/Model%20Photo%20Video/1333_6674/video.mp4']]
+        self.assertEqual(audit('jewellery stock',data,{'1333_6674_6673':'1333_6674'}),[])
     def test_semantic_headers(self):
         findings=audit('jewellery stock',[['STK','Metal Colour','GIA information','Shipping','Packaging'],['1','18K','2026-10-03T20:00:00Z','#diamond','2026-10-03 20:00:00']])
         self.assertEqual(sum(x['issue']=='content does not match header' for x in findings),3)

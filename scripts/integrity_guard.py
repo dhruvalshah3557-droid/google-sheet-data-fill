@@ -26,7 +26,7 @@ def is_marketing_header(value):
 def select_safe_updates(title, snapshot, live, cells, only_empty=False):
     if not live or not snapshot: return []
     old_headers = list(snapshot[0]); new_headers = [str(x).strip() for x in live[0]]
-    if len(set(h for h in new_headers if h)) != len([h for h in new_headers if h]): raise ValueError('Duplicate live headers; repair stopped')
+    header_counts = Counter(h for h in new_headers if h)
     if 'STK' not in new_headers: raise ValueError('Missing STK header')
     ki = new_headers.index('STK'); counts = Counter(key(r.get('STK')) for r in snapshot)
     locations = defaultdict(list)
@@ -40,7 +40,7 @@ def select_safe_updates(title, snapshot, live, cells, only_empty=False):
     for old_row, old_col, value in cells:
         if old_row < 2 or old_row - 2 >= len(snapshot) or old_col - 1 >= len(old_headers): continue
         source = snapshot[old_row - 2]; stk = key(source.get('STK')); name = old_headers[old_col - 1]
-        if not stk or counts[stk] != 1 or len(locations[stk]) != 1 or name not in new_headers: continue
+        if not stk or counts[stk] != 1 or len(locations[stk]) != 1 or name not in new_headers or header_counts[name] != 1: continue
         ci = new_headers.index(name); ri = locations[stk][0]; h = header(name)
         if h in SOURCE_HEADERS or h == 'check' or ci in formula_columns: continue
         if 'model' in h and 'link' in h: continue
@@ -51,7 +51,8 @@ def select_safe_updates(title, snapshot, live, cells, only_empty=False):
         updates.append((ri, ci+1, value))
     return updates
 
-def audit(title, values):
+def audit(title, values, aliases=None):
+    aliases = aliases or {}
     if not values: return [{'tab':title,'issue':'empty worksheet'}]
     headers = [str(h).strip() for h in values[0]]; findings = []
     if 'STK' not in headers: return [{'tab':title,'issue':'missing STK header'}]
@@ -85,12 +86,14 @@ def audit(title, values):
                     path=unquote(urlsplit(url).path); segments=path.split('/')
                     if '/Product/' in path and any(s.isdigit() or re.fullmatch(r'\d+(?:_\d+)+',s) for s in segments):
                         folders=[s for s in segments if s.isdigit() or re.fullmatch(r'\d+(?:_\d+)+',s)]
-                        if folders and key(folders[0]) != stk: findings.append({**item,'issue':'media stock mismatch','media_stock':folders[0]})
+                        if folders and key(folders[0]) != stk and key(folders[0]) != aliases.get(stk): findings.append({**item,'issue':'media stock mismatch','media_stock':folders[0]})
     for stk,rows in seen.items():
         if len(rows)>1: findings.append({'tab':title,'stock':stk,'rows':rows,'issue':'duplicate stock key'})
     for items in copy.values():
         if len(items)>1:
-            findings.append({'tab':title,'header':items[0]['header'],'issue':'repeated description structure','stocks':[i['stock'] for i in items]})
+            h = header(items[0]['header'])
+            policy = any(term in h for term in ('shipping','packaging','return','care','gia information','title','product name'))
+            findings.append({'tab':title,'header':items[0]['header'],'issue':'repeated description structure','severity':'info' if policy else 'warning','stocks':[i['stock'] for i in items]})
     return findings
 
 def main():
@@ -100,9 +103,15 @@ def main():
     from sync_sheet import DEFAULT_SPREADSHEET_ID
     client=gspread.authorize(ServiceAccountCredentials.from_json_keyfile_name(args.key,['https://www.googleapis.com/auth/spreadsheets']))
     sp=client.open_by_key(DEFAULT_SPREADSHEET_ID);findings=[];repairs=0
+    aliases = {}
+    for source in sp.worksheets():
+        if source.title.strip() == 'Model Media FTP':
+            model_rows = source.get_all_values()
+            for row in model_rows[1:]:
+                if len(row) >= 4 and key(row[0]) and key(row[3]): aliases[key(row[0])] = key(row[3])
     for ws in sp.worksheets():
         if ws.title.strip() not in ('diamond stock','jewellery stock','jewelry stock'): continue
-        values=ws.get_all_values(); findings.extend(audit(ws.title,values))
+        values=ws.get_all_values(); findings.extend(audit(ws.title,values,aliases))
         if args.repair:
             formulas=ws.get_all_values(value_render_option='FORMULA');headers=values[0];updates=[]
             # Fix accidental exterior whitespace in URLs only. Facts and copy are protected.
