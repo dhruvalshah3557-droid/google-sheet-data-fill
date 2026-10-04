@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-03T21:19:11.379299+00:00",
+  "generated_at": "2026-10-04T05:57:02.675950+00:00",
   "stages": [
     "check"
   ],
   "issues": [
     {
       "severity": "warn",
-      "message": "diamond_stock: 290 rows with empty 'STK'"
+      "message": "diamond_stock: 66 rows with empty 'STK'"
     },
     {
       "severity": "warn",
-      "message": "diamond_stock: 290 malformed PRODUCT LINK cells"
+      "message": "diamond_stock: 66 malformed PRODUCT LINK cells"
     },
     {
       "severity": "warn",
-      "message": "diamond_stock: 848 non-http or broken media URLs"
+      "message": "diamond_stock: 702 non-http or broken media URLs"
     },
     {
       "severity": "warn",
-      "message": "diamond_stock: 824/824 (100%) rows missing 'model image link 3'"
+      "message": "diamond_stock: 600/600 (100%) rows missing 'model image link 3'"
     },
     {
       "severity": "warn",
@@ -34,7 +34,7 @@
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 2233 non-http or broken media URLs"
+      "message": "jewellery_stock: 2731 non-http or broken media URLs"
     },
     {
       "severity": "warn",
@@ -46,11 +46,11 @@
     },
     {
       "severity": "warn",
-      "message": "full_stock: 1168 non-http or broken media URLs"
+      "message": "full_stock: 1153 non-http or broken media URLs"
     },
     {
       "severity": "warn",
-      "message": "full_stock: 1151/1153 rows have empty marketing cells (X..CT)"
+      "message": "full_stock: 1148/1153 rows have empty marketing cells (X..CT)"
     },
     {
       "severity": "warn",
@@ -58,7 +58,7 @@
     },
     {
       "severity": "warn",
-      "message": "auto_fetch_link_from_ftp: 1168 non-http or broken media URLs"
+      "message": "auto_fetch_link_from_ftp: 1153 non-http or broken media URLs"
     },
     {
       "severity": "warn",
@@ -70,7 +70,7 @@
     },
     {
       "severity": "warn",
-      "message": "pinterest: 38 non-http or broken media URLs"
+      "message": "pinterest: 23 non-http or broken media URLs"
     },
     {
       "severity": "warn",
