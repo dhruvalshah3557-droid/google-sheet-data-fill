@@ -4154,14 +4154,14 @@
     "# Optional | Describe the fashion style of this item.": "Fine Jewelry"
   },
   {
-    "# Required | A unique content ID for the item. Use the item's SKU if you can. Each content ID must appear only once in your catalog. To run dynamic ads this ID must exactly match the content ID for the same item in your Meta Pixel code. Character limit: 100": 6270,
+    "# Required | A unique content ID for the item. Use the item's SKU if you can. Each content ID must appear only once in your catalog. To run dynamic ads this ID must exactly match the content ID for the same item in your Meta Pixel code. Character limit: 100": 6267,
     "# Required | A specific and relevant title for the item. See title specifications: https://www.facebook.com/business/help/2104231189874655 Character limit: 200": "0.20 ct Faint Pinkish Brown Diamond Pendant | Colour Diam | 6270",
     "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "0.20 ct Faint Pinkish Brown Diamond Pendant: a piece to explore in detail. The listed clarity is VS2. The supplier specifies 18K for the setting. GIA is listed as the grading laboratory. Ask to review the original report before purchase. The supplier lists a jewellery weight of 3.69 g. Quote stock 6270 for current images and availability.",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
     "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "3450.00 USD",
     "# Required | The URL of the specific product page where people can buy the item.": "https://colourdiam.com/productdetail/6270",
-    "# Required | The URL for the main image of your item. Images must be in a supported format (JPG/GIF/PNG) and at least 500 x 500 pixels.": "https://colourdiam.com/Product/Jewellery/6270/black360/center.jpg",
+    "# Required | The URL for the main image of your item. Images must be in a supported format (JPG/GIF/PNG) and at least 500 x 500 pixels.": "https://colourdiam.com/Product/Jewellery/6267/white45/CENTER.jpg",
     "# Required | The brand name of the item. Character limit: 100.": "Colour Diam",
     "# Optional | The Google product category for the item. Learn more about product categories: https://www.facebook.com/business/help/526764014610932.": "Apparel & Accessories > Jewelry",
     "# Optional | The Facebook product category for the item. Learn more about product categories: https://www.facebook.com/business/help/526764014610932.": "",
