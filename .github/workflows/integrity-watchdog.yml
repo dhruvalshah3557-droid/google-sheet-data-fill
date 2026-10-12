@@ -58,7 +58,7 @@ jobs:
               for issue,count in counts.items(): f.write(f'- {issue}: {count}\n')
           PY
       - name: Keep audit report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: live-stock-integrity-report
           path: /tmp/integrity-report/integrity_report.json
