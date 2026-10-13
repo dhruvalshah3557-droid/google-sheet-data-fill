@@ -29,7 +29,7 @@ def cell_issues(name,value):
     if not tags: return ['no valid hashtags']
     if len(tags)!=len(set(tags)): issues.append('duplicate hashtag inside cell')
     for lang,(lo,hi) in SCRIPTS.items():
-        if lang in name and not any(lo<=ord(ch)<=hi for tag in tags for ch in tag): issues.append('hashtag language script mismatch')
+        if lang in name and not any(lo<=ord(ch)<=hi or (lang=='japanese' and 0x4e00<=ord(ch)<=0x9fff) for tag in tags for ch in tag): issues.append('hashtag language script mismatch')
     meaningful=[t for t in tags if not is_reference(t) and t not in GENERIC]
     if not meaningful: issues.append('generic-only hashtag set')
     return issues

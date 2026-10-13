@@ -55,3 +55,7 @@ class HashtagQualityTests(unittest.TestCase):
     def test_curated_tag_is_preserved(self):
         data=[{'STK':'1','Hashtags':''}];live=[['STK','Hashtags'],['1','#Curated #OvalDiamond']]
         self.assertEqual(select_safe_updates('diamond stock',data,live,[(2,2,'#Replacement')],True),[])
+
+    def test_japanese_kanji_are_valid(self):
+        from hashtag_quality import cell_issues
+        self.assertNotIn('hashtag language script mismatch',cell_issues('Japanese Hashtag','#宝石 #天然石'))
