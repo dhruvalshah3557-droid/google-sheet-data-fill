@@ -94,6 +94,8 @@ def audit(title, values, aliases=None):
             h = header(items[0]['header'])
             policy = any(term in h for term in ('shipping','packaging','return','care','gia information','title','product name'))
             findings.append({'tab':title,'header':items[0]['header'],'issue':'repeated description structure','severity':'info','stocks':[i['stock'] for i in items]})
+    from hashtag_quality import audit_hashtags
+    findings.extend(audit_hashtags(title, values))
     return findings
 
 def main():
@@ -126,3 +128,4 @@ def main():
     (out/'integrity_report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
     print(f'Header-aware integrity audit: {len(findings)} findings, {repairs} safe repairs')
 if __name__=='__main__':main()
+

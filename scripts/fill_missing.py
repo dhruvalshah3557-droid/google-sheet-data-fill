@@ -284,7 +284,7 @@ def generate_fields(prompt_fields: list, product: dict) -> dict:
             "descriptions 2-4 sentences; captions suitable for social media; mention "
             "certification only when explicitly present in source facts; "
             "multilingual fields must be translated, not transliterated; hashtags are "
-            "comma-separated and on-brand. Always include the carat weight (CARAT fact) "
+            "space-separated, locally relevant and based on verified product attributes. Always include the carat weight (CARAT fact) "
             "in every piece of copy where a weight is referenced - never write an empty "
             "or missing weight. CRITICAL: every field you generate must be unique to this "
             "specific product and clearly different from generic copy - derive it from the "
@@ -381,9 +381,9 @@ def fill_tab(tab: str, args: argparse.Namespace, spreadsheet_id: str):
         print(f"Column range {col_start}..{col_end} exceeds headers ({len(headers)}).")
         return
     from integrity_guard import is_marketing_header
-    target_cols = [h for h in headers if is_marketing_header(h)]
+    target_cols = [h for h in headers if is_marketing_header(h) and "vestslavic" not in h.lower()]
     for extra in cfg.get("extra_cols", []):
-        if extra in headers and extra not in target_cols:
+        if extra in headers and extra not in target_cols and "vestslavic" not in extra.lower():
             target_cols.append(extra)
     col_index = {name: idx for idx, name in enumerate(headers)}
 
@@ -427,6 +427,12 @@ def fill_tab(tab: str, args: argparse.Namespace, spreadsheet_id: str):
             generated = generate_fields(chunk, row)
             for field in chunk:
                 val = str(generated.get(field, "") or "").strip()
+                if val and any(term in field.lower() for term in ('hashtag','hahstag')):
+                    from hashtag_quality import cell_issues, signature
+                    existing_sets = {signature(r.get(field,''),True) for r in rows if str(r.get('STK','')).strip()!=stk and r.get(field)}
+                    if cell_issues(field,val) or signature(val,True) in existing_sets:
+                        print(f'    rejected invalid/repeated hashtags for {field}; left empty for review')
+                        continue
                 if val:
                     row[field] = val
                     cells_to_update[(idx, col_index[field])] = val
@@ -496,5 +502,6 @@ def write_back(cells: dict, key_path: str, spreadsheet_id: str, worksheet: str, 
 
 if __name__ == "__main__":
     main()
+
 
 

@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - 'scripts/integrity_guard.py'
+      - 'scripts/hashtag_quality.py'
+      - 'scripts/fill_missing.py'
       - 'scripts/test_integrity_guard.py'
       - '.github/workflows/integrity-watchdog.yml'
   schedule:
@@ -66,3 +68,4 @@ jobs:
       - name: Remove temporary credential
         if: always()
         run: rm -f /tmp/integrity-sa.json
+

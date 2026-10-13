@@ -34,3 +34,24 @@ class IntegrityTests(unittest.TestCase):
         self.assertIn('metal purity stored as colour',{x['issue'] for x in findings})
         self.assertFalse(is_marketing_header('Metal Colour'))
 if __name__=='__main__':unittest.main()
+
+
+class HashtagQualityTests(unittest.TestCase):
+    def test_native_combining_marks_are_kept(self):
+        from hashtag_quality import tokens
+        self.assertEqual(tokens('#เครื่องประดับ #ನೈಸರ್ಗಿಕವಜ್ರ #తెలుగు'), ['เครื่องประดับ','ನೈಸರ್ಗಿಕವಜ್ರ','తెలుగు'])
+    def test_order_independent_sets_and_stock_only_variation(self):
+        from hashtag_quality import audit_hashtags
+        data=[['STK','Hashtags'],['1','#ColourDiam #OvalDiamond #Stock1'],['2','#Stock2 #OvalDiamond #ColourDiam'],['3','#Stock2 #ColourDiam #OvalDiamond']]
+        issues={x['issue'] for x in audit_hashtags('diamond stock',data)}
+        self.assertIn('repeated full hashtag set',issues)
+        self.assertIn('hashtag template differs only by stock reference',issues)
+    def test_duplicates_language_and_ambiguous_target(self):
+        from hashtag_quality import cell_issues
+        self.assertIn('duplicate hashtag inside cell',cell_issues('Hashtags','#Oval #oval'))
+        self.assertIn('hashtag language script mismatch',cell_issues('thai hashtag','#Diamond #Stock12'))
+        self.assertIn('generic-only hashtag set',cell_issues('Hashtags','#ColourDiam #Diamond #Stock123'))
+        self.assertEqual(cell_issues('vestslavic hashtag','#Diamond'),['ambiguous hashtag language'])
+    def test_curated_tag_is_preserved(self):
+        data=[{'STK':'1','Hashtags':''}];live=[['STK','Hashtags'],['1','#Curated #OvalDiamond']]
+        self.assertEqual(select_safe_updates('diamond stock',data,live,[(2,2,'#Replacement')],True),[])
