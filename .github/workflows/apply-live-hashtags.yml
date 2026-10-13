@@ -1,0 +1,46 @@
+name: Apply Product-Specific Live Hashtags
+on:
+  push:
+    paths:
+      - '.github/workflows/apply-live-hashtags.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: main-data-maintenance
+  cancel-in-progress: false
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies
+        run: pip install gspread google-auth
+      - name: Validate all-or-abort safeguards
+        run: |
+          python -m unittest discover -s scripts -p test_apply_live_hashtags.py
+          node --check scripts/generate_live_hashtags.cjs
+      - name: Restore configured credential privately
+        env:
+          SA_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+        run: |
+          python - <<'PY'
+          import os,json,base64
+          from pathlib import Path
+          raw=os.environ['SA_KEY'].strip()
+          data=raw if raw.startswith('{') else base64.b64decode(raw).decode()
+          json.loads(data)
+          path=Path('/tmp/live-hashtag-key.json');path.write_text(data);path.chmod(0o600)
+          PY
+      - name: Generate in memory, preflight, apply and verify
+        run: python scripts/apply_live_hashtags.py --key /tmp/live-hashtag-key.json
+      - name: Remove temporary credential
+        if: always()
+        run: rm -f /tmp/live-hashtag-key.json
