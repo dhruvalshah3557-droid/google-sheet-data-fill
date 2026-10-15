@@ -2,14 +2,6 @@
   "findings": [
     {
       "tab": "jewellery stock ",
-      "issue": "duplicate headers",
-      "headers": [
-        "turkish description",
-        "turkish hashtag"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "stock": "6267",
       "rows": [
         134,
@@ -1171,16 +1163,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "416",
-        "6278"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -2132,16 +2114,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "1263",
-        "8505"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -2698,16 +2670,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "1850",
-        "5531"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -3776,16 +3738,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "3747",
-        "4377"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -4397,16 +4349,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4280",
-        "3485"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -5201,19 +5143,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4282_4283",
-        "9062_9078",
-        "9068_9102",
-        "9039_9043",
-        "9321_9326"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -5814,18 +5743,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4327_4328",
-        "9289_9309",
-        "9296_9323",
-        "9317_9325"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -6495,19 +6412,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4509",
-        "5766",
-        "6000",
-        "7746",
-        "6066"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -7033,16 +6937,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4520",
-        "5228"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -7294,16 +7188,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4649",
-        "7127"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -7758,17 +7642,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4686",
-        "5595",
-        "8712"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -8211,16 +8084,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4774",
-        "5320"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -8778,16 +8641,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "5212",
-        "7984"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -9583,17 +9436,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "5735",
-        "6185",
-        "8936"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -9928,17 +9770,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "5769",
-        "6120",
-        "6186"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -10182,16 +10013,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "5991",
-        "7953"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -10473,17 +10294,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6001",
-        "6283",
-        "6313"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -10737,16 +10547,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6065",
-        "7745"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -11168,17 +10968,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6141",
-        "7047",
-        "6156"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -11540,17 +11329,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6166",
-        "7501",
-        "5026"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -11862,16 +11640,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6193",
-        "8665"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -12299,16 +12067,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6279_6318",
-        "5564_6916"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -12640,16 +12398,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6357",
-        "9150"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -13042,16 +12790,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6686",
-        "6110"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -13794,16 +13532,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6975",
-        "8508"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -14163,18 +13891,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7076",
-        "8015",
-        "8507",
-        "8510"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -14501,16 +14217,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7081",
-        "8512"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -14967,16 +14673,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7342",
-        "9601"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -15746,17 +15442,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7346",
-        "7364",
-        "9605"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -16275,18 +15960,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7347",
-        "7350",
-        "7332",
-        "7365"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -16672,17 +16345,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7348",
-        "7351",
-        "8404"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -17063,18 +16725,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7349",
-        "7514",
-        "7352",
-        "9596"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -17689,16 +17339,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7517",
-        "7520"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -18067,17 +17707,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7569",
-        "7929",
-        "8265"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -18448,18 +18077,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7540",
-        "7438",
-        "7357",
-        "7360"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -18784,16 +18401,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7583",
-        "8555"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -19256,16 +18863,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6405_6406",
-        "6362_6363"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -19553,16 +19150,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7629",
-        "7500"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -19957,19 +19544,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7689",
-        "7737",
-        "7740",
-        "8400",
-        "8613"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -20454,16 +20028,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7729",
-        "7732"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -20920,16 +20484,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7738",
-        "7741"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -21229,17 +20783,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7739",
-        "7742",
-        "5777"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -21542,16 +21085,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7772",
-        "7820"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -21921,16 +21454,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7891",
-        "9178"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -22316,16 +21839,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7916",
-        "7934"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -22714,18 +22227,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7919",
-        "7922",
-        "7937",
-        "7955"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -23188,17 +22689,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7923",
-        "7938",
-        "7956"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -23532,16 +23022,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7925",
-        "7958"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -23843,16 +23323,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7930",
-        "7945"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -24254,16 +23724,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7948",
-        "7951"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -24565,16 +24025,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7950",
-        "8001"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -25310,17 +24760,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8062",
-        "3832",
-        "6325"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -25733,16 +25172,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8112",
-        "8424"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -26650,18 +26079,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7510",
-        "8401",
-        "7363",
-        "9604"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -27079,18 +26496,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7439",
-        "7358",
-        "7361",
-        "9602"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -27331,18 +26736,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7494",
-        "7359",
-        "7362",
-        "9603"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -27658,16 +27051,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8474",
-        "9149"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -27879,16 +27262,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8477",
-        "9173"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -28258,16 +27631,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8417",
-        "7070"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -28579,16 +27942,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8425",
-        "9172"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -28918,16 +28271,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8482",
-        "9175"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -29279,16 +28622,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8484",
-        "9360"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -30294,16 +29627,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7353",
-        "9597"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -30675,16 +29998,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7942",
-        "7942"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -31044,16 +30357,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8366",
-        "9554"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -31501,16 +30804,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "5440",
-        "5422"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -31827,16 +31120,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4254",
-        "8511"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -32179,16 +31462,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7369",
-        "8380"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -32608,16 +31881,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7800",
-        "7983"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -32971,18 +32234,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8844_8848",
-        "9063_9074",
-        "9088_9118",
-        "9318_9314"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -33443,19 +32694,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9026_9024",
-        "9028_9121",
-        "9047_9108",
-        "9060_9077",
-        "9036_9119"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -33947,21 +33185,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9029_9056",
-        "9034_9120",
-        "9045_9061",
-        "9064_9103",
-        "9025_9027",
-        "9300_9328",
-        "9301_9303"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -34418,21 +33641,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9030_9048",
-        "9050_9127",
-        "9066_9124",
-        "9069_9079",
-        "9092_9110",
-        "9287_9312",
-        "9298_9316"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -34937,22 +34145,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9031_9071",
-        "9041_9067",
-        "9042_9075",
-        "9065_9113",
-        "9106_9128",
-        "9035_9109",
-        "9292_9319",
-        "9293_9327"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -35328,17 +34520,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9032_9087",
-        "9037_9055",
-        "9116_9123"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -35835,17 +35016,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9040_9089",
-        "9044_9049",
-        "9291_9311"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -36445,23 +35615,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9046_9107",
-        "9072_9100",
-        "9294_9308",
-        "9297_9299",
-        "9302_9304",
-        "9305_9329",
-        "9306_9322",
-        "9310_9330",
-        "9290_9315"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -37291,18 +36444,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9104_9033",
-        "9288_9313",
-        "9295_9324",
-        "9307_9320"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -38247,16 +37388,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9378",
-        "9381"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -39392,16 +38523,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9608",
-        "9611"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -39703,16 +38824,6 @@
     {
       "tab": "jewellery stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9609",
-        "9612"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -45332,11 +44443,3141 @@
       "issue": "ambiguous hashtag language"
     },
     {
-      "tab": "diamond stock ",
-      "issue": "duplicate headers",
-      "headers": [
-        "turkish description",
-        "turkish hashtag"
+      "tab": "jewellery stock ",
+      "header": "Indonesian hashtag",
+      "column": 99,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "4377",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Chinese Hashtag",
+      "column": 83,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "5735",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "HASHTAGS",
+      "column": 48,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "5769",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "malayalam hashtag",
+      "column": 123,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "5769",
+        "7523",
+        "7741"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Burmese Hashtag",
+      "column": 77,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "5983",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Japanese Hashtag",
+      "column": 87,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "6109",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "italian hashtag",
+      "column": 101,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "6139",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "sweden hashtag",
+      "column": 117,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "6166",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Luxembourgish hashtag",
+      "column": 127,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "6186",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "turkish hashtag ",
+      "column": 125,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "6193",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Russian Hashtag",
+      "column": 85,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "6967",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Russian Hashtag",
+      "column": 85,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7051_7489_7597",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Korean Hashtag",
+      "column": 89,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7312",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "vietnam hashtag",
+      "column": 95,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7312",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "HASHTAGS",
+      "column": 48,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7491",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Thai Hashtag",
+      "column": 79,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7491",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Filipino Hashtag",
+      "column": 81,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7491",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "arabic hashtag",
+      "column": 93,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7491",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "vietnam hashtag",
+      "column": 95,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7491",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "spanish hashtag",
+      "column": 97,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7491",
+        "7523",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "french hashtag",
+      "column": 103,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7491",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "german hashtag",
+      "column": 105,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7491",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "danish hashtag",
+      "column": 111,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7491",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "greek hashtag ",
+      "column": 113,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7491",
+        "7523",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "polish hahstag ",
+      "column": 115,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7491",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "kannada hashtag",
+      "column": 119,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7491",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "telagu hashtag",
+      "column": 121,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7491",
+        "7523",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "malayalam hashtag",
+      "column": 123,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7491",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Hashtags",
+      "column": 147,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7517",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "turkish hashtag ",
+      "column": 125,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "6413_6412",
+        "9301_9303"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "HASHTAGS",
+      "column": 48,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7689",
+        "7741"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Burmese Hashtag",
+      "column": 77,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7689",
+        "7741"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Filipino Hashtag",
+      "column": 81,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7689",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Chinese Hashtag",
+      "column": 83,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7689",
+        "7741"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Japanese Hashtag",
+      "column": 87,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7689",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Korean Hashtag",
+      "column": 89,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7689",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "lebenesse hashtag",
+      "column": 107,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7689",
+        "7741",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "kannada hashtag",
+      "column": 119,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7689",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Luxembourgish hashtag",
+      "column": 127,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7689",
+        "7741",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "spanish hashtag",
+      "column": 97,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7729",
+        "7741"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "lebenesse hashtag",
+      "column": 107,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7523",
+        "7730"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "danish hashtag",
+      "column": 111,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7731",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Chinese Hashtag",
+      "column": 83,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7523",
+        "7732"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Burmese Hashtag",
+      "column": 77,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7733",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Thai Hashtag",
+      "column": 79,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7734",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Korean Hashtag",
+      "column": 89,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7734",
+        "7741"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "arabic hashtag",
+      "column": 93,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7734",
+        "7741"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "sweden hashtag",
+      "column": 117,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7735",
+        "7741",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "italian hashtag",
+      "column": 101,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7737",
+        "7741",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "israli hashtag",
+      "column": 91,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7523",
+        "7738"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Japanese Hashtag",
+      "column": 87,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7739",
+        "7741"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "arabic hashtag",
+      "column": 93,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7739",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "polish hahstag ",
+      "column": 115,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7739",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Hashtags",
+      "column": 147,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7739",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "israli hashtag",
+      "column": 91,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7740",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "HASHTAGS",
+      "column": 48,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Burmese Hashtag",
+      "column": 77,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Thai Hashtag",
+      "column": 79,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Filipino Hashtag",
+      "column": 81,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Chinese Hashtag",
+      "column": 83,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Russian Hashtag",
+      "column": 85,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Japanese Hashtag",
+      "column": 87,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Korean Hashtag",
+      "column": 89,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "israli hashtag",
+      "column": 91,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "arabic hashtag",
+      "column": 93,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "vietnam hashtag",
+      "column": 95,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "spanish hashtag",
+      "column": 97,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Indonesian hashtag",
+      "column": 99,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "italian hashtag",
+      "column": 101,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "french hashtag",
+      "column": 103,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "german hashtag",
+      "column": 105,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "lebenesse hashtag",
+      "column": 107,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "danish hashtag",
+      "column": 111,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "greek hashtag ",
+      "column": 113,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "polish hahstag ",
+      "column": 115,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "sweden hashtag",
+      "column": 117,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "kannada hashtag",
+      "column": 119,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "telagu hashtag",
+      "column": 121,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "malayalam hashtag",
+      "column": 123,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "turkish hashtag ",
+      "column": 125,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Luxembourgish hashtag",
+      "column": 127,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Hashtags",
+      "column": 147,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Filipino Hashtag",
+      "column": 81,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7359",
+        "9604"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "german hashtag",
+      "column": 105,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "8607",
+        "9133"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "greek hashtag ",
+      "column": 113,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "8607",
+        "9133"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "polish hahstag ",
+      "column": 115,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "8607",
+        "9133"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Hashtags",
+      "column": 147,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "8607",
+        "9133"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Russian Hashtag",
+      "column": 85,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "7989",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "greek hashtag ",
+      "column": 113,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9029_9056",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Thai Hashtag",
+      "column": 79,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9030_9048",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Indonesian hashtag",
+      "column": 99,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9031_9071",
+        "9318_9314"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Indonesian hashtag",
+      "column": 99,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9032_9087",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "turkish hashtag ",
+      "column": 125,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9034_9120",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Burmese Hashtag",
+      "column": 77,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9037_9055",
+        "9318_9314"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "italian hashtag",
+      "column": 101,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9037_9055",
+        "9301_9303"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "french hashtag",
+      "column": 103,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9040_9089",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "german hashtag",
+      "column": 105,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9041_9067",
+        "9318_9314"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "HASHTAGS",
+      "column": 48,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9047_9108",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Burmese Hashtag",
+      "column": 77,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9047_9108",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Russian Hashtag",
+      "column": 85,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9047_9108",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "german hashtag",
+      "column": 105,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9047_9108",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "kannada hashtag",
+      "column": 119,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9050_9127",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "german hashtag",
+      "column": 105,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9062_9078",
+        "9317_9325"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "danish hashtag",
+      "column": 111,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9062_9078",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "turkish hashtag ",
+      "column": 125,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9063_9074",
+        "9318_9314"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Japanese Hashtag",
+      "column": 87,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9066_9124",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Indonesian hashtag",
+      "column": 99,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9066_9124",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "telagu hashtag",
+      "column": 121,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9066_9124",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Korean Hashtag",
+      "column": 89,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9068_9102",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "malayalam hashtag",
+      "column": 123,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9068_9102",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Luxembourgish hashtag",
+      "column": 127,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9068_9102",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "polish hahstag ",
+      "column": 115,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9069_9079",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "israli hashtag",
+      "column": 91,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9088_9118",
+        "9318_9314"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Luxembourgish hashtag",
+      "column": 127,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9088_9118",
+        "9301_9303"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "vietnam hashtag",
+      "column": 95,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9092_9110",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "telagu hashtag",
+      "column": 121,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9092_9110",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "spanish hashtag",
+      "column": 97,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9106_9128",
+        "9318_9314"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "spanish hashtag",
+      "column": 97,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9116_9123",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "lebenesse hashtag",
+      "column": 107,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9116_9123",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "sweden hashtag",
+      "column": 117,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9116_9123",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "turkish hashtag ",
+      "column": 125,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9025_9027",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Burmese Hashtag",
+      "column": 77,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9035_9109",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "greek hashtag ",
+      "column": 113,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9035_9109",
+        "9301_9303"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Korean Hashtag",
+      "column": 89,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9036_9119",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "spanish hashtag",
+      "column": 97,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9039_9043",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Hashtags",
+      "column": 147,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9039_9043",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "danish hashtag",
+      "column": 111,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9287_9312",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "greek hashtag ",
+      "column": 113,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9287_9312",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Chinese Hashtag",
+      "column": 83,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9288_9313",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "german hashtag",
+      "column": 105,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9292_9319",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "polish hahstag ",
+      "column": 115,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9292_9319",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "lebenesse hashtag",
+      "column": 107,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9296_9323",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Chinese Hashtag",
+      "column": 83,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9305_9329",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Indonesian hashtag",
+      "column": 99,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9306_9322",
+        "9317_9325"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Luxembourgish hashtag",
+      "column": 127,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9290_9315",
+        "9306_9322"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Thai Hashtag",
+      "column": 79,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9301_9303",
+        "9317_9325"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "italian hashtag",
+      "column": 101,
+      "severity": "warning",
+      "issue": "repeated full hashtag set",
+      "stocks": [
+        "9290_9315",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Indonesian hashtag",
+      "column": 99,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "4377",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Chinese Hashtag",
+      "column": 83,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "5735",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "HASHTAGS",
+      "column": 48,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "5769",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "malayalam hashtag",
+      "column": 123,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "5769",
+        "7523",
+        "7741"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Burmese Hashtag",
+      "column": 77,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "5983",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Japanese Hashtag",
+      "column": 87,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "6109",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "italian hashtag",
+      "column": 101,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "6139",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "sweden hashtag",
+      "column": 117,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "6166",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Luxembourgish hashtag",
+      "column": 127,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "6186",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "turkish hashtag ",
+      "column": 125,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "6193",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Russian Hashtag",
+      "column": 85,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "6967",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Russian Hashtag",
+      "column": 85,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7051_7489_7597",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Korean Hashtag",
+      "column": 89,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7312",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "vietnam hashtag",
+      "column": 95,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7312",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "HASHTAGS",
+      "column": 48,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7491",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Thai Hashtag",
+      "column": 79,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7491",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Filipino Hashtag",
+      "column": 81,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7491",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "arabic hashtag",
+      "column": 93,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7491",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "vietnam hashtag",
+      "column": 95,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7491",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "spanish hashtag",
+      "column": 97,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7491",
+        "7523",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "french hashtag",
+      "column": 103,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7491",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "german hashtag",
+      "column": 105,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7491",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "danish hashtag",
+      "column": 111,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7491",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "greek hashtag ",
+      "column": 113,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7491",
+        "7523",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "polish hahstag ",
+      "column": 115,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7491",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "kannada hashtag",
+      "column": 119,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7491",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "telagu hashtag",
+      "column": 121,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7491",
+        "7523",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "malayalam hashtag",
+      "column": 123,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7491",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Hashtags",
+      "column": 147,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7517",
+        "7523"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "turkish hashtag ",
+      "column": 125,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "6413_6412",
+        "9301_9303"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "HASHTAGS",
+      "column": 48,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7689",
+        "7741"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Burmese Hashtag",
+      "column": 77,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7689",
+        "7741"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Filipino Hashtag",
+      "column": 81,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7689",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Chinese Hashtag",
+      "column": 83,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7689",
+        "7741"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Japanese Hashtag",
+      "column": 87,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7689",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Korean Hashtag",
+      "column": 89,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7689",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "lebenesse hashtag",
+      "column": 107,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7689",
+        "7741",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "kannada hashtag",
+      "column": 119,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7689",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Luxembourgish hashtag",
+      "column": 127,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7689",
+        "7741",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "spanish hashtag",
+      "column": 97,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7729",
+        "7741"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "lebenesse hashtag",
+      "column": 107,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7523",
+        "7730"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "danish hashtag",
+      "column": 111,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7731",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Chinese Hashtag",
+      "column": 83,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7523",
+        "7732"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Burmese Hashtag",
+      "column": 77,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7733",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Thai Hashtag",
+      "column": 79,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7734",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Korean Hashtag",
+      "column": 89,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7734",
+        "7741"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "arabic hashtag",
+      "column": 93,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7734",
+        "7741"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "sweden hashtag",
+      "column": 117,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7735",
+        "7741",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "italian hashtag",
+      "column": 101,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7737",
+        "7741",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "israli hashtag",
+      "column": 91,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7523",
+        "7738"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Japanese Hashtag",
+      "column": 87,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7739",
+        "7741"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "arabic hashtag",
+      "column": 93,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7739",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "polish hahstag ",
+      "column": 115,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7739",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Hashtags",
+      "column": 147,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7739",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "israli hashtag",
+      "column": 91,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7740",
+        "7742"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "HASHTAGS",
+      "column": 48,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Burmese Hashtag",
+      "column": 77,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Thai Hashtag",
+      "column": 79,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Filipino Hashtag",
+      "column": 81,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Chinese Hashtag",
+      "column": 83,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Russian Hashtag",
+      "column": 85,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Japanese Hashtag",
+      "column": 87,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Korean Hashtag",
+      "column": 89,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "israli hashtag",
+      "column": 91,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "arabic hashtag",
+      "column": 93,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "vietnam hashtag",
+      "column": 95,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "spanish hashtag",
+      "column": 97,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Indonesian hashtag",
+      "column": 99,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "italian hashtag",
+      "column": 101,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "french hashtag",
+      "column": 103,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "german hashtag",
+      "column": 105,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "lebenesse hashtag",
+      "column": 107,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "danish hashtag",
+      "column": 111,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "greek hashtag ",
+      "column": 113,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "polish hahstag ",
+      "column": 115,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "sweden hashtag",
+      "column": 117,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "kannada hashtag",
+      "column": 119,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "telagu hashtag",
+      "column": 121,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "malayalam hashtag",
+      "column": 123,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "turkish hashtag ",
+      "column": 125,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Luxembourgish hashtag",
+      "column": 127,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Hashtags",
+      "column": 147,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7502",
+        "7503",
+        "7504",
+        "8612"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Filipino Hashtag",
+      "column": 81,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7359",
+        "9604"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "german hashtag",
+      "column": 105,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "8607",
+        "9133"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "greek hashtag ",
+      "column": 113,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "8607",
+        "9133"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "polish hahstag ",
+      "column": 115,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "8607",
+        "9133"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Hashtags",
+      "column": 147,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "8607",
+        "9133"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Russian Hashtag",
+      "column": 85,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "7989",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "greek hashtag ",
+      "column": 113,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9029_9056",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Thai Hashtag",
+      "column": 79,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9030_9048",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Indonesian hashtag",
+      "column": 99,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9031_9071",
+        "9318_9314"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Indonesian hashtag",
+      "column": 99,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9032_9087",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "turkish hashtag ",
+      "column": 125,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9034_9120",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Burmese Hashtag",
+      "column": 77,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9037_9055",
+        "9318_9314"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "italian hashtag",
+      "column": 101,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9037_9055",
+        "9301_9303"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "french hashtag",
+      "column": 103,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9040_9089",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "german hashtag",
+      "column": 105,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9041_9067",
+        "9318_9314"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "HASHTAGS",
+      "column": 48,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9047_9108",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Burmese Hashtag",
+      "column": 77,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9047_9108",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Russian Hashtag",
+      "column": 85,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9047_9108",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "german hashtag",
+      "column": 105,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9047_9108",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "kannada hashtag",
+      "column": 119,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9050_9127",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "german hashtag",
+      "column": 105,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9062_9078",
+        "9317_9325"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "danish hashtag",
+      "column": 111,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9062_9078",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "turkish hashtag ",
+      "column": 125,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9063_9074",
+        "9318_9314"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Japanese Hashtag",
+      "column": 87,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9066_9124",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Indonesian hashtag",
+      "column": 99,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9066_9124",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "telagu hashtag",
+      "column": 121,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9066_9124",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Korean Hashtag",
+      "column": 89,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9068_9102",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "malayalam hashtag",
+      "column": 123,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9068_9102",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Luxembourgish hashtag",
+      "column": 127,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9068_9102",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "polish hahstag ",
+      "column": 115,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9069_9079",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "israli hashtag",
+      "column": 91,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9088_9118",
+        "9318_9314"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Luxembourgish hashtag",
+      "column": 127,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9088_9118",
+        "9301_9303"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "vietnam hashtag",
+      "column": 95,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9092_9110",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "telagu hashtag",
+      "column": 121,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9092_9110",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "spanish hashtag",
+      "column": 97,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9106_9128",
+        "9318_9314"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "spanish hashtag",
+      "column": 97,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9116_9123",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "lebenesse hashtag",
+      "column": 107,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9116_9123",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "sweden hashtag",
+      "column": 117,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9116_9123",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "turkish hashtag ",
+      "column": 125,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9025_9027",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Burmese Hashtag",
+      "column": 77,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9035_9109",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "greek hashtag ",
+      "column": 113,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9035_9109",
+        "9301_9303"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Korean Hashtag",
+      "column": 89,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9036_9119",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "spanish hashtag",
+      "column": 97,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9039_9043",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Hashtags",
+      "column": 147,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9039_9043",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "danish hashtag",
+      "column": 111,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9287_9312",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "greek hashtag ",
+      "column": 113,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9287_9312",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Chinese Hashtag",
+      "column": 83,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9288_9313",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "german hashtag",
+      "column": 105,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9292_9319",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "polish hahstag ",
+      "column": 115,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9292_9319",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "lebenesse hashtag",
+      "column": 107,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9296_9323",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Chinese Hashtag",
+      "column": 83,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9305_9329",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Indonesian hashtag",
+      "column": 99,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9306_9322",
+        "9317_9325"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Luxembourgish hashtag",
+      "column": 127,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9290_9315",
+        "9306_9322"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Thai Hashtag",
+      "column": 79,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9301_9303",
+        "9317_9325"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "italian hashtag",
+      "column": 101,
+      "severity": "warning",
+      "issue": "hashtag template differs only by stock reference",
+      "stocks": [
+        "9290_9315",
+        "9321_9326"
       ]
     },
     {
@@ -47189,16 +49430,6 @@
     },
     {
       "tab": "diamond stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6076",
-        "7576"
-      ]
-    },
-    {
-      "tab": "diamond stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -48325,16 +50556,6 @@
     },
     {
       "tab": "diamond stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6070",
-        "6067"
-      ]
-    },
-    {
-      "tab": "diamond stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -49007,16 +51228,6 @@
     {
       "tab": "diamond stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7122",
-        "9216"
-      ]
-    },
-    {
-      "tab": "diamond stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -49871,16 +52082,6 @@
     },
     {
       "tab": "diamond stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9516",
-        "9585"
-      ]
-    },
-    {
-      "tab": "diamond stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -50242,16 +52443,6 @@
     {
       "tab": "diamond stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "734",
-        "2699"
-      ]
-    },
-    {
-      "tab": "diamond stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -51212,17 +53403,6 @@
     {
       "tab": "diamond stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8913",
-        "7794",
-        "7134"
-      ]
-    },
-    {
-      "tab": "diamond stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -54049,16 +56229,6 @@
     },
     {
       "tab": "diamond stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9181",
-        "6685"
-      ]
-    },
-    {
-      "tab": "diamond stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -54812,16 +56982,6 @@
     },
     {
       "tab": "diamond stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "1545",
-        "1398"
-      ]
-    },
-    {
-      "tab": "diamond stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -55431,16 +57591,6 @@
     },
     {
       "tab": "diamond stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6268",
-        "6271"
-      ]
-    },
-    {
-      "tab": "diamond stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -55816,16 +57966,6 @@
     {
       "tab": "diamond stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7126",
-        "5410"
-      ]
-    },
-    {
-      "tab": "diamond stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -56725,16 +58865,6 @@
     },
     {
       "tab": "diamond stock ",
-      "header": "turkish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7111",
-        "7108"
-      ]
-    },
-    {
-      "tab": "diamond stock ",
       "header": "sweden description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -57042,16 +59172,6 @@
     {
       "tab": "diamond stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4322",
-        "5033"
-      ]
-    },
-    {
-      "tab": "diamond stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -57935,17 +60055,6 @@
     {
       "tab": "diamond stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7107",
-        "7110",
-        "6696"
-      ]
-    },
-    {
-      "tab": "diamond stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -58930,16 +61039,6 @@
     {
       "tab": "diamond stock ",
       "header": "polish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7799",
-        "5771"
-      ]
-    },
-    {
-      "tab": "diamond stock ",
-      "header": "turkish description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -64420,5 +66519,5 @@
     }
   ],
   "safe_repairs": 0,
-  "total_findings": 5880
+  "total_findings": 6057
 }
