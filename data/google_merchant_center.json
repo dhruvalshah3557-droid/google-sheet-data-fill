@@ -5864,7 +5864,7 @@
     "# Required | A short and relevant description of the item. Include specific or unique product features like material or color. Use plain text and don't enter text in all capital letters. See description specifications: https://www.facebook.com/business/help/2302017289821154 Character limit: 9999": "Take a closer look at 3.03 ct Fancy Brownish Greenish Yellow Diamond Ring. The listed clarity is VS1. The supplier specifies 18K for the setting. GIA is listed as the grading laboratory. Ask to review the original report before purchase. The supplier lists a jewellery weight of 7.73 g. Quote stock 7583 for current images and availability.",
     "# Required | The current availability of the item. | Supported values: in stock; out of stock": "in stock",
     "# Required | The current condition of the item. | Supported values: new; used": "new",
-    "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "30475.00 USD",
+    "# Required | The price of the item. Format the price as a number followed by the 3-letter currency code (ISO 4217 standards). Use a period (.) as the decimal point; don't use a comma.": "25300.00 USD",
     "# Required | The URL of the specific product page where people can buy the item.": "https://colourdiam.com/productdetail/7583",
     "# Required | The URL for the main image of your item. Images must be in a supported format (JPG/GIF/PNG) and at least 500 x 500 pixels.": "https://www.colourdiam.com/Product/Jewellery/7583/white45/center.jpg",
     "# Required | The brand name of the item. Character limit: 100.": "Colour Diam",
