@@ -9,7 +9,7 @@ from hashtag_quality import tokens, signature, cell_issues
 from sync_sheet import DEFAULT_SPREADSHEET_ID
 
 TABS={'jewellery stock ':739420449,'diamond stock ':1859613590}
-HEADERS={47:'HASHTAGS',76:'Burmese Hashtag',78:'Thai Hashtag',80:'Filipino Hashtag',82:'Chinese Hashtag',84:'Russian Hashtag',86:'Japanese Hashtag',88:'Korean Hashtag',90:'israli hashtag',92:'arabic hashtag',94:'vietnam hashtag',96:'spanish hashtag',98:'Indonesian hashtag',100:'italian hashtag',102:'french hashtag',104:'german hashtag',106:'lebenesse hashtag',110:'danish hashtag',112:'greek hashtag ',114:'polish hahstag ',116:'turkish hashtag ',118:'sweden hashtag',120:'kannada hashtag',122:'telagu hashtag',124:'malayalam hashtag',126:'turkish hashtag ',128:'Luxembourgish hashtag',148:'Hashtags'}
+HEADERS={47:'HASHTAGS',76:'Burmese Hashtag',78:'Thai Hashtag',80:'Filipino Hashtag',82:'Chinese Hashtag',84:'Russian Hashtag',86:'Japanese Hashtag',88:'Korean Hashtag',90:'israli hashtag',92:'arabic hashtag',94:'vietnam hashtag',96:'spanish hashtag',98:'Indonesian hashtag',100:'italian hashtag',102:'french hashtag',104:'german hashtag',106:'lebenesse hashtag',110:'danish hashtag',112:'greek hashtag',114:'polish hahstag',116:'sweden hashtag',118:'kannada hashtag',120:'telagu hashtag',122:'malayalam hashtag',124:'turkish hashtag',126:'Luxembourgish hashtag',146:'Hashtags'}
 
 def cell(row,col):return row[col] if col<len(row) else ''
 
@@ -22,7 +22,7 @@ def validate(updates,snapshots):
         seen.add(key)
         formatted,formulas,raw=snapshots[tab]
         if row<2 or row>len(formatted):raise ValueError('row bounds')
-        if cell(formatted[0],col-1)!=HEADERS[col-1]:raise ValueError('header drift')
+        if str(cell(formatted[0],col-1)).strip()!=HEADERS[col-1].strip():raise ValueError('header drift')
         if str(cell(formulas[row-1],col-1)).startswith('='):raise ValueError('formula destination')
         tag=tokens(value)
         if not tag or len(tag)!=len(set(tag)):raise ValueError('duplicate or empty tags')
@@ -63,8 +63,8 @@ def main():
             if ws.id!=TABS[tab]:raise ValueError('sheet ID drift')
         def snapshot():return {tab:(ws.get_all_values(),ws.get_all_values(value_render_option='FORMULA'),ws.get_all_values(value_render_option='UNFORMATTED_VALUE')) for tab,ws in worksheets.items()}
         before=snapshot()
-        rows=[{'sheet':tab,'sheet_id':TABS[tab],'row':ri,'stock':str(cell(row,1)).strip(),'details':str(cell(row,4) or ''),'type':str(cell(row,8) or '')} for tab in TABS for ri,row in enumerate(before[tab][2][1:],2) if str(cell(row,1)).strip()]
-        if any(cell(before[tab][0][0],1)!='STK' for tab in TABS):raise ValueError('stock header drift')
+        rows=[{'sheet':tab,'sheet_id':TABS[tab],'row':ri,'stock':str(cell(row,1)).strip(),'code':str(cell(row,3) or ''),'details':str(cell(row,4) or ''),'lab':str(cell(row,6) or ''),'cert':str(cell(row,7) or ''),'type':str(cell(row,8) or '')} for tab in TABS for ri,row in enumerate(before[tab][2][1:],2) if str(cell(row,1)).strip()]
+        if any(str(cell(before[tab][0][0],1)).strip()!='STK' for tab in TABS):raise ValueError('stock header drift')
         process=subprocess.run(['node',str(Path(__file__).with_name('generate_live_hashtags.cjs')),str(Path(__file__).with_name('hashtag_vocabulary.json'))],input=json.dumps({'rows':rows},ensure_ascii=False),text=True,capture_output=True)
         if process.returncode:raise ValueError('generator failed')
         result=json.loads(process.stdout)['rows']

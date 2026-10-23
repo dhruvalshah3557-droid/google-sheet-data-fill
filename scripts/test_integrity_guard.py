@@ -59,3 +59,9 @@ class HashtagQualityTests(unittest.TestCase):
     def test_japanese_kanji_are_valid(self):
         from hashtag_quality import cell_issues
         self.assertNotIn('hashtag language script mismatch',cell_issues('Japanese Hashtag','#宝石 #天然石'))
+    def test_filler_synonym_and_invented_tags_are_rejected(self):
+        from hashtag_quality import cell_issues
+        self.assertIn('duplicate hashtag inside cell',cell_issues('Hashtags','#Ring #DiamondRing #ColourDiam'))
+        self.assertNotIn('duplicate hashtag inside cell',cell_issues('Hashtags','#AGL #AGL23061119 #Ring'))
+        self.assertIn('hashtag not relevant to product',cell_issues('Hashtags','#ColourDiam #ColourStory #JewelleryLovers'))
+        self.assertIn('hashtag not supported by product facts',cell_issues('Hashtags','#ColourDiam #LabGrownDiamond #AsscherCut'))

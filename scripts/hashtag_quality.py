@@ -22,12 +22,37 @@ def signature(value, ignore_reference=False):
 
 SCRIPTS={'thai':(0xe00,0xe7f),'kannada':(0xc80,0xcff),'telugu':(0xc00,0xc7f),'telagu':(0xc00,0xc7f),'malayalam':(0xd00,0xd7f),'chinese':(0x4e00,0x9fff),'japanese':(0x3040,0x30ff),'korean':(0xac00,0xd7af),'arabic':(0x600,0x6ff),'hindi':(0x900,0x97f),'tamil':(0xb80,0xbff),'russian':(0x400,0x4ff),'greek':(0x370,0x3ff),'burmese':(0x1000,0x109f),'myanmar':(0x1000,0x109f)}
 GENERIC={'colourdiam','diamond','diamonds','jewellery','jewelry','luxury','luxuryjewellery','naturaldiamonds','fancycolordiamonds','fancycolourdiamonds','finejewellery','เพชร','เครื่องประดับ','หรูหรา'}
+FILLER=('story','inspiration','lovers','mood','spotlight','discovery','palette','ideas','colourinfocus','personalstyle','closeup','jewelleryedit','jewellerydetails','gemstoneselection','designdetails','statementstyle','styledetails','discoverjewellery')
+INVENTED=('labgrown','labgrowndiamond','cvddiamond','hphtdiamond')
 
 def cell_issues(name,value):
     name=name.lower();tags=tokens(value);issues=[]
     if 'vestslavic' in name: return ['ambiguous hashtag language']
     if not tags: return ['no valid hashtags']
     if len(tags)!=len(set(tags)): issues.append('duplicate hashtag inside cell')
+    unique=list(dict.fromkeys(tags))
+    for tag in unique:
+        if tag in INVENTED or any(tag.endswith(x) or x in tag for x in INVENTED):
+            issues.append('hashtag not supported by product facts')
+            break
+        if any(stem in tag for stem in FILLER):
+            issues.append('hashtag not relevant to product')
+            break
+    stems={'diamond','diamonds','gold','ring','cut','jewellery','jewelry','loose','fine','natural','colour','color','earring','earrings','pendant','bracelet','necklace'}
+    for a in unique:
+        if a in GENERIC or is_reference(a): continue
+        for b in unique:
+            if a==b or b in GENERIC: continue
+            shorter,longer=(a,b) if len(a)<len(b) else (b,a)
+            if len(shorter)<4: continue
+            if longer.startswith(shorter) or longer.endswith(shorter):
+                rest=longer[len(shorter):] if longer.startswith(shorter) else longer[:-len(shorter)]
+                if rest in stems or shorter in stems:
+                    issues.append('duplicate hashtag inside cell')
+                    break
+        else:
+            continue
+        break
     for lang,(lo,hi) in SCRIPTS.items():
         if lang in name and not any(lo<=ord(ch)<=hi or (lang=='japanese' and 0x4e00<=ord(ch)<=0x9fff) for tag in tags for ch in tag): issues.append('hashtag language script mismatch')
     meaningful=[t for t in tags if not is_reference(t) and t not in GENERIC]
