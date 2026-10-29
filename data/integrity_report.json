@@ -1873,14 +1873,14 @@
     {
       "tab": "jewellery stock ",
       "row": 135,
-      "stock": "6267",
+      "stock": "6270",
       "header": "turkish description",
       "issue": "missing marketing field"
     },
     {
       "tab": "jewellery stock ",
       "row": 135,
-      "stock": "6267",
+      "stock": "6270",
       "header": "turkish hashtag",
       "issue": "missing marketing field"
     },
@@ -8673,15 +8673,6 @@
       "stock": "9556",
       "header": "turkish hashtag",
       "issue": "missing marketing field"
-    },
-    {
-      "tab": "jewellery stock ",
-      "stock": "6267",
-      "rows": [
-        134,
-        135
-      ],
-      "issue": "duplicate stock key"
     },
     {
       "tab": "jewellery stock ",
@@ -8853,7 +8844,7 @@
         "6186",
         "6193",
         "6267",
-        "6267",
+        "6270",
         "6279_6318",
         "6280_6385",
         "6283",
@@ -51031,7 +51022,7 @@
     {
       "tab": "jewellery stock ",
       "row": 135,
-      "stock": "6267",
+      "stock": "6270",
       "header": "vestslavic hashtag",
       "column": 109,
       "severity": "warning",
@@ -51040,7 +51031,7 @@
     {
       "tab": "jewellery stock ",
       "row": 135,
-      "stock": "6267",
+      "stock": "6270",
       "header": "Hashtags",
       "column": 149,
       "severity": "warning",
@@ -92532,5 +92523,5 @@
     }
   ],
   "safe_repairs": 0,
-  "total_findings": 9460
+  "total_findings": 9459
 }
