@@ -10436,16 +10436,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "1263",
-        "8509"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "META DESCRIPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -10765,16 +10755,6 @@
     {
       "tab": "jewellery stock ",
       "header": "sweden description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "1263",
-        "8509"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -11051,16 +11031,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "1850",
-        "5531"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "SEO TITLE",
       "issue": "repeated description structure",
       "severity": "info",
@@ -11330,16 +11300,6 @@
     {
       "tab": "jewellery stock ",
       "header": "sweden description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "1850",
-        "5531"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -12078,16 +12038,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "3747",
-        "4377"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "META DESCRIPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -12448,16 +12398,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "3747",
-        "4377"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Meta Description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -12778,16 +12718,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4280",
-        "8552"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "INSTAGRAM CAPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -13059,16 +12989,6 @@
     {
       "tab": "jewellery stock ",
       "header": "Luxembourgish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4280",
-        "8552"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -14625,18 +14545,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4509",
-        "6000",
-        "7819",
-        "7566_7571_4668"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "SEO TITLE",
       "issue": "repeated description structure",
       "severity": "info",
@@ -15133,18 +15041,6 @@
       "stocks": [
         "4509",
         "5766",
-        "6000",
-        "7819",
-        "7566_7571_4668"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4509",
         "6000",
         "7819",
         "7566_7571_4668"
@@ -15367,16 +15263,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4520",
-        "5228"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "FACEBOOK CAPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -15593,26 +15479,6 @@
       "stocks": [
         "4520",
         "5228"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4520",
-        "5228"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4649",
-        "6185"
       ]
     },
     {
@@ -15898,16 +15764,6 @@
     {
       "tab": "jewellery stock ",
       "header": "Luxembourgish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4649",
-        "6185"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -15949,17 +15805,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4686",
-        "5595",
-        "7813"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "META DESCRIPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -16353,17 +16198,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4686",
-        "5595",
-        "7813"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Meta Description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -16420,16 +16254,6 @@
       "stocks": [
         "4686",
         "7813"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4774",
-        "7352"
       ]
     },
     {
@@ -16753,16 +16577,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4774",
-        "7352"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Meta Description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -17060,16 +16874,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "5212",
-        "8585"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "INSTAGRAM CAPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -17351,16 +17155,6 @@
     {
       "tab": "jewellery stock ",
       "header": "Luxembourgish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "5212",
-        "8585"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -17821,17 +17615,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "5735",
-        "3832",
-        "4709"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "INSTAGRAM CAPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -18147,17 +17930,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "5735",
-        "3832",
-        "4709"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Facebook Caption",
       "issue": "repeated description structure",
       "severity": "info",
@@ -18174,17 +17946,6 @@
       "stocks": [
         "5735",
         "4709"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "5769",
-        "6120",
-        "6186"
       ]
     },
     {
@@ -18427,27 +18188,6 @@
         "5769",
         "6120",
         "6186"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "5769",
-        "6120",
-        "6186"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "5991",
-        "7954"
       ]
     },
     {
@@ -18678,27 +18418,6 @@
       "stocks": [
         "5991",
         "7954"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "5991",
-        "7954"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6001",
-        "6283",
-        "6313"
       ]
     },
     {
@@ -18955,27 +18674,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6001",
-        "6283",
-        "6313"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6065",
-        "7746"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "INSTAGRAM CAPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -19266,16 +18964,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6065",
-        "7746"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Facebook Caption",
       "issue": "repeated description structure",
       "severity": "info",
@@ -19382,17 +19070,6 @@
       "stocks": [
         "6120",
         "6186"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6141",
-        "5440",
-        "6665"
       ]
     },
     {
@@ -19629,17 +19306,6 @@
     {
       "tab": "jewellery stock ",
       "header": "sweden description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6141",
-        "5440",
-        "6665"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -19990,16 +19656,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6193",
-        "9143"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "SEO TITLE",
       "issue": "repeated description structure",
       "severity": "info",
@@ -20359,16 +20015,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6193",
-        "9143"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "SEO Title",
       "issue": "repeated description structure",
       "severity": "info",
@@ -20493,16 +20139,6 @@
         "6267",
         "6115",
         "5320"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6279_6318",
-        "7233"
       ]
     },
     {
@@ -20727,16 +20363,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6279_6318",
-        "7233"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "INSTAGRAM CAPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -20823,16 +20449,6 @@
       "stocks": [
         "6283",
         "6313"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6357",
-        "8553"
       ]
     },
     {
@@ -21067,16 +20683,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6357",
-        "8553"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "TikTok Caption",
       "issue": "repeated description structure",
       "severity": "info",
@@ -21177,16 +20783,6 @@
         "6639",
         "8489",
         "8490"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6686",
-        "8473"
       ]
     },
     {
@@ -21450,16 +21046,6 @@
     {
       "tab": "jewellery stock ",
       "header": "sweden description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6686",
-        "8473"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -21952,16 +21538,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7045",
-        "5431"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "FACEBOOK CAPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -22192,16 +21768,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7045",
-        "5431"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "TikTok Caption",
       "issue": "repeated description structure",
       "severity": "info",
@@ -22263,18 +21829,6 @@
         "7076",
         "7999",
         "9596"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7078",
-        "8021",
-        "8508",
-        "8503"
       ]
     },
     {
@@ -22553,18 +22107,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7078",
-        "8021",
-        "8508",
-        "8503"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "INSTAGRAM CAPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -22652,16 +22194,6 @@
       "stocks": [
         "7081",
         "7090"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7090",
-        "8510"
       ]
     },
     {
@@ -22877,16 +22409,6 @@
     {
       "tab": "jewellery stock ",
       "header": "sweden description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7090",
-        "8510"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -23501,6 +23023,16 @@
     },
     {
       "tab": "jewellery stock ",
+      "header": "PRODUCT DESCRIPTION",
+      "issue": "repeated description structure",
+      "severity": "info",
+      "stocks": [
+        "7346",
+        "7364"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
       "header": "TikTok Caption",
       "issue": "repeated description structure",
       "severity": "info",
@@ -23580,6 +23112,16 @@
         "7742",
         "7498",
         "8402"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Product Description",
+      "issue": "repeated description structure",
+      "severity": "info",
+      "stocks": [
+        "7346",
+        "7364"
       ]
     },
     {
@@ -24317,7 +23859,6 @@
       "severity": "info",
       "stocks": [
         "7348",
-        "7351",
         "7353"
       ]
     },
@@ -24677,7 +24218,6 @@
       "severity": "info",
       "stocks": [
         "7348",
-        "7351",
         "7353"
       ]
     },
@@ -24718,8 +24258,7 @@
       "severity": "info",
       "stocks": [
         "7349",
-        "7370",
-        "8424"
+        "7354"
       ]
     },
     {
@@ -25066,8 +24605,7 @@
       "severity": "info",
       "stocks": [
         "7349",
-        "7370",
-        "8424"
+        "7354"
       ]
     },
     {
@@ -25100,17 +24638,6 @@
         "7349",
         "7370",
         "8424"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7350",
-        "7451",
-        "7355"
       ]
     },
     {
@@ -25454,17 +24981,6 @@
         "7451",
         "7355",
         "9597"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7350",
-        "7451",
-        "7355"
       ]
     },
     {
@@ -26093,17 +25609,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7539",
-        "7930",
-        "8266"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "INSTAGRAM CAPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -26423,17 +25928,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7539",
-        "7930",
-        "8266"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Facebook Caption",
       "issue": "repeated description structure",
       "severity": "info",
@@ -26452,17 +25946,6 @@
         "7539",
         "7930",
         "8266"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7583",
-        "7358",
-        "7361"
       ]
     },
     {
@@ -26739,17 +26222,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7583",
-        "7358",
-        "7361"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Facebook Caption",
       "issue": "repeated description structure",
       "severity": "info",
@@ -26766,16 +26238,6 @@
       "stocks": [
         "7583",
         "7434"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7592",
-        "8898"
       ]
     },
     {
@@ -27070,16 +26532,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7592",
-        "8898"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Meta Description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -27273,16 +26725,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6413_6412",
-        "7616"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "INSTAGRAM CAPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -27578,16 +27020,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "6413_6412",
-        "7616"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Facebook Caption",
       "issue": "repeated description structure",
       "severity": "info",
@@ -27897,18 +27329,6 @@
         "7654",
         "3576_3578_3879_3577_3580",
         "8425"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7692",
-        "7738",
-        "7741",
-        "8401"
       ]
     },
     {
@@ -28285,18 +27705,6 @@
         "7363",
         "7401_7402_7403_7405_7406",
         "9604"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7692",
-        "7738",
-        "7741",
-        "8401"
       ]
     },
     {
@@ -28428,16 +27836,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7730",
-        "7733"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "LUXURY WEBSITE DESCRIPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -28738,16 +28136,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7730",
-        "7733"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Long Description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -28894,16 +28282,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7739",
-        "7742"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "LUXURY WEBSITE DESCRIPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -29135,16 +28513,6 @@
     {
       "tab": "jewellery stock ",
       "header": "sweden description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7739",
-        "7742"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -29184,16 +28552,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7740",
-        "7768"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "LUXURY WEBSITE DESCRIPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -29450,16 +28808,6 @@
         "7740",
         "7768",
         "9552"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7740",
-        "7768"
       ]
     },
     {
@@ -29814,16 +29162,6 @@
         "9215",
         "9248",
         "8588"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7915",
-        "9206"
       ]
     },
     {
@@ -30164,16 +29502,6 @@
     {
       "tab": "jewellery stock ",
       "header": "Luxembourgish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7915",
-        "9206"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -30253,16 +29581,6 @@
       "stocks": [
         "7916",
         "7994"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7919",
-        "7935"
       ]
     },
     {
@@ -30499,28 +29817,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7919",
-        "7935"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7920",
-        "7923",
-        "7938",
-        "7956"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "META DESCRIPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -30955,18 +30251,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7920",
-        "7923",
-        "7938",
-        "7956"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Meta Description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -31073,17 +30357,6 @@
       "stocks": [
         "7922",
         "7955"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7924",
-        "7939_7940",
-        "7957"
       ]
     },
     {
@@ -31400,17 +30673,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7924",
-        "7939_7940",
-        "7957"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Facebook Caption",
       "issue": "repeated description structure",
       "severity": "info",
@@ -31427,16 +30689,6 @@
       "stocks": [
         "7924",
         "7957"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7926",
-        "7959"
       ]
     },
     {
@@ -31732,16 +30984,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7926",
-        "7959"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Facebook Caption",
       "issue": "repeated description structure",
       "severity": "info",
@@ -31758,16 +31000,6 @@
       "stocks": [
         "7926",
         "7959"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7934",
-        "7947"
       ]
     },
     {
@@ -31983,16 +31215,6 @@
     {
       "tab": "jewellery stock ",
       "header": "sweden description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7934",
-        "7947"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -32144,16 +31366,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7950",
-        "7952"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "INSTAGRAM CAPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -32434,16 +31646,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7950",
-        "7952"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Facebook Caption",
       "issue": "repeated description structure",
       "severity": "info",
@@ -32460,16 +31662,6 @@
       "stocks": [
         "7950",
         "7952"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7951",
-        "8002"
       ]
     },
     {
@@ -32685,16 +31877,6 @@
     {
       "tab": "jewellery stock ",
       "header": "sweden description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7951",
-        "8002"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -33970,6 +33152,16 @@
     },
     {
       "tab": "jewellery stock ",
+      "header": "PRODUCT DESCRIPTION",
+      "issue": "repeated description structure",
+      "severity": "info",
+      "stocks": [
+        "8142",
+        "8487"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
       "header": "SEO TITLE",
       "issue": "repeated description structure",
       "severity": "info",
@@ -34016,6 +33208,16 @@
       "stocks": [
         "8142",
         "8277"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Product Description",
+      "issue": "repeated description structure",
+      "severity": "info",
+      "stocks": [
+        "8142",
+        "8487"
       ]
     },
     {
@@ -35481,16 +34683,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8477",
-        "5559"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "FACEBOOK CAPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -35702,16 +34894,6 @@
     {
       "tab": "jewellery stock ",
       "header": "sweden description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8477",
-        "5559"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -36041,16 +35223,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8400",
-        "6325"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "INSTAGRAM CAPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -36341,16 +35513,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8400",
-        "6325"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Facebook Caption",
       "issue": "repeated description structure",
       "severity": "info",
@@ -36371,16 +35533,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8402",
-        "7364"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "FACEBOOK CAPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -36392,16 +35544,6 @@
     {
       "tab": "jewellery stock ",
       "header": "Google Shopping Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8402",
-        "7364"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -36691,16 +35833,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8483",
-        "9178"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "INSTAGRAM CAPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -36981,16 +36113,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8483",
-        "9178"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Facebook Caption",
       "issue": "repeated description structure",
       "severity": "info",
@@ -37057,16 +36179,6 @@
       "stocks": [
         "8484",
         "9215"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8485",
-        "9378"
       ]
     },
     {
@@ -37282,16 +36394,6 @@
     {
       "tab": "jewellery stock ",
       "header": "sweden description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8485",
-        "9378"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -37814,16 +36916,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7359",
-        "7362"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "LUXURY WEBSITE DESCRIPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -37865,16 +36957,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7359",
-        "7362"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Long Description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -37907,16 +36989,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7360",
-        "7363"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "LUXURY WEBSITE DESCRIPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -37938,16 +37010,6 @@
     {
       "tab": "jewellery stock ",
       "header": "Google Shopping Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7360",
-        "7363"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -38417,16 +37479,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8316",
-        "5026"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "INSTAGRAM CAPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -38698,16 +37750,6 @@
     {
       "tab": "jewellery stock ",
       "header": "Luxembourgish description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8316",
-        "5026"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -38776,16 +37818,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7047",
-        "9555"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "INSTAGRAM CAPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -39066,16 +38098,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "7047",
-        "9555"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Facebook Caption",
       "issue": "repeated description structure",
       "severity": "info",
@@ -39172,16 +38194,6 @@
       "stocks": [
         "5440",
         "6665"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "5421",
-        "4254"
       ]
     },
     {
@@ -39454,16 +38466,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "5421",
-        "4254"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Meta Description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -39525,16 +38527,6 @@
       "stocks": [
         "4748",
         "9150"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8505",
-        "8551"
       ]
     },
     {
@@ -39829,16 +38821,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8505",
-        "8551"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Facebook Caption",
       "issue": "repeated description structure",
       "severity": "info",
@@ -39887,16 +38869,6 @@
         "7475",
         "8696",
         "1980"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4723",
-        "8550"
       ]
     },
     {
@@ -40112,16 +39084,6 @@
     {
       "tab": "jewellery stock ",
       "header": "sweden description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4723",
-        "8550"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -40301,16 +39263,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8013",
-        "7699"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "FACEBOOK CAPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -40522,16 +39474,6 @@
     {
       "tab": "jewellery stock ",
       "header": "sweden description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "8013",
-        "7699"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -41022,9 +39964,27 @@
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
+        "9026_9024",
+        "9060_9077"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Product Description",
+      "issue": "repeated description structure",
+      "severity": "info",
+      "stocks": [
+        "9026_9024",
+        "9060_9077"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "PRODUCT DESCRIPTION",
+      "issue": "repeated description structure",
+      "severity": "info",
+      "stocks": [
         "9028_9121",
-        "9029_9056",
-        "9050_9127",
         "9062_9078",
         "9039_9043"
       ]
@@ -41424,8 +40384,6 @@
       "severity": "info",
       "stocks": [
         "9028_9121",
-        "9029_9056",
-        "9050_9127",
         "9062_9078",
         "9039_9043"
       ]
@@ -41466,6 +40424,16 @@
     },
     {
       "tab": "jewellery stock ",
+      "header": "PRODUCT DESCRIPTION",
+      "issue": "repeated description structure",
+      "severity": "info",
+      "stocks": [
+        "9029_9056",
+        "9063_9074"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
       "header": "TikTok Caption",
       "issue": "repeated description structure",
       "severity": "info",
@@ -41483,17 +40451,12 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
+      "header": "Product Description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
-        "9030_9048",
-        "9037_9055",
-        "9046_9107",
-        "9065_9113",
-        "9035_9109",
-        "9302_9304",
-        "9321_9326"
+        "9029_9056",
+        "9063_9074"
       ]
     },
     {
@@ -41900,21 +40863,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9030_9048",
-        "9037_9055",
-        "9046_9107",
-        "9065_9113",
-        "9035_9109",
-        "9302_9304",
-        "9321_9326"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Facebook Caption",
       "issue": "repeated description structure",
       "severity": "info",
@@ -41944,12 +40892,7 @@
       "severity": "info",
       "stocks": [
         "9031_9071",
-        "9060_9077",
-        "9068_9102",
-        "9072_9100",
-        "9104_9033",
-        "9288_9313",
-        "9300_9328"
+        "9065_9113"
       ]
     },
     {
@@ -42375,12 +41318,7 @@
       "severity": "info",
       "stocks": [
         "9031_9071",
-        "9060_9077",
-        "9068_9102",
-        "9072_9100",
-        "9104_9033",
-        "9288_9313",
-        "9300_9328"
+        "9065_9113"
       ]
     },
     {
@@ -42405,22 +41343,6 @@
         "9072_9100",
         "9104_9033",
         "9300_9328"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9032_9087",
-        "9042_9075",
-        "9044_9049",
-        "9066_9124",
-        "9116_9123",
-        "9036_9119",
-        "9293_9327",
-        "9294_9308"
       ]
     },
     {
@@ -42861,22 +41783,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9032_9087",
-        "9042_9075",
-        "9044_9049",
-        "9066_9124",
-        "9116_9123",
-        "9036_9119",
-        "9293_9327",
-        "9294_9308"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Long Description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -42909,17 +41815,6 @@
         "9042_9075",
         "9066_9124",
         "9294_9308"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9034_9120",
-        "9040_9089",
-        "9025_9027"
       ]
     },
     {
@@ -43181,13 +42076,12 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
+      "header": "PRODUCT DESCRIPTION",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
-        "9034_9120",
-        "9040_9089",
-        "9025_9027"
+        "9037_9055",
+        "9069_9079"
       ]
     },
     {
@@ -43254,6 +42148,16 @@
         "9037_9055",
         "9065_9113",
         "9302_9304"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Product Description",
+      "issue": "repeated description structure",
+      "severity": "info",
+      "stocks": [
+        "9037_9055",
+        "9069_9079"
       ]
     },
     {
@@ -43385,8 +42289,7 @@
       "severity": "info",
       "stocks": [
         "9041_9067",
-        "9045_9061",
-        "9292_9319"
+        "9088_9118"
       ]
     },
     {
@@ -43722,8 +42625,7 @@
       "severity": "info",
       "stocks": [
         "9041_9067",
-        "9045_9061",
-        "9292_9319"
+        "9088_9118"
       ]
     },
     {
@@ -43870,23 +42772,6 @@
       "stocks": [
         "9046_9107",
         "9035_9109"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9047_9108",
-        "9088_9118",
-        "9295_9324",
-        "9298_9316",
-        "9305_9329",
-        "9306_9322",
-        "9307_9320",
-        "9317_9325",
-        "9484"
       ]
     },
     {
@@ -44347,23 +43232,6 @@
         "9047_9108",
         "9088_9118",
         "9295_9324",
-        "9317_9325",
-        "9484"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9047_9108",
-        "9088_9118",
-        "9295_9324",
-        "9298_9316",
-        "9305_9329",
-        "9306_9322",
-        "9307_9320",
         "9317_9325",
         "9484"
       ]
@@ -44529,18 +43397,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9063_9074",
-        "9069_9079",
-        "5424_8731",
-        "9290_9315"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "LUXURY WEBSITE DESCRIPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -44635,18 +43491,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9063_9074",
-        "9069_9079",
-        "5424_8731",
-        "9290_9315"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Long Description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -44673,17 +43517,6 @@
       "stocks": [
         "9063_9074",
         "9290_9315"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9064_9103",
-        "9092_9110",
-        "9301_9303"
       ]
     },
     {
@@ -44780,17 +43613,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9064_9103",
-        "9092_9110",
-        "9301_9303"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Long Description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -44817,18 +43639,6 @@
       "stocks": [
         "9064_9103",
         "9092_9110"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9106_9128",
-        "9289_9309",
-        "9296_9323",
-        "9310_9330"
       ]
     },
     {
@@ -45153,18 +43963,6 @@
       "stocks": [
         "9106_9128",
         "9289_9309"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9106_9128",
-        "9289_9309",
-        "9296_9323",
-        "9310_9330"
       ]
     },
     {
@@ -45739,16 +44537,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9379",
-        "4293"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "LUXURY WEBSITE DESCRIPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -46097,16 +44885,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "Product Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9379",
-        "4293"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "Long Description",
       "issue": "repeated description structure",
       "severity": "info",
@@ -46221,6 +44999,36 @@
     },
     {
       "tab": "jewellery stock ",
+      "header": "PRODUCT DESCRIPTION",
+      "issue": "repeated description structure",
+      "severity": "info",
+      "stocks": [
+        "9288_9313",
+        "9317_9325"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Product Description",
+      "issue": "repeated description structure",
+      "severity": "info",
+      "stocks": [
+        "9288_9313",
+        "9317_9325"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "PRODUCT DESCRIPTION",
+      "issue": "repeated description structure",
+      "severity": "info",
+      "stocks": [
+        "9289_9309",
+        "9318_9314"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
       "header": "LUXURY WEBSITE DESCRIPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -46228,6 +45036,16 @@
         "9289_9309",
         "9296_9323",
         "9310_9330"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Product Description",
+      "issue": "repeated description structure",
+      "severity": "info",
+      "stocks": [
+        "9289_9309",
+        "9318_9314"
       ]
     },
     {
@@ -46248,8 +45066,7 @@
       "severity": "info",
       "stocks": [
         "9291_9311",
-        "9297_9299",
-        "9318_9314"
+        "9301_9303"
       ]
     },
     {
@@ -46292,8 +45109,7 @@
       "severity": "info",
       "stocks": [
         "9291_9311",
-        "9297_9299",
-        "9318_9314"
+        "9301_9303"
       ]
     },
     {
@@ -46309,12 +45125,52 @@
     },
     {
       "tab": "jewellery stock ",
+      "header": "PRODUCT DESCRIPTION",
+      "issue": "repeated description structure",
+      "severity": "info",
+      "stocks": [
+        "9292_9319",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Product Description",
+      "issue": "repeated description structure",
+      "severity": "info",
+      "stocks": [
+        "9292_9319",
+        "9321_9326"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "PRODUCT DESCRIPTION",
+      "issue": "repeated description structure",
+      "severity": "info",
+      "stocks": [
+        "9293_9327",
+        "9290_9315"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
       "header": "LUXURY WEBSITE DESCRIPTION",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
         "9293_9327",
         "9294_9308"
+      ]
+    },
+    {
+      "tab": "jewellery stock ",
+      "header": "Product Description",
+      "issue": "repeated description structure",
+      "severity": "info",
+      "stocks": [
+        "9293_9327",
+        "9290_9315"
       ]
     },
     {
@@ -47243,16 +46099,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "header": "PRODUCT DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9610",
-        "7820"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "INSTAGRAM CAPTION",
       "issue": "repeated description structure",
       "severity": "info",
@@ -47474,16 +46320,6 @@
     {
       "tab": "jewellery stock ",
       "header": "sweden description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "9610",
-        "7820"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Product Description",
       "issue": "repeated description structure",
       "severity": "info",
       "stocks": [
@@ -92489,5 +91325,5 @@
     }
   ],
   "safe_repairs": 0,
-  "total_findings": 9456
+  "total_findings": 9350
 }
