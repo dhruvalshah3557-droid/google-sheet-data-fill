@@ -208,5 +208,35 @@
     "approved_at_utc": "",
     "final_video_url": "",
     "error_message": ""
+  },
+  {
+    "preview_id": "4191-th-dd2daa1a-1",
+    "created_at_utc": "2026-10-29T21:27:45Z",
+    "sku": "4191",
+    "media_url": "https://colourdiam.com/Product/Jewellery/4191/white45/video.mp4",
+    "language": "th",
+    "voice_name": "th-TH-PremwadeeNeural",
+    "voice_gender": "Female",
+    "script": "0.52 ct Very light pink Diamond Ring ลองจินตนาการถึงตัวเลือกใหม่ของคุณ น้ำหนักกะรัต: 0.52 ct; เกรดสี: Very light pink; เกรดความสะอาด: VS2. ติดต่อ Colour Diam เพื่อขอภาพเพิ่มเติมและตรวจสอบสินค้าปัจจุบัน รหัสสินค้า: 4191",
+    "preview_url": "https://github.com/dhruvalshah3557-droid/api-upload-facebook-instagram-youtube-/releases/download/voice-previews/4191-th-dd2daa1a-1.mp3",
+    "status": "Approved",
+    "approved_at_utc": "2026-10-29T21:27:45Z",
+    "final_video_url": "",
+    "error_message": ""
+  },
+  {
+    "preview_id": "4191-th-dd2daa1a-2",
+    "created_at_utc": "2026-10-29T21:27:45Z",
+    "sku": "4191",
+    "media_url": "https://colourdiam.com/Product/Jewellery/4191/white45/video.mp4",
+    "language": "th",
+    "voice_name": "th-TH-NiwatNeural",
+    "voice_gender": "Male",
+    "script": "0.52 ct Very light pink Diamond Ring ลองจินตนาการถึงตัวเลือกใหม่ของคุณ น้ำหนักกะรัต: 0.52 ct; เกรดสี: Very light pink; เกรดความสะอาด: VS2. ติดต่อ Colour Diam เพื่อขอภาพเพิ่มเติมและตรวจสอบสินค้าปัจจุบัน รหัสสินค้า: 4191",
+    "preview_url": "https://github.com/dhruvalshah3557-droid/api-upload-facebook-instagram-youtube-/releases/download/voice-previews/4191-th-dd2daa1a-2.mp3",
+    "status": "Pending Approval",
+    "approved_at_utc": "",
+    "final_video_url": "",
+    "error_message": ""
   }
 ]
