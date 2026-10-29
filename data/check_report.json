@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T00:59:34.483036+00:00",
+  "generated_at": "2026-10-29T10:01:11.984582+00:00",
   "stages": [
     "check"
   ],
@@ -26,7 +26,7 @@
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 2 duplicate 'STK's, e.g. ['6267', '7942']"
+      "message": "jewellery_stock: 1 duplicate 'STK's, e.g. ['7942']"
     },
     {
       "severity": "warn",
@@ -34,7 +34,7 @@
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 2732 non-http or broken media URLs"
+      "message": "jewellery_stock: 2731 non-http or broken media URLs"
     },
     {
       "severity": "warn",
@@ -42,7 +42,7 @@
     },
     {
       "severity": "warn",
-      "message": "full_stock: 3 duplicate 'STK's, e.g. ['6267', '7669', '7942']"
+      "message": "full_stock: 2 duplicate 'STK's, e.g. ['7669', '7942']"
     },
     {
       "severity": "warn",
@@ -54,7 +54,7 @@
     },
     {
       "severity": "warn",
-      "message": "auto_fetch_link_from_ftp: 3 duplicate 'STK's, e.g. ['6267', '7669', '7942']"
+      "message": "auto_fetch_link_from_ftp: 2 duplicate 'STK's, e.g. ['7669', '7942']"
     },
     {
       "severity": "warn",
@@ -66,7 +66,7 @@
     },
     {
       "severity": "warn",
-      "message": "pinterest: 3 duplicate 'id's, e.g. ['6267', '7669', '7942']"
+      "message": "pinterest: 2 duplicate 'id's, e.g. ['7669', '7942']"
     },
     {
       "severity": "warn",
