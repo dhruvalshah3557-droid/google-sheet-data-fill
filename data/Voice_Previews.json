@@ -448,5 +448,50 @@
     "approved_at_utc": "2026-10-30T14:22:43Z",
     "final_video_url": "",
     "error_message": ""
+  },
+  {
+    "preview_id": "4280-en-a8c59be2-1",
+    "created_at_utc": "2026-10-30T19:30:47Z",
+    "sku": "4280",
+    "media_url": "https://colourdiam.com/Product/Jewellery/4280/white45/video.mp4",
+    "language": "en",
+    "voice_name": "en-GB-LibbyNeural",
+    "voice_gender": "Female",
+    "script": "A distinctive ring featuring 1.51 cts Fancy green vs. The recorded specifications include 18 k ring : 6.79 gram; Main stone - 1 pcs – 1.51 cts; PINK : 46 / 0.53; WD : 108 / 0.872. The LAB field lists AGL; request the original report to review its grading details. Contact Colour Diam with stock reference 4280 for further details and current availability.",
+    "preview_url": "https://github.com/dhruvalshah3557-droid/api-upload-facebook-instagram-youtube-/releases/download/voice-previews/4280-en-a8c59be2-1.mp3",
+    "status": "Pending Approval",
+    "approved_at_utc": "",
+    "final_video_url": "",
+    "error_message": ""
+  },
+  {
+    "preview_id": "4280-en-a8c59be2-2",
+    "created_at_utc": "2026-10-30T19:30:47Z",
+    "sku": "4280",
+    "media_url": "https://colourdiam.com/Product/Jewellery/4280/white45/video.mp4",
+    "language": "en",
+    "voice_name": "en-GB-MaisieNeural",
+    "voice_gender": "Female",
+    "script": "A distinctive ring featuring 1.51 cts Fancy green vs. The recorded specifications include 18 k ring : 6.79 gram; Main stone - 1 pcs – 1.51 cts; PINK : 46 / 0.53; WD : 108 / 0.872. The LAB field lists AGL; request the original report to review its grading details. Contact Colour Diam with stock reference 4280 for further details and current availability.",
+    "preview_url": "https://github.com/dhruvalshah3557-droid/api-upload-facebook-instagram-youtube-/releases/download/voice-previews/4280-en-a8c59be2-2.mp3",
+    "status": "Pending Approval",
+    "approved_at_utc": "",
+    "final_video_url": "",
+    "error_message": ""
+  },
+  {
+    "preview_id": "4280-en-a8c59be2-3",
+    "created_at_utc": "2026-10-30T19:30:47Z",
+    "sku": "4280",
+    "media_url": "https://colourdiam.com/Product/Jewellery/4280/white45/video.mp4",
+    "language": "en",
+    "voice_name": "en-GB-RyanNeural",
+    "voice_gender": "Male",
+    "script": "A distinctive ring featuring 1.51 cts Fancy green vs. The recorded specifications include 18 k ring : 6.79 gram; Main stone - 1 pcs – 1.51 cts; PINK : 46 / 0.53; WD : 108 / 0.872. The LAB field lists AGL; request the original report to review its grading details. Contact Colour Diam with stock reference 4280 for further details and current availability.",
+    "preview_url": "https://github.com/dhruvalshah3557-droid/api-upload-facebook-instagram-youtube-/releases/download/voice-previews/4280-en-a8c59be2-3.mp3",
+    "status": "Approved",
+    "approved_at_utc": "2026-10-30T19:30:47Z",
+    "final_video_url": "",
+    "error_message": ""
   }
 ]
