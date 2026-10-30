@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T10:04:30.945998+00:00",
+  "generated_at": "2026-10-30T18:01:52.376569+00:00",
   "stages": [
     "check"
   ],
@@ -26,39 +26,35 @@
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 1 duplicate 'STK's, e.g. ['7942']"
+      "message": "jewellery_stock: 14 malformed PRODUCT LINK cells"
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 15 malformed PRODUCT LINK cells"
+      "message": "jewellery_stock: 2723 non-http or broken media URLs"
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 2729 non-http or broken media URLs"
+      "message": "jewellery_stock: 588/634 (93%) rows missing 'model image link 3'"
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 589/635 (93%) rows missing 'model image link 3'"
+      "message": "full_stock: 1 duplicate 'STK's, e.g. ['7669']"
     },
     {
       "severity": "warn",
-      "message": "full_stock: 2 duplicate 'STK's, e.g. ['7669', '7942']"
+      "message": "full_stock: 1151 non-http or broken media URLs"
     },
     {
       "severity": "warn",
-      "message": "full_stock: 1152 non-http or broken media URLs"
+      "message": "full_stock: 1146/1151 rows have empty marketing cells (X..CT)"
     },
     {
       "severity": "warn",
-      "message": "full_stock: 1147/1152 rows have empty marketing cells (X..CT)"
+      "message": "auto_fetch_link_from_ftp: 1 duplicate 'STK's, e.g. ['7669']"
     },
     {
       "severity": "warn",
-      "message": "auto_fetch_link_from_ftp: 2 duplicate 'STK's, e.g. ['7669', '7942']"
-    },
-    {
-      "severity": "warn",
-      "message": "auto_fetch_link_from_ftp: 1152 non-http or broken media URLs"
+      "message": "auto_fetch_link_from_ftp: 1151 non-http or broken media URLs"
     },
     {
       "severity": "warn",
@@ -66,7 +62,7 @@
     },
     {
       "severity": "warn",
-      "message": "pinterest: 2 duplicate 'id's, e.g. ['7669', '7942']"
+      "message": "pinterest: 1 duplicate 'id's, e.g. ['7669']"
     },
     {
       "severity": "warn",
@@ -78,5 +74,5 @@
     }
   ],
   "error_count": 0,
-  "warning_count": 18
+  "warning_count": 17
 }
