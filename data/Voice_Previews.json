@@ -493,5 +493,35 @@
     "approved_at_utc": "2026-10-30T19:30:47Z",
     "final_video_url": "",
     "error_message": ""
+  },
+  {
+    "preview_id": "4280-th-a8c59be2-1",
+    "created_at_utc": "2026-10-30T23:15:42Z",
+    "sku": "4280",
+    "media_url": "https://colourdiam.com/Product/Jewellery/4280/white45/video.mp4",
+    "language": "th",
+    "voice_name": "th-TH-PremwadeeNeural",
+    "voice_gender": "Female",
+    "script": "ให้สีสันเป็นจุดเริ่มต้นของการเลือกเครื่องประดับ 1.51 ct Fancy green Diamond Ring น้ำหนักกะรัต: 1.51 ct · เกรดสี: Fancy green · เกรดความสะอาด: vs รหัสสินค้า: 4280 ติดต่อ Colour Diam เพื่อขอภาพเพิ่มเติมและตรวจสอบสินค้าปัจจุบัน",
+    "preview_url": "https://github.com/dhruvalshah3557-droid/api-upload-facebook-instagram-youtube-/releases/download/voice-previews/4280-th-a8c59be2-1.mp3",
+    "status": "Approved",
+    "approved_at_utc": "2026-10-30T23:15:42Z",
+    "final_video_url": "",
+    "error_message": ""
+  },
+  {
+    "preview_id": "4280-th-a8c59be2-2",
+    "created_at_utc": "2026-10-30T23:15:42Z",
+    "sku": "4280",
+    "media_url": "https://colourdiam.com/Product/Jewellery/4280/white45/video.mp4",
+    "language": "th",
+    "voice_name": "th-TH-NiwatNeural",
+    "voice_gender": "Male",
+    "script": "ให้สีสันเป็นจุดเริ่มต้นของการเลือกเครื่องประดับ 1.51 ct Fancy green Diamond Ring น้ำหนักกะรัต: 1.51 ct · เกรดสี: Fancy green · เกรดความสะอาด: vs รหัสสินค้า: 4280 ติดต่อ Colour Diam เพื่อขอภาพเพิ่มเติมและตรวจสอบสินค้าปัจจุบัน",
+    "preview_url": "https://github.com/dhruvalshah3557-droid/api-upload-facebook-instagram-youtube-/releases/download/voice-previews/4280-th-a8c59be2-2.mp3",
+    "status": "Pending Approval",
+    "approved_at_utc": "",
+    "final_video_url": "",
+    "error_message": ""
   }
 ]
