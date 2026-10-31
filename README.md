@@ -57,20 +57,30 @@ base64 -w0 -i magnetic-music-503509-d6-a53de918bf57.json
 
 ### 2. (Optional) LLM key for the fill agent
 
-If you want the fill agent to generate marketing content, add an OpenAI-compatible API key:
+Local fills go through FreeLLMAPI. GitHub Actions uses Groq directly because runners cannot reach `localhost:3001`.
 
-- `USER_LLM_API_KEY` — required (any OpenAI-compatible key).
-- `USER_LLM_BASE_URL` — optional, defaults to `https://api.openai.com/v1`.
-- `USER_LLM_MODEL` — optional, defaults to `gpt-4o-mini`.
+Local (FreeLLMAPI must be running):
 
-Add them as repository secrets (Settings → Secrets and variables → Actions). The fill step is skipped when `USER_LLM_API_KEY` is absent.
+- `USER_LLM_API_KEY` — unified `freellmapi-...` key from the FreeLLMAPI dashboard.
+- `USER_LLM_BASE_URL` — `http://localhost:3001/v1`.
+- `USER_LLM_MODEL` — `auto`.
+
+Keep the Groq `gsk_...` key inside FreeLLMAPI, not in this repo.
+
+GitHub Actions secrets:
+
+- `GROQLLKEY` — Groq API key used by `.github/workflows/slow-fill.yml`.
+- `USER_LLM_BASE_URL` — optional; CI defaults to `https://api.groq.com/openai/v1`.
+- `USER_LLM_MODEL` — optional; CI defaults to `llama-3.3-70b-versatile`.
+
+The fill step is skipped when `GROQLLKEY` is absent.
 
 To try it locally, copy `.env.example` and export the values:
 
 ```bash
-export USER_LLM_API_KEY=your-api-key-here
-export USER_LLM_BASE_URL=https://api.openai.com/v1
-export USER_LLM_MODEL=gpt-4o-mini
+export USER_LLM_API_KEY=freellmapi-your-unified-key-here
+export USER_LLM_BASE_URL=http://localhost:3001/v1
+export USER_LLM_MODEL=auto
 ```
 
 ## Security

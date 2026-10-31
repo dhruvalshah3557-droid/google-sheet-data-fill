@@ -197,8 +197,8 @@ def save_quota(out_dir: str, quota: dict):
 
 def llm_complete(prompt: str) -> str:
     api_key = (os.environ.get("USER_LLM_API_KEY") or "").strip()
-    base_url = os.environ.get("USER_LLM_BASE_URL", "").strip().rstrip("/") or "https://api.llm7.io/v1"
-    model = os.environ.get("USER_LLM_MODEL", "").strip() or "gemini-3.1-flash-lite"
+    base_url = os.environ.get("USER_LLM_BASE_URL", "").strip().rstrip("/") or "http://localhost:3001/v1"
+    model = os.environ.get("USER_LLM_MODEL", "").strip() or "auto"
     headers = {"Content-Type": "application/json"}
     if api_key:
         headers["Authorization"] = f"Bearer {api_key}"
