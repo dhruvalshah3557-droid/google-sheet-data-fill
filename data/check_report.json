@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T06:51:06.911405+00:00",
+  "generated_at": "2026-11-05T17:26:02.862404+00:00",
   "stages": [
     "check"
   ],
@@ -26,15 +26,15 @@
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 14 malformed PRODUCT LINK cells"
+      "message": "jewellery_stock: 13 malformed PRODUCT LINK cells"
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 2723 non-http or broken media URLs"
+      "message": "jewellery_stock: 2719 non-http or broken media URLs"
     },
     {
       "severity": "warn",
-      "message": "jewellery_stock: 588/634 (93%) rows missing 'model image link 3'"
+      "message": "jewellery_stock: 587/633 (93%) rows missing 'model image link 3'"
     },
     {
       "severity": "warn",
@@ -42,11 +42,11 @@
     },
     {
       "severity": "warn",
-      "message": "full_stock: 1151 non-http or broken media URLs"
+      "message": "full_stock: 1150 non-http or broken media URLs"
     },
     {
       "severity": "warn",
-      "message": "full_stock: 1146/1151 rows have empty marketing cells (X..CT)"
+      "message": "full_stock: 1145/1150 rows have empty marketing cells (X..CT)"
     },
     {
       "severity": "warn",
@@ -54,7 +54,7 @@
     },
     {
       "severity": "warn",
-      "message": "auto_fetch_link_from_ftp: 1151 non-http or broken media URLs"
+      "message": "auto_fetch_link_from_ftp: 1150 non-http or broken media URLs"
     },
     {
       "severity": "warn",
