@@ -1393,5 +1393,50 @@
     "approved_at_utc": "2026-11-13T17:43:38Z",
     "final_video_url": "",
     "error_message": ""
+  },
+  {
+    "preview_id": "4725-en-5e173162-1",
+    "created_at_utc": "2026-11-13T22:55:01Z",
+    "sku": "4725",
+    "media_url": "https://colourdiam.com/Product/Jewellery/4725/white45/video.mp4",
+    "language": "en",
+    "voice_name": "en-GB-LibbyNeural",
+    "voice_gender": "Female",
+    "script": "This 18K gold ring features a Fancy Grayish Green diamond weighing 0.84 ct. The main stone has VS2 clarity. The design includes 62 white diamonds totalling 0.26 ct and 24 pink diamonds totalling 0.14 ct. The ring weighs 5.81 g.",
+    "preview_url": "https://github.com/dhruvalshah3557-droid/api-upload-facebook-instagram-youtube-/releases/download/voice-previews/4725-en-5e173162-1.mp3",
+    "status": "Approved",
+    "approved_at_utc": "2026-11-13T22:55:01Z",
+    "final_video_url": "",
+    "error_message": ""
+  },
+  {
+    "preview_id": "4725-en-5e173162-2",
+    "created_at_utc": "2026-11-13T22:55:01Z",
+    "sku": "4725",
+    "media_url": "https://colourdiam.com/Product/Jewellery/4725/white45/video.mp4",
+    "language": "en",
+    "voice_name": "en-GB-MaisieNeural",
+    "voice_gender": "Female",
+    "script": "This 18K gold ring features a Fancy Grayish Green diamond weighing 0.84 ct. The main stone has VS2 clarity. The design includes 62 white diamonds totalling 0.26 ct and 24 pink diamonds totalling 0.14 ct. The ring weighs 5.81 g.",
+    "preview_url": "https://github.com/dhruvalshah3557-droid/api-upload-facebook-instagram-youtube-/releases/download/voice-previews/4725-en-5e173162-2.mp3",
+    "status": "Pending Approval",
+    "approved_at_utc": "",
+    "final_video_url": "",
+    "error_message": ""
+  },
+  {
+    "preview_id": "4725-en-5e173162-3",
+    "created_at_utc": "2026-11-13T22:55:01Z",
+    "sku": "4725",
+    "media_url": "https://colourdiam.com/Product/Jewellery/4725/white45/video.mp4",
+    "language": "en",
+    "voice_name": "en-GB-RyanNeural",
+    "voice_gender": "Male",
+    "script": "This 18K gold ring features a Fancy Grayish Green diamond weighing 0.84 ct. The main stone has VS2 clarity. The design includes 62 white diamonds totalling 0.26 ct and 24 pink diamonds totalling 0.14 ct. The ring weighs 5.81 g.",
+    "preview_url": "https://github.com/dhruvalshah3557-droid/api-upload-facebook-instagram-youtube-/releases/download/voice-previews/4725-en-5e173162-3.mp3",
+    "status": "Pending Approval",
+    "approved_at_utc": "",
+    "final_video_url": "",
+    "error_message": ""
   }
 ]
