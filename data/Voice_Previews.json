@@ -2473,5 +2473,50 @@
     "approved_at_utc": "",
     "final_video_url": "",
     "error_message": ""
+  },
+  {
+    "preview_id": "5409-en-f90a8626-1",
+    "created_at_utc": "2026-11-17T23:58:20Z",
+    "sku": "5409",
+    "media_url": "https://colourdiam.com/Product/Jewellery/5409/white45/video.mp4",
+    "language": "en",
+    "voice_name": "en-GB-LibbyNeural",
+    "voice_gender": "Female",
+    "script": "This 18K gold ring features a Light Pink diamond weighing 0.71 ct. The main stone has I2 clarity. The design includes 382 white diamonds totalling 0.51 ct. The ring weighs 5.31 g.",
+    "preview_url": "https://github.com/dhruvalshah3557-droid/api-upload-facebook-instagram-youtube-/releases/download/voice-previews/5409-en-f90a8626-1.mp3",
+    "status": "Pending Approval",
+    "approved_at_utc": "",
+    "final_video_url": "",
+    "error_message": ""
+  },
+  {
+    "preview_id": "5409-en-f90a8626-2",
+    "created_at_utc": "2026-11-17T23:58:20Z",
+    "sku": "5409",
+    "media_url": "https://colourdiam.com/Product/Jewellery/5409/white45/video.mp4",
+    "language": "en",
+    "voice_name": "en-GB-MaisieNeural",
+    "voice_gender": "Female",
+    "script": "This 18K gold ring features a Light Pink diamond weighing 0.71 ct. The main stone has I2 clarity. The design includes 382 white diamonds totalling 0.51 ct. The ring weighs 5.31 g.",
+    "preview_url": "https://github.com/dhruvalshah3557-droid/api-upload-facebook-instagram-youtube-/releases/download/voice-previews/5409-en-f90a8626-2.mp3",
+    "status": "Pending Approval",
+    "approved_at_utc": "",
+    "final_video_url": "",
+    "error_message": ""
+  },
+  {
+    "preview_id": "5409-en-f90a8626-3",
+    "created_at_utc": "2026-11-17T23:58:20Z",
+    "sku": "5409",
+    "media_url": "https://colourdiam.com/Product/Jewellery/5409/white45/video.mp4",
+    "language": "en",
+    "voice_name": "en-GB-RyanNeural",
+    "voice_gender": "Male",
+    "script": "This 18K gold ring features a Light Pink diamond weighing 0.71 ct. The main stone has I2 clarity. The design includes 382 white diamonds totalling 0.51 ct. The ring weighs 5.31 g.",
+    "preview_url": "https://github.com/dhruvalshah3557-droid/api-upload-facebook-instagram-youtube-/releases/download/voice-previews/5409-en-f90a8626-3.mp3",
+    "status": "Approved",
+    "approved_at_utc": "2026-11-17T23:58:20Z",
+    "final_video_url": "",
+    "error_message": ""
   }
 ]
