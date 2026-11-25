@@ -8522,20 +8522,6 @@
     },
     {
       "tab": "jewellery stock ",
-      "row": 610,
-      "stock": "7668",
-      "header": "turkish description",
-      "issue": "missing marketing field"
-    },
-    {
-      "tab": "jewellery stock ",
-      "row": 610,
-      "stock": "7668",
-      "header": "turkish hashtag",
-      "issue": "missing marketing field"
-    },
-    {
-      "tab": "jewellery stock ",
       "header": "PRODUCT NAME",
       "issue": "repeated description structure",
       "severity": "info",
@@ -9169,8 +9155,7 @@
         "9553",
         "9554",
         "9555",
-        "9556",
-        "7668"
+        "9556"
       ]
     },
     {
@@ -14535,8 +14520,7 @@
         "9026_9024",
         "8552",
         "7801",
-        "5613_5653",
-        "7668"
+        "5613_5653"
       ]
     },
     {
@@ -14600,8 +14584,7 @@
         "9026_9024",
         "8552",
         "7801",
-        "5613_5653",
-        "7668"
+        "5613_5653"
       ]
     },
     {
@@ -14705,8 +14688,7 @@
         "9026_9024",
         "8552",
         "7801",
-        "5613_5653",
-        "7668"
+        "5613_5653"
       ]
     },
     {
@@ -15675,66 +15657,6 @@
       "stocks": [
         "4268",
         "2593"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "META DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4280",
-        "7668"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "PINTEREST DESCRIPTION",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4280",
-        "7668"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Pinterest Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4280",
-        "7668"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "YouTube Shorts Caption",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4280",
-        "7668"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Meta Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4280",
-        "7668"
-      ]
-    },
-    {
-      "tab": "jewellery stock ",
-      "header": "Short Description",
-      "issue": "repeated description structure",
-      "severity": "info",
-      "stocks": [
-        "4280",
-        "7668"
       ]
     },
     {
@@ -60218,33 +60140,6 @@
       "issue": "ambiguous hashtag language"
     },
     {
-      "tab": "jewellery stock ",
-      "row": 610,
-      "stock": "7668",
-      "header": "HASHTAGS",
-      "column": 48,
-      "severity": "warning",
-      "issue": "duplicate hashtag inside cell"
-    },
-    {
-      "tab": "jewellery stock ",
-      "row": 610,
-      "stock": "7668",
-      "header": "vestslavic hashtag",
-      "column": 109,
-      "severity": "warning",
-      "issue": "ambiguous hashtag language"
-    },
-    {
-      "tab": "jewellery stock ",
-      "row": 610,
-      "stock": "7668",
-      "header": "Hashtags",
-      "column": 149,
-      "severity": "warning",
-      "issue": "duplicate hashtag inside cell"
-    },
-    {
       "tab": "diamond stock ",
       "issue": "duplicate headers",
       "headers": [
@@ -100374,5 +100269,5 @@
     }
   ],
   "safe_repairs": 0,
-  "total_findings": 9650
+  "total_findings": 9639
 }
