@@ -4153,5 +4153,50 @@
     "approved_at_utc": "2026-11-26T23:20:19Z",
     "final_video_url": "",
     "error_message": ""
+  },
+  {
+    "preview_id": "6009-en-3ba9b106-1",
+    "created_at_utc": "2026-11-27T05:11:44Z",
+    "sku": "6009",
+    "media_url": "https://colourdiam.com/Product/Jewellery/6009/white360/video.mp4",
+    "language": "en",
+    "voice_name": "en-GB-LibbyNeural",
+    "voice_gender": "Female",
+    "script": "This 18K gold ring features a Faint Pink diamond weighing 0.27 ct. The main stone has VS2 clarity. The design includes 106 white diamonds totalling 0.52 ct. The ring weighs 9.79 g.",
+    "preview_url": "https://github.com/dhruvalshah3557-droid/api-upload-facebook-instagram-youtube-/releases/download/voice-previews/6009-en-3ba9b106-1.mp3",
+    "status": "Pending Approval",
+    "approved_at_utc": "",
+    "final_video_url": "",
+    "error_message": ""
+  },
+  {
+    "preview_id": "6009-en-3ba9b106-2",
+    "created_at_utc": "2026-11-27T05:11:44Z",
+    "sku": "6009",
+    "media_url": "https://colourdiam.com/Product/Jewellery/6009/white360/video.mp4",
+    "language": "en",
+    "voice_name": "en-GB-MaisieNeural",
+    "voice_gender": "Female",
+    "script": "This 18K gold ring features a Faint Pink diamond weighing 0.27 ct. The main stone has VS2 clarity. The design includes 106 white diamonds totalling 0.52 ct. The ring weighs 9.79 g.",
+    "preview_url": "https://github.com/dhruvalshah3557-droid/api-upload-facebook-instagram-youtube-/releases/download/voice-previews/6009-en-3ba9b106-2.mp3",
+    "status": "Pending Approval",
+    "approved_at_utc": "",
+    "final_video_url": "",
+    "error_message": ""
+  },
+  {
+    "preview_id": "6009-en-3ba9b106-3",
+    "created_at_utc": "2026-11-27T05:11:44Z",
+    "sku": "6009",
+    "media_url": "https://colourdiam.com/Product/Jewellery/6009/white360/video.mp4",
+    "language": "en",
+    "voice_name": "en-GB-RyanNeural",
+    "voice_gender": "Male",
+    "script": "This 18K gold ring features a Faint Pink diamond weighing 0.27 ct. The main stone has VS2 clarity. The design includes 106 white diamonds totalling 0.52 ct. The ring weighs 9.79 g.",
+    "preview_url": "https://github.com/dhruvalshah3557-droid/api-upload-facebook-instagram-youtube-/releases/download/voice-previews/6009-en-3ba9b106-3.mp3",
+    "status": "Approved",
+    "approved_at_utc": "2026-11-27T05:11:44Z",
+    "final_video_url": "",
+    "error_message": ""
   }
 ]
